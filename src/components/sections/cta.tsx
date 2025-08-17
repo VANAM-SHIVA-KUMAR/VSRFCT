@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from 'next/link';
 
 export default function Cta() {
   return (
@@ -13,8 +14,8 @@ export default function Cta() {
               <Button size="lg" variant="secondary" className="bg-accent text-accent-foreground hover:bg-accent/90" asChild>
                 <a href="tel:+919866176486">Call +91 98661 76486</a>
               </Button>
-              <Button size="lg" variant="outline" className="bg-transparent text-primary-foreground border-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                Learn More
+              <Button size="lg" variant="outline" className="bg-transparent text-primary-foreground border-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
+                <Link href="/gallery">Gallery</Link>
               </Button>
             </div>
         </div>
