@@ -6,7 +6,7 @@ export function Logo() {
       <GraduationCap className="h-10 w-10 text-primary" />
       <div>
         <span className="text-2xl font-bold font-headline text-foreground">
-          VSRFCT
+          VSRFCT Tuition Centre
         </span>
         <p className="text-xs text-muted-foreground font-medium">
           VS Raju Family Charitable Trust
