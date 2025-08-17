@@ -1,5 +1,7 @@
 import { Logo } from '@/components/logo';
 import { Facebook, Instagram, Twitter, Youtube, Phone, Clock, MapPin } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const socialLinks = [
   { icon: Facebook, href: '#', name: 'Facebook' },
@@ -24,6 +26,7 @@ const footerLinks = {
 };
 
 export default function Footer() {
+  const gmapsUrl = "https://www.google.com/maps/search/?api=1&query=C9M9%2B39+Hyderabad,+Telangana";
   return (
     <footer className="bg-card text-card-foreground border-t">
       <div className="container mx-auto px-4 py-12">
@@ -48,7 +51,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2">
               {footerLinks.quickLinks.map(link => (
                 <li key={link.name}>
-                  <a href={link.href} className="text-muted-foreground hover:text-primary">{link.name}</a>
+                  <Link href={link.href} className="text-muted-foreground hover:text-primary">{link.name}</Link>
                 </li>
               ))}
             </ul>
@@ -59,7 +62,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2">
               {footerLinks.support.map(link => (
                 <li key={link.name}>
-                  <a href={link.href} className="text-muted-foreground hover:text-primary">{link.name}</a>
+                  <Link href={link.href} className="text-muted-foreground hover:text-primary">{link.name}</Link>
                 </li>
               ))}
             </ul>
@@ -85,7 +88,7 @@ export default function Footer() {
                 <div>
                   <p className="font-bold">Address:</p>
                   <a 
-                    href="https://www.google.com/maps/search/?api=1&query=C9M9%2B39+Hyderabad,+Telangana"
+                    href={gmapsUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-primary"
@@ -95,6 +98,16 @@ export default function Footer() {
                 </div>
               </li>
             </ul>
+            <a href={gmapsUrl} target="_blank" rel="noopener noreferrer" className="mt-4 block">
+              <Image 
+                src="https://placehold.co/400x200.png"
+                alt="Location on Google Maps"
+                data-ai-hint="map location"
+                width={400}
+                height={200}
+                className="rounded-md shadow-md hover:shadow-lg transition-shadow"
+              />
+            </a>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t text-center text-muted-foreground">
