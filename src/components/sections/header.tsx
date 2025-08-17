@@ -5,14 +5,15 @@ import { Logo } from '@/components/logo';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, X, Phone } from 'lucide-react';
+import Link from 'next/link';
 
 const navLinks = [
-  { name: 'About', href: '#about' },
-  { name: 'Curriculum', href: '#curriculum' },
-  { name: 'Gallery', href: '#gallery' },
-  { name: 'Testimonials', href: '#testimonials' },
-  { name: 'Blog', href: '#blog' },
-  { name: 'FAQ', href: '#faq' },
+  { name: 'About', href: '/#about' },
+  { name: 'Curriculum', href: '/#curriculum' },
+  { name: 'Gallery', href: '/gallery' },
+  { name: 'Testimonials', href: '/#testimonials' },
+  { name: 'Blog', href: '/#blog' },
+  { name: 'FAQ', href: '/#faq' },
 ];
 
 export default function Header() {
@@ -24,9 +25,9 @@ export default function Header() {
         <Logo />
         <nav className="hidden md:flex items-center space-x-6 text-lg font-medium">
           {navLinks.map((link) => (
-            <a key={link.name} href={link.href} className="transition-colors hover:text-primary text-sm font-semibold">
+            <Link key={link.name} href={link.href} className="transition-colors hover:text-primary text-sm font-semibold">
               {link.name}
-            </a>
+            </Link>
           ))}
         </nav>
         <div className="hidden md:flex items-center space-x-4">
@@ -35,7 +36,7 @@ export default function Header() {
             <span>987654321</span>
           </a>
           <Button asChild>
-            <a href="#contact">Contact Us</a>
+            <a href="/#contact">Contact Us</a>
           </Button>
         </div>
         <div className="md:hidden">
@@ -57,12 +58,12 @@ export default function Header() {
                 </div>
                 <nav className="flex-grow flex flex-col items-center justify-center space-y-6">
                   {navLinks.map((link) => (
-                    <a key={link.name} href={link.href} className="text-2xl font-medium transition-colors hover:text-primary" onClick={() => setIsMenuOpen(false)}>
+                    <Link key={link.name} href={link.href} className="text-2xl font-medium transition-colors hover:text-primary" onClick={() => setIsMenuOpen(false)}>
                       {link.name}
-                    </a>
+                    </Link>
                   ))}
                   <Button asChild size="lg" className="w-4/5">
-                     <a href="#contact" onClick={() => setIsMenuOpen(false)}>Contact Us</a>
+                     <a href="/#contact" onClick={() => setIsMenuOpen(false)}>Contact Us</a>
                   </Button>
                   <a href="tel:987654321" className="flex items-center space-x-2 text-primary font-semibold text-xl mt-4">
                     <Phone className="h-6 w-6"/>

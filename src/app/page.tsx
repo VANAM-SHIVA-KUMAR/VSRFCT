@@ -4,7 +4,6 @@ import Stats from '@/components/sections/stats';
 import Features from '@/components/sections/features';
 import About from '@/components/sections/about';
 import Team from '@/components/sections/team';
-import Gallery from '@/components/sections/gallery';
 import Curriculum from '@/components/sections/curriculum';
 import Testimonials from '@/components/sections/testimonials';
 import Faq from '@/components/sections/faq';
@@ -23,7 +22,6 @@ export default function Home() {
         <About />
         <Team />
         <Curriculum />
-        <Gallery />
         <Testimonials />
         <Faq />
         <Blog />
