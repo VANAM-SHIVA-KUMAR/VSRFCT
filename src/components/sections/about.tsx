@@ -7,9 +7,9 @@ const founders = [
     image: "/image.png",
     hint: "professional portrait",
     bio: [
-      "Prof. V. S. Raju, a distinguished academician and visionary leader, has dedicated his life to the advancement of education and research in India. His illustrious career is marked by significant contributions to nation-building and shaping the future of engineering education.",
-      "He began his academic journey at IIT Kharagpur, where he also served as Head of the Ocean Engineering Centre and Dean of Sponsored Research. As the Director of IIT Delhi, he spearheaded numerous initiatives that enhanced the institution's global standing.",
-      "His leadership extended to various national committees and boards, reflecting his commitment to societal development. The VSRFCT Tuition Centre is a testament to his enduring vision of providing quality education to all, especially the underprivileged. Through the V.S. Raju Family Charitable Trust, he continues to inspire and empower the next generation."
+      "Prof. V.S. Raju holds a Ph.D. in Geotechnical Engineering from the University of Karlsruhe, Germany. He is a renowned expert in the field with over 60 years of extensive experience.",
+      "He has held prominent academic positions including Director, IIT Delhi and Professor, Head and Dean, IIT Madras.",
+      "Throughout his distinguished career, Prof. Raju has been involved in more than 750 foundation consultancy projects across India and internationally covering all types of projects. His expertise spans a wide range of sectors, with several notable projects."
     ]
   },
   {
