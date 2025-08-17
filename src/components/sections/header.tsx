@@ -1,0 +1,70 @@
+"use client";
+
+import { useState } from 'react';
+import { Logo } from '@/components/logo';
+import { Button } from '@/components/ui/button';
+import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { Menu, X } from 'lucide-react';
+
+const navLinks = [
+  { name: 'About', href: '#about' },
+  { name: 'Curriculum', href: '#curriculum' },
+  { name: 'Testimonials', href: '#testimonials' },
+  { name: 'Blog', href: '#blog' },
+  { name: 'FAQ', href: '#faq' },
+];
+
+export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  return (
+    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div className="container flex h-20 items-center justify-between mx-auto px-4 sm:px-6 lg:px-8">
+        <Logo />
+        <nav className="hidden md:flex items-center space-x-6 text-lg font-medium">
+          {navLinks.map((link) => (
+            <a key={link.name} href={link.href} className="transition-colors hover:text-primary text-sm font-semibold">
+              {link.name}
+            </a>
+          ))}
+        </nav>
+        <div className="hidden md:block">
+          <Button asChild>
+            <a href="#contact">Contact Us</a>
+          </Button>
+        </div>
+        <div className="md:hidden">
+          <Sheet open={isMenuOpen} onOpenChange={setIsMenuOpen}>
+            <SheetTrigger asChild>
+              <Button variant="outline" size="icon">
+                <Menu className="h-6 w-6" />
+                <span className="sr-only">Open menu</span>
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="left" className="w-full">
+              <div className="flex flex-col h-full">
+                <div className="flex items-center justify-between p-4 border-b">
+                   <Logo />
+                   <Button variant="ghost" size="icon" onClick={() => setIsMenuOpen(false)}>
+                      <X className="h-6 w-6" />
+                      <span className="sr-only">Close menu</span>
+                   </Button>
+                </div>
+                <nav className="flex-grow flex flex-col items-center justify-center space-y-6">
+                  {navLinks.map((link) => (
+                    <a key={link.name} href={link.href} className="text-2xl font-medium transition-colors hover:text-primary" onClick={() => setIsMenuOpen(false)}>
+                      {link.name}
+                    </a>
+                  ))}
+                  <Button asChild size="lg" className="w-4/5">
+                     <a href="#contact" onClick={() => setIsMenuOpen(false)}>Contact Us</a>
+                  </Button>
+                </nav>
+              </div>
+            </SheetContent>
+          </Sheet>
+        </div>
+      </div>
+    </header>
+  );
+}
