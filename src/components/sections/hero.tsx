@@ -9,22 +9,23 @@ import {
 } from "@/components/ui/carousel"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import { cn } from "@/lib/utils"
 
 const slides = [
   {
-    image: "https://placehold.co/1600x900.png",
+    image: "https://images.unsplash.com/photo-1544717305-2782549b5136?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYXBweSUyMHN0dWRlbnRzJTIwc3R1ZHlpbmd8ZW58MHx8fHwxNzU1NDI3NzQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
     hint: "happy students studying",
     title: "Free Quality Education for a Brighter Tomorrow",
     description: "A non-profit initiative by V.S. Raju Family Charitable Trust for Government School children (Classes 1-10, State Syllabus)."
   },
   {
-    image: "https://placehold.co/1600x900.png",
+    image: "https://images.unsplash.com/photo-1521493959102-bdd6677fdd81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaGlsZHJlbiUyMHNtaWxpbmclMjBjbGFzc3Jvb218ZW58MHx8fHwxNzU1NDI3NzQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
     hint: "children smiling classroom",
     title: "Empowering Young Minds Through Knowledge",
     description: "Our mission is to provide a nurturing environment where every child can learn, grow, and achieve their full potential."
   },
   {
-    image: "https://placehold.co/1600x900.png",
+    image: "https://images.unsplash.com/photo-1739223404257-a52bc21529c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWFjaGVyJTIwd2l0aCUyMHN0dWRlbnRzfGVufDB8fHx8MTc1NTQyNzc0MXww&ixlib=rb-4.1.0&q=80&w=1080",
     hint: "teacher with students",
     title: "Join Our Community of Happy Learners",
     description: "Become a part of the VSRFCT family and embark on a journey of academic excellence and personal development."
@@ -33,11 +34,14 @@ const slides = [
 
 export default function Hero() {
   const [api, setApi] = React.useState<CarouselApi>()
+  const [current, setCurrent] = React.useState(0)
  
   React.useEffect(() => {
     if (!api) {
       return
     }
+
+    setCurrent(api.selectedScrollSnap())
  
     const interval = setInterval(() => {
       if (api.canScrollNext()) {
@@ -52,14 +56,20 @@ export default function Hero() {
     });
 
     api.on("select", () => {
-       // Optional: restart interval on manual selection
+       setCurrent(api.selectedScrollSnap())
     })
 
     return () => clearInterval(interval)
   }, [api])
 
+  const handleDotClick = (index: number) => {
+    if (api) {
+      api.scrollTo(index)
+    }
+  }
+
   return (
-    <section className="w-full">
+    <section className="w-full relative">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-6 md:pt-12">
         <Carousel className="w-full overflow-hidden rounded-xl" setApi={setApi} opts={{ loop: true }}>
           <CarouselContent>
@@ -93,6 +103,19 @@ export default function Hero() {
             ))}
           </CarouselContent>
         </Carousel>
+      </div>
+       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex space-x-2 p-4">
+        {slides.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => handleDotClick(index)}
+            className={cn(
+              'h-2 w-2 rounded-full transition-colors',
+              current === index ? 'bg-white' : 'bg-white/50'
+            )}
+            aria-label={`Go to slide ${index + 1}`}
+          />
+        ))}
       </div>
     </section>
   )
