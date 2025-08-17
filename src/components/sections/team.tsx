@@ -2,18 +2,18 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const teamMembers = [
-  { name: "Anusha Sharma", role: "Mathematics Lead", image: "https://placehold.co/100x100.png", hint: "smiling female teacher" },
-  { name: "Ravi Kumar", role: "Science Coordinator", image: "https://placehold.co/100x100.png", hint: "professional male teacher" },
-  { name: "Priya Singh", role: "English Teacher", image: "https://placehold.co/100x100.png", hint: "female teacher portrait" },
-  { name: "Amit Patel", role: "Social Studies Expert", image: "https://placehold.co/100x100.png", hint: "male teacher smiling" },
-  { name: "Sunita Reddy", role: "Primary Classes Teacher", image: "https://placehold.co/100x100.png", hint: "friendly female teacher" },
-  { name: "Vikram Das", role: "Hindi Teacher", image: "https://placehold.co/100x100.png", hint: "male teacher glasses" },
-  { name: "Deepa Krishnan", role: "Activity Coordinator", image: "https://placehold.co/100x100.png", hint: "energetic female teacher" },
-  { name: "Manoj Tiwari", role: "Telugu Teacher", image: "https://placehold.co/100x100.png", hint: "traditional male teacher" },
-  { name: "Geeta Desai", role: "Support Staff", image: "https://placehold.co/100x100.png", hint: "helpful female staff" },
-  { name: "Suresh Gupta", role: "Administrator", image: "https://placehold.co/100x100.png", hint: "professional male administrator" },
-  { name: "Neha Verma", role: "Volunteer Coordinator", image: "https://placehold.co/100x100.png", hint: "young female volunteer" },
-  { name: "Rajesh Menon", role: "IT Support", image: "https://placehold.co/100x100.png", hint: "male IT professional" },
+  { name: "Valli", role: "Staff Lead", image: "https://placehold.co/100x100.png", hint: "smiling female teacher" },
+  { name: "Sailaja", role: "Primary Classes Teacher", image: "https://placehold.co/100x100.png", hint: "professional male teacher" },
+  { name: "Anand", role: "Maths Teacher", image: "https://placehold.co/100x100.png", hint: "female teacher portrait" },
+  { name: "Vishnu", role: "Social Studies Expert", image: "https://placehold.co/100x100.png", hint: "male teacher smiling" },
+  { name: "Akhilesh", role: "Science Coordinator", image: "https://placehold.co/100x100.png", hint: "friendly female teacher" },
+  { name: "Shiva Kumar", role: "English Teacher", image: "https://placehold.co/100x100.png", hint: "male teacher glasses" },
+  { name: "Jyothi", role: "Activity Coordinator", image: "https://placehold.co/100x100.png", hint: "energetic female teacher" },
+  { name: "Annapurna", role: "Telugu Teacher", image: "https://placehold.co/100x100.png", hint: "traditional male teacher" },
+  { name: "Geeta ", role: "Support Staff", image: "https://placehold.co/100x100.png", hint: "helpful female staff" },
+  { name: "Suresh ", role: "Administrator", image: "https://placehold.co/100x100.png", hint: "professional male administrator" },
+  { name: "Neha", role: "Volunteer Coordinator", image: "https://placehold.co/100x100.png", hint: "young female volunteer" },
+  { name: "Rajesh ", role: "IT Support", image: "https://placehold.co/100x100.png", hint: "male IT professional" },
 ];
 
 export default function Team() {

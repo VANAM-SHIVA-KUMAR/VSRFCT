@@ -14,8 +14,8 @@ const founders = [
   },
   {
     name: "Dr. V.R. Raju",
-    title: "Professor of Practice, IIT Madras",
-    image: "https://placehold.co/400x500.png",
+    title: "Chief Executive Officer at Keller",
+    image: "/images/Raju.png",
     hint: "professional male portrait",
     bio: [
       "Dr. Raju studied Civil Engineering at the IIT Madras. He completed his Masters and Ph.D. in structural engineering in the US (Rice and Duke universities) and a doctorate in geotechnical engineering from Karlsruhe University in Germany.",

@@ -99,7 +99,7 @@ export default function Footer() {
             </ul>
             <a href={gmapsUrl} target="_blank" rel="noopener noreferrer" className="mt-4 block">
               <Image 
-                src="https://placehold.co/400x200.png"
+                src="/images/map.png"
                 alt="Location on Google Maps"
                 data-ai-hint="map location"
                 width={400}
