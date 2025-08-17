@@ -13,7 +13,7 @@ export default function About() {
         <div className="grid md:grid-cols-12 gap-8 md:gap-12 items-center">
           <div className="md:col-span-4">
             <Image
-              src="https://placehold.co/400x500.png"
+              src="/image.png"
               alt="Prof. V. S. Raju"
               data-ai-hint="professional portrait"
               width={400}
