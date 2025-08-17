@@ -86,16 +86,13 @@ export default function Hero() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
                   <div className="absolute inset-0 flex flex-col items-center justify-end text-center text-white p-6 md:p-12">
-                    <div className="max-w-4xl mb-10">
+                    <div className="max-w-4xl mb-16">
                       <h1 className="text-4xl md:text-6xl font-bold font-headline mb-4 text-shadow-lg animate-in fade-in-0 slide-in-from-bottom-10 duration-700">
                         {slide.title}
                       </h1>
-                      <p className="text-lg md:text-xl max-w-3xl mx-auto mb-8 animate-in fade-in-0 slide-in-from-bottom-10 duration-700 delay-200">
+                      <p className="text-lg md:text-xl max-w-3xl mx-auto animate-in fade-in-0 slide-in-from-bottom-10 duration-700 delay-200">
                         {slide.description}
                       </p>
-                      <Button size="lg" asChild className="animate-in fade-in-0 slide-in-from-bottom-10 duration-700 delay-300">
-                        <a href="https://wa.me/919866176486" target="_blank" rel="noopener noreferrer">Enroll Now</a>
-                      </Button>
                     </div>
                   </div>
                 </div>
