@@ -27,8 +27,8 @@ const slides = [
   {
     image: "https://images.unsplash.com/photo-1739223404257-a52bc21529c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWFjaGVyJTIwd2l0aCUyMHN0dWRlbnRzfGVufDB8fHx8MTc1NTQyNzc0MXww&ixlib=rb-4.1.0&q=80&w=1080",
     hint: "teacher with students",
-    title: "Join Our Community of Happy Learners",
-    description: "Become a part of the VSRFCT family and embark on a journey of academic excellence and personal development."
+    title: "Healthy Body, Healthy Mind",
+    description: "We provide daily snacks like bananas and biscuits. Every Saturday is sports day, fostering a healthy and happy learning environment."
   }
 ];
 
