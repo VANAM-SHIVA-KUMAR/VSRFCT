@@ -4,36 +4,36 @@ import Image from "next/image";
 
 const blogPosts = [
   {
-    title: "The Ultimate Guide to CBSE Exam Preparation",
+    title: "The Importance of Early Childhood Education",
+    date: "October 10, 2023",
+    excerpt: "Discover why foundational learning in early years is crucial for long-term academic and personal success.",
+    image: "https://placehold.co/400x250.png",
+    hint: "children learning alphabet"
+  },
+  {
+    title: "Effective Learning Techniques for Students",
     date: "October 5, 2023",
-    excerpt: "Discover the best strategies and tips to excel in your CBSE exams. Our guide covers everything from study planning to exam-day tips.",
+    excerpt: "Explore proven strategies and study habits that can help students of all ages improve their comprehension and retention.",
     image: "https://placehold.co/400x250.png",
-    hint: "student studying books"
+    hint: "student writing notes"
   },
   {
-    title: "Mastering Class 10 Maths: A Student's Success Story",
-    date: "September 30, 2023",
-    excerpt: "Learn how our specialized tuition helped a student overcome their fear of maths and achieve top scores in their board exams.",
+    title: "A Day at VSRFCT: Stories from Our Centre",
+    date: "September 28, 2023",
+    excerpt: "Read heartwarming stories and experiences from the students and teachers at our free tuition centre.",
     image: "https://placehold.co/400x250.png",
-    hint: "maths formulas chalkboard"
-  },
-  {
-    title: "Why a Nearby Tuition Centre is Key to Your Child's Success",
-    date: "September 27, 2023",
-    excerpt: "Explore the benefits of local tuition centers, from saving travel time to fostering a stronger community connection for students.",
-    image: "https://placehold.co/400x250.png",
-    hint: "map location pin"
+    hint: "happy students classroom"
   },
 ];
 
 export default function Blog() {
   return (
-    <section id="blog" className="py-12 md:py-24 bg-card">
+    <section id="blog" className="py-12 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold font-headline">Our Latest Insights</h2>
+          <h2 className="text-3xl md:text-5xl font-bold font-headline">Insights & Stories</h2>
           <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
-            Stay updated with our latest articles, tips, and news from the world of education.
+            Stay updated with our latest articles on education, child development, and news from our centre.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

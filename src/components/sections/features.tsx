@@ -1,26 +1,26 @@
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { Award, BookOpen, Lightbulb, Users } from 'lucide-react';
+import { Heart, BookOpen, Lightbulb, Users } from 'lucide-react';
 
 const features = [
   {
-    icon: <Award className="h-10 w-10 text-accent" />,
-    title: "Quality Education",
-    description: "With a decade of experience, we provide top-tier education across varied curriculums, ensuring academic excellence."
+    icon: <Heart className="h-10 w-10 text-accent" />,
+    title: "Free Education",
+    description: "A non-profit initiative providing completely free tuition for Government school students (Classes 1-10)."
   },
   {
     icon: <Users className="h-10 w-10 text-accent" />,
-    title: "Expert Tutors",
-    description: "Our team of dedicated and experienced tutors provides personalized attention to help every student succeed."
+    title: "Dedicated Teachers",
+    description: "Our experienced and passionate teachers are committed to helping every child succeed academically and personally."
   },
   {
     icon: <BookOpen className="h-10 w-10 text-accent" />,
-    title: "Digital Classroom",
-    description: "We leverage state-of-the-art digital tools and interactive panels to create a visually compelling and effective learning environment."
+    title: "State Syllabus Focus",
+    description: "We offer comprehensive coaching tailored specifically to the State Syllabus to ensure students excel in their exams."
   },
   {
     icon: <Lightbulb className="h-10 w-10 text-accent" />,
-    title: "Doubt Clearance",
-    description: "We offer unlimited access to doubt clearance sessions, ensuring no question goes unanswered and concepts are crystal clear."
+    title: "Holistic Development",
+    description: "We focus on not just academics but also on nurturing curiosity, critical thinking, and confidence in our students."
   },
 ];
 
@@ -29,9 +29,9 @@ export default function Features() {
     <section id="features" className="py-12 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold font-headline">Why Choose VSRFCT?</h2>
+          <h2 className="text-3xl md:text-5xl font-bold font-headline">Why VSRFCT?</h2>
           <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
-            Discover the advantages that make us the premier choice for tuition in Hyderabad.
+            Discover what makes our free tuition centre a special place for learning and growth.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

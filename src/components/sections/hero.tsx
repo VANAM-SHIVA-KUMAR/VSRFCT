@@ -5,8 +5,6 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
   type CarouselApi,
 } from "@/components/ui/carousel"
 import { Button } from "@/components/ui/button"
@@ -15,21 +13,21 @@ import Image from "next/image"
 const slides = [
   {
     image: "https://placehold.co/1600x900.png",
-    hint: "classroom students learning",
-    title: "Learn and Excel with Excellent Grades",
-    description: "At VSRFCT, we empower students to achieve academic excellence through personalized coaching and expert guidance."
+    hint: "happy students studying",
+    title: "Free Quality Education for a Brighter Tomorrow",
+    description: "A non-profit initiative by V.S. Raju Family Charitable Trust for Government School children (Classes 1-10, State Syllabus)."
   },
   {
     image: "https://placehold.co/1600x900.png",
-    hint: "teacher explaining chalkboard",
-    title: "The Best Education For Your Bright Future",
-    description: "Our dedicated tutors are committed to nurturing your potential and paving the way for a successful future."
+    hint: "children smiling classroom",
+    title: "Empowering Young Minds Through Knowledge",
+    description: "Our mission is to provide a nurturing environment where every child can learn, grow, and achieve their full potential."
   },
   {
     image: "https://placehold.co/1600x900.png",
-    hint: "student writing notes",
-    title: "Unlock Your Full Potential with VSRFCT",
-    description: "Join our community of learners and embark on a journey of knowledge, growth, and achievement."
+    hint: "teacher with students",
+    title: "Join Our Community of Happy Learners",
+    description: "Become a part of the VSRFCT family and embark on a journey of academic excellence and personal development."
   }
 ];
 
@@ -54,7 +52,7 @@ export default function Hero() {
     });
 
     api.on("select", () => {
-      // resart interval
+       // Optional: restart interval on manual selection
     })
 
     return () => clearInterval(interval)
@@ -62,12 +60,12 @@ export default function Hero() {
 
   return (
     <section className="w-full">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-6 md:pt-12">
         <Carousel className="w-full overflow-hidden rounded-xl" setApi={setApi} opts={{ loop: true }}>
           <CarouselContent>
             {slides.map((slide, index) => (
               <CarouselItem key={index}>
-                <div className="relative h-[60vh] md:h-[75vh] w-full">
+                <div className="relative h-[60vh] md:h-[calc(100vh-128px)] w-full">
                   <Image
                     src={slide.image}
                     alt={slide.title}
@@ -78,7 +76,7 @@ export default function Hero() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
                   <div className="absolute inset-0 flex flex-col items-center justify-end text-center text-white p-6 md:p-12">
-                    <div className="max-w-4xl">
+                    <div className="max-w-4xl mb-10">
                       <h1 className="text-4xl md:text-6xl font-bold font-headline mb-4 text-shadow-lg animate-in fade-in-0 slide-in-from-bottom-10 duration-700">
                         {slide.title}
                       </h1>
@@ -94,8 +92,6 @@ export default function Hero() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 hidden lg:inline-flex" />
-          <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 hidden lg:inline-flex" />
         </Carousel>
       </div>
     </section>

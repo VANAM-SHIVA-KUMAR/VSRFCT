@@ -4,11 +4,12 @@ import { useState } from 'react';
 import { Logo } from '@/components/logo';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Phone } from 'lucide-react';
 
 const navLinks = [
   { name: 'About', href: '#about' },
   { name: 'Curriculum', href: '#curriculum' },
+  { name: 'Gallery', href: '#gallery' },
   { name: 'Testimonials', href: '#testimonials' },
   { name: 'Blog', href: '#blog' },
   { name: 'FAQ', href: '#faq' },
@@ -28,7 +29,11 @@ export default function Header() {
             </a>
           ))}
         </nav>
-        <div className="hidden md:block">
+        <div className="hidden md:flex items-center space-x-4">
+          <a href="tel:987654321" className="flex items-center space-x-2 text-primary font-semibold hover:text-primary/80">
+            <Phone className="h-5 w-5"/>
+            <span>987654321</span>
+          </a>
           <Button asChild>
             <a href="#contact">Contact Us</a>
           </Button>
@@ -59,6 +64,10 @@ export default function Header() {
                   <Button asChild size="lg" className="w-4/5">
                      <a href="#contact" onClick={() => setIsMenuOpen(false)}>Contact Us</a>
                   </Button>
+                  <a href="tel:987654321" className="flex items-center space-x-2 text-primary font-semibold text-xl mt-4">
+                    <Phone className="h-6 w-6"/>
+                    <span>987654321</span>
+                  </a>
                 </nav>
               </div>
             </SheetContent>

@@ -3,10 +3,10 @@
 import { useEffect, useRef, useState } from 'react';
 
 const stats = [
-  { value: 10, label: "Years of Experience", suffix: "+" },
-  { value: 60, label: "Specialized Courses", suffix: "+" },
-  { value: 1400, label: "Happy Students", suffix: "+" },
-  { value: 300, label: "Assessments Completed", suffix: "+" },
+  { value: 1, label: "Mission", suffix: "" },
+  { value: 10, label: "Classes Covered", suffix: "" },
+  { value: 100, label: "Students Enrolled", suffix: "% Free" },
+  { value: 1000, label: "Lives Touched", suffix: "+" },
 ]
 
 function Counter({ to, duration = 2000, suffix = '' }: { to: number; duration?: number; suffix?: string }) {
@@ -17,7 +17,9 @@ function Counter({ to, duration = 2000, suffix = '' }: { to: number; duration?: 
     const end = to;
     if (start === end) return;
 
-    const totalFrames = duration / 10;
+    // A higher frame rate for smoother animation
+    const frameRate = 60; // fps
+    const totalFrames = duration / (1000 / frameRate);
     const increment = end / totalFrames;
 
     const counter = setInterval(() => {
@@ -28,7 +30,7 @@ function Counter({ to, duration = 2000, suffix = '' }: { to: number; duration?: 
       } else {
         setCount(Math.ceil(start));
       }
-    }, 10);
+    }, 1000 / frameRate);
 
     return () => clearInterval(counter);
   }, [to, duration]);

@@ -7,32 +7,36 @@ import {
 
 const faqs = [
   {
-    question: "Curriculum: IB MYP vs. IGCSE",
-    answer: "IB MYP is a holistic program focusing on overall student development across eight subject groups. In contrast, IGCSE is a subject-specific program that emphasizes in-depth knowledge and understanding of chosen subjects."
+    question: "Is the tuition really free?",
+    answer: "Yes, the tuition is completely free for all students from Government schools studying the State Syllabus from Classes 1 to 10. This is a non-profit initiative by the V.S. Raju Family Charitable Trust."
   },
   {
-    question: "Assessment Methods",
-    answer: "IB MYP uses criterion-referenced assessment, evaluating students against specific criteria through coursework, projects, and exams. IGCSE is primarily exam-based and uses norm-referenced assessment, comparing a student's performance to their peers."
+    question: "Which students are eligible for admission?",
+    answer: "Admissions are exclusively for students currently enrolled in Government schools, following the State Syllabus, from Class 1 to Class 10."
   },
   {
-    question: "Approaches to Learning (ATL)",
-    answer: "IB MYP places a strong emphasis on developing ATL skills like critical thinking, research, and self-management to foster independent learning. IGCSE does not have a specific, separate emphasis on these skills."
+    question: "What subjects are taught at the centre?",
+    answer: "We cover all major subjects as per the State Syllabus, including languages (Telugu, Hindi, English), Mathematics, Sciences (Physical and Biological), and Social Studies."
   },
   {
-    question: "What is the Personal Project?",
-    answer: "In IB MYP, students must complete a personal project, allowing them to explore their interests and demonstrate their acquired skills. IGCSE does not have a similar personal project requirement."
+    question: "What are the timings of the tuition centre?",
+    answer: "Our classes are typically held in the evenings on weekdays and on weekends. For specific batch timings, please contact us directly at 987654321."
+  },
+  {
+    question: "How can I enroll my child?",
+    answer: "You can enroll your child by visiting our centre or by calling us at 987654321 to get more information about the admission process. You will need to provide proof of enrollment in a Government school."
   }
 ]
 
 export default function Faq() {
   return (
-    <section id="faq" className="py-12 md:py-24 bg-background">
+    <section id="faq" className="py-12 md:py-24 bg-card">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
             <h2 className="text-3xl md:text-5xl font-bold font-headline mb-4">Frequently Asked Questions</h2>
             <p className="text-lg text-muted-foreground">
-              Find answers to common questions about the different curriculums we support.
+              Find answers to common questions about our free tuition programme.
             </p>
           </div>
           <div>

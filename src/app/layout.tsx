@@ -3,9 +3,9 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'VSRFCT Tuition Centre | Expert Tutoring for Academic Excellence',
-  description: 'VSRFCT Tuition Centre offers expert Maths and Science tuition for CBSE, ICSE, and IGCSE students. Personalized learning, experienced tutors, and proven results in Hyderabad.',
-  keywords: ['tuition centre', 'maths tuition', 'science tuition', 'CBSE', 'ICSE', 'IGCSE', 'Hyderabad', 'VSRFCT'],
+  title: 'VSRFCT Tuition Centre – A Free Learning Initiative by V.S. Raju Family Charitable Trust',
+  description: 'VSRFCT Tuition Centre offers free, quality education for Government School children (State Syllabus, Classes 1–10). A non-profit initiative by the V.S. Raju Family Charitable Trust.',
+  keywords: ['free tuition', 'tuition centre', 'VSRFCT', 'V.S. Raju', 'non-profit education', 'state syllabus', 'government school'],
 };
 
 export default function RootLayout({

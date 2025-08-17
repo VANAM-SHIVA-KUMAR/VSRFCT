@@ -10,39 +10,39 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Veda Chalavadi",
-    title: "Student",
-    quote: "Swastik sir is a good teacher. He has been teaching me since 9th grade, and my scores have improved. I am able to understand IB physics, math and chemistry better now.",
-    avatar: "VC",
+    name: "Mrs. Lakshmi",
+    title: "Parent of a 5th Grader",
+    quote: "VSRFCT has been a blessing for my daughter. The teachers are so caring and dedicated. Her confidence and grades have improved so much. Thank you for this wonderful free service!",
+    avatar: "L",
     image: "https://placehold.co/100x100.png",
-    hint: "smiling female student"
+    hint: "happy mother"
   },
   {
-    name: "P Naresh",
-    title: "Student's Sibling",
-    quote: "Very good tuition center. My brother is in 7th class and was poor in maths. I asked Swastik sir to please give him special attention. He told me not to worry. My brother's improvement in maths is great. Thank you, Swastik sir.",
-    avatar: "PN",
+    name: "Ramesh",
+    title: "Class 8 Student",
+    quote: "I used to find Maths very difficult, but the teachers here make it so easy and fun to learn. I enjoy coming to the tuition centre every day after school. My friends and I learn a lot.",
+    avatar: "R",
     image: "https://placehold.co/100x100.png",
-    hint: "happy male student"
+    hint: "smiling male student"
   },
   {
-    name: "P Mena",
-    title: "Student",
-    quote: "Swastik is a great teacher and good mentor. A professional teacher with good technical background and have great experience in teaching. Thank you, Swastik sir.",
-    avatar: "PM",
+    name: "Mr. Srinivas",
+    title: "Well-wisher",
+    quote: "The work being done by the V.S. Raju Family Charitable Trust is truly commendable. Providing free, quality education is the greatest gift one can give to society. Keep up the noble work!",
+    avatar: "S",
     image: "https://placehold.co/100x100.png",
-    hint: "confident female student"
+    hint: "professional man"
   }
 ];
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="py-12 md:py-24 bg-card">
+    <section id="testimonials" className="py-12 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold font-headline">Loved by Students and Parents</h2>
+          <h2 className="text-3xl md:text-5xl font-bold font-headline">What People Are Saying</h2>
           <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
-            See what our community has to say about their experience at VSRFCT.
+            Feedback from parents, students, and well-wishers of our community.
           </p>
         </div>
         <Carousel

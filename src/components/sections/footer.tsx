@@ -1,5 +1,5 @@
 import { Logo } from '@/components/logo';
-import { Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
+import { Facebook, Instagram, Twitter, Youtube, Phone } from 'lucide-react';
 
 const socialLinks = [
   { icon: Facebook, href: '#', name: 'Facebook' },
@@ -11,14 +11,14 @@ const socialLinks = [
 const footerLinks = {
   quickLinks: [
     { name: 'About Us', href: '#about' },
+    { name: 'Gallery', href: '#gallery' },
     { name: 'Testimonials', href: '#testimonials' },
-    { name: 'Blogs', href: '#blog' },
     { name: 'Contact', href: '#contact' },
   ],
-  curriculums: [
-    { name: 'CBSE', href: '#curriculum' },
-    { name: 'ICSE', href: '#curriculum' },
-    { name: 'IGCSE & IB', href: '#curriculum' },
+  support: [
+    { name: 'Blogs', href: '#blog' },
+    { name: 'FAQ', href: '#faq' },
+    { name: 'Curriculum', href: '#curriculum' },
   ],
 };
 
@@ -30,7 +30,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <Logo />
             <p className="mt-4 text-muted-foreground">
-              Personalized learning for academic excellence.
+              A non-profit learning initiative by V.S. Raju Family Charitable Trust.
             </p>
             <div className="flex space-x-4 mt-4">
               {socialLinks.map(link => (
@@ -54,9 +54,9 @@ export default function Footer() {
           </div>
           
           <div>
-            <h3 className="font-headline font-semibold tracking-wider uppercase">Curriculums</h3>
+            <h3 className="font-headline font-semibold tracking-wider uppercase">Support</h3>
             <ul className="mt-4 space-y-2">
-              {footerLinks.curriculums.map(link => (
+              {footerLinks.support.map(link => (
                 <li key={link.name}>
                   <a href={link.href} className="text-muted-foreground hover:text-primary">{link.name}</a>
                 </li>
@@ -67,22 +67,19 @@ export default function Footer() {
           <div>
             <h3 className="font-headline font-semibold tracking-wider uppercase">Contact Us</h3>
             <ul className="mt-4 space-y-2 text-muted-foreground">
-              <li className="flex flex-col">
-                <span className="font-bold">Saroornagar:</span>
-                <span>Mallesh Avenue, beside Saroornagar bus stop, Hyderabad, 500035</span>
+              <li className="flex items-center space-x-2">
+                <Phone className="h-5 w-5 text-primary" />
+                <a href="tel:987654321" className="hover:text-primary font-semibold text-lg">987654321</a>
               </li>
-              <li className="flex flex-col">
-                <span className="font-bold">Jubilee Hills:</span>
-                <span>Plot 229, Rd 72, Prashasan Nagar, Jubilee Hills, Hyderabad, 500096</span>
-              </li>
-              <li className="mt-2">
-                <a href="tel:+917396669430" className="hover:text-primary">+91 73966 69430</a>
+              <li className="flex flex-col mt-2">
+                <span className="font-bold">Address:</span>
+                <span>123 Learning Lane, Knowledge City, Hyderabad, 500001</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} VSRFCT Tuition Centre. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} VSRFCT. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
