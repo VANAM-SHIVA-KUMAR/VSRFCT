@@ -1,5 +1,5 @@
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
-import { CheckCircle, BookUser } from 'lucide-react';
+import { CheckCircle, BookUser, Sparkles, Trophy } from 'lucide-react';
 
 const subjectsByClass = [
   {
@@ -13,6 +13,31 @@ const subjectsByClass = [
     icon: <BookUser className="h-8 w-8 text-primary" />
   }
 ];
+
+const weeklyActivities = [
+    {
+        day: "Fun Fridays",
+        description: "Engaging activities to spark curiosity and creativity.",
+        activities: [
+            "Moral stories and value education",
+            "Fun games and quiz competitions",
+            "Digital classes on history, science, and more",
+            "Discovering new things through interactive sessions"
+        ],
+        icon: <Sparkles className="h-8 w-8 text-primary" />
+    },
+    {
+        day: "Sports Saturdays",
+        description: "Promoting physical fitness and teamwork.",
+        activities: [
+            "Outdoor games like Kho-Kho and running",
+            "Team-building sports activities",
+            "Focus on a healthy and active lifestyle",
+            "Play in our own dedicated ground"
+        ],
+        icon: <Trophy className="h-8 w-8 text-primary" />
+    }
+]
 
 export default function Curriculum() {
   return (
@@ -47,6 +72,39 @@ export default function Curriculum() {
             </Card>
           ))}
         </div>
+
+        <div className="mt-16 pt-12 border-t">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl md:text-4xl font-bold font-headline">Beyond the Classroom</h3>
+             <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
+                We believe in holistic development through engaging weekly activities.
+            </p>
+          </div>
+           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {weeklyActivities.map((item, index) => (
+              <Card key={index} className="flex flex-col">
+                <CardHeader className="flex flex-row items-center gap-4">
+                  {item.icon}
+                  <div>
+                      <CardTitle className="font-headline text-2xl text-primary">{item.day}</CardTitle>
+                      <CardDescription>{item.description}</CardDescription>
+                  </div>
+                </CardHeader>
+                <CardContent className="flex-grow">
+                  <ul className="space-y-2">
+                    {item.activities.map((activity, pIndex) => (
+                      <li key={pIndex} className="flex items-start">
+                        <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 shrink-0" />
+                        <span>{activity}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+
       </div>
     </section>
   );
