@@ -12,7 +12,7 @@ const navLinks = [
   { name: 'Curriculum', href: '/#curriculum' },
   { name: 'Gallery', href: '/gallery' },
   { name: 'Testimonials', href: '/#testimonials' },
-  { name: 'Blog', href: '/#blog' },
+  { name: 'Blog', href: '/blog' },
   { name: 'FAQ', href: '/#faq' },
 ];
 
