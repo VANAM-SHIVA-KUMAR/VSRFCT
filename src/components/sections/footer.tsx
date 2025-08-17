@@ -1,5 +1,5 @@
 import { Logo } from '@/components/logo';
-import { Facebook, Instagram, Twitter, Youtube, Phone, Clock } from 'lucide-react';
+import { Facebook, Instagram, Twitter, Youtube, Phone, Clock, MapPin } from 'lucide-react';
 
 const socialLinks = [
   { icon: Facebook, href: '#', name: 'Facebook' },
@@ -80,9 +80,19 @@ export default function Footer() {
                     <p>Sunday: Closed</p>
                 </div>
               </li>
-              <li className="flex flex-col mt-2">
-                <span className="font-bold">Address:</span>
-                <span>123 Learning Lane, Knowledge City, Hyderabad, 500001</span>
+              <li className="flex items-start space-x-2 mt-2">
+                <MapPin className="h-5 w-5 text-primary shrink-0 mt-1" />
+                <div>
+                  <p className="font-bold">Address:</p>
+                  <a 
+                    href="https://www.google.com/maps/search/?api=1&query=C9M9%2B39+Hyderabad,+Telangana"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary"
+                  >
+                    13, Sri Shyam Nagar, Telecom Nagar Extension, Gachibowli, Hyderabad, Telangana 500032.
+                  </a>
+                </div>
               </li>
             </ul>
           </div>
