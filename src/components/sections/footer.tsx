@@ -10,8 +10,8 @@ const socialLinks = [
 
 const footerLinks = {
   quickLinks: [
-    { name: 'About Us', href: '#about' },
-    { name: 'Gallery', href: '#gallery' },
+    { name: 'About Us', href: '/about' },
+    { name: 'Gallery', href: '/gallery' },
     { name: 'Testimonials', href: '#testimonials' },
     { name: 'Contact', href: '#contact' },
   ],

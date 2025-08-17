@@ -2,8 +2,6 @@ import Header from '@/components/sections/header';
 import Hero from '@/components/sections/hero';
 import Stats from '@/components/sections/stats';
 import Features from '@/components/sections/features';
-import About from '@/components/sections/about';
-import Team from '@/components/sections/team';
 import Curriculum from '@/components/sections/curriculum';
 import Testimonials from '@/components/sections/testimonials';
 import Faq from '@/components/sections/faq';
@@ -19,8 +17,6 @@ export default function Home() {
         <Hero />
         <Stats />
         <Features />
-        <About />
-        <Team />
         <Curriculum />
         <Testimonials />
         <Faq />
