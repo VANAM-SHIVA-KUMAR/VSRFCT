@@ -73,7 +73,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2 text-muted-foreground">
               <li className="flex items-center space-x-2">
                 <Phone className="h-5 w-5 text-primary shrink-0" />
-                <a href="tel:987654321" className="hover:text-primary font-semibold text-lg">987654321</a>
+                <a href="tel:+919866176486" className="hover:text-primary font-semibold text-lg">+91 98661 76486</a>
               </li>
               <li className="flex items-start space-x-2 mt-2">
                 <Clock className="h-5 w-5 text-primary shrink-0 mt-1" />

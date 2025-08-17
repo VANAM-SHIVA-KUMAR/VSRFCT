@@ -94,7 +94,7 @@ export default function Hero() {
                         {slide.description}
                       </p>
                       <Button size="lg" asChild className="animate-in fade-in-0 slide-in-from-bottom-10 duration-700 delay-300">
-                        <a href="https://wa.me/91987654321" target="_blank" rel="noopener noreferrer">Enroll Now</a>
+                        <a href="https://wa.me/919866176486" target="_blank" rel="noopener noreferrer">Enroll Now</a>
                       </Button>
                     </div>
                   </div>

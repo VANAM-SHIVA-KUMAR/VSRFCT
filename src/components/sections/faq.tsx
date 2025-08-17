@@ -20,11 +20,11 @@ const faqs = [
   },
   {
     question: "What are the timings of the tuition centre?",
-    answer: "Our classes are typically held in the evenings on weekdays and on weekends. For specific batch timings, please contact us directly at 987654321."
+    answer: "Our classes are typically held in the evenings on weekdays and on weekends. For specific batch timings, please contact us directly at +91 98661 76486."
   },
   {
     question: "How can I enroll my child?",
-    answer: "You can enroll your child by visiting our centre or by calling us at 987654321 to get more information about the admission process. You will need to provide proof of enrollment in a Government school."
+    answer: "You can enroll your child by visiting our centre or by calling us at +91 98661 76486 to get more information about the admission process. You will need to provide proof of enrollment in a Government school."
   }
 ]
 
