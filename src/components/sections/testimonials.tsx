@@ -18,12 +18,12 @@ const testimonials = [
     hint: "happy mother"
   },
   {
-    name: "Ramesh",
+    name: "Siri",
     title: "Class 8 Student",
     quote: "I used to find Maths very difficult, but the teachers here make it so easy and fun to learn. I enjoy coming to the tuition centre every day after school. My friends and I learn a lot.",
-    avatar: "R",
+    avatar: "S",
     image: "https://placehold.co/100x100.png",
-    hint: "smiling male student"
+    hint: "smiling female student"
   },
   {
     name: "Mr. Srinivas",
