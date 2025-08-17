@@ -15,7 +15,7 @@ export default function Cta() {
                 <a href="tel:+919866176486">Call +91 98661 76486</a>
               </Button>
               <Button size="lg" variant="outline" className="bg-transparent text-primary-foreground border-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
-                <Link href="/gallery">Gallery</Link>
+                <Link href="/gallery">Learn More</Link>
               </Button>
             </div>
         </div>
