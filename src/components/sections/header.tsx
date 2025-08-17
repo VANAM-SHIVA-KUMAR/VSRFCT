@@ -13,7 +13,6 @@ const navLinks = [
   { name: 'Curriculum', href: '/#curriculum' },
   { name: 'Gallery', href: '/gallery' },
   { name: 'Testimonials', href: '/#testimonials' },
-  { name: 'Blog', href: '/blog' },
   { name: 'FAQ', href: '/#faq' },
 ];
 
@@ -34,7 +33,7 @@ export default function Header() {
         <div className="hidden md:flex items-center space-x-4">
           <a href="tel:+919866176486" className="flex items-center space-x-2 text-primary font-semibold hover:text-primary/80">
             <Phone className="h-5 w-5"/>
-            <span>+91 98661 76486</span>
+            <span>+91 9866176486</span>
           </a>
           <Button asChild>
             <a href="/#contact">Contact Us</a>
@@ -68,7 +67,7 @@ export default function Header() {
                   </Button>
                   <a href="tel:+919866176486" className="flex items-center space-x-2 text-primary font-semibold text-xl mt-4">
                     <Phone className="h-6 w-6"/>
-                    <span>+91 98661 76486</span>
+                    <span>+91 9866176486</span>
                   </a>
                 </nav>
               </div>

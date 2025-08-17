@@ -11,7 +11,7 @@ const academicYears = Array.from({ length: 2026 - 2014 }, (_, i) => {
 }).reverse();
 
 const galleryItems = [
-  { src: "https://placehold.co/600x400.png", alt: "Students in classroom", hint: "students classroom" },
+  { src: "/src/app/images/founder.png", alt: "Students in classroom", hint: "students classroom" },
   { src: "https://placehold.co/600x400.png", alt: "Annual day celebration", hint: "school event" },
   { src: "https://placehold.co/600x400.png", alt: "Science fair project", hint: "science fair" },
   { src: "https://placehold.co/600x400.png", alt: "Sports day event", hint: "students sports" },
