@@ -29,12 +29,12 @@ const galleries: AcademicYearGallery[] = [
   {
     year: "2024-25",
     items: [
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Current students in a workshop", hint: "students workshop" },
-      { type: "video", src: "https://placehold.co/600x400.png", alt: "A message from our current students", hint: "student message" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Science experiments in action", hint: "science experiments" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Creative arts session", hint: "children painting" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Library and reading time", hint: "children reading" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Guest speaker event", hint: "guest speaker" },
+      { type: "image", src: "/images/2024/IMG-20240217-WA0000.jpg", alt: "Current students in a workshop", hint: "students workshop" },
+      { type: "image", src: "/images/2024/IMG-20240217-WA0001.jpg", alt: "A message from our current students", hint: "student message" },
+      { type: "image", src: "/images/2024/IMG-20240217-WA0002.jpg", alt: "Science experiments in action", hint: "science experiments" },
+      { type: "image", src: "/images/2024/IMG-20240217-WA0003.jpg", alt: "Creative arts session", hint: "children painting" },
+      { type: "image", src: "/images/2024/IMG-20240217-WA0004.jpg", alt: "Library and reading time", hint: "children reading" },
+      { type: "image", src: "/images/2024/IMG-20240217-WA0005.jpg", alt: "Guest speaker event", hint: "guest speaker" },
     ],
   },
     {
@@ -149,28 +149,9 @@ const galleries: AcademicYearGallery[] = [
 const GalleryItemComponent = ({ item, year }: { item: GalleryItem, year: string }) => {
   const commonClasses = "w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500";
   
-  if (item.type === 'video') {
-    // For videos that are just placeholders, we show an image with a play icon.
-    if (item.src.startsWith('https://placehold.co')) {
-       return (
-        <div className="relative">
-          <Image
-            src={item.src}
-            alt={`${item.alt} - ${year}`}
-            data-ai-hint={item.hint}
-            width={600}
-            height={400}
-            className={commonClasses}
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black/40">
-             <svg className="w-16 h-16 text-white/80" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M8 5v14l11-7z" />
-            </svg>
-          </div>
-        </div>
-      );
-    }
-    // For actual video files, we use the video tag.
+  const isPlaceholderVideo = item.type === 'video' && item.src.startsWith('https://placehold.co');
+
+  if (item.type === 'video' && !isPlaceholderVideo) {
     return (
       <video
         src={item.src}
@@ -183,17 +164,28 @@ const GalleryItemComponent = ({ item, year }: { item: GalleryItem, year: string 
     );
   }
 
+  // This will render for images and placeholder videos
   return (
-    <Image
-      src={item.src}
-      alt={`${item.alt} - ${year}`}
-      data-ai-hint={item.hint}
-      width={600}
-      height={400}
-      className={commonClasses}
-    />
+    <div className="relative">
+      <Image
+        src={item.src}
+        alt={`${item.alt} - ${year}`}
+        data-ai-hint={item.hint}
+        width={600}
+        height={400}
+        className={commonClasses}
+      />
+      {isPlaceholderVideo && (
+        <div className="absolute inset-0 flex items-center justify-center bg-black/40">
+           <svg className="w-16 h-16 text-white/80" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+        </div>
+      )}
+    </div>
   );
 };
+
 
 export default function GalleryPage() {
   return (
