@@ -106,45 +106,42 @@ const galleries: AcademicYearGallery[] = [
   {
     year: "2017-18",
     items: [
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Our young learners in 2018", hint: "young students" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Foundation day event", hint: "foundation day" },
-      { type: "video", src: "https://placehold.co/600x400.png", alt: "Memories from 2018-19", hint: "student memories" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "A special assembly", hint: "school assembly" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Students with their art projects", hint: "student art projects" },
+      { type: "video", src: "/images/2018/20181229_174303.mp4", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
+      { type: "video", src: "/images/2018/20181229_175135.mp4", alt: "Our young learners in 2018", hint: "young students" },
+      { type: "video", src: "/images/2018/20181229_175540.mp4", alt: "Foundation day event", hint: "foundation day" },
     ],
   },
    {
     year: "2016-17",
     items: [
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Our young learners in 2018", hint: "young students" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Foundation day event", hint: "foundation day" },
-      { type: "video", src: "https://placehold.co/600x400.png", alt: "Memories from 2018-19", hint: "student memories" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "A special assembly", hint: "school assembly" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Students with their art projects", hint: "student art projects" },
+      { type: "image", src: "/images/2017/IMG-20170416-WA0028.jpg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
+      { type: "image", src: "/images/2017/IMG-20170415-WA0016.jpg", alt: "Our young learners in 2018", hint: "young students" },
+      { type: "image", src: "/images/2017/IMG-20170415-WA0020.jpg", alt: "Foundation day event", hint: "foundation day" },
+      { type: "image", src: "/images/2017/IMG-20170415-WA0024.jpg", alt: "Memories from 2018-19", hint: "student memories" },
+      { type: "image", src: "/images/2017/IMG-20170415-WA0031.jpg", alt: "A special assembly", hint: "school assembly" },
+      { type: "image", src: "/images/2017/IMG-20170416-WA0010.jpg", alt: "Students with their art projects", hint: "student art projects" },
     ],
   },
    {
     year: "2015-16",
     items: [
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Our young learners in 2018", hint: "young students" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Foundation day event", hint: "foundation day" },
-      { type: "video", src: "https://placehold.co/600x400.png", alt: "Memories from 2018-19", hint: "student memories" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "A special assembly", hint: "school assembly" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Students with their art projects", hint: "student art projects" },
+      { type: "image", src: "/images/2016/IMG-20161013-WA0006.jpg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
+      { type: "image", src: "/images/2016/IMG-20161028-WA0012.jpg", alt: "Our young learners in 2018", hint: "young students" },
+      { type: "image", src: "/images/2016/IMG-20161013-WA0009.jpg", alt: "Foundation day event", hint: "foundation day" },
+      { type: "image", src: "/images/2016/IMG-20161028-WA0010.jpg", alt: "Memories from 2018-19", hint: "student memories" },
+      { type: "image", src: "/images/2016/IMG-20161028-WA0011.jpg", alt: "A special assembly", hint: "school assembly" },
+      { type: "image", src: "/images/2016/IMG-20161028-WA0024.jpg", alt: "Students with their art projects", hint: "student art projects" },
     ],
   },
   {
     year: "2014-15",
     items: [
       { type: "image", src: "/images/2015/IMG-20150421-WA0000.jpg", alt: "The very first batch of students", hint: "first batch students" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Inauguration of the tuition centre", hint: "inauguration event" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Our first classroom setup", hint: "old classroom" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Early learning materials", hint: "vintage school books" },
-      { type: "video", src: "https://placehold.co/600x400.png", alt: "A journey back to our beginnings", hint: "school history" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Founders with the first students", hint: "founder students" },
+      { type: "image", src: "/images/2015/IMG-20150421-WA0002.jpg", alt: "Inauguration of the tuition centre", hint: "inauguration event" },
+      { type: "image", src: "/images/2015/IMG-20150421-WA0003.jpg", alt: "Our first classroom setup", hint: "old classroom" },
+      { type: "image", src: "/images/2015/IMG-20150421-WA0004.jpg", alt: "Early learning materials", hint: "vintage school books" },
+      { type: "image", src: "/images/2015/IMG-20150421-WA0005.jpg", alt: "A journey back to our beginnings", hint: "school history" },
+      { type: "image", src: "/images/2015/IMG-20150421-WA0006.jpg", alt: "Founders with the first students", hint: "founder students" },
     ],
   },
 ];
@@ -153,22 +150,36 @@ const GalleryItemComponent = ({ item, year }: { item: GalleryItem, year: string 
   const commonClasses = "w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500";
   
   if (item.type === 'video') {
-    return (
-      <div className="relative">
-        <Image
-          src={item.src}
-          alt={`${item.alt} - ${year}`}
-          data-ai-hint={item.hint}
-          width={600}
-          height={400}
-          className={commonClasses}
-        />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/40">
-           <svg className="w-16 h-16 text-white/80" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M8 5v14l11-7z" />
-          </svg>
+    // For videos that are just placeholders, we show an image with a play icon.
+    if (item.src.startsWith('https://placehold.co')) {
+       return (
+        <div className="relative">
+          <Image
+            src={item.src}
+            alt={`${item.alt} - ${year}`}
+            data-ai-hint={item.hint}
+            width={600}
+            height={400}
+            className={commonClasses}
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black/40">
+             <svg className="w-16 h-16 text-white/80" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </div>
         </div>
-      </div>
+      );
+    }
+    // For actual video files, we use the video tag.
+    return (
+      <video
+        src={item.src}
+        controls
+        className={commonClasses}
+        aria-label={`${item.alt} - ${year}`}
+      >
+        Your browser does not support the video tag.
+      </video>
     );
   }
 
