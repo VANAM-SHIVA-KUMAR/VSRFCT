@@ -5,7 +5,7 @@ const historyData = [
     {
         year: "2022",
         details: [
-            "Implemented several new initiatives: monthly staff meetings with Professor Raju Sir, provided a smart TV with high-speed internet, installed an Aquaguard for clean drinking water, and provided a Vidya Volunteer for a school in Gachibowli.",
+            "Implemented several new initiatives: monthly staff meetings with Professor Raju Sir, provided a smart TV with high-speed internet, installed an Aquaguard for clean drinking water, and provided a Vidya Volunteer for various Government schools.",
             "Allowed former students to study at the centre from 8 PM to 9 PM.",
             "Trained students for the NMMS eligibility exam for central government scholarships."
         ]
