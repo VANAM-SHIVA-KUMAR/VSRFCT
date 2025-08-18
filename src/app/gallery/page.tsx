@@ -139,7 +139,7 @@ const galleries: AcademicYearGallery[] = [
   {
     year: "2014-15",
     items: [
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "The very first batch of students", hint: "first batch students" },
+      { type: "image", src: "/images/2015/IMG-20150421-WA0000.jpg", alt: "The very first batch of students", hint: "first batch students" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Inauguration of the tuition centre", hint: "inauguration event" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Our first classroom setup", hint: "old classroom" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Early learning materials", hint: "vintage school books" },
