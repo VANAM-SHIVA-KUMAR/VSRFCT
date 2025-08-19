@@ -572,6 +572,10 @@ section, .container {
   display: block;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
@@ -2454,6 +2458,14 @@ section, .container {
 
   .md\:h-\[calc\(100vh-128px\)\] {
     height: calc(100vh - 128px);
+  }
+
+  .md\:h-24 {
+    height: 6rem;
+  }
+
+  .md\:w-24 {
+    width: 6rem;
   }
 
   .md\:max-w-\[420px\] {

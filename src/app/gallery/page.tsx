@@ -1,6 +1,7 @@
 import Header from '@/components/sections/header';
 import Footer from '@/components/sections/footer';
 import Image from 'next/image';
+import { Youtube } from 'lucide-react';
 
 type GalleryItem = {
   type: 'image';
@@ -34,8 +35,6 @@ const galleries: AcademicYearGallery[] = [
       { type: "image", src: "/images/2024/d78261f4-c25d-470f-bbb8-8c6037217460.jpg", alt: "Library and reading time", hint: "children reading" },
       { type: "image", src: "/images/2024/IMG_20241202_171516.jpg", alt: "Guest speaker event", hint: "guest speaker" },
       { type: "image", src: "/images/2024/IMG_20241202_190510.jpg", alt: "Guest speaker event", hint: "guest speaker" },
-      { type: "image", src: "/images/2024/IMG_20241202_190844.jpg", alt: "Guest speaker event", hint: "guest speaker" },
-      { type: "image", src: "/images/2024/IMG_20241202_193953.jpg", alt: "Guest speaker event", hint: "guest speaker" },
     ],
   },
     {
@@ -56,8 +55,6 @@ const galleries: AcademicYearGallery[] = [
       { type: "image", src: "/images/2022/20190812_171815.jpg", alt: "Field trip to a museum", hint: "school field trip" },
       { type: "image", src: "/images/2022/20190812_172601.jpg", alt: "Plantation drive", hint: "school environment day" },
       { type: "image", src: "/images/2022/20190812_173347.jpg", alt: "Interactive learning session", hint: "interactive learning" },
-      { type: "image", src: "/images/2022/IMG-20151114-WA0007.jpg", alt: "Interactive learning session", hint: "interactive learning" },
-      { type: "image", src: "/images/2022/IMG-20151120-WA0007.jpg", alt: "Interactive learning session", hint: "interactive learning" },
     ],
   },
     {
@@ -160,6 +157,7 @@ const GalleryItemComponent = ({ item, year }: { item: GalleryItem, year: string 
 
 
 export default function GalleryPage() {
+  const youtubeUrl = "https://www.youtube.com/@vsrfct";
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <Header />
@@ -170,6 +168,12 @@ export default function GalleryPage() {
             <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
               A visual journey through the years at VSRFCT Tuition Centre.
             </p>
+            <div className="mt-8">
+              <a href={youtubeUrl} target="_blank" rel="noopener noreferrer" className="inline-block text-muted-foreground hover:text-primary transition-colors">
+                <Youtube className="h-20 w-20 md:h-24 md:w-24" />
+                <span className="sr-only">YouTube</span>
+              </a>
+            </div>
           </div>
 
           <div className="space-y-16">
