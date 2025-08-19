@@ -796,6 +796,10 @@ section, .container {
   width: 3rem;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .min-w-0 {
   min-width: 0;
 }

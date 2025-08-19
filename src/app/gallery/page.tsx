@@ -1,7 +1,6 @@
 import Header from '@/components/sections/header';
 import Footer from '@/components/sections/footer';
 import Image from 'next/image';
-import { Youtube } from 'lucide-react';
 
 type GalleryItem = {
   type: 'image';
@@ -167,7 +166,21 @@ export default function GalleryPage() {
             <div className="flex justify-center items-center gap-4 mb-4">
               <h1 className="text-4xl md:text-6xl font-bold font-headline text-primary">Our Gallery</h1>
               <a href={youtubeUrl} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                <Youtube className="h-12 w-12 md:h-16 md:w-16" />
+                <svg
+                  className="h-12 w-auto md:h-16"
+                  viewBox="0 0 28 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M27.4258 3.12056C27.136 1.88452 26.1316 0.903827 24.8939 0.613997C22.7134 0.000199465 14.001 0 14.001 0C14.001 0 5.28861 0.000199465 3.10814 0.613997C1.87042 0.903827 0.865983 1.88452 0.576184 3.12056C-0.00185931 5.3491 -0.00185931 10.0002 0.000140689 10.0002C0.000140689 10.0002 -0.00185931 14.6513 0.576184 16.8798C0.865983 18.1159 1.87042 19.0966 3.10814 19.3864C5.28861 20 14.001 20 14.001 20C14.001 20 22.7134 20 24.8939 19.3864C26.1316 19.0966 27.136 18.1159 27.4258 16.8798C28.0038 14.6513 28.0038 10.0002 28.0018 10.0002C28.0018 10.0002 28.0038 5.3491 27.4258 3.12056Z"
+                    fill="#FF0000"
+                  />
+                  <path
+                    d="M11.2009 14.2859L18.4862 10.0002L11.2009 5.71454V14.2859Z"
+                    fill="white"
+                  />
+                </svg>
                 <span className="sr-only">YouTube</span>
               </a>
             </div>
