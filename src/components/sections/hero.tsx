@@ -13,20 +13,20 @@ import { cn } from "@/lib/utils"
 
 const slides = [
   {
-    image: "https://images.unsplash.com/photo-1544717305-2782549b5136?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYXBweSUyMHN0dWRlbnRzJTIwc3R1ZHlpbmd8ZW58MHx8fHwxNzU1NjE4OTg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    hint: "happy students studying",
+    image: "https://images.unsplash.com/photo-1629090159489-534346e9383b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxpbmRpYW4lMjBnb3Zlcm5tZW50JTIwc2Nob29sJTIwc3R1ZGVudHN8ZW58MHx8fHwxNzU2MjcyNTU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    hint: "indian government school",
     title: "Free Quality Education for a Brighter Tomorrow",
     description: "A non-profit initiative by V.S. Raju Family Charitable Trust for Government School children (Classes 1-10, State Syllabus)."
   },
   {
-    image: "https://images.unsplash.com/photo-1589087394126-9a3025e53867?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2hpbGRyZW4lMjBzbWlsaW5nJTIwY2xhc3Nyb29tfGVufDB8fHx8MTc1NTYxODk4NHww&ixlib=rb-4.1.0&q=80&w=1080",
-    hint: "children smiling classroom",
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHVkZW50cyUyMGluJTIwY2xhc3Nyb29tJTIwaW5kaWF8ZW58MHx8fHwxNzU2MjcyNjE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    hint: "students classroom india",
     title: "Empowering Young Minds Through Knowledge",
     description: "Our mission is to provide a nurturing environment where every child can learn, grow, and achieve their full potential."
   },
   {
-    image: "https://images.unsplash.com/photo-1739249327281-e918124ac540?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZWFjaGVyJTIwd2l0aCUyMHN0dWRlbnRzfGVufDB8fHx8MTc1NTYxODk4NXww&ixlib=rb-4.1.0&q=80&w=1080",
-    hint: "teacher with students",
+    image: "https://images.unsplash.com/photo-1628191079331-77f0c4f8b4a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxydXJhbCUyMHNjaG9vbCUyMGNoaWxkcmVuJTIwaW5kaWF8ZW58MHx8fHwxNzU2MjcyNjM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    hint: "rural school children",
     title: "Healthy Body, Healthy Mind",
     description: "We provide daily snacks like bananas and biscuits. Every Saturday is sports day, fostering a healthy and happy learning environment."
   }
