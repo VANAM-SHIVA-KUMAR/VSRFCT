@@ -13,19 +13,19 @@ import { cn } from "@/lib/utils"
 
 const slides = [
   {
-    image: "https://images.unsplash.com/photo-1516534775068-ba3e7458af70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHN0dWRlbnRzJTIwc3R1ZHlpbmd8ZW58MHx8fHwxNzU1NDI3NzQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1544717305-2782549b5136?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYXBweSUyMHN0dWRlbnRzJTIwc3R1ZHlpbmd8ZW58MHx8fHwxNzU1NjE4OTg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
     hint: "happy students studying",
     title: "Free Quality Education for a Brighter Tomorrow",
     description: "A non-profit initiative by V.S. Raju Family Charitable Trust for Government School children (Classes 1-10, State Syllabus)."
   },
   {
-    image: "https://images.unsplash.com/photo-1589087394126-9a3025e53867?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGlsZHJlbiUyMHNtaWxpbmclMjBjbGFzc3Jvb218ZW58MHx8fHwxNzU1NDI3NzQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1589087394126-9a3025e53867?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2hpbGRyZW4lMjBzbWlsaW5nJTIwY2xhc3Nyb29tfGVufDB8fHx8MTc1NTYxODk4NHww&ixlib=rb-4.1.0&q=80&w=1080",
     hint: "children smiling classroom",
     title: "Empowering Young Minds Through Knowledge",
     description: "Our mission is to provide a nurturing environment where every child can learn, grow, and achieve their full potential."
   },
   {
-    image: "https://images.unsplash.com/photo-1669092982937-294045bcc0f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0ZWFjaGVyJTIwd2l0aCUyMHN0dWRlbnRzfGVufDB8fHx8MTc1NTQyNzc0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1739249327281-e918124ac540?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZWFjaGVyJTIwd2l0aCUyMHN0dWRlbnRzfGVufDB8fHx8MTc1NTYxODk4NXww&ixlib=rb-4.1.0&q=80&w=1080",
     hint: "teacher with students",
     title: "Healthy Body, Healthy Mind",
     description: "We provide daily snacks like bananas and biscuits. Every Saturday is sports day, fostering a healthy and happy learning environment."

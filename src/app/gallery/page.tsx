@@ -18,12 +18,11 @@ const galleries: AcademicYearGallery[] = [
   {
     year: "2025-26",
     items: [
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Future class of 2026", hint: "students future classroom" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Innovative learning tools", hint: "educational technology" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Student aspirations for the future", hint: "student goals" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Community projects planning", hint: "community outreach" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Preparing for next-gen challenges", hint: "modern education" },
-    ],
+      { type: "image", src: "/images/2025/1.jpeg", alt: "Future class of 2026", hint: "students future classroom" },
+      { type: "image", src: "/images/2025/2.jpeg", alt: "Innovative learning tools", hint: "educational technology" },
+      { type: "image", src: "/images/2025/3.jpeg", alt: "Student aspirations for the future", hint: "student goals" },
+      { type: "image", src: "/images/2025/4.jpeg", alt: "Community projects planning", hint: "community outreach" },
+      ],
   },
   {
     year: "2024-25",
