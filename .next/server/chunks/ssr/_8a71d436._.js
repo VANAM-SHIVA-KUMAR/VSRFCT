@@ -540,12 +540,6 @@ const galleries = [
                 hint: "educational technology"
             },
             {
-                type: "video",
-                src: "https://placehold.co/600x400.png",
-                alt: "A look ahead: plans for 2026",
-                hint: "education planning"
-            },
-            {
                 type: "image",
                 src: "https://placehold.co/600x400.png",
                 alt: "Student aspirations for the future",
@@ -611,32 +605,8 @@ const galleries = [
                 hint: "guest speaker"
             },
             {
-                type: "video",
-                src: "/images/2024/VID_20241202_190718.mp4",
-                alt: "Guest speaker event",
-                hint: "guest speaker"
-            },
-            {
                 type: "image",
                 src: "/images/2024/IMG_20241202_193953.jpg",
-                alt: "Guest speaker event",
-                hint: "guest speaker"
-            },
-            {
-                type: "video",
-                src: "/images/2024/20240621_170708.mp4",
-                alt: "Guest speaker event",
-                hint: "guest speaker"
-            },
-            {
-                type: "video",
-                src: "/images/2024/VID_20241202_191242.mp4",
-                alt: "Guest speaker event",
-                hint: "guest speaker"
-            },
-            {
-                type: "video",
-                src: "/images/2024/VID_20241202_193548.mp4",
                 alt: "Guest speaker event",
                 hint: "guest speaker"
             }
@@ -668,36 +638,6 @@ const galleries = [
                 src: "/images/2023/20240330_175427.jpg",
                 alt: "Students receiving prizes",
                 hint: "student awards"
-            },
-            {
-                type: "video",
-                src: "/images/2023/20240527_180555.mp4",
-                alt: "Cultural dance performance",
-                hint: "cultural dance"
-            },
-            {
-                type: "video",
-                src: "/images/2023/20240527_181148.mp4",
-                alt: "Cultural dance performance",
-                hint: "cultural dance"
-            },
-            {
-                type: "video",
-                src: "/images/2023/20240527_181829.mp4",
-                alt: "Cultural dance performance",
-                hint: "cultural dance"
-            },
-            {
-                type: "video",
-                src: "/images/2023/VID_20231001_083856.mp4",
-                alt: "Cultural dance performance",
-                hint: "cultural dance"
-            },
-            {
-                type: "video",
-                src: "/images/2023/VID-20231231-WA0019.mp4",
-                alt: "Cultural dance performance",
-                hint: "cultural dance"
             }
         ]
     },
@@ -751,24 +691,12 @@ const galleries = [
                 src: "/images/2022/IMG-20151120-WA0007.jpg",
                 alt: "Interactive learning session",
                 hint: "interactive learning"
-            },
-            {
-                type: "video",
-                src: "/images/2022/VID-20240830-WA0001.mp4",
-                alt: "Interactive learning session",
-                hint: "interactive learning"
             }
         ]
     },
     {
         year: "2021-22",
         items: [
-            {
-                type: "video",
-                src: "https://placehold.co/600x400.png",
-                alt: "Virtual classes during the pandemic",
-                hint: "online learning"
-            },
             {
                 type: "image",
                 src: "https://placehold.co/600x400.png",
@@ -817,12 +745,6 @@ const galleries = [
                 hint: "education support"
             },
             {
-                type: "video",
-                src: "https://placehold.co/600x400.png",
-                alt: "A message of hope from our staff",
-                hint: "teacher message"
-            },
-            {
                 type: "image",
                 src: "https://placehold.co/600x400.png",
                 alt: "Parents meeting online",
@@ -856,12 +778,6 @@ const galleries = [
                 src: "https://placehold.co/600x400.png",
                 alt: "Annual function group dance",
                 hint: "students group dance"
-            },
-            {
-                type: "video",
-                src: "https://placehold.co/600x400.png",
-                alt: "A tour of our facility in 2020",
-                hint: "school tour"
             },
             {
                 type: "image",
@@ -905,12 +821,6 @@ const galleries = [
                 hint: "foundation day"
             },
             {
-                type: "video",
-                src: "https://placehold.co/600x400.png",
-                alt: "Memories from 2018-19",
-                hint: "student memories"
-            },
-            {
                 type: "image",
                 src: "https://placehold.co/600x400.png",
                 alt: "A special assembly",
@@ -928,20 +838,8 @@ const galleries = [
         year: "2017-18",
         items: [
             {
-                type: "video",
-                src: "/images/2018/20181229_174303.mp4",
-                alt: "Throwback to a fun classroom activity",
-                hint: "vintage classroom"
-            },
-            {
-                type: "video",
-                src: "/images/2018/20181229_175135.mp4",
-                alt: "Our young learners in 2018",
-                hint: "young students"
-            },
-            {
-                type: "video",
-                src: "/images/2018/20181229_175540.mp4",
+                type: "image",
+                src: "https://placehold.co/600x400.png",
                 alt: "Foundation day event",
                 hint: "foundation day"
             }
@@ -1073,63 +971,23 @@ const galleries = [
 ];
 const GalleryItemComponent = ({ item, year })=>{
     const commonClasses = "w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500";
-    const isPlaceholderVideo = item.type === 'video' && item.src.startsWith('https://placehold.co');
-    if (item.type === 'video' && !isPlaceholderVideo) {
-        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
-            src: item.src,
-            controls: true,
-            className: commonClasses,
-            "aria-label": `${item.alt} - ${year}`,
-            children: "Your browser does not support the video tag."
-        }, void 0, false, {
-            fileName: "[project]/src/app/gallery/page.tsx",
-            lineNumber: 169,
-            columnNumber: 7
-        }, this);
-    }
-    // This will render for images and placeholder videos
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "relative",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                src: item.src,
-                alt: `${item.alt} - ${year}`,
-                "data-ai-hint": item.hint,
-                width: 600,
-                height: 400,
-                className: commonClasses
-            }, void 0, false, {
-                fileName: "[project]/src/app/gallery/page.tsx",
-                lineNumber: 183,
-                columnNumber: 7
-            }, this),
-            isPlaceholderVideo && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-0 flex items-center justify-center bg-black/40",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                    className: "w-16 h-16 text-white/80",
-                    fill: "currentColor",
-                    viewBox: "0 0 24 24",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                        d: "M8 5v14l11-7z"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/gallery/page.tsx",
-                        lineNumber: 194,
-                        columnNumber: 13
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/app/gallery/page.tsx",
-                    lineNumber: 193,
-                    columnNumber: 12
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/app/gallery/page.tsx",
-                lineNumber: 192,
-                columnNumber: 9
-            }, this)
-        ]
-    }, void 0, true, {
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+            src: item.src,
+            alt: `${item.alt} - ${year}`,
+            "data-ai-hint": item.hint,
+            width: 600,
+            height: 400,
+            className: commonClasses
+        }, void 0, false, {
+            fileName: "[project]/src/app/gallery/page.tsx",
+            lineNumber: 149,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/src/app/gallery/page.tsx",
-        lineNumber: 182,
+        lineNumber: 148,
         columnNumber: 5
     }, this);
 };
@@ -1139,7 +997,7 @@ function GalleryPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$sections$2f$header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/gallery/page.tsx",
-                lineNumber: 206,
+                lineNumber: 165,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -1155,7 +1013,7 @@ function GalleryPage() {
                                     children: "Our Gallery"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/gallery/page.tsx",
-                                    lineNumber: 210,
+                                    lineNumber: 169,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1163,13 +1021,13 @@ function GalleryPage() {
                                     children: "A visual journey through the years at VSRFCT Tuition Centre."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/gallery/page.tsx",
-                                    lineNumber: 211,
+                                    lineNumber: 170,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/gallery/page.tsx",
-                            lineNumber: 209,
+                            lineNumber: 168,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1185,7 +1043,7 @@ function GalleryPage() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/gallery/page.tsx",
-                                            lineNumber: 219,
+                                            lineNumber: 178,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1197,50 +1055,50 @@ function GalleryPage() {
                                                         year: year
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/gallery/page.tsx",
-                                                        lineNumber: 225,
+                                                        lineNumber: 184,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, index, false, {
                                                     fileName: "[project]/src/app/gallery/page.tsx",
-                                                    lineNumber: 224,
+                                                    lineNumber: 183,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/gallery/page.tsx",
-                                            lineNumber: 222,
+                                            lineNumber: 181,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, year, true, {
                                     fileName: "[project]/src/app/gallery/page.tsx",
-                                    lineNumber: 218,
+                                    lineNumber: 177,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/gallery/page.tsx",
-                            lineNumber: 216,
+                            lineNumber: 175,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/gallery/page.tsx",
-                    lineNumber: 208,
+                    lineNumber: 167,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/gallery/page.tsx",
-                lineNumber: 207,
+                lineNumber: 166,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$sections$2f$footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/gallery/page.tsx",
-                lineNumber: 234,
+                lineNumber: 193,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/gallery/page.tsx",
-        lineNumber: 205,
+        lineNumber: 164,
         columnNumber: 5
     }, this);
 }
