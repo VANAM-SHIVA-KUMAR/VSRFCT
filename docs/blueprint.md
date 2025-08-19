@@ -1,4 +1,4 @@
-# **App Name**: VSRFCT WebGenius
+# **App Name**: VSRFCT
 
 ## Core Features:
 
