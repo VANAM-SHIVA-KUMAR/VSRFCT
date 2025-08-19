@@ -792,6 +792,10 @@ section, .container {
   width: 100%;
 }
 
+.w-12 {
+  width: 3rem;
+}
+
 .min-w-0 {
   min-width: 0;
 }
@@ -2464,8 +2468,16 @@ section, .container {
     height: 6rem;
   }
 
+  .md\:h-16 {
+    height: 4rem;
+  }
+
   .md\:w-24 {
     width: 6rem;
+  }
+
+  .md\:w-16 {
+    width: 4rem;
   }
 
   .md\:max-w-\[420px\] {

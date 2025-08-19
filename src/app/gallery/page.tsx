@@ -164,16 +164,16 @@ export default function GalleryPage() {
       <main className="flex-grow">
         <div className="container mx-auto px-4 py-12 md:py-24">
           <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-6xl font-bold font-headline text-primary">Our Gallery</h1>
-            <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
-              A visual journey through the years at VSRFCT Tuition Centre.
-            </p>
-            <div className="mt-8">
-              <a href={youtubeUrl} target="_blank" rel="noopener noreferrer" className="inline-block text-muted-foreground hover:text-primary transition-colors">
-                <Youtube className="h-20 w-20 md:h-24 md:w-24" />
+            <div className="flex justify-center items-center gap-4 mb-4">
+              <h1 className="text-4xl md:text-6xl font-bold font-headline text-primary">Our Gallery</h1>
+              <a href={youtubeUrl} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                <Youtube className="h-12 w-12 md:h-16 md:w-16" />
                 <span className="sr-only">YouTube</span>
               </a>
             </div>
+            <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
+              A visual journey through the years at VSRFCT Tuition Centre.
+            </p>
           </div>
 
           <div className="space-y-16">
