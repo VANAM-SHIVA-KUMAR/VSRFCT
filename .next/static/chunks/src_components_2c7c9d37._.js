@@ -946,21 +946,21 @@ var _s = __turbopack_context__.k.signature();
 ;
 const slides = [
     {
-        image: "https://images.unsplash.com/photo-1640363760310-379108057849?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpbmRpYW4lMjBnb3Zlcm5tZW50JTIwc2Nob29sfGVufDB8fHx8MTc1NTYxOTI1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        image: "/images/2025/1.jpeg",
         hint: "indian government school",
         title: "Free Quality Education for a Brighter Tomorrow",
         description: "A non-profit initiative by V.S. Raju Family Charitable Trust for Government School children (Classes 1-10, State Syllabus)."
     },
     {
-        image: "https://images.unsplash.com/photo-1636772523547-5577d04e8dc1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdHVkZW50cyUyMGNsYXNzcm9vbSUyMGluZGlhfGVufDB8fHx8MTc1NTYxOTI1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        image: "/images/2019/IMG-20200129-WA0023.jpg",
         hint: "students classroom india",
         title: "Empowering Young Minds Through Knowledge",
         description: "Our mission is to provide a nurturing environment where every child can learn, grow, and achieve their full potential."
     },
     {
-        image: "https://images.unsplash.com/photo-1617078913444-5bfe537fe74c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxydXJhbCUyMHNjaG9vbCUyMGNoaWxkcmVufGVufDB8fHx8MTc1NTYxOTI1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        image: "/images/2016/IMG-20161028-WA0010.jpg",
         hint: "rural school children",
-        title: "Healthy Body, Healthy Mind",
+        title: "Caring for Every Child, Inside and Out",
         description: "We provide daily snacks like bananas and biscuits. Every Saturday is sports day, fostering a healthy and happy learning environment."
     }
 ];
