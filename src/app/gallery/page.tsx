@@ -59,47 +59,42 @@ const galleries: AcademicYearGallery[] = [
     {
     year: "2021-22",
     items: [
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Students with their home projects", hint: "student projects home" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Online quiz competition", hint: "online quiz" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Teachers conducting online sessions", hint: "teacher online class" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Celebrating festivals virtually", hint: "virtual celebration" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "A return to the classroom", hint: "students back school" },
+      { type: "image", src: "/images/2021/20210711_180804.jpg", alt: "Students with their home projects", hint: "student projects home" },
+      { type: "image", src: "/images/2021/20220105_170215.jpg", alt: "Online quiz competition", hint: "online quiz" },
+      { type: "image", src: "/images/2021/20220105_183759.jpg", alt: "Teachers conducting online sessions", hint: "teacher online class" },
+      { type: "image", src: "/images/2021/20220105_190134.jpg", alt: "Celebrating festivals virtually", hint: "virtual celebration" },
+      { type: "image", src: "/images/2021/20220105_192108.jpg", alt: "A return to the classroom", hint: "students back school" },
     ],
   },
   {
     year: "2020-21",
     items: [
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Early days of online learning", hint: "remote learning setup" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Distributing study materials", hint: "education support" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Parents meeting online", hint: "parent teacher online" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Health and safety measures", hint: "health safety school" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Students adapting to new norms", hint: "student adapting" },
+      { type: "image", src: "/images/2020/IMG-20190420-WA0020.jpg", alt: "Early days of online learning", hint: "remote learning setup" },
+      { type: "image", src: "/images/2020/IMG-20200212-WA0021.jpg", alt: "Distributing study materials", hint: "education support" },
+      { type: "image", src: "/images/2020/IMG-20200212-WA0028.jpg", alt: "Parents meeting online", hint: "parent teacher online" },
     ],
   },
   {
     year: "2019-20",
     items: [
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Sports Day champions 2020", hint: "students sports trophy" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Annual function group dance", hint: "students group dance" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Independence Day celebrations", hint: "independence day india school" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Class of 2020 farewell", hint: "student farewell" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Creative writing workshop", hint: "writing workshop" },
+      { type: "image", src: "/images/2019/563.jpg", alt: "Sports Day champions 2020", hint: "students sports trophy" },
+      { type: "image", src: "/images/2019/20170415_175753.jpg", alt: "Annual function group dance", hint: "students group dance" },
+      { type: "image", src: "/images/2019/20190110_192044.jpg", alt: "Independence Day celebrations", hint: "independence day india school" },
+      { type: "image", src: "/images/2019/IMG-20200129-WA0020.jpg", alt: "Class of 2020 farewell", hint: "student farewell" },
+      { type: "image", src: "/images/2019/IMG-20200129-WA0023.jpg", alt: "Creative writing workshop", hint: "writing workshop" },
+      { type: "image", src: "/images/2019/IMG-20200212-WA0006.jpg", alt: "Creative writing workshop", hint: "writing workshop" },
     ],
   },
   {
     year: "2018-19",
     items: [
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Our young learners in 2018", hint: "young students" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Foundation day event", hint: "foundation day" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "A special assembly", hint: "school assembly" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Students with their art projects", hint: "student art projects" },
+      { type: "image", src: "/images/2018/20181229_182109.jpg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
     ],
   },
   {
     year: "2017-18",
     items: [
-       { type: "image", src: "https://placehold.co/600x400.png", alt: "Foundation day event", hint: "foundation day" },
+       { type: "image", src: "/images/2018/IMG-20160608-WA0046.jpg", alt: "Foundation day event", hint: "foundation day" },
     ],
   },
    {
