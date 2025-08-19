@@ -3,7 +3,7 @@ import Footer from '@/components/sections/footer';
 import Image from 'next/image';
 
 type GalleryItem = {
-  type: 'image' | 'video';
+  type: 'image';
   src: string;
   alt: string;
   hint: string;
@@ -20,7 +20,6 @@ const galleries: AcademicYearGallery[] = [
     items: [
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Future class of 2026", hint: "students future classroom" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Innovative learning tools", hint: "educational technology" },
-      { type: "video", src: "https://placehold.co/600x400.png", alt: "A look ahead: plans for 2026", hint: "education planning" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Student aspirations for the future", hint: "student goals" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Community projects planning", hint: "community outreach" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Preparing for next-gen challenges", hint: "modern education" },
@@ -36,12 +35,7 @@ const galleries: AcademicYearGallery[] = [
       { type: "image", src: "/images/2024/IMG_20241202_171516.jpg", alt: "Guest speaker event", hint: "guest speaker" },
       { type: "image", src: "/images/2024/IMG_20241202_190510.jpg", alt: "Guest speaker event", hint: "guest speaker" },
       { type: "image", src: "/images/2024/IMG_20241202_190844.jpg", alt: "Guest speaker event", hint: "guest speaker" },
-      { type: "video", src: "/images/2024/VID_20241202_190718.mp4", alt: "Guest speaker event", hint: "guest speaker" },
       { type: "image", src: "/images/2024/IMG_20241202_193953.jpg", alt: "Guest speaker event", hint: "guest speaker" },
-      { type: "video", src: "/images/2024/20240621_170708.mp4", alt: "Guest speaker event", hint: "guest speaker" },
-      { type: "video", src: "/images/2024/VID_20241202_191242.mp4", alt: "Guest speaker event", hint: "guest speaker" },
-      { type: "video", src: "/images/2024/VID_20241202_193548.mp4", alt: "Guest speaker event", hint: "guest speaker" },
-
     ],
   },
     {
@@ -51,11 +45,6 @@ const galleries: AcademicYearGallery[] = [
       { type: "image", src: "/images/2023/IMG_20231001_074620.jpg", alt: "Highlights from Sports Day 2024", hint: "students sports 2024" },
       { type: "image", src: "/images/2023/20240330_180106.jpg", alt: "Republic Day parade", hint: "republic day school" },
       { type: "image", src: "/images/2023/20240330_175427.jpg", alt: "Students receiving prizes", hint: "student awards" },
-      { type: "video", src: "/images/2023/20240527_180555.mp4", alt: "Cultural dance performance", hint: "cultural dance" },
-      { type: "video", src: "/images/2023/20240527_181148.mp4", alt: "Cultural dance performance", hint: "cultural dance" },
-      { type: "video", src: "/images/2023/20240527_181829.mp4", alt: "Cultural dance performance", hint: "cultural dance" },
-      { type: "video", src: "/images/2023/VID_20231001_083856.mp4", alt: "Cultural dance performance", hint: "cultural dance" },
-      { type: "video", src: "/images/2023/VID-20231231-WA0019.mp4", alt: "Cultural dance performance", hint: "cultural dance" },
     ],
   },
   {
@@ -69,13 +58,11 @@ const galleries: AcademicYearGallery[] = [
       { type: "image", src: "/images/2022/20190812_173347.jpg", alt: "Interactive learning session", hint: "interactive learning" },
       { type: "image", src: "/images/2022/IMG-20151114-WA0007.jpg", alt: "Interactive learning session", hint: "interactive learning" },
       { type: "image", src: "/images/2022/IMG-20151120-WA0007.jpg", alt: "Interactive learning session", hint: "interactive learning" },
-      { type: "video", src: "/images/2022/VID-20240830-WA0001.mp4", alt: "Interactive learning session", hint: "interactive learning" },
     ],
   },
     {
     year: "2021-22",
     items: [
-      { type: "video", src: "https://placehold.co/600x400.png", alt: "Virtual classes during the pandemic", hint: "online learning" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Students with their home projects", hint: "student projects home" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Online quiz competition", hint: "online quiz" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Teachers conducting online sessions", hint: "teacher online class" },
@@ -88,7 +75,6 @@ const galleries: AcademicYearGallery[] = [
     items: [
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Early days of online learning", hint: "remote learning setup" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Distributing study materials", hint: "education support" },
-      { type: "video", src: "https://placehold.co/600x400.png", alt: "A message of hope from our staff", hint: "teacher message" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Parents meeting online", hint: "parent teacher online" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Health and safety measures", hint: "health safety school" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Students adapting to new norms", hint: "student adapting" },
@@ -99,7 +85,6 @@ const galleries: AcademicYearGallery[] = [
     items: [
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Sports Day champions 2020", hint: "students sports trophy" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Annual function group dance", hint: "students group dance" },
-      { type: "video", src: "https://placehold.co/600x400.png", alt: "A tour of our facility in 2020", hint: "school tour" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Independence Day celebrations", hint: "independence day india school" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Class of 2020 farewell", hint: "student farewell" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Creative writing workshop", hint: "writing workshop" },
@@ -111,7 +96,6 @@ const galleries: AcademicYearGallery[] = [
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Our young learners in 2018", hint: "young students" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Foundation day event", hint: "foundation day" },
-      { type: "video", src: "https://placehold.co/600x400.png", alt: "Memories from 2018-19", hint: "student memories" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "A special assembly", hint: "school assembly" },
       { type: "image", src: "https://placehold.co/600x400.png", alt: "Students with their art projects", hint: "student art projects" },
     ],
@@ -119,9 +103,7 @@ const galleries: AcademicYearGallery[] = [
   {
     year: "2017-18",
     items: [
-      { type: "video", src: "/images/2018/20181229_174303.mp4", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
-      { type: "video", src: "/images/2018/20181229_175135.mp4", alt: "Our young learners in 2018", hint: "young students" },
-      { type: "video", src: "/images/2018/20181229_175540.mp4", alt: "Foundation day event", hint: "foundation day" },
+       { type: "image", src: "https://placehold.co/600x400.png", alt: "Foundation day event", hint: "foundation day" },
     ],
   },
    {
@@ -162,22 +144,6 @@ const galleries: AcademicYearGallery[] = [
 const GalleryItemComponent = ({ item, year }: { item: GalleryItem, year: string }) => {
   const commonClasses = "w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500";
   
-  const isPlaceholderVideo = item.type === 'video' && item.src.startsWith('https://placehold.co');
-
-  if (item.type === 'video' && !isPlaceholderVideo) {
-    return (
-      <video
-        src={item.src}
-        controls
-        className={commonClasses}
-        aria-label={`${item.alt} - ${year}`}
-      >
-        Your browser does not support the video tag.
-      </video>
-    );
-  }
-
-  // This will render for images and placeholder videos
   return (
     <div className="relative">
       <Image
@@ -188,13 +154,6 @@ const GalleryItemComponent = ({ item, year }: { item: GalleryItem, year: string 
         height={400}
         className={commonClasses}
       />
-      {isPlaceholderVideo && (
-        <div className="absolute inset-0 flex items-center justify-center bg-black/40">
-           <svg className="w-16 h-16 text-white/80" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M8 5v14l11-7z" />
-          </svg>
-        </div>
-      )}
     </div>
   );
 };
