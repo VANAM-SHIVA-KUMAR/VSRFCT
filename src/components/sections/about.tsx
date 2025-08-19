@@ -4,7 +4,7 @@ const founders = [
   {
     name: "Prof. V. S. Raju",
     title: "Former Director, IIT Delhi (1995-2000)",
-    image: "/images/founder.png",
+    image: "/images/hi.png",
     hint: "professional portrait",
     bio: [
       "Prof. V.S. Raju holds a Ph.D. in Geotechnical Engineering from the University of Karlsruhe, Germany. He is a renowned expert in the field with over 60 years of extensive experience.",
@@ -43,7 +43,7 @@ export default function About() {
                   src={founder.image}
                   alt={`Portrait of ${founder.name}`}
                   data-ai-hint={founder.hint}
-                  width={400}
+                  width={300}
                   height={500}
                   className="rounded-xl shadow-lg w-full"
                 />

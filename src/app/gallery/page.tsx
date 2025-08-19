@@ -61,12 +61,15 @@ const galleries: AcademicYearGallery[] = [
   {
     year: "2022-23",
     items: [
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Classroom group photo 2023", hint: "classroom photo 2023" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Mathematics Olympiad winners", hint: "math competition" },
-      { type: "video", src: "https://placehold.co/600x400.png", alt: "Science Fair projects showcase", hint: "science fair" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Field trip to a museum", hint: "school field trip" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Plantation drive", hint: "school environment day" },
-      { type: "image", src: "https://placehold.co/600x400.png", alt: "Interactive learning session", hint: "interactive learning" },
+      { type: "image", src: "/images/2022/20180314_201541.jpg", alt: "Classroom group photo 2023", hint: "classroom photo 2023" },
+      { type: "image", src: "/images/2022/20190420_153840.jpg", alt: "Mathematics Olympiad winners", hint: "math competition" },
+      { type: "image", src: "/images/2022/20190812_165552.jpg", alt: "Science Fair projects showcase", hint: "science fair" },
+      { type: "image", src: "/images/2022/20190812_171815.jpg", alt: "Field trip to a museum", hint: "school field trip" },
+      { type: "image", src: "/images/2022/20190812_172601.jpg", alt: "Plantation drive", hint: "school environment day" },
+      { type: "image", src: "/images/2022/20190812_173347.jpg", alt: "Interactive learning session", hint: "interactive learning" },
+      { type: "image", src: "/images/2022/IMG-20151114-WA0007.jpg", alt: "Interactive learning session", hint: "interactive learning" },
+      { type: "image", src: "/images/2022/IMG-20151120-WA0007.jpg", alt: "Interactive learning session", hint: "interactive learning" },
+      { type: "video", src: "/images/2022/VID-20240830-WA0001.mp4", alt: "Interactive learning session", hint: "interactive learning" },
     ],
   },
     {
