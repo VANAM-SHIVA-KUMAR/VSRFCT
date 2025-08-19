@@ -1,14 +1,7 @@
 import { Logo } from '@/components/logo';
-import { Facebook, Instagram, Twitter, Youtube, Phone, Clock, MapPin } from 'lucide-react';
+import { Youtube, Phone, Clock, MapPin } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
-
-const socialLinks = [
-  { icon: Facebook, href: '#', name: 'Facebook' },
-  { icon: Instagram, href: '#', name: 'Instagram' },
-  { icon: Twitter, href: '#', name: 'Twitter' },
-  { icon: Youtube, href: '#', name: 'YouTube' },
-];
 
 const footerLinks = {
   quickLinks: [
@@ -26,6 +19,7 @@ const footerLinks = {
 
 export default function Footer() {
   const gmapsUrl = "https://www.google.com/maps/search/?api=1&query=C9M9%2B39+Hyderabad,+Telangana";
+  const youtubeUrl = "https://www.youtube.com/@vsrfct";
   return (
     <footer className="bg-card text-card-foreground border-t">
       <div className="container mx-auto px-4 py-12">
@@ -36,12 +30,10 @@ export default function Footer() {
               A non-profit learning initiative by V.S. Raju Family Charitable Trust.
             </p>
             <div className="flex space-x-4 mt-4">
-              {socialLinks.map(link => (
-                <a key={link.name} href={link.href} className="text-muted-foreground hover:text-primary">
-                  <link.icon className="h-6 w-6" />
-                  <span className="sr-only">{link.name}</span>
-                </a>
-              ))}
+              <a href={youtubeUrl} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary">
+                <Youtube className="h-10 w-10" />
+                <span className="sr-only">YouTube</span>
+              </a>
             </div>
           </div>
 

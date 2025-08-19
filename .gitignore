@@ -1,19 +1,13 @@
-# Node / Firebase
+# Ignore videos
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Firebase + Node stuff
 node_modules/
-firebase-debug.log
 .firebase/
-.firebaserc.local
-.functions-*/        # temp dirs sometimes made by tooling
-# Firebase Functions
+firebase-debug.log
 functions/node_modules/
 functions/.env*
 functions/.runtimeconfig.json
-# Env / secrets
-.env
-.env.*.local
-*.secret.*
-serviceAccount*.json
-# OS/editor junk
-.DS_Store
-Thumbs.db
-*.log
