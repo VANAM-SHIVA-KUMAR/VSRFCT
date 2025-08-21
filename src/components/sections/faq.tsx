@@ -1,9 +1,13 @@
+"use client"
+
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import { useInView } from '@/hooks/use-in-view';
+import { cn } from "@/lib/utils";
 
 const faqs = [
   {
@@ -29,17 +33,35 @@ const faqs = [
 ]
 
 export default function Faq() {
+  const { ref, isInView } = useInView({ triggerOnce: true, threshold: 0.2 });
+
   return (
     <section id="faq" className="py-12 md:py-24 bg-card">
-      <div className="container mx-auto px-4">
+      <div
+        ref={ref}
+        className={cn(
+          "container mx-auto px-4 transition-opacity duration-700 ease-in",
+          isInView ? "opacity-100" : "opacity-0"
+        )}
+      >
         <div className="grid md:grid-cols-2 gap-10 items-center">
-          <div>
+          <div
+            className={cn(
+              "transition-all duration-700 ease-in-out",
+              isInView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
+            )}
+          >
             <h2 className="text-3xl md:text-5xl font-bold font-headline mb-4">Frequently Asked Questions</h2>
             <p className="text-lg text-muted-foreground">
               Find answers to common questions about our free tuition programme.
             </p>
           </div>
-          <div>
+          <div
+            className={cn(
+              "transition-all duration-700 ease-in-out delay-200",
+              isInView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"
+            )}
+          >
             <Accordion type="single" collapsible className="w-full">
               {faqs.map((faq, index) => (
                 <AccordionItem value={`item-${index}`} key={index}>

@@ -1,3 +1,5 @@
+"use client"
+
 import { Card, CardContent } from "@/components/ui/card"
 import {
   Carousel,
@@ -7,6 +9,8 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { useInView } from '@/hooks/use-in-view';
+import { cn } from "@/lib/utils";
 
 const testimonials = [
   {
@@ -36,9 +40,17 @@ const testimonials = [
 ];
 
 export default function Testimonials() {
+  const { ref, isInView } = useInView({ triggerOnce: true, threshold: 0.2 });
+
   return (
     <section id="testimonials" className="py-12 md:py-24 bg-background">
-      <div className="container mx-auto px-4">
+      <div
+        ref={ref}
+        className={cn(
+          "container mx-auto px-4 transition-opacity duration-700 ease-in",
+          isInView ? "opacity-100" : "opacity-0"
+        )}
+      >
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-bold font-headline">What People Are Saying</h2>
           <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
@@ -47,7 +59,10 @@ export default function Testimonials() {
         </div>
         <Carousel
           opts={{ align: "start", loop: true }}
-          className="w-full"
+          className={cn(
+            "w-full transition-all duration-700 ease-in-out",
+            isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+          )}
         >
           <CarouselContent>
             {testimonials.map((testimonial, index) => (
