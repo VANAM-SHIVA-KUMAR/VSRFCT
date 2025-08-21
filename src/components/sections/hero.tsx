@@ -7,7 +7,6 @@ import {
   CarouselItem,
   type CarouselApi,
 } from "@/components/ui/carousel"
-import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import { cn } from "@/lib/utils"
 
@@ -35,6 +34,7 @@ const slides = [
 export default function Hero() {
   const [api, setApi] = React.useState<CarouselApi>()
   const [current, setCurrent] = React.useState(0)
+  const [animationKey, setAnimationKey] = React.useState(0);
  
   React.useEffect(() => {
     if (!api) {
@@ -56,7 +56,8 @@ export default function Hero() {
     });
 
     api.on("select", () => {
-       setCurrent(api.selectedScrollSnap())
+       setCurrent(api.selectedScrollSnap());
+       setAnimationKey(prevKey => prevKey + 1);
     })
 
     return () => clearInterval(interval)
@@ -86,11 +87,11 @@ export default function Hero() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
                   <div className="absolute inset-0 flex flex-col items-center justify-end text-center text-white p-6 md:p-12">
-                    <div className="max-w-4xl mb-16">
-                      <h1 className="text-4xl md:text-6xl font-bold font-headline mb-4 text-shadow-lg animate-in fade-in-0 slide-in-from-bottom-10 duration-700">
+                    <div className="max-w-4xl mb-16" key={animationKey}>
+                      <h1 className="text-4xl md:text-6xl font-bold font-headline mb-4 text-shadow-lg animate-text-reveal">
                         {slide.title}
                       </h1>
-                      <p className="text-lg md:text-xl max-w-3xl mx-auto animate-in fade-in-0 slide-in-from-bottom-10 duration-700 delay-200">
+                      <p className="text-lg md:text-xl max-w-3xl mx-auto animate-fade-in-up animation-delay-500">
                         {slide.description}
                       </p>
                     </div>

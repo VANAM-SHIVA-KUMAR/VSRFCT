@@ -77,16 +77,41 @@ export default {
             height: '0',
           },
         },
+        'text-reveal': {
+          '0%': {
+            transform: 'translateY(100%)',
+            opacity: '0',
+          },
+          '100%': {
+            transform: 'translateY(0)',
+            opacity: '1',
+          },
+        },
+        'fade-in-up': {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(20px)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)',
+          },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+        'text-reveal': 'text-reveal 1s cubic-bezier(0.77, 0, 0.175, 1)',
+        'fade-in-up': 'fade-in-up 1s ease-out forwards',
       },
       textShadow: {
         sm: '0 1px 2px var(--tw-shadow-color)',
         DEFAULT: '0 2px 4px var(--tw-shadow-color)',
         lg: '0 8px 16px var(--tw-shadow-color)',
       },
+      animationDelay: {
+        '500': '500ms',
+      }
     },
   },
   plugins: [
@@ -100,6 +125,16 @@ export default {
         },
         { values: theme('textShadow') }
       )
+    },
+     function ({ matchUtilities, theme }) {
+      matchUtilities(
+        {
+          'animation-delay': (value) => ({
+            'animation-delay': value,
+          }),
+        },
+        { values: theme('animationDelay') }
+      );
     },
   ],
 } satisfies Config;
