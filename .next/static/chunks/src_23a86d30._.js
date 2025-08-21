@@ -961,7 +961,7 @@ const slides = [
         image: "/images/2016/IMG-20161028-WA0010.jpg",
         hint: "rural school children",
         title: "Physical and mental wellbeing is a top priority",
-        description: "We provide daily snacks like bananas and biscuits. Every Saturday is sports day, fostering a healthy and happy learning environment."
+        description: "We provide daily snacks like bananas and biscuits. Every Saturday is sports day, and every Friday includes moral stories and creative activities, fostering a healthy and happy learning environment."
     }
 ];
 function Hero() {
