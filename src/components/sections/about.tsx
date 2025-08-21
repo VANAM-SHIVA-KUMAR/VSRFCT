@@ -1,4 +1,7 @@
+"use client"
 import Image from 'next/image';
+import { useInView } from '@/hooks/use-in-view';
+import { cn } from "@/lib/utils";
 
 const founders = [
   {
@@ -25,6 +28,48 @@ const founders = [
   }
 ];
 
+function FounderSection({ founder, index }: { founder: typeof founders[0], index: number }) {
+  const { ref, isInView } = useInView({ triggerOnce: true, threshold: 0.2 });
+  const isEven = index % 2 === 0;
+
+  return (
+    <div ref={ref} className="grid md:grid-cols-12 gap-8 md:gap-12 items-center">
+      <div className={cn(
+        "md:col-span-4 transition-all duration-700 ease-in-out",
+        isEven ? 'md:order-1' : 'md:order-2',
+        isInView ? "opacity-100 translate-x-0" : (isEven ? "opacity-0 -translate-x-10" : "opacity-0 translate-x-10")
+      )}>
+        <Image
+          src={founder.image}
+          alt={`Portrait of ${founder.name}`}
+          data-ai-hint={founder.hint}
+          width={300}
+          height={500}
+          className="rounded-xl shadow-lg w-full"
+        />
+      </div>
+      <div className={cn(
+        "md:col-span-8 transition-all duration-700 ease-in-out delay-150",
+        isEven ? 'md:order-2' : 'md:order-1',
+        isInView ? "opacity-100 translate-x-0" : (isEven ? "opacity-0 translate-x-10" : "opacity-0 -translate-x-10")
+      )}>
+        <h3 className="text-3xl font-bold font-headline mb-4 text-primary">
+          {founder.name}
+        </h3>
+        <p className="text-lg text-muted-foreground mb-4">
+          <span className="font-semibold">{founder.title}</span>
+        </p>
+        {founder.bio.map((paragraph, pIndex) => (
+          <p key={pIndex} className="text-muted-foreground mb-4">
+            {paragraph}
+          </p>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+
 export default function About() {
   return (
     <section id="about" className="py-12 md:py-24 bg-card">
@@ -37,31 +82,7 @@ export default function About() {
         </div>
         <div className="space-y-16">
           {founders.map((founder, index) => (
-            <div key={index} className="grid md:grid-cols-12 gap-8 md:gap-12 items-center">
-              <div className={`md:col-span-4 ${index % 2 !== 0 ? 'md:order-2' : ''}`}>
-                <Image
-                  src={founder.image}
-                  alt={`Portrait of ${founder.name}`}
-                  data-ai-hint={founder.hint}
-                  width={300}
-                  height={500}
-                  className="rounded-xl shadow-lg w-full"
-                />
-              </div>
-              <div className="md:col-span-8">
-                <h3 className="text-3xl font-bold font-headline mb-4 text-primary">
-                  {founder.name}
-                </h3>
-                <p className="text-lg text-muted-foreground mb-4">
-                  <span className="font-semibold">{founder.title}</span>
-                </p>
-                {founder.bio.map((paragraph, pIndex) => (
-                  <p key={pIndex} className="text-muted-foreground mb-4">
-                    {paragraph}
-                  </p>
-                ))}
-              </div>
-            </div>
+            <FounderSection key={index} founder={founder} index={index} />
           ))}
         </div>
       </div>

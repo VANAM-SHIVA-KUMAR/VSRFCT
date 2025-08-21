@@ -1,5 +1,10 @@
+"use client"
+
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { CheckCircle, BookUser, Sparkles, Trophy } from 'lucide-react';
+import { useInView } from '@/hooks/use-in-view';
+import { cn } from "@/lib/utils";
+
 
 const subjectsByClass = [
   {
@@ -40,6 +45,9 @@ const weeklyActivities = [
 ]
 
 export default function Curriculum() {
+  const { ref: ref1, isInView: isInView1 } = useInView({ triggerOnce: true, threshold: 0.2 });
+  const { ref: ref2, isInView: isInView2 } = useInView({ triggerOnce: true, threshold: 0.2 });
+
   return (
     <section id="curriculum" className="py-12 md:py-24 bg-card">
       <div className="container mx-auto px-4">
@@ -49,27 +57,35 @@ export default function Curriculum() {
             We provide free, comprehensive tuition for the State Syllabus, empowering students from Government schools.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div ref={ref1} className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {subjectsByClass.map((item, index) => (
-            <Card key={index} className="flex flex-col">
-              <CardHeader className="flex flex-row items-center gap-4">
-                {item.icon}
-                <div >
-                    <CardTitle className="font-headline text-2xl text-primary">{item.classes}</CardTitle>
-                    <CardDescription>State Syllabus</CardDescription>
-                </div>
-              </CardHeader>
-              <CardContent className="flex-grow">
-                <ul className="space-y-2">
-                  {item.subjects.map((subject, pIndex) => (
-                    <li key={pIndex} className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 shrink-0" />
-                      <span>{subject}</span>
-                    </li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
+            <div
+              key={index}
+              className={cn(
+                "transition-all duration-700 ease-in-out",
+                isInView1 ? "opacity-100 translate-x-0" : (index % 2 === 0 ? "opacity-0 -translate-x-10" : "opacity-0 translate-x-10")
+              )}
+            >
+              <Card className="flex flex-col h-full">
+                <CardHeader className="flex flex-row items-center gap-4">
+                  {item.icon}
+                  <div >
+                      <CardTitle className="font-headline text-2xl text-primary">{item.classes}</CardTitle>
+                      <CardDescription>State Syllabus</CardDescription>
+                  </div>
+                </CardHeader>
+                <CardContent className="flex-grow">
+                  <ul className="space-y-2">
+                    {item.subjects.map((subject, pIndex) => (
+                      <li key={pIndex} className="flex items-start">
+                        <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 shrink-0" />
+                        <span>{subject}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+            </div>
           ))}
         </div>
 
@@ -80,27 +96,36 @@ export default function Curriculum() {
                 We believe in holistic development through engaging weekly activities.
             </p>
           </div>
-           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+           <div ref={ref2} className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {weeklyActivities.map((item, index) => (
-              <Card key={index} className="flex flex-col">
-                <CardHeader className="flex flex-row items-center gap-4">
-                  {item.icon}
-                  <div>
-                      <CardTitle className="font-headline text-2xl text-primary">{item.day}</CardTitle>
-                      <CardDescription>{item.description}</CardDescription>
-                  </div>
-                </CardHeader>
-                <CardContent className="flex-grow">
-                  <ul className="space-y-2">
-                    {item.activities.map((activity, pIndex) => (
-                      <li key={pIndex} className="flex items-start">
-                        <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 shrink-0" />
-                        <span>{activity}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </CardContent>
-              </Card>
+              <div
+                key={index}
+                className={cn(
+                  "transition-all duration-700 ease-in-out",
+                  isInView2 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                )}
+                style={{ transitionDelay: `${index * 100}ms` }}
+              >
+                <Card className="flex flex-col h-full">
+                  <CardHeader className="flex flex-row items-center gap-4">
+                    {item.icon}
+                    <div>
+                        <CardTitle className="font-headline text-2xl text-primary">{item.day}</CardTitle>
+                        <CardDescription>{item.description}</CardDescription>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="flex-grow">
+                    <ul className="space-y-2">
+                      {item.activities.map((activity, pIndex) => (
+                        <li key={pIndex} className="flex items-start">
+                          <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 shrink-0" />
+                          <span>{activity}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </CardContent>
+                </Card>
+              </div>
             ))}
           </div>
         </div>

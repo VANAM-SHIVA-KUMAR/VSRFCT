@@ -1,6 +1,10 @@
+"use client"
+
 import Header from '@/components/sections/header';
 import Footer from '@/components/sections/footer';
 import Image from 'next/image';
+import { useInView } from '@/hooks/use-in-view';
+import { cn } from "@/lib/utils";
 
 type GalleryItem = {
   type: 'image';
@@ -131,19 +135,29 @@ const galleries: AcademicYearGallery[] = [
   },
 ];
 
-const GalleryItemComponent = ({ item, year }: { item: GalleryItem, year: string }) => {
+const AnimatedGalleryItem = ({ item, year, index }: { item: GalleryItem, year: string, index: number }) => {
+  const { ref, isInView } = useInView({ triggerOnce: true, threshold: 0.1 });
   const commonClasses = "w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500";
   
   return (
-    <div className="relative">
-      <Image
-        src={item.src}
-        alt={`${item.alt} - ${year}`}
-        data-ai-hint={item.hint}
-        width={600}
-        height={400}
-        className={commonClasses}
-      />
+    <div
+      ref={ref}
+      className={cn(
+        "overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-500 ease-in-out",
+        isInView ? "opacity-100 scale-100" : "opacity-0 scale-95"
+      )}
+      style={{ transitionDelay: `${(index % 3) * 100}ms` }}
+    >
+      <div className="relative">
+        <Image
+          src={item.src}
+          alt={`${item.alt} - ${year}`}
+          data-ai-hint={item.hint}
+          width={600}
+          height={400}
+          className={commonClasses}
+        />
+      </div>
     </div>
   );
 };
@@ -191,9 +205,7 @@ export default function GalleryPage() {
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                   {items.map((item, index) => (
-                    <div key={index} className="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                      <GalleryItemComponent item={item} year={year} />
-                    </div>
+                    <AnimatedGalleryItem key={index} item={item} year={year} index={index} />
                   ))}
                 </div>
               </section>

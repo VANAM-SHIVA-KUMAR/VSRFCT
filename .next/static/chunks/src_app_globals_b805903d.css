@@ -906,6 +906,18 @@ section, .container {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.scale-100 {
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-95 {
+  --tw-scale-x: .95;
+  --tw-scale-y: .95;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -1801,6 +1813,10 @@ section, .container {
   transition-delay: .2s;
 }
 
+.delay-150 {
+  transition-delay: .15s;
+}
+
 .duration-200 {
   transition-duration: .2s;
 }
@@ -1879,6 +1895,10 @@ section, .container {
 
 .delay-200 {
   animation-delay: .2s;
+}
+
+.delay-150 {
+  animation-delay: .15s;
 }
 
 .ease-in-out {
@@ -2511,6 +2531,10 @@ section, .container {
 @media (width >= 768px) {
   .md\:order-2 {
     order: 2;
+  }
+
+  .md\:order-1 {
+    order: 1;
   }
 
   .md\:col-span-1 {

@@ -1,5 +1,9 @@
+"use client"
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar } from "lucide-react";
+import { useInView } from '@/hooks/use-in-view';
+import { cn } from "@/lib/utils";
 
 const historyData = [
     {
@@ -71,9 +75,38 @@ const historyData = [
     }
 ];
 
+function HistoryItem({ item }: { item: typeof historyData[0] }) {
+    const { ref, isInView } = useInView({ triggerOnce: true, threshold: 0.2 });
+
+    return (
+        <div ref={ref} className="relative">
+            <div className="absolute left-9 top-2 -translate-x-1/2 w-6 h-6 bg-primary rounded-full flex items-center justify-center">
+                <Calendar className="h-4 w-4 text-primary-foreground" />
+            </div>
+            <div className={cn(
+                "ml-16 transition-all duration-700 ease-in-out",
+                isInView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"
+            )}>
+                <Card>
+                    <CardHeader>
+                        <CardTitle className="font-headline text-3xl text-primary">{item.year}</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                        <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                            {item.details.map((detail, dIndex) => (
+                                <li key={dIndex}>{detail}</li>
+                            ))}
+                        </ul>
+                    </CardContent>
+                </Card>
+            </div>
+        </div>
+    )
+}
+
 export default function History() {
   return (
-    <section id="history" className="py-12 md:py-24 bg-card">
+    <section id="history" className="py-12 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-bold font-headline">Our History</h2>
@@ -85,25 +118,7 @@ export default function History() {
           <div className="absolute left-9 top-0 h-full w-0.5 bg-border -translate-x-1/2"></div>
           <div className="space-y-12">
             {historyData.map((item, index) => (
-              <div key={index} className="relative">
-                <div className="absolute left-9 top-2 -translate-x-1/2 w-6 h-6 bg-primary rounded-full flex items-center justify-center">
-                   <Calendar className="h-4 w-4 text-primary-foreground" />
-                </div>
-                <div className="ml-16">
-                   <Card>
-                        <CardHeader>
-                            <CardTitle className="font-headline text-3xl text-primary">{item.year}</CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                            <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-                                {item.details.map((detail, dIndex) => (
-                                    <li key={dIndex}>{detail}</li>
-                                ))}
-                            </ul>
-                        </CardContent>
-                    </Card>
-                </div>
-              </div>
+              <HistoryItem key={index} item={item} />
             ))}
           </div>
         </div>

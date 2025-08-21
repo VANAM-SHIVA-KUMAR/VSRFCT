@@ -1,5 +1,10 @@
+"use client"
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { useInView } from '@/hooks/use-in-view';
+import { cn } from "@/lib/utils";
+
 
 const teamMembers = [
   { name: "Valli", role: "Staff Lead", image: "https://placehold.co/100x100.png", hint: "smiling female teacher" },
@@ -17,6 +22,8 @@ const teamMembers = [
 ];
 
 export default function Team() {
+  const { ref, isInView } = useInView({ triggerOnce: true, threshold: 0.1 });
+  
   return (
     <section id="team" className="py-12 md:py-24 bg-background">
       <div className="container mx-auto px-4">
@@ -26,18 +33,27 @@ export default function Team() {
             The dedicated individuals who make our mission possible.
           </p>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 md:gap-8">
+        <div ref={ref} className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 md:gap-8">
           {teamMembers.map((member, index) => (
-            <Card key={index} className="text-center p-4 hover:shadow-lg transition-shadow duration-300">
-              <CardContent className="flex flex-col items-center">
-                <Avatar className="h-24 w-24 mb-4">
-                  <AvatarImage src={member.image} alt={member.name} data-ai-hint={member.hint} />
-                  <AvatarFallback>{member.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
-                </Avatar>
-                <p className="font-semibold font-headline text-lg">{member.name}</p>
-                <p className="text-sm text-muted-foreground">{member.role}</p>
-              </CardContent>
-            </Card>
+            <div
+              key={index}
+              className={cn(
+                "transition-all duration-500 ease-in-out",
+                isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+              )}
+              style={{ transitionDelay: `${index * 50}ms` }}
+            >
+              <Card className="text-center p-4 hover:shadow-lg transition-shadow duration-300 h-full">
+                <CardContent className="flex flex-col items-center">
+                  <Avatar className="h-24 w-24 mb-4">
+                    <AvatarImage src={member.image} alt={member.name} data-ai-hint={member.hint} />
+                    <AvatarFallback>{member.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
+                  </Avatar>
+                  <p className="font-semibold font-headline text-lg">{member.name}</p>
+                  <p className="text-sm text-muted-foreground">{member.role}</p>
+                </CardContent>
+              </Card>
+            </div>
           ))}
         </div>
       </div>
