@@ -1,6 +1,8 @@
+
 "use client"
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
+import { useInView } from '@/hooks/use-in-view';
 
 const stats = [
   { value: 10, label: "Years of Experience", suffix: "+" },
@@ -43,36 +45,10 @@ function Counter({ to, duration = 2000, suffix = '' }: { to: number; duration?: 
 }
 
 export default function Stats() {
-  const [isInView, setIsInView] = useState(false);
-  const sectionRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsInView(true);
-          observer.disconnect();
-        }
-      },
-      {
-        threshold: 0.1,
-      }
-    );
-
-    const currentRef = sectionRef.current;
-    if (currentRef) {
-      observer.observe(currentRef);
-    }
-
-    return () => {
-      if (currentRef) {
-        observer.unobserve(currentRef);
-      }
-    };
-  }, []);
+  const { ref, isInView } = useInView({ triggerOnce: true });
 
   return (
-    <section ref={sectionRef} className="py-12 md:py-24 bg-card">
+    <section ref={ref} className="py-12 md:py-24 bg-card">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {stats.map((stat, index) => (
