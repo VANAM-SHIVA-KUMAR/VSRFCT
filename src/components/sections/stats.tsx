@@ -8,7 +8,7 @@ const stats = [
   { value: 10, label: "Years of Experience", suffix: "+" },
   { value: 10, label: "Classes Covered", suffix: "" },
   { value: 100, label: "Students Passed", suffix: "%" },
-  { value: 1500, label: "Happy Students", suffix: "+" },
+  { value: 750, label: "Happy Students", suffix: "+" },
 ]
 
 function Counter({ to, duration = 2000, suffix = '' }: { to: number; duration?: number; suffix?: string }) {

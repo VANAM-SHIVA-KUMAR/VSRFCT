@@ -1166,15 +1166,15 @@ const galleries = [
             },
             {
                 type: "image",
-                src: "/images/2023/20240330_180106.jpg",
-                alt: "Republic Day parade",
-                hint: "republic day school"
-            },
-            {
-                type: "image",
                 src: "/images/2023/20240330_175427.jpg",
                 alt: "Students receiving prizes",
                 hint: "student awards"
+            },
+            {
+                type: "image",
+                src: "/images/2023/20240330_180106.jpg",
+                alt: "Republic Day parade",
+                hint: "republic day school"
             }
         ]
     },

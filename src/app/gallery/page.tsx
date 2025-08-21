@@ -44,8 +44,8 @@ const galleries: AcademicYearGallery[] = [
     items: [
       { type: "image", src: "/images/2023/IMG_20231001_072145__01.jpg", alt: "Annual day celebration 2024", hint: "school event 2024" },
       { type: "image", src: "/images/2023/IMG_20231001_074620.jpg", alt: "Highlights from Sports Day 2024", hint: "students sports 2024" },
-      { type: "image", src: "/images/2023/20240330_180106.jpg", alt: "Republic Day parade", hint: "republic day school" },
       { type: "image", src: "/images/2023/20240330_175427.jpg", alt: "Students receiving prizes", hint: "student awards" },
+      { type: "image", src: "/images/2023/20240330_180106.jpg", alt: "Republic Day parade", hint: "republic day school" },
     ],
   },
   {

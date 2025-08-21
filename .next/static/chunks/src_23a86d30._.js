@@ -1223,7 +1223,7 @@ const stats = [
         suffix: "%"
     },
     {
-        value: 1500,
+        value: 750,
         label: "Happy Students",
         suffix: "+"
     }
