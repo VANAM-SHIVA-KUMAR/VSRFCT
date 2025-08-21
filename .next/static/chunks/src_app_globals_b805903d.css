@@ -568,6 +568,10 @@ section, .container {
   margin-top: 2rem;
 }
 
+.mb-2 {
+  margin-bottom: .5rem;
+}
+
 .block {
   display: block;
 }
@@ -680,6 +684,10 @@ section, .container {
   height: 1px;
 }
 
+.h-64 {
+  height: 16rem;
+}
+
 .max-h-96 {
   max-height: 24rem;
 }
@@ -784,6 +792,10 @@ section, .container {
   width: 100%;
 }
 
+.w-12 {
+  width: 3rem;
+}
+
 .min-w-0 {
   min-width: 0;
 }
@@ -810,6 +822,10 @@ section, .container {
 
 .max-w-lg {
   max-width: 32rem;
+}
+
+.max-w-\[80\%\] {
+  max-width: 80%;
 }
 
 .flex-1 {
@@ -902,6 +918,16 @@ section, .container {
 
 .animate-pulse {
   animation: 2s cubic-bezier(.4, 0, .6, 1) infinite pulse;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: 1s linear infinite spin;
 }
 
 .cursor-default {
@@ -1004,6 +1030,10 @@ section, .container {
   gap: 2rem;
 }
 
+.gap-3 {
+  gap: .75rem;
+}
+
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(.25rem * var(--tw-space-x-reverse));
@@ -1076,6 +1106,10 @@ section, .container {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
 }
 
 .whitespace-nowrap {
@@ -1259,6 +1293,10 @@ section, .container {
   background-color: #ffffff80;
 }
 
+.bg-muted-foreground {
+  background-color: hsl(var(--muted-foreground));
+}
+
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
@@ -1312,6 +1350,10 @@ section, .container {
 
 .p-\[1px\] {
   padding: 1px;
+}
+
+.p-2 {
+  padding: .5rem;
 }
 
 .px-2 {
@@ -1436,6 +1478,10 @@ section, .container {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .text-left {
@@ -1620,6 +1666,10 @@ section, .container {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-background {
+  color: hsl(var(--background));
 }
 
 .underline-offset-4 {
