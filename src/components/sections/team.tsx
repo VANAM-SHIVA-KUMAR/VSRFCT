@@ -7,18 +7,16 @@ import { cn } from "@/lib/utils";
 
 
 const teamMembers = [
-  { name: "Valli", role: "Staff Lead", image: "https://placehold.co/100x100.png", hint: "smiling female teacher" },
-  { name: "Sailaja", role: "Primary Classes Teacher", image: "https://placehold.co/100x100.png", hint: "professional male teacher" },
-  { name: "Anand", role: "Maths Teacher", image: "https://placehold.co/100x100.png", hint: "female teacher portrait" },
-  { name: "Vishnu", role: "Social Studies Expert", image: "https://placehold.co/100x100.png", hint: "male teacher smiling" },
-  { name: "Akhilesh", role: "Science Coordinator", image: "https://placehold.co/100x100.png", hint: "friendly female teacher" },
-  { name: "Shiva Kumar", role: "English Teacher", image: "https://placehold.co/100x100.png", hint: "male teacher glasses" },
-  { name: "Jyothi", role: "Activity Coordinator", image: "https://placehold.co/100x100.png", hint: "energetic female teacher" },
-  { name: "Annapurna", role: "Telugu Teacher", image: "https://placehold.co/100x100.png", hint: "traditional male teacher" },
-  { name: "Geeta ", role: "Support Staff", image: "https://placehold.co/100x100.png", hint: "helpful female staff" },
-  { name: "Suresh ", role: "Administrator", image: "https://placehold.co/100x100.png", hint: "professional male administrator" },
-  { name: "Neha", role: "Volunteer Coordinator", image: "https://placehold.co/100x100.png", hint: "young female volunteer" },
-  { name: "Rajesh ", role: "IT Support", image: "https://placehold.co/100x100.png", hint: "male IT professional" },
+  { name: "Valli", role: "Staff Lead", image: "/images/Team/Valli.jpg", hint: "smiling female teacher" },
+  { name: "Sailaja", role: "Primary Classes Teacher", image: "/images/Team/Sailaja.JPG", hint: "professional male teacher" },
+  { name: "Anand", role: "Higher Secondary Educator", image: "/images/Team/Anadh.jpg", hint: "female teacher portrait" },
+  { name: "Vishnu", role: "Higher Secondary Educator", image: "/images/Team/Vishnu.JPG", hint: "male teacher smiling" },
+  { name: "Akhilesh", role: "Physical Education Teacher", image: "/images/Team/Akhilesh.JPG", hint: "friendly female teacher" },
+  { name: "Usha Rani ", role: "Moral and Ethics Educator", image: "/images/Team/Usha.JPG", hint: "helpful female staff" },
+  { name: "Annapurna", role: "Pre-School Teacher", image: "/images/Team/Annapurna.JPG", hint: "traditional male teacher" },
+  { name: "Padma", role: "Pre-School Teacher", image: "/images/Team/Padma.jpeg", hint: "professional male administrator" },
+  { name: "Shiva Kumar", role: "Higher Secondary Educator", image: "/images/Team/Shiva.JPG", hint: "male teacher glasses" },
+  { name: "Jyothi", role: "Higher Secondary Educator", image: "/images/Team/Jyothi.JPG", hint: "energetic female teacher" },
 ];
 
 export default function Team() {
