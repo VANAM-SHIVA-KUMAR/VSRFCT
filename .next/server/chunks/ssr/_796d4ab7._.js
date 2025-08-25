@@ -53,8 +53,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$t
 ;
 ;
 const metadata = {
-    title: 'VSRFCT Tuition Centre – A Free Learning Initiative by V.S. Raju Family Charitable Trust',
-    description: 'VSRFCT Tuition Centre offers free, quality education for Government School children (State Syllabus, Classes 1–10). A non-profit initiative by the V.S. Raju Family Charitable Trust.',
+    title: 'VSRFCT – A Free Learning Initiative by V.S. Raju Family Charitable Trust',
+    description: 'VSRFCT offers free, quality education for Government School children (State Syllabus, Classes 1–10). A non-profit initiative by the V.S. Raju Family Charitable Trust.',
     keywords: [
         'free tuition',
         'tuition centre',

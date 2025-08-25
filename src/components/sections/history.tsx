@@ -111,7 +111,7 @@ export default function History() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-bold font-headline">Our History</h2>
           <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
-            VSRFCT Tuition Centre, founded in January 2015, provides educational support and various extracurricular activities for students in a disciplined and holistic environment.
+            VSRFCT, founded in January 2015, provides educational support and various extracurricular activities for students in a disciplined and holistic environment.
           </p>
         </div>
         <div className="relative pl-6">
