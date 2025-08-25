@@ -1,5 +1,5 @@
 import { Logo } from '@/components/logo';
-import { Phone, Clock, MapPin } from 'lucide-react';
+import { Clock, MapPin } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -76,10 +76,6 @@ export default function Footer() {
           <div>
             <h3 className="font-headline font-semibold tracking-wider uppercase">Contact Us</h3>
             <ul className="mt-4 space-y-2 text-muted-foreground">
-              <li className="flex items-center space-x-2">
-                <Phone className="h-5 w-5 text-primary shrink-0" />
-                <a href="tel:+919866176486" className="hover:text-primary font-semibold text-lg">+91 9866176486</a>
-              </li>
               <li className="flex items-start space-x-2 mt-2">
                 <Clock className="h-5 w-5 text-primary shrink-0 mt-1" />
                 <div>

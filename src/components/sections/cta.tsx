@@ -22,7 +22,7 @@ export default function Cta() {
           </p>
            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button size="lg" variant="secondary" className="bg-accent text-accent-foreground hover:bg-accent/90" asChild>
-                <a href="https://wa.me/919866176486" target="_blank" rel="noopener noreferrer">Enroll Now</a>
+                <Link href="#faq">Enroll Now</Link>
               </Button>
               <Button size="lg" variant="outline" className="bg-transparent text-primary-foreground border-primary-foreground hover:bg-primary-foreground hover:text-primary" asChild>
                 <Link href="/gallery">Learn More</Link>
