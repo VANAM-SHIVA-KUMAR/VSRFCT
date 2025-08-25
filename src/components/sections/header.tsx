@@ -31,9 +31,7 @@ export default function Header() {
           ))}
         </nav>
         <div className="hidden md:flex items-center space-x-4">
-          <Button asChild>
-            <a href="/#contact">Contact Us</a>
-          </Button>
+          
         </div>
         <div className="md:hidden">
           <Sheet open={isMenuOpen} onOpenChange={setIsMenuOpen}>
@@ -59,7 +57,7 @@ export default function Header() {
                     </Link>
                   ))}
                   <Button asChild size="lg" className="w-4/5">
-                     <a href="/#contact" onClick={() => setIsMenuOpen(false)}>Contact Us</a>
+                     <Link href="/#contact" onClick={() => setIsMenuOpen(false)}>Contact Us</Link>
                   </Button>
                 </nav>
               </div>
