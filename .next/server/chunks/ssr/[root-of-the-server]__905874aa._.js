@@ -804,8 +804,8 @@ const slides = [
     {
         image: "/images/2019/IMG-20200129-WA0023.jpg",
         hint: "students classroom india",
-        title: "Fostering Knowledge and Empowering Women",
-        description: "Our mission is to provide a nurturing environment that uplifts and empowers women and children to achieve their full potential."
+        title: "Empowering Women, Uplifting Communities",
+        description: "Our mission is to foster a supportive learning environment that empowers both women and children to unlock their full potential and build brighter futures."
     },
     {
         image: "/images/2016/IMG-20161028-WA0010.jpg",
