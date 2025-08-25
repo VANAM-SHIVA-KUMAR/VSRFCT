@@ -20,8 +20,8 @@ const slides = [
   {
     image: "/images/2019/IMG-20200129-WA0023.jpg",
     hint: "students classroom india",
-    title: "Empowering Young Minds Through Knowledge",
-    description: "Our mission is to provide a nurturing environment where every child can learn, grow, and achieve their full potential."
+    title: "Fostering Knowledge and Empowering Women",
+    description: "Our mission is to provide a nurturing environment that uplifts and empowers women and children to achieve their full potential."
   },
   {
     image: "/images/2016/IMG-20161028-WA0010.jpg",
