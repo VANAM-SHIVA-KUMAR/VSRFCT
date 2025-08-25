@@ -18,7 +18,7 @@ const footerLinks = {
 };
 
 export default function Footer() {
-  const gmapsUrl = "https://www.google.com/maps/search/?api=1&query=C9M9%2B39+Hyderabad,+Telangana";
+  const gmapsUrl = "https://www.google.com/maps/search/?api=1&query=Sai+krupa+enclave,+Telecom+nagar,+Hyderabad+500032";
   const youtubeUrl = "https://www.youtube.com/@vsrfct";
   return (
     <footer className="bg-card text-card-foreground border-t">
@@ -94,7 +94,7 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     className="hover:text-primary"
                   >
-                    13, Sri Shyam Nagar, Telecom Nagar Extension, Gachibowli, Hyderabad, Telangana 500032.
+                    Sai krupa enclave, Telecom nagar, Hyderabad 500032
                   </a>
                 </div>
               </li>
