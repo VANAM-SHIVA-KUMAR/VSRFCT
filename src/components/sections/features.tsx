@@ -41,7 +41,7 @@ export default function Features() {
         )}
       >
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold font-headline">Why VSRFCT?</h2>
+          <h2 className="text-3xl md:text-5xl font-bold font-headline">We Provide</h2>
           <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
             Discover what makes our free tuition centre a special place for learning and growth.
           </p>
