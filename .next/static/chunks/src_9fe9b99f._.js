@@ -9,7 +9,7 @@ __turbopack_context__.s({
     "Logo": (()=>Logo)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/graduation-cap.js [app-client] (ecmascript) <export default as GraduationCap>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 ;
 ;
 function Logo() {
@@ -17,35 +17,30 @@ function Logo() {
         href: "/",
         className: "flex items-center space-x-2",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$graduation$2d$cap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__GraduationCap$3e$__["GraduationCap"], {
-                className: "h-10 w-10 text-primary"
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                src: "/images/logo.jpeg",
+                alt: "VSRFCT Logo",
+                width: 40,
+                height: 40,
+                className: "h-10 w-10 rounded-full",
+                "data-ai-hint": "logo"
             }, void 0, false, {
                 fileName: "[project]/src/components/logo.tsx",
                 lineNumber: 6,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-2xl font-bold font-headline text-foreground",
-                        children: "VSRFCT Tuition Centre"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/logo.tsx",
-                        lineNumber: 8,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-xs text-muted-foreground font-medium",
-                        children: "VS Raju Family Charitable Trust"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/logo.tsx",
-                        lineNumber: 11,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "text-sm text-muted-foreground font-medium",
+                    children: "VS Raju Family Charitable Trust"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/logo.tsx",
+                    lineNumber: 15,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
                 fileName: "[project]/src/components/logo.tsx",
-                lineNumber: 7,
+                lineNumber: 14,
                 columnNumber: 7
             }, this)
         ]
@@ -312,7 +307,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$b
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$sheet$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/sheet.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/menu.js [app-client] (ecmascript) <export default as Menu>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/x.js [app-client] (ecmascript) <export default as X>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/phone.js [app-client] (ecmascript) <export default as Phone>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
@@ -379,49 +373,8 @@ function Header() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "hidden md:flex items-center space-x-4",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "tel:+919866176486",
-                            className: "flex items-center space-x-2 text-primary font-semibold hover:text-primary/80",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
-                                    className: "h-5 w-5"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/sections/header.tsx",
-                                    lineNumber: 35,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    children: "+91 9866176486"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/sections/header.tsx",
-                                    lineNumber: 36,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/components/sections/header.tsx",
-                            lineNumber: 34,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
-                            asChild: true,
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "/#contact",
-                                children: "Contact Us"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/sections/header.tsx",
-                                lineNumber: 39,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/sections/header.tsx",
-                            lineNumber: 38,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
+                    className: "hidden md:flex items-center space-x-4"
+                }, void 0, false, {
                     fileName: "[project]/src/components/sections/header.tsx",
                     lineNumber: 33,
                     columnNumber: 9
@@ -442,7 +395,7 @@ function Header() {
                                             className: "h-6 w-6"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/header.tsx",
-                                            lineNumber: 46,
+                                            lineNumber: 40,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -450,18 +403,18 @@ function Header() {
                                             children: "Open menu"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/header.tsx",
-                                            lineNumber: 47,
+                                            lineNumber: 41,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/sections/header.tsx",
-                                    lineNumber: 45,
+                                    lineNumber: 39,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/header.tsx",
-                                lineNumber: 44,
+                                lineNumber: 38,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$sheet$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SheetContent"], {
@@ -475,7 +428,7 @@ function Header() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$logo$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Logo"], {}, void 0, false, {
                                                     fileName: "[project]/src/components/sections/header.tsx",
-                                                    lineNumber: 53,
+                                                    lineNumber: 47,
                                                     columnNumber: 20
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -487,7 +440,7 @@ function Header() {
                                                             className: "h-6 w-6"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/header.tsx",
-                                                            lineNumber: 55,
+                                                            lineNumber: 49,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -495,19 +448,19 @@ function Header() {
                                                             children: "Close menu"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/header.tsx",
-                                                            lineNumber: 56,
+                                                            lineNumber: 50,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/sections/header.tsx",
-                                                    lineNumber: 54,
+                                                    lineNumber: 48,
                                                     columnNumber: 20
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/sections/header.tsx",
-                                            lineNumber: 52,
+                                            lineNumber: 46,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -520,77 +473,53 @@ function Header() {
                                                         children: link.name
                                                     }, link.name, false, {
                                                         fileName: "[project]/src/components/sections/header.tsx",
-                                                        lineNumber: 61,
+                                                        lineNumber: 55,
                                                         columnNumber: 21
                                                     }, this)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                                     asChild: true,
                                                     size: "lg",
                                                     className: "w-4/5",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                         href: "/#contact",
                                                         onClick: ()=>setIsMenuOpen(false),
                                                         children: "Contact Us"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/header.tsx",
-                                                        lineNumber: 66,
+                                                        lineNumber: 60,
                                                         columnNumber: 22
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/header.tsx",
-                                                    lineNumber: 65,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                    href: "tel:+919866176486",
-                                                    className: "flex items-center space-x-2 text-primary font-semibold text-xl mt-4",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
-                                                            className: "h-6 w-6"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/sections/header.tsx",
-                                                            lineNumber: 69,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            children: "+91 9866176486"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/sections/header.tsx",
-                                                            lineNumber: 70,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/components/sections/header.tsx",
-                                                    lineNumber: 68,
+                                                    lineNumber: 59,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/sections/header.tsx",
-                                            lineNumber: 59,
+                                            lineNumber: 53,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/sections/header.tsx",
-                                    lineNumber: 51,
+                                    lineNumber: 45,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/header.tsx",
-                                lineNumber: 50,
+                                lineNumber: 44,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/sections/header.tsx",
-                        lineNumber: 43,
+                        lineNumber: 37,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/sections/header.tsx",
-                    lineNumber: 42,
+                    lineNumber: 36,
                     columnNumber: 9
                 }, this)
             ]
@@ -623,7 +552,6 @@ __turbopack_context__.s({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$logo$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/logo.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/phone.js [app-client] (ecmascript) <export default as Phone>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/clock.js [app-client] (ecmascript) <export default as Clock>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/map-pin.js [app-client] (ecmascript) <export default as MapPin>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
@@ -668,7 +596,7 @@ const footerLinks = {
     ]
 };
 function Footer() {
-    const gmapsUrl = "https://www.google.com/maps/search/?api=1&query=C9M9%2B39+Hyderabad,+Telangana";
+    const gmapsUrl = "https://www.google.com/maps/search/?api=1&query=Sai+krupa+enclave,+Telecom+nagar,+Hyderabad+500032";
     const youtubeUrl = "https://www.youtube.com/@vsrfct";
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
         className: "bg-card text-card-foreground border-t",
@@ -845,20 +773,41 @@ function Footer() {
                                     className: "mt-4 space-y-2 text-muted-foreground",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            className: "flex items-center space-x-2",
+                                            className: "flex items-start space-x-2 mt-2",
                                             children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
-                                                    className: "h-5 w-5 text-primary shrink-0"
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"], {
+                                                    className: "h-5 w-5 text-primary shrink-0 mt-1"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/footer.tsx",
                                                     lineNumber: 80,
                                                     columnNumber: 17
                                                 }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                    href: "tel:+919866176486",
-                                                    className: "hover:text-primary font-semibold text-lg",
-                                                    children: "+91 9866176486"
-                                                }, void 0, false, {
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "font-bold",
+                                                            children: "Opening Hours:"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/sections/footer.tsx",
+                                                            lineNumber: 82,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            children: "Monday - Saturday: 4.30pm–8.00pm"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/sections/footer.tsx",
+                                                            lineNumber: 83,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            children: "Sunday: Closed"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/sections/footer.tsx",
+                                                            lineNumber: 84,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "[project]/src/components/sections/footer.tsx",
                                                     lineNumber: 81,
                                                     columnNumber: 17
@@ -872,57 +821,11 @@ function Footer() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             className: "flex items-start space-x-2 mt-2",
                                             children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"], {
-                                                    className: "h-5 w-5 text-primary shrink-0 mt-1"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/sections/footer.tsx",
-                                                    lineNumber: 84,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "font-bold",
-                                                            children: "Opening Hours:"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/sections/footer.tsx",
-                                                            lineNumber: 86,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            children: "Monday - Saturday: 4.30pm–8.00pm"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/sections/footer.tsx",
-                                                            lineNumber: 87,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            children: "Sunday: Closed"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/sections/footer.tsx",
-                                                            lineNumber: 88,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/components/sections/footer.tsx",
-                                                    lineNumber: 85,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/sections/footer.tsx",
-                                            lineNumber: 83,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            className: "flex items-start space-x-2 mt-2",
-                                            children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
                                                     className: "h-5 w-5 text-primary shrink-0 mt-1"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/footer.tsx",
-                                                    lineNumber: 92,
+                                                    lineNumber: 88,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -932,7 +835,7 @@ function Footer() {
                                                             children: "Address:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/footer.tsx",
-                                                            lineNumber: 94,
+                                                            lineNumber: 90,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -940,22 +843,22 @@ function Footer() {
                                                             target: "_blank",
                                                             rel: "noopener noreferrer",
                                                             className: "hover:text-primary",
-                                                            children: "13, Sri Shyam Nagar, Telecom Nagar Extension, Gachibowli, Hyderabad, Telangana 500032."
+                                                            children: "Sai krupa enclave, Telecom nagar, Hyderabad 500032"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/footer.tsx",
-                                                            lineNumber: 95,
+                                                            lineNumber: 91,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/sections/footer.tsx",
-                                                    lineNumber: 93,
+                                                    lineNumber: 89,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/sections/footer.tsx",
-                                            lineNumber: 91,
+                                            lineNumber: 87,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -978,12 +881,12 @@ function Footer() {
                                         className: "rounded-md shadow-md hover:shadow-lg transition-shadow"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/footer.tsx",
-                                        lineNumber: 107,
+                                        lineNumber: 103,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
-                                    lineNumber: 106,
+                                    lineNumber: 102,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -1008,12 +911,12 @@ function Footer() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/sections/footer.tsx",
-                        lineNumber: 119,
+                        lineNumber: 115,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/sections/footer.tsx",
-                    lineNumber: 118,
+                    lineNumber: 114,
                     columnNumber: 9
                 }, this)
             ]
@@ -1120,25 +1023,25 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "/images/2025/1.jpeg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Future class of 2026",
                 hint: "students future classroom"
             },
             {
                 type: "image",
-                src: "/images/2025/2.jpeg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Innovative learning tools",
                 hint: "educational technology"
             },
             {
                 type: "image",
-                src: "/images/2025/3.jpeg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Student aspirations for the future",
                 hint: "student goals"
             },
             {
                 type: "image",
-                src: "/images/2025/4.jpeg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Community projects planning",
                 hint: "community outreach"
             }
@@ -1149,37 +1052,37 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "/images/2024/18f2cf62-6c49-4cf6-aa51-01448a0105be.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Current students in a workshop",
                 hint: "students workshop"
             },
             {
                 type: "image",
-                src: "/images/2024/78ba84c9-d793-4baa-97ed-481ce8bfeb16.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "A message from our current students",
                 hint: "student message"
             },
             {
                 type: "image",
-                src: "/images/2024/8220f4ad-5bf6-4ca8-a89d-f4a02b3f5973.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Science experiments in action",
                 hint: "science experiments"
             },
             {
                 type: "image",
-                src: "/images/2024/d78261f4-c25d-470f-bbb8-8c6037217460.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Library and reading time",
                 hint: "children reading"
             },
             {
                 type: "image",
-                src: "/images/2024/IMG_20241202_171516.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Guest speaker event",
                 hint: "guest speaker"
             },
             {
                 type: "image",
-                src: "/images/2024/IMG_20241202_190510.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Guest speaker event",
                 hint: "guest speaker"
             }
@@ -1190,25 +1093,25 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "/images/2023/IMG_20231001_072145__01.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Annual day celebration 2024",
                 hint: "school event 2024"
             },
             {
                 type: "image",
-                src: "/images/2023/IMG_20231001_074620.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Highlights from Sports Day 2024",
                 hint: "students sports 2024"
             },
             {
                 type: "image",
-                src: "/images/2023/20240330_175427.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Students receiving prizes",
                 hint: "student awards"
             },
             {
                 type: "image",
-                src: "/images/2023/20240330_180106.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Republic Day parade",
                 hint: "republic day school"
             }
@@ -1219,37 +1122,37 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "/images/2022/20180314_201541.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Classroom group photo 2023",
                 hint: "classroom photo 2023"
             },
             {
                 type: "image",
-                src: "/images/2022/20190420_153840.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Mathematics Olympiad winners",
                 hint: "math competition"
             },
             {
                 type: "image",
-                src: "/images/2022/20190812_165552.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Science Fair projects showcase",
                 hint: "science fair"
             },
             {
                 type: "image",
-                src: "/images/2022/20190812_171815.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Field trip to a museum",
                 hint: "school field trip"
             },
             {
                 type: "image",
-                src: "/images/2022/20190812_172601.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Plantation drive",
                 hint: "school environment day"
             },
             {
                 type: "image",
-                src: "/images/2022/20190812_173347.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Interactive learning session",
                 hint: "interactive learning"
             }
@@ -1260,31 +1163,31 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "/images/2021/20210711_180804.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Students with their home projects",
                 hint: "student projects home"
             },
             {
                 type: "image",
-                src: "/images/2021/20220105_170215.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Online quiz competition",
                 hint: "online quiz"
             },
             {
                 type: "image",
-                src: "/images/2021/20220105_183759.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Teachers conducting online sessions",
                 hint: "teacher online class"
             },
             {
                 type: "image",
-                src: "/images/2021/20220105_190134.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Celebrating festivals virtually",
                 hint: "virtual celebration"
             },
             {
                 type: "image",
-                src: "/images/2021/20220105_192108.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "A return to the classroom",
                 hint: "students back school"
             }
@@ -1295,19 +1198,19 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "/images/2020/IMG-20190420-WA0020.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Early days of online learning",
                 hint: "remote learning setup"
             },
             {
                 type: "image",
-                src: "/images/2020/IMG-20200212-WA0021.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Distributing study materials",
                 hint: "education support"
             },
             {
                 type: "image",
-                src: "/images/2020/IMG-20200212-WA0028.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Parents meeting online",
                 hint: "parent teacher online"
             }
@@ -1318,37 +1221,37 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "/images/2019/563.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Sports Day champions 2020",
                 hint: "students sports trophy"
             },
             {
                 type: "image",
-                src: "/images/2019/20170415_175753.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Annual function group dance",
                 hint: "students group dance"
             },
             {
                 type: "image",
-                src: "/images/2019/20190110_192044.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Independence Day celebrations",
                 hint: "independence day india school"
             },
             {
                 type: "image",
-                src: "/images/2019/IMG-20200129-WA0020.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Class of 2020 farewell",
                 hint: "student farewell"
             },
             {
                 type: "image",
-                src: "/images/2019/IMG-20200129-WA0023.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Creative writing workshop",
                 hint: "writing workshop"
             },
             {
                 type: "image",
-                src: "/images/2019/IMG-20200212-WA0006.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Creative writing workshop",
                 hint: "writing workshop"
             }
@@ -1359,7 +1262,7 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "/images/2018/20181229_182109.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Throwback to a fun classroom activity",
                 hint: "vintage classroom"
             }
@@ -1370,7 +1273,7 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "/images/2018/IMG-20160608-WA0046.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Foundation day event",
                 hint: "foundation day"
             }
@@ -1381,37 +1284,37 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "/images/2017/IMG-20170416-WA0028.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Throwback to a fun classroom activity",
                 hint: "vintage classroom"
             },
             {
                 type: "image",
-                src: "/images/2017/IMG-20170415-WA0016.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Our young learners in 2018",
                 hint: "young students"
             },
             {
                 type: "image",
-                src: "/images/2017/IMG-20170415-WA0020.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Foundation day event",
                 hint: "foundation day"
             },
             {
                 type: "image",
-                src: "/images/2017/IMG-20170415-WA0024.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Memories from 2018-19",
                 hint: "student memories"
             },
             {
                 type: "image",
-                src: "/images/2017/IMG-20170415-WA0031.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "A special assembly",
                 hint: "school assembly"
             },
             {
                 type: "image",
-                src: "/images/2017/IMG-20170416-WA0010.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Students with their art projects",
                 hint: "student art projects"
             }
@@ -1422,37 +1325,37 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "/images/2016/IMG-20161013-WA0006.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Throwback to a fun classroom activity",
                 hint: "vintage classroom"
             },
             {
                 type: "image",
-                src: "/images/2016/IMG-20161028-WA0012.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Our young learners in 2018",
                 hint: "young students"
             },
             {
                 type: "image",
-                src: "/images/2016/IMG-20161013-WA0009.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Foundation day event",
                 hint: "foundation day"
             },
             {
                 type: "image",
-                src: "/images/2016/IMG-20161028-WA0010.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Memories from 2018-19",
                 hint: "student memories"
             },
             {
                 type: "image",
-                src: "/images/2016/IMG-20161028-WA0011.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "A special assembly",
                 hint: "school assembly"
             },
             {
                 type: "image",
-                src: "/images/2016/IMG-20161028-WA0024.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Students with their art projects",
                 hint: "student art projects"
             }
@@ -1463,37 +1366,37 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "/images/2015/IMG-20150421-WA0000.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "The very first batch of students",
                 hint: "first batch students"
             },
             {
                 type: "image",
-                src: "/images/2015/IMG-20150421-WA0002.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Inauguration of the tuition centre",
                 hint: "inauguration event"
             },
             {
                 type: "image",
-                src: "/images/2015/IMG-20150421-WA0003.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Our first classroom setup",
                 hint: "old classroom"
             },
             {
                 type: "image",
-                src: "/images/2015/IMG-20150421-WA0004.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Early learning materials",
                 hint: "vintage school books"
             },
             {
                 type: "image",
-                src: "/images/2015/IMG-20150421-WA0005.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "A journey back to our beginnings",
                 hint: "school history"
             },
             {
                 type: "image",
-                src: "/images/2015/IMG-20150421-WA0006.jpg",
+                src: "https://placehold.co/600x400.png",
                 alt: "Founders with the first students",
                 hint: "founder students"
             }
@@ -1629,7 +1532,7 @@ function GalleryPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto",
-                                    children: "A visual journey through the years at VSRFCT Tuition Centre."
+                                    children: "A visual journey through the years at VSRFCT."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/gallery/page.tsx",
                                     lineNumber: 195,
