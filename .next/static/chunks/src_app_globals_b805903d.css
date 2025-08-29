@@ -1521,11 +1521,6 @@ section, .container {
   line-height: 2.5rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-\[0\.8rem\] {
   font-size: .8rem;
 }
@@ -1543,11 +1538,6 @@ section, .container {
 .text-sm {
   font-size: .875rem;
   line-height: 1.25rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .text-xs {
@@ -2002,10 +1992,6 @@ section, .container {
 
 .hover\:text-primary-foreground:hover {
   color: hsl(var(--primary-foreground));
-}
-
-.hover\:text-primary\/80:hover {
-  color: hsl(var(--primary) / .8);
 }
 
 .hover\:underline:hover {
@@ -2608,11 +2594,6 @@ section, .container {
 
   .md\:text-6xl {
     font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .md\:text-7xl {
-    font-size: 4.5rem;
     line-height: 1;
   }
 
