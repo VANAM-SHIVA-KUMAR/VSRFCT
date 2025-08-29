@@ -857,7 +857,7 @@ function Hero() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 bg-primary",
                                             style: {
-                                                clipPath: 'polygon(0 0, 60% 0, 40% 100%, 0 100%)'
+                                                clipPath: 'polygon(0 0, 45% 0, 35% 100%, 0 100%)'
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/hero.tsx",
@@ -867,7 +867,7 @@ function Hero() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 bg-primary/80",
                                             style: {
-                                                clipPath: 'polygon(60% 0, 65% 0, 45% 100%, 40% 100%)'
+                                                clipPath: 'polygon(45% 0, 50% 0, 40% 100%, 35% 100%)'
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/hero.tsx",
@@ -877,7 +877,7 @@ function Hero() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 bg-primary/60",
                                             style: {
-                                                clipPath: 'polygon(65% 0, 70% 0, 50% 100%, 45% 100%)'
+                                                clipPath: 'polygon(50% 0, 55% 0, 45% 100%, 40% 100%)'
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/hero.tsx",
@@ -885,7 +885,7 @@ function Hero() {
                                             columnNumber: 20
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute inset-0 flex flex-col items-start justify-center text-left text-white p-6 md:p-12 w-full md:w-3/5 lg:w-1/2",
+                                            className: "absolute inset-0 flex flex-col items-start justify-center text-left text-white p-6 md:p-12 w-full md:w-2/5 lg:w-1/3",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "max-w-2xl",
                                                 children: [
