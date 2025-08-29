@@ -23,9 +23,9 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-24 items-center justify-between mx-auto px-4 sm:px-6 lg:px-8">
         <Logo />
-        <nav className="hidden md:flex items-center space-x-6 text-lg font-medium">
+        <nav className="hidden md:flex items-center space-x-6">
           {navLinks.map((link) => (
-            <Link key={link.name} href={link.href} className="transition-colors hover:text-primary text-sm font-semibold">
+            <Link key={link.name} href={link.href} className="transition-colors hover:text-primary text-xl font-semibold">
               {link.name}
             </Link>
           ))}
@@ -52,7 +52,7 @@ export default function Header() {
                 </div>
                 <nav className="flex-grow flex flex-col items-center justify-center space-y-6">
                   {navLinks.map((link) => (
-                    <Link key={link.name} href={link.href} className="text-2xl font-medium transition-colors hover:text-primary" onClick={() => setIsMenuOpen(false)}>
+                    <Link key={link.name} href={link.href} className="text-4xl font-medium transition-colors hover:text-primary" onClick={() => setIsMenuOpen(false)}>
                       {link.name}
                     </Link>
                   ))}
