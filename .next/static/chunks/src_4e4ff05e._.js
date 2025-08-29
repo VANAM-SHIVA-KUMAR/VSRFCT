@@ -877,8 +877,8 @@ const slides = [
     {
         image: "/images/2025/1.jpeg",
         hint: "indian government school",
-        title: "Free Quality Education for a Brighter Tomorrow",
-        description: "A non-profit initiative by V.S. Raju Family Charitable Trust for Government School children (Classes 1-10, State Syllabus)."
+        title: "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all",
+        description: ""
     },
     {
         image: "/images/2019/IMG-20200129-WA0023.jpg",
