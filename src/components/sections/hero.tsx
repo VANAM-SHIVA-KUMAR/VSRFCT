@@ -76,7 +76,7 @@ export default function Hero() {
           <CarouselContent>
             {slides.map((slide, index) => (
               <CarouselItem key={index}>
-                <div className="relative h-[60vh] md:h-[calc(100vh-128px)] w-full bg-primary text-primary-foreground">
+                <div className="relative h-[60vh] md:h-[calc(100vh-128px)] w-full text-primary-foreground">
                    <Image
                     src={slide.image}
                     alt={slide.title}
@@ -90,11 +90,11 @@ export default function Hero() {
                     style={{ clipPath: 'polygon(0 0, 60% 0, 40% 100%, 0 100%)' }}
                   />
                    <div 
-                    className="absolute inset-0 bg-primary/20"
+                    className="absolute inset-0 bg-primary/80"
                     style={{ clipPath: 'polygon(60% 0, 65% 0, 45% 100%, 40% 100%)' }}
                   />
                    <div 
-                    className="absolute inset-0 bg-primary/20"
+                    className="absolute inset-0 bg-primary/60"
                     style={{ clipPath: 'polygon(65% 0, 70% 0, 50% 100%, 45% 100%)' }}
                   />
                   <div className="absolute inset-0 flex flex-col items-start justify-center text-left text-white p-6 md:p-12 w-full md:w-3/5 lg:w-1/2">
