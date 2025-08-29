@@ -778,8 +778,8 @@ const slides = [
     {
         image: "/images/2025/1.jpeg",
         hint: "indian government school",
-        title: "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all",
-        description: ""
+        title: "Quality Education",
+        description: "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all."
     },
     {
         image: "/images/2019/IMG-20200129-WA0023.jpg",
