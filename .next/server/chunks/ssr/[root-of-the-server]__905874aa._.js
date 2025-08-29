@@ -789,9 +789,9 @@ const slides = [
     },
     {
         image: "/images/2016/IMG-20161028-WA0010.jpg",
-        hint: "rural school children",
-        title: "Physical and mental wellbeing is a top priority",
-        description: "Snacks, Sports, and Stories—nurturing happy, healthy learning every day."
+        hint: "climate action",
+        title: "Climate Action",
+        description: "Take urgent action to combat climate change and its impacts"
     }
 ];
 function Hero() {
