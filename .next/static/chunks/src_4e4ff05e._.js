@@ -939,7 +939,7 @@ function Hero() {
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "w-full relative",
+        className: "w-full relative bg-background",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "container mx-auto px-4 sm:px-6 lg:px-8 pt-6 md:pt-12",
@@ -952,7 +952,7 @@ function Hero() {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$carousel$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CarouselContent"], {
                         children: slides.map((slide, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$carousel$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CarouselItem"], {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative h-[60vh] md:h-[calc(100vh-128px)] w-full",
+                                    className: "relative h-[60vh] md:h-[calc(100vh-128px)] w-full bg-primary text-primary-foreground",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                             src: slide.image,
@@ -964,45 +964,68 @@ function Hero() {
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/hero.tsx",
                                             lineNumber: 80,
-                                            columnNumber: 19
+                                            columnNumber: 20
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"
+                                            className: "absolute inset-0 bg-primary",
+                                            style: {
+                                                clipPath: 'polygon(0 0, 60% 0, 40% 100%, 0 100%)'
+                                            }
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/hero.tsx",
                                             lineNumber: 88,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute inset-0 flex flex-col items-center justify-end text-center text-white p-6 md:p-12",
+                                            className: "absolute inset-0 bg-primary/20",
+                                            style: {
+                                                clipPath: 'polygon(60% 0, 65% 0, 45% 100%, 40% 100%)'
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/sections/hero.tsx",
+                                            lineNumber: 92,
+                                            columnNumber: 20
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "absolute inset-0 bg-primary/20",
+                                            style: {
+                                                clipPath: 'polygon(65% 0, 70% 0, 50% 100%, 45% 100%)'
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/sections/hero.tsx",
+                                            lineNumber: 96,
+                                            columnNumber: 20
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "absolute inset-0 flex flex-col items-start justify-center text-left text-white p-6 md:p-12 w-full md:w-3/5 lg:w-1/2",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "max-w-4xl mb-16",
+                                                className: "max-w-2xl",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                         className: "text-4xl md:text-6xl font-bold font-headline mb-4 text-shadow-lg animate-text-reveal",
                                                         children: slide.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/hero.tsx",
-                                                        lineNumber: 91,
+                                                        lineNumber: 102,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-lg md:text-xl max-w-3xl mx-auto animate-fade-in-up animation-delay-500",
+                                                        className: "text-lg md:text-xl max-w-xl animate-fade-in-up animation-delay-500",
                                                         children: slide.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/hero.tsx",
-                                                        lineNumber: 94,
+                                                        lineNumber: 105,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, animationKey, true, {
                                                 fileName: "[project]/src/components/sections/hero.tsx",
-                                                lineNumber: 90,
+                                                lineNumber: 101,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/hero.tsx",
-                                            lineNumber: 89,
+                                            lineNumber: 100,
                                             columnNumber: 19
                                         }, this)
                                     ]
@@ -1029,22 +1052,22 @@ function Hero() {
             }, void 0, false, {
                 fileName: "[project]/src/components/sections/hero.tsx",
                 lineNumber: 74,
-                columnNumber: 7
+                columnNumber: 8
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute bottom-10 left-1/2 -translate-x-1/2 flex space-x-2 p-4",
+                className: "absolute bottom-10 left-10 flex space-x-2 p-4",
                 children: slides.map((_, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         onClick: ()=>handleDotClick(index),
-                        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])('h-2 w-2 rounded-full transition-colors', current === index ? 'bg-white' : 'bg-white/50'),
+                        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])('h-2 w-8 rounded-full transition-colors', current === index ? 'bg-accent' : 'bg-white/50'),
                         "aria-label": `Go to slide ${index + 1}`
                     }, index, false, {
                         fileName: "[project]/src/components/sections/hero.tsx",
-                        lineNumber: 107,
+                        lineNumber: 118,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/sections/hero.tsx",
-                lineNumber: 105,
+                lineNumber: 116,
                 columnNumber: 8
             }, this)
         ]
