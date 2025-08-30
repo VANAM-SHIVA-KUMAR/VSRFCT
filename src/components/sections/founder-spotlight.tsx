@@ -40,11 +40,6 @@ export default function FounderSpotlight() {
                 {paragraph}
               </p>
             ))}
-             <Button asChild>
-                <Link href="/about">
-                    Learn More About Our Story <ArrowRight className="ml-2" />
-                </Link>
-            </Button>
           </div>
           <div className={cn(
             "md:col-span-4 transition-all duration-700 ease-in-out",
