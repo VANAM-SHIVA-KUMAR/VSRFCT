@@ -25,7 +25,7 @@ export default function FounderSpotlight() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-12 gap-8 md:gap-12 items-center">
           <div className={cn(
-            "md:col-span-7 transition-all duration-700 ease-in-out delay-150",
+            "md:col-span-8 transition-all duration-700 ease-in-out delay-150",
             isInView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
           )}>
             <h2 className="text-3xl md:text-5xl font-bold font-headline mb-4">Our Founder</h2>
@@ -47,16 +47,16 @@ export default function FounderSpotlight() {
             </Button>
           </div>
           <div className={cn(
-            "md:col-span-5 transition-all duration-700 ease-in-out",
+            "md:col-span-4 transition-all duration-700 ease-in-out",
             isInView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"
           )}>
             <Image
               src={founder.image}
               alt={`Portrait of ${founder.name}`}
               data-ai-hint={founder.hint}
-              width={400}
-              height={500}
-              className="rounded-xl shadow-lg w-full"
+              width={350}
+              height={450}
+              className="rounded-xl shadow-lg w-full mx-auto"
             />
           </div>
         </div>
