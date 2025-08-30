@@ -875,19 +875,19 @@ var _s = __turbopack_context__.k.signature();
 ;
 const slides = [
     {
-        image: "/images/2025/1.jpeg",
+        image: "https://images.unsplash.com/photo-1636393853624-2fce2206c9d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBnb3Zlcm5tZW50JTIwc2Nob29sfGVufDB8fHx8MTc1NjQ5MTUxOXww&ixlib=rb-4.1.0&q=80&w=1080",
         hint: "indian government school",
         title: "Quality Education",
         description: "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all."
     },
     {
-        image: "/images/2019/IMG-20200129-WA0023.jpg",
+        image: "https://images.unsplash.com/photo-1534616042650-80f5c9b61f09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjbGVhbiUyMHdhdGVyfGVufDB8fHx8MTc1NjQ5MTUxOXww&ixlib=rb-4.1.0&q=80&w=1080",
         hint: "clean water",
         title: "Clean Water and Sanitation",
         description: "Ensure availability and sustainable management of water and sanitation for all"
     },
     {
-        image: "/images/2016/IMG-20161028-WA0010.jpg",
+        image: "https://images.unsplash.com/photo-1596361122155-03efe15caea9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjbGltYXRlJTIwYWN0aW9ufGVufDB8fHx8MTc1NjQ5MTUxOXww&ixlib=rb-4.1.0&q=80&w=1080",
         hint: "climate action",
         title: "Climate Action",
         description: "Take urgent action to combat climate change and its impacts"
