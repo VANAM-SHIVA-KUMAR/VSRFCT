@@ -12,19 +12,19 @@ import { cn } from "@/lib/utils"
 
 const slides = [
   {
-    image: "https://images.unsplash.com/photo-1636393853624-2fce2206c9d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBnb3Zlcm5tZW50JTIwc2Nob29sfGVufDB8fHx8MTc1Njc4Nzc2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "/images/Header/Education.jpg",
     hint: "indian government school",
     title: "Quality Education",
     description: "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all."
   },
   {
-    image: "https://images.unsplash.com/photo-1584056866693-1f9d42e9feb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjbGVhbiUyMHdhdGVyfGVufDB8fHx8MTc1Njc4Nzc2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "/images/Header/glass-water.jpg",
     hint: "clean water",
     title: "Clean Water and Sanitation",
     description: "Ensure availability and sustainable management of water and sanitation for all"
   },
   {
-    image: "https://images.unsplash.com/photo-1554418651-70309daf95f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2xpbWF0ZSUyMGFjdGlvbnxlbnwwfHx8fDE3NTY3ODc3NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "/images/Header/climate.jpg",
     hint: "climate action",
     title: "Climate Action",
     description: "Take urgent action to combat climate change and its impacts"

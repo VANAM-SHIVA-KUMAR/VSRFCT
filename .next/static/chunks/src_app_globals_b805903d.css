@@ -568,10 +568,6 @@ section, .container {
   margin-top: 2rem;
 }
 
-.ml-2 {
-  margin-left: .5rem;
-}
-
 .block {
   display: block;
 }
@@ -2507,14 +2503,6 @@ section, .container {
 
   .md\:col-span-8 {
     grid-column: span 8 / span 8;
-  }
-
-  .md\:col-span-5 {
-    grid-column: span 5 / span 5;
-  }
-
-  .md\:col-span-7 {
-    grid-column: span 7 / span 7;
   }
 
   .md\:flex {

@@ -875,19 +875,19 @@ var _s = __turbopack_context__.k.signature();
 ;
 const slides = [
     {
-        image: "https://images.unsplash.com/photo-1636393853624-2fce2206c9d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBnb3Zlcm5tZW50JTIwc2Nob29sfGVufDB8fHx8MTc1Njc4Nzc2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+        image: "/images/Header/Education.jpg",
         hint: "indian government school",
         title: "Quality Education",
         description: "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all."
     },
     {
-        image: "https://images.unsplash.com/photo-1584056866693-1f9d42e9feb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjbGVhbiUyMHdhdGVyfGVufDB8fHx8MTc1Njc4Nzc2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+        image: "/images/Header/glass-water.jpg",
         hint: "clean water",
         title: "Clean Water and Sanitation",
         description: "Ensure availability and sustainable management of water and sanitation for all"
     },
     {
-        image: "https://images.unsplash.com/photo-1554418651-70309daf95f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2xpbWF0ZSUyMGFjdGlvbnxlbnwwfHx8fDE3NTY3ODc3NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        image: "/images/Header/climate.jpg",
         hint: "climate action",
         title: "Climate Action",
         description: "Take urgent action to combat climate change and its impacts"
@@ -1164,12 +1164,13 @@ const founder = {
     name: "Prof. V. S. Raju",
     title: "Former Director, IIT Delhi (1995-2000)",
     image: "/images/hi.png",
-    hint: "professional portrait",
-    bio: [
-        "Prof. V.S. Raju, a renowned expert in Geotechnical Engineering with a Ph.D. from the University of Karlsruhe, Germany, has over 60 years of extensive experience.",
-        "He has held prominent academic positions including Director at IIT Delhi and Professor, Head, and Dean at IIT Madras. His distinguished career includes over 750 consultancy projects worldwide."
-    ]
+    hint: "professional portrait"
 };
+const aboutText = [
+    "The V.S. Raju Family Charitable Trust is founded by Prof. V.S. Raju, an eminent academician and engineer with over six decades of contribution to education, research, and nation-building. Born in 1940 in Kopalle, West Godavari, he pursued his Civil Engineering at Andhra University, a postgraduate degree at IISc Bangalore, and a Ph.D. in Geotechnical Engineering from the University of Karlsruhe, Germany.",
+    "Prof. Raju has served as Director of IIT Delhi, Professor & Dean at IIT Madras, and held key roles in prestigious national projects, advisory boards, and corporates. He has guided more than 800 geotechnical and foundation projects across India and abroad, while also contributing to landmark initiatives such as the Shri Ram Mandir, Ayodhya and the Polavaram Irrigation Project.",
+    "The Trust reflects his lifelong values of knowledge, service, and community welfare—dedicated to advancing education, supporting social causes, and inspiring future generations."
+];
 function FounderSpotlight() {
     _s();
     const { ref, isInView } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$hooks$2f$use$2d$in$2d$view$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"])({
@@ -1190,41 +1191,18 @@ function FounderSpotlight() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-3xl md:text-5xl font-bold font-headline mb-4",
-                                children: "Our Founder"
+                                children: "About the Trust"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/founder-spotlight.tsx",
                                 lineNumber: 31,
                                 columnNumber: 13
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "text-3xl font-bold font-headline mb-4 text-primary",
-                                children: founder.name
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                                lineNumber: 32,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-lg text-muted-foreground mb-4",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "font-semibold",
-                                    children: founder.title
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                                    lineNumber: 36,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                                lineNumber: 35,
-                                columnNumber: 13
-                            }, this),
-                            founder.bio.map((paragraph, pIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            aboutText.map((paragraph, pIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-muted-foreground mb-4",
                                     children: paragraph
                                 }, pIndex, false, {
                                     fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 33,
                                     columnNumber: 15
                                 }, this))
                         ]
@@ -1244,12 +1222,12 @@ function FounderSpotlight() {
                             className: "rounded-xl shadow-lg w-full mx-auto"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                            lineNumber: 48,
+                            lineNumber: 42,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                        lineNumber: 44,
+                        lineNumber: 38,
                         columnNumber: 11
                     }, this)
                 ]
