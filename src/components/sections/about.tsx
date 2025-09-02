@@ -17,7 +17,7 @@ const founders = [
   },
   {
     name: "Dr. V.R. Raju",
-    title: "Chief Executive Officer at Keller",
+    title: "Senior Advisor, Keller",
     image: "/images/Raju.png",
     hint: "professional male portrait",
     bio: [
