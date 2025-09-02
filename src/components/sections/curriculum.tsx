@@ -52,9 +52,9 @@ export default function Curriculum() {
     <section id="curriculum" className="py-12 md:py-24 bg-card">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold font-headline">State Syllabus</h2>
+          <h2 className="text-3xl md:text-5xl font-bold font-headline">We Focus on Comprehensive Learning</h2>
           <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
-            We provide free, comprehensive tuition for the State Syllabus, empowering students from Government schools.
+          "Focused on syllabus, driven by success."
           </p>
         </div>
         <div ref={ref1} className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -71,7 +71,7 @@ export default function Curriculum() {
                   {item.icon}
                   <div >
                       <CardTitle className="font-headline text-2xl text-primary">{item.classes}</CardTitle>
-                      <CardDescription>State Syllabus</CardDescription>
+                      <CardDescription></CardDescription>
                   </div>
                 </CardHeader>
                 <CardContent className="flex-grow">
