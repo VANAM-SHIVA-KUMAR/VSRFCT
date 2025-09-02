@@ -7,6 +7,7 @@ import Testimonials from '@/components/sections/testimonials';
 import Faq from '@/components/sections/faq';
 import Cta from '@/components/sections/cta';
 import Footer from '@/components/sections/footer';
+import OurBranches from '@/components/sections/our-branches';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main className="flex-grow">
         <Hero />
         <FounderSpotlight />
+        <OurBranches />
         <Features />
         <Curriculum />
         <Testimonials />
