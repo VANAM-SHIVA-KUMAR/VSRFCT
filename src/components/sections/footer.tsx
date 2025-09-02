@@ -13,7 +13,6 @@ const footerLinks = {
   ],
   support: [
     { name: 'FAQ', href: '#faq' },
-    { name: 'Curriculum', href: '#curriculum' },
   ],
 };
 
