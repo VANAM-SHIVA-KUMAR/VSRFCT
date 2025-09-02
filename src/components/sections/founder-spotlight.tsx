@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import { useInView } from '@/hooks/use-in-view';
 import { cn } from "@/lib/utils";
+import { Award, Users } from 'lucide-react';
 
 const founder = {
     name: "Prof. V. S. Raju",
@@ -14,6 +15,19 @@ const aboutText = [
     "The V.S. Raju Family Charitable Trust is founded by Prof. V.S. Raju, an eminent academician and engineer with over six decades of contribution to education, research, and nation-building. Born in 1940 in Kopalle, West Godavari, he pursued his Civil Engineering at Andhra University, a postgraduate degree at IISc Bangalore, and a Ph.D. in Geotechnical Engineering from the University of Karlsruhe, Germany.",
     "Prof. Raju has served as Director of IIT Delhi, Professor & Dean at IIT Madras, and held key roles in prestigious national projects, advisory boards, and corporates. He has guided more than 800 geotechnical and foundation projects across India and abroad, while also contributing to landmark initiatives such as the Shri Ram Mandir, Ayodhya and the Polavaram Irrigation Project.",
     "The Trust reflects his lifelong values of knowledge, service, and community welfare—dedicated to advancing education, supporting social causes, and inspiring future generations."
+];
+
+const stats = [
+  {
+    icon: <Award className="h-8 w-8 text-accent" />,
+    value: "10+",
+    label: "Years Founded"
+  },
+  {
+    icon: <Users className="h-8 w-8 text-accent" />,
+    value: "750+",
+    label: "Students Passed"
+  }
 ];
 
 
@@ -34,6 +48,26 @@ export default function FounderSpotlight() {
                 {paragraph}
               </p>
             ))}
+            <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
+               {stats.map((stat, index) => (
+                <div
+                  key={index}
+                  className={cn(
+                    "flex items-center gap-4 transition-all duration-500 ease-in-out",
+                    isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+                  )}
+                  style={{ transitionDelay: `${index * 150}ms` }}
+                >
+                  <div className="bg-primary/10 rounded-full p-3">
+                    {stat.icon}
+                  </div>
+                  <div>
+                    <p className="text-3xl font-bold font-headline text-primary">{stat.value}</p>
+                    <p className="text-md text-muted-foreground">{stat.label}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
           <div className={cn(
             "md:col-span-4 transition-all duration-700 ease-in-out",

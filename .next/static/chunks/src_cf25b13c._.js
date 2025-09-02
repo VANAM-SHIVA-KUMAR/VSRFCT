@@ -1154,9 +1154,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$hooks$2f$use$2d$in$2d$view$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/hooks/use-in-view.ts [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/utils.ts [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/award.js [app-client] (ecmascript) <export default as Award>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/users.js [app-client] (ecmascript) <export default as Users>");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
+;
 ;
 ;
 ;
@@ -1170,6 +1173,30 @@ const aboutText = [
     "The V.S. Raju Family Charitable Trust is founded by Prof. V.S. Raju, an eminent academician and engineer with over six decades of contribution to education, research, and nation-building. Born in 1940 in Kopalle, West Godavari, he pursued his Civil Engineering at Andhra University, a postgraduate degree at IISc Bangalore, and a Ph.D. in Geotechnical Engineering from the University of Karlsruhe, Germany.",
     "Prof. Raju has served as Director of IIT Delhi, Professor & Dean at IIT Madras, and held key roles in prestigious national projects, advisory boards, and corporates. He has guided more than 800 geotechnical and foundation projects across India and abroad, while also contributing to landmark initiatives such as the Shri Ram Mandir, Ayodhya and the Polavaram Irrigation Project.",
     "The Trust reflects his lifelong values of knowledge, service, and community welfare—dedicated to advancing education, supporting social causes, and inspiring future generations."
+];
+const stats = [
+    {
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"], {
+            className: "h-8 w-8 text-accent"
+        }, void 0, false, {
+            fileName: "[project]/src/components/sections/founder-spotlight.tsx",
+            lineNumber: 22,
+            columnNumber: 11
+        }, this),
+        value: "10+",
+        label: "Years Founded"
+    },
+    {
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
+            className: "h-8 w-8 text-accent"
+        }, void 0, false, {
+            fileName: "[project]/src/components/sections/founder-spotlight.tsx",
+            lineNumber: 27,
+            columnNumber: 11
+        }, this),
+        value: "750+",
+        label: "Students Passed"
+    }
 ];
 function FounderSpotlight() {
     _s();
@@ -1194,7 +1221,7 @@ function FounderSpotlight() {
                                 children: "About the Trust"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                                lineNumber: 31,
+                                lineNumber: 45,
                                 columnNumber: 13
                             }, this),
                             aboutText.map((paragraph, pIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1202,13 +1229,64 @@ function FounderSpotlight() {
                                     children: paragraph
                                 }, pIndex, false, {
                                     fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                                    lineNumber: 33,
+                                    lineNumber: 47,
                                     columnNumber: 15
-                                }, this))
+                                }, this)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-8 grid grid-cols-1 sm:grid-cols-2 gap-6",
+                                children: stats.map((stat, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("flex items-center gap-4 transition-all duration-500 ease-in-out", isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"),
+                                        style: {
+                                            transitionDelay: `${index * 150}ms`
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "bg-primary/10 rounded-full p-3",
+                                                children: stat.icon
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/sections/founder-spotlight.tsx",
+                                                lineNumber: 61,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-3xl font-bold font-headline text-primary",
+                                                        children: stat.value
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/sections/founder-spotlight.tsx",
+                                                        lineNumber: 65,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "text-md text-muted-foreground",
+                                                        children: stat.label
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/sections/founder-spotlight.tsx",
+                                                        lineNumber: 66,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/sections/founder-spotlight.tsx",
+                                                lineNumber: 64,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, index, true, {
+                                        fileName: "[project]/src/components/sections/founder-spotlight.tsx",
+                                        lineNumber: 53,
+                                        columnNumber: 17
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/sections/founder-spotlight.tsx",
+                                lineNumber: 51,
+                                columnNumber: 13
+                            }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                        lineNumber: 27,
+                        lineNumber: 41,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1222,28 +1300,28 @@ function FounderSpotlight() {
                             className: "rounded-xl shadow-lg w-full mx-auto"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                            lineNumber: 42,
+                            lineNumber: 76,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                        lineNumber: 38,
+                        lineNumber: 72,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                lineNumber: 26,
+                lineNumber: 40,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-            lineNumber: 25,
+            lineNumber: 39,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-        lineNumber: 24,
+        lineNumber: 38,
         columnNumber: 5
     }, this);
 }
