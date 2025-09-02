@@ -43,7 +43,7 @@ export default function Features() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-bold font-headline">We Provide</h2>
           <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
-            Opening doors of learning, free for all
+            Opening doors of learning, free for all.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
