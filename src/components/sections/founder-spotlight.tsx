@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import { useInView } from '@/hooks/use-in-view';
 import { cn } from "@/lib/utils";
-import { Award, Users } from 'lucide-react';
+import { Award, Users, BookOpen } from 'lucide-react';
 
 const founder = {
     name: "Prof. V. S. Raju",
@@ -24,9 +24,14 @@ const stats = [
     label: "Years Founded"
   },
   {
+    icon: <BookOpen className="h-8 w-8 text-accent" />,
+    value: "10",
+    label: "Classes Covered"
+  },
+  {
     icon: <Users className="h-8 w-8 text-accent" />,
     value: "750+",
-    label: "Students Passed"
+    label: "Students Enrolled"
   }
 ];
 
@@ -48,7 +53,7 @@ export default function FounderSpotlight() {
                 {paragraph}
               </p>
             ))}
-            <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6">
                {stats.map((stat, index) => (
                 <div
                   key={index}
