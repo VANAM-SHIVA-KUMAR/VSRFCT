@@ -318,8 +318,8 @@ const navLinks = [
         href: '/about'
     },
     {
-        name: 'Curriculum',
-        href: '/#curriculum'
+        name: 'Our Branches',
+        href: '/#branches'
     },
     {
         name: 'Gallery',
