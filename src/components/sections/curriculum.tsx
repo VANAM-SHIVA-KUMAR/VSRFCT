@@ -52,8 +52,8 @@ export default function Curriculum() {
     <section id="curriculum" className="py-12 md:py-24 bg-card">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold font-headline">We Focus on Comprehensive Learning</h2>
-          <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">We Focus on Comprehensive Learning</h2>
+          <p className="text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto">
           "Focused on syllabus, driven by success."
           </p>
         </div>
@@ -91,8 +91,8 @@ export default function Curriculum() {
 
         <div className="mt-16 pt-12 border-t">
           <div className="text-center mb-12">
-            <h3 className="text-3xl md:text-4xl font-bold font-headline">Beyond the Classroom</h3>
-             <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
+            <h3 className="text-3xl md:text-4xl font-bold font-headline text-green-900">Beyond the Classroom</h3>
+             <p className="text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto">
                 We believe in holistic development through engaging weekly activities.
             </p>
           </div>
@@ -111,7 +111,7 @@ export default function Curriculum() {
                     {item.icon}
                     <div>
                         <CardTitle className="font-headline text-2xl text-primary">{item.day}</CardTitle>
-                        <CardDescription>{item.description}</CardDescription>
+                        <CardDescription className="text-green-700">{item.description}</CardDescription>
                     </div>
                   </CardHeader>
                   <CardContent className="flex-grow">

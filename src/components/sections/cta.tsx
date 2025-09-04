@@ -84,8 +84,8 @@ export default function Cta() {
           )}
         >
           <div className="relative z-10">
-            <h2 className="text-3xl md:text-5xl font-bold font-headline mb-4">Ready to Give Your Child a Brighter Future?</h2>
-            <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-5xl font-bold font-headline mb-4 text-green-100">Ready to Give Your Child a Brighter Future?</h2>
+            <p className="text-lg md:text-xl text-green-300 mb-8 max-w-3xl mx-auto">
               Admissions are open for Government School children (Classes 1–10, State Syllabus). Join our non-profit initiative for free, high-quality tuition.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

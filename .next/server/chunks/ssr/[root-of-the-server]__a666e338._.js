@@ -15,14 +15,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 function Logo() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
         href: "/",
-        className: "flex items-center space-x-2",
+        className: "flex items-center space-x-4",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 src: "/images/logo.jpeg",
                 alt: "VSRFCT Logo",
-                width: 40,
-                height: 40,
-                className: "h-10 w-10 rounded-full",
+                width: 120,
+                height: 120,
+                className: "h-20 w-20 rounded-full",
                 "data-ai-hint": "logo"
             }, void 0, false, {
                 fileName: "[project]/src/components/logo.tsx",
@@ -31,7 +31,7 @@ function Logo() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-sm text-muted-foreground font-medium",
+                    className: "text-2xl font-bold text-white font-headline",
                     children: "VS Raju Family Charitable Trust"
                 }, void 0, false, {
                     fileName: "[project]/src/components/logo.tsx",
@@ -318,8 +318,8 @@ const navLinks = [
         href: '/about'
     },
     {
-        name: 'Curriculum',
-        href: '/#curriculum'
+        name: 'Our Branches',
+        href: '/#branches'
     },
     {
         name: 'Gallery',
@@ -339,7 +339,7 @@ function Header() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
         className: "sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "container flex h-24 items-center justify-between mx-auto px-4 sm:px-6 lg:px-8",
+            className: "container flex h-20 items-center justify-between mx-auto px-4 sm:px-6 lg:px-8",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$logo$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Logo"], {}, void 0, false, {
                     fileName: "[project]/src/components/sections/header.tsx",
@@ -347,10 +347,10 @@ function Header() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                    className: "hidden md:flex items-center space-x-6 text-lg font-medium",
+                    className: "hidden md:flex items-center space-x-6",
                     children: navLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             href: link.href,
-                            className: "transition-colors hover:text-primary text-sm font-semibold",
+                            className: "transition-colors hover:text-primary text-lg font-semibold",
                             children: link.name
                         }, link.name, false, {
                             fileName: "[project]/src/components/sections/header.tsx",
@@ -458,7 +458,7 @@ function Header() {
                                             children: [
                                                 navLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                         href: link.href,
-                                                        className: "text-2xl font-medium transition-colors hover:text-primary",
+                                                        className: "text-4xl font-medium transition-colors hover:text-primary",
                                                         onClick: ()=>setIsMenuOpen(false),
                                                         children: link.name
                                                     }, link.name, false, {
@@ -571,10 +571,6 @@ const footerLinks = {
         {
             name: 'FAQ',
             href: '#faq'
-        },
-        {
-            name: 'Curriculum',
-            href: '#curriculum'
         }
     ]
 };
@@ -594,7 +590,7 @@ function Footer() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$logo$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Logo"], {}, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
-                                    lineNumber: 28,
+                                    lineNumber: 27,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -602,7 +598,7 @@ function Footer() {
                                     children: "A non-profit learning initiative by V.S. Raju Family Charitable Trust."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
-                                    lineNumber: 29,
+                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -624,7 +620,7 @@ function Footer() {
                                                         fill: "#FF0000"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/footer.tsx",
-                                                        lineNumber: 40,
+                                                        lineNumber: 39,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -632,13 +628,13 @@ function Footer() {
                                                         fill: "white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/footer.tsx",
-                                                        lineNumber: 44,
+                                                        lineNumber: 43,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/sections/footer.tsx",
-                                                lineNumber: 34,
+                                                lineNumber: 33,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -646,24 +642,24 @@ function Footer() {
                                                 children: "YouTube"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/footer.tsx",
-                                                lineNumber: 49,
+                                                lineNumber: 48,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/sections/footer.tsx",
-                                        lineNumber: 33,
+                                        lineNumber: 32,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
-                                    lineNumber: 32,
+                                    lineNumber: 31,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/sections/footer.tsx",
-                            lineNumber: 27,
+                            lineNumber: 26,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -673,7 +669,7 @@ function Footer() {
                                     children: "Quick Links"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
-                                    lineNumber: 55,
+                                    lineNumber: 54,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -685,23 +681,23 @@ function Footer() {
                                                 children: link.name
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/footer.tsx",
-                                                lineNumber: 59,
+                                                lineNumber: 58,
                                                 columnNumber: 19
                                             }, this)
                                         }, link.name, false, {
                                             fileName: "[project]/src/components/sections/footer.tsx",
-                                            lineNumber: 58,
+                                            lineNumber: 57,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
-                                    lineNumber: 56,
+                                    lineNumber: 55,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/sections/footer.tsx",
-                            lineNumber: 54,
+                            lineNumber: 53,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -711,7 +707,7 @@ function Footer() {
                                     children: "Support"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
-                                    lineNumber: 66,
+                                    lineNumber: 65,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -723,23 +719,23 @@ function Footer() {
                                                 children: link.name
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/footer.tsx",
-                                                lineNumber: 70,
+                                                lineNumber: 69,
                                                 columnNumber: 19
                                             }, this)
                                         }, link.name, false, {
                                             fileName: "[project]/src/components/sections/footer.tsx",
-                                            lineNumber: 69,
+                                            lineNumber: 68,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
-                                    lineNumber: 67,
+                                    lineNumber: 66,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/sections/footer.tsx",
-                            lineNumber: 65,
+                            lineNumber: 64,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -749,7 +745,7 @@ function Footer() {
                                     children: "Contact Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 76,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -762,7 +758,7 @@ function Footer() {
                                                     className: "h-5 w-5 text-primary shrink-0 mt-1"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/footer.tsx",
-                                                    lineNumber: 80,
+                                                    lineNumber: 79,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -772,33 +768,33 @@ function Footer() {
                                                             children: "Opening Hours:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/footer.tsx",
-                                                            lineNumber: 82,
+                                                            lineNumber: 81,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             children: "Monday - Saturday: 4.30pm–8.00pm"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/footer.tsx",
-                                                            lineNumber: 83,
+                                                            lineNumber: 82,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             children: "Sunday: Closed"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/footer.tsx",
-                                                            lineNumber: 84,
+                                                            lineNumber: 83,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/sections/footer.tsx",
-                                                    lineNumber: 81,
+                                                    lineNumber: 80,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/sections/footer.tsx",
-                                            lineNumber: 79,
+                                            lineNumber: 78,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -808,7 +804,7 @@ function Footer() {
                                                     className: "h-5 w-5 text-primary shrink-0 mt-1"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/footer.tsx",
-                                                    lineNumber: 88,
+                                                    lineNumber: 87,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -818,7 +814,7 @@ function Footer() {
                                                             children: "Address:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/footer.tsx",
-                                                            lineNumber: 90,
+                                                            lineNumber: 89,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -829,25 +825,25 @@ function Footer() {
                                                             children: "Sai krupa enclave, Telecom nagar, Hyderabad 500032"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/footer.tsx",
-                                                            lineNumber: 91,
+                                                            lineNumber: 90,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/sections/footer.tsx",
-                                                    lineNumber: 89,
+                                                    lineNumber: 88,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/sections/footer.tsx",
-                                            lineNumber: 87,
+                                            lineNumber: 86,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
-                                    lineNumber: 78,
+                                    lineNumber: 77,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -864,24 +860,24 @@ function Footer() {
                                         className: "rounded-md shadow-md hover:shadow-lg transition-shadow"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/footer.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 102,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
-                                    lineNumber: 102,
+                                    lineNumber: 101,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/sections/footer.tsx",
-                            lineNumber: 76,
+                            lineNumber: 75,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/sections/footer.tsx",
-                    lineNumber: 26,
+                    lineNumber: 25,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -894,23 +890,23 @@ function Footer() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/sections/footer.tsx",
-                        lineNumber: 115,
+                        lineNumber: 114,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/sections/footer.tsx",
-                    lineNumber: 114,
+                    lineNumber: 113,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/sections/footer.tsx",
-            lineNumber: 25,
+            lineNumber: 24,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/sections/footer.tsx",
-        lineNumber: 24,
+        lineNumber: 23,
         columnNumber: 5
     }, this);
 }
@@ -987,25 +983,25 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2025/1.jpeg",
                 alt: "Future class of 2026",
                 hint: "students future classroom"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2025/2.jpeg",
                 alt: "Innovative learning tools",
                 hint: "educational technology"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2025/3.jpeg",
                 alt: "Student aspirations for the future",
                 hint: "student goals"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2025/4.jpeg",
                 alt: "Community projects planning",
                 hint: "community outreach"
             }
@@ -1016,37 +1012,37 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2024/18f2cf62-6c49-4cf6-aa51-01448a0105be.jpg",
                 alt: "Current students in a workshop",
                 hint: "students workshop"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2024/78ba84c9-d793-4baa-97ed-481ce8bfeb16.jpg",
                 alt: "A message from our current students",
                 hint: "student message"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2024/8220f4ad-5bf6-4ca8-a89d-f4a02b3f5973.jpg",
                 alt: "Science experiments in action",
                 hint: "science experiments"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2024/d78261f4-c25d-470f-bbb8-8c6037217460.jpg",
                 alt: "Library and reading time",
                 hint: "children reading"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2024/IMG_20241202_171516.jpg",
                 alt: "Guest speaker event",
                 hint: "guest speaker"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2024/IMG_20241202_190510.jpg",
                 alt: "Guest speaker event",
                 hint: "guest speaker"
             }
@@ -1057,25 +1053,25 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2023/IMG_20231001_072145__01.jpg",
                 alt: "Annual day celebration 2024",
                 hint: "school event 2024"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2023/IMG_20231001_074620.jpg",
                 alt: "Highlights from Sports Day 2024",
                 hint: "students sports 2024"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2023/20240330_175427.jpg",
                 alt: "Students receiving prizes",
                 hint: "student awards"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2023/20240330_180106.jpg",
                 alt: "Republic Day parade",
                 hint: "republic day school"
             }
@@ -1086,37 +1082,37 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2022/20180314_201541.jpg",
                 alt: "Classroom group photo 2023",
                 hint: "classroom photo 2023"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2022/20190420_153840.jpg",
                 alt: "Mathematics Olympiad winners",
                 hint: "math competition"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2022/20190812_165552.jpg",
                 alt: "Science Fair projects showcase",
                 hint: "science fair"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2022/20190812_171815.jpg",
                 alt: "Field trip to a museum",
                 hint: "school field trip"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2022/20190812_172601.jpg",
                 alt: "Plantation drive",
                 hint: "school environment day"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2022/20190812_173347.jpg",
                 alt: "Interactive learning session",
                 hint: "interactive learning"
             }
@@ -1127,31 +1123,31 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2021/20210711_180804.jpg",
                 alt: "Students with their home projects",
                 hint: "student projects home"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2021/20220105_170215.jpg",
                 alt: "Online quiz competition",
                 hint: "online quiz"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2021/20220105_183759.jpg",
                 alt: "Teachers conducting online sessions",
                 hint: "teacher online class"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2021/20220105_190134.jpg",
                 alt: "Celebrating festivals virtually",
                 hint: "virtual celebration"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2021/20220105_192108.jpg",
                 alt: "A return to the classroom",
                 hint: "students back school"
             }
@@ -1162,19 +1158,19 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2020/IMG-20190420-WA0020.jpg",
                 alt: "Early days of online learning",
                 hint: "remote learning setup"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2020/IMG-20200212-WA0021.jpg",
                 alt: "Distributing study materials",
                 hint: "education support"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2020/IMG-20200212-WA0028.jpg",
                 alt: "Parents meeting online",
                 hint: "parent teacher online"
             }
@@ -1185,37 +1181,37 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2019/563.jpg",
                 alt: "Sports Day champions 2020",
                 hint: "students sports trophy"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2019/20170415_175753.jpg",
                 alt: "Annual function group dance",
                 hint: "students group dance"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2019/20190110_192044.jpg",
                 alt: "Independence Day celebrations",
                 hint: "independence day india school"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2019/IMG-20200129-WA0020.jpg",
                 alt: "Class of 2020 farewell",
                 hint: "student farewell"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2019/IMG-20200129-WA0023.jpg",
                 alt: "Creative writing workshop",
                 hint: "writing workshop"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2019/IMG-20200212-WA0006.jpg",
                 alt: "Creative writing workshop",
                 hint: "writing workshop"
             }
@@ -1226,7 +1222,7 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2018/20181229_182109.jpg",
                 alt: "Throwback to a fun classroom activity",
                 hint: "vintage classroom"
             }
@@ -1237,7 +1233,7 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2018/IMG-20160608-WA0046.jpg",
                 alt: "Foundation day event",
                 hint: "foundation day"
             }
@@ -1248,37 +1244,37 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2017/IMG-20170416-WA0028.jpg",
                 alt: "Throwback to a fun classroom activity",
                 hint: "vintage classroom"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2017/IMG-20170415-WA0016.jpg",
                 alt: "Our young learners in 2018",
                 hint: "young students"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2017/IMG-20170415-WA0020.jpg",
                 alt: "Foundation day event",
                 hint: "foundation day"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2017/IMG-20170415-WA0024.jpg",
                 alt: "Memories from 2018-19",
                 hint: "student memories"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2017/IMG-20170415-WA0031.jpg",
                 alt: "A special assembly",
                 hint: "school assembly"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2017/IMG-20170416-WA0010.jpg",
                 alt: "Students with their art projects",
                 hint: "student art projects"
             }
@@ -1289,37 +1285,37 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2016/IMG-20161013-WA0006.jpg",
                 alt: "Throwback to a fun classroom activity",
                 hint: "vintage classroom"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2016/IMG-20161028-WA0012.jpg",
                 alt: "Our young learners in 2018",
                 hint: "young students"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2016/IMG-20161013-WA0009.jpg",
                 alt: "Foundation day event",
                 hint: "foundation day"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2016/IMG-20161028-WA0010.jpg",
                 alt: "Memories from 2018-19",
                 hint: "student memories"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2016/IMG-20161028-WA0011.jpg",
                 alt: "A special assembly",
                 hint: "school assembly"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2016/IMG-20161028-WA0024.jpg",
                 alt: "Students with their art projects",
                 hint: "student art projects"
             }
@@ -1330,37 +1326,37 @@ const galleries = [
         items: [
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2015/IMG-20150421-WA0000.jpg",
                 alt: "The very first batch of students",
                 hint: "first batch students"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2015/IMG-20150421-WA0002.jpg",
                 alt: "Inauguration of the tuition centre",
                 hint: "inauguration event"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2015/IMG-20150421-WA0003.jpg",
                 alt: "Our first classroom setup",
                 hint: "old classroom"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2015/IMG-20150421-WA0004.jpg",
                 alt: "Early learning materials",
                 hint: "vintage school books"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2015/IMG-20150421-WA0005.jpg",
                 alt: "A journey back to our beginnings",
                 hint: "school history"
             },
             {
                 type: "image",
-                src: "https://placehold.co/600x400.png",
+                src: "/images/2015/IMG-20150421-WA0006.jpg",
                 alt: "Founders with the first students",
                 hint: "founder students"
             }
@@ -1489,7 +1485,7 @@ function GalleryPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto",
-                                    children: "A visual journey through the years at VSRFCT."
+                                    children: "A visual journey through the years at VSRFCT Tuition Centre."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/gallery/page.tsx",
                                     lineNumber: 195,

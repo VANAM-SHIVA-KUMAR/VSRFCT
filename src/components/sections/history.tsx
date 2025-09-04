@@ -109,8 +109,8 @@ export default function History() {
     <section id="history" className="py-12 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold font-headline">Our History</h2>
-          <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">Our History</h2>
+          <p className="text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto">
             VSRFCT, founded in January 2015, provides educational support and various extracurricular activities for students in a disciplined and holistic environment.
           </p>
         </div>

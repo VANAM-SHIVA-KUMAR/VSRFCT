@@ -26,8 +26,8 @@ export default function Team() {
     <section id="team" className="py-12 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold font-headline">Meet Our Team</h2>
-          <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">Meet Our Team</h2>
+          <p className="text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto">
             The dedicated individuals who make our mission possible.
           </p>
         </div>

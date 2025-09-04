@@ -172,7 +172,7 @@ export default function GalleryPage() {
         <div className="container mx-auto px-4 py-12 md:py-24">
           <div className="text-center mb-12">
             <div className="flex justify-center items-center gap-4 mb-4">
-              <h1 className="text-4xl md:text-6xl font-bold font-headline text-primary">Our Gallery</h1>
+              <h1 className="text-4xl md:text-6xl font-bold font-headline text-green-900">Our Gallery</h1>
               <a href={youtubeUrl} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <svg
                   className="h-12 w-auto md:h-16"
@@ -192,7 +192,7 @@ export default function GalleryPage() {
                 <span className="sr-only">YouTube</span>
               </a>
             </div>
-            <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto">
               A visual journey through the years at VSRFCT Tuition Centre.
             </p>
           </div>
@@ -200,7 +200,7 @@ export default function GalleryPage() {
           <div className="space-y-16">
             {galleries.map(({ year, items }) => (
               <section key={year} id={`year-${year}`}>
-                <h2 className="text-3xl md:text-4xl font-bold font-headline mb-8 text-center md:text-left">
+                <h2 className="text-3xl md:text-4xl font-bold font-headline mb-8 text-center md:text-left text-green-900">
                   Academic Year {year}
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
