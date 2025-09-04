@@ -40,7 +40,7 @@ export default function FounderSpotlight() {
   const { ref, isInView } = useInView({ triggerOnce: true, threshold: 0.2 });
 
   return (
-    <section ref={ref} id="founder" className="py-12 md:py-24 bg-green-50">
+    <section ref={ref} id="founder" className="py-12 md:py-24 bg-green-900 text-green-50">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-12 gap-8 md:gap-12 items-center">
           <div className={cn(
@@ -49,7 +49,7 @@ export default function FounderSpotlight() {
           )}>
             <h2 className="text-3xl md:text-5xl font-bold font-headline mb-4">About the Trust</h2>
             {aboutText.map((paragraph, pIndex) => (
-              <p key={pIndex} className="text-muted-foreground mb-4">
+              <p key={pIndex} className="text-green-200 mb-4">
                 {paragraph}
               </p>
             ))}
@@ -63,12 +63,12 @@ export default function FounderSpotlight() {
                   )}
                   style={{ transitionDelay: `${index * 150}ms` }}
                 >
-                  <div className="bg-primary/10 rounded-full p-3">
+                  <div className="bg-green-800 rounded-full p-3">
                     {stat.icon}
                   </div>
                   <div>
-                    <p className="text-3xl font-bold font-headline text-primary">{stat.value}</p>
-                    <p className="text-md text-muted-foreground">{stat.label}</p>
+                    <p className="text-3xl font-bold font-headline text-white">{stat.value}</p>
+                    <p className="text-md text-green-200">{stat.label}</p>
                   </div>
                 </div>
               ))}

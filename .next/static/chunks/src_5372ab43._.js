@@ -1219,7 +1219,7 @@ function FounderSpotlight() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         ref: ref,
         id: "founder",
-        className: "py-12 md:py-24 bg-green-50",
+        className: "py-12 md:py-24 bg-green-900 text-green-50",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container mx-auto px-4",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1237,7 +1237,7 @@ function FounderSpotlight() {
                                 columnNumber: 13
                             }, this),
                             aboutText.map((paragraph, pIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-muted-foreground mb-4",
+                                    className: "text-green-200 mb-4",
                                     children: paragraph
                                 }, pIndex, false, {
                                     fileName: "[project]/src/components/sections/founder-spotlight.tsx",
@@ -1253,7 +1253,7 @@ function FounderSpotlight() {
                                         },
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "bg-primary/10 rounded-full p-3",
+                                                className: "bg-green-800 rounded-full p-3",
                                                 children: stat.icon
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/founder-spotlight.tsx",
@@ -1263,7 +1263,7 @@ function FounderSpotlight() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-3xl font-bold font-headline text-primary",
+                                                        className: "text-3xl font-bold font-headline text-white",
                                                         children: stat.value
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/founder-spotlight.tsx",
@@ -1271,7 +1271,7 @@ function FounderSpotlight() {
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-md text-muted-foreground",
+                                                        className: "text-md text-green-200",
                                                         children: stat.label
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/founder-spotlight.tsx",
