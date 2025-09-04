@@ -40,7 +40,7 @@ export default function FounderSpotlight() {
   const { ref, isInView } = useInView({ triggerOnce: true, threshold: 0.2 });
 
   return (
-    <section ref={ref} id="founder" className="py-12 md:py-24 bg-card">
+    <section ref={ref} id="founder" className="py-12 md:py-24 bg-green-50">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-12 gap-8 md:gap-12 items-center">
           <div className={cn(
