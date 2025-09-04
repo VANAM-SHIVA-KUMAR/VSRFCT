@@ -49,11 +49,11 @@ export default function Curriculum() {
   const { ref: ref2, isInView: isInView2 } = useInView({ triggerOnce: true, threshold: 0.2 });
 
   return (
-    <section id="curriculum" className="py-12 md:py-24 bg-green-900 text-green-50">
+    <section id="curriculum" className="py-12 md:py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold font-headline text-white">We Focus on Comprehensive Learning</h2>
-          <p className="text-lg md:text-xl text-green-200 mt-4 max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">We Focus on Comprehensive Learning</h2>
+          <p className="text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto">
           "Focused on syllabus, driven by success."
           </p>
         </div>
@@ -66,16 +66,16 @@ export default function Curriculum() {
                 isInView1 ? "opacity-100 translate-x-0" : (index % 2 === 0 ? "opacity-0 -translate-x-10" : "opacity-0 translate-x-10")
               )}
             >
-              <Card className="flex flex-col h-full bg-green-800/80 text-white">
+              <Card className="flex flex-col h-full bg-green-100">
                 <CardHeader className="flex flex-row items-center gap-4">
                   {item.icon}
                   <div >
-                      <CardTitle className="font-headline text-2xl text-white">{item.classes}</CardTitle>
+                      <CardTitle className="font-headline text-2xl text-green-900">{item.classes}</CardTitle>
                       <CardDescription></CardDescription>
                   </div>
                 </CardHeader>
                 <CardContent className="flex-grow">
-                  <ul className="space-y-2">
+                  <ul className="space-y-2 text-green-900/80">
                     {item.subjects.map((subject, pIndex) => (
                       <li key={pIndex} className="flex items-start">
                         <CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 shrink-0" />
@@ -89,10 +89,10 @@ export default function Curriculum() {
           ))}
         </div>
 
-        <div className="mt-16 pt-12 border-t border-green-700">
+        <div className="mt-16 pt-12 border-t border-gray-200">
           <div className="text-center mb-12">
-            <h3 className="text-3xl md:text-4xl font-bold font-headline text-white">Beyond the Classroom</h3>
-             <p className="text-lg md:text-xl text-green-200 mt-4 max-w-3xl mx-auto">
+            <h3 className="text-3xl md:text-4xl font-bold font-headline text-green-900">Beyond the Classroom</h3>
+             <p className="text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto">
                 We believe in holistic development through engaging weekly activities.
             </p>
           </div>
@@ -106,16 +106,16 @@ export default function Curriculum() {
                 )}
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
-                <Card className="flex flex-col h-full bg-green-800/80 text-white">
+                <Card className="flex flex-col h-full bg-green-100">
                   <CardHeader className="flex flex-row items-center gap-4">
                     {item.icon}
                     <div>
-                        <CardTitle className="font-headline text-2xl text-white">{item.day}</CardTitle>
-                        <CardDescription className="text-green-200">{item.description}</CardDescription>
+                        <CardTitle className="font-headline text-2xl text-green-900">{item.day}</CardTitle>
+                        <CardDescription className="text-green-700">{item.description}</CardDescription>
                     </div>
                   </CardHeader>
                   <CardContent className="flex-grow">
-                    <ul className="space-y-2">
+                    <ul className="space-y-2 text-green-900/80">
                       {item.activities.map((activity, pIndex) => (
                         <li key={pIndex} className="flex items-start">
                           <CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 shrink-0" />
