@@ -20,16 +20,16 @@ export default function Footer() {
   const gmapsUrl = "https://www.google.com/maps/search/?api=1&query=Sai+krupa+enclave,+Telecom+nagar,+Hyderabad+500032";
   const youtubeUrl = "https://www.youtube.com/@vsrfct";
   return (
-    <footer className="bg-card text-card-foreground border-t">
+    <footer className="bg-green-900 text-green-100 border-t">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <Logo />
-            <p className="mt-4 text-muted-foreground">
+            <p className="mt-4 text-green-200">
               A non-profit learning initiative by V.S. Raju Family Charitable Trust.
             </p>
             <div className="flex space-x-4 mt-4">
-              <a href={youtubeUrl} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-transform duration-300 hover:scale-110">
+              <a href={youtubeUrl} target="_blank" rel="noopener noreferrer" className="text-green-200 hover:text-white transition-transform duration-300 hover:scale-110">
                 <svg
                   className="h-10 w-auto"
                   viewBox="0 0 28 20"
@@ -51,47 +51,47 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-headline font-semibold tracking-wider uppercase">Quick Links</h3>
+            <h3 className="font-headline font-semibold tracking-wider uppercase text-white">Quick Links</h3>
             <ul className="mt-4 space-y-2">
               {footerLinks.quickLinks.map(link => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-muted-foreground hover:text-primary">{link.name}</Link>
+                  <Link href={link.href} className="text-green-200 hover:text-white">{link.name}</Link>
                 </li>
               ))}
             </ul>
           </div>
           
           <div>
-            <h3 className="font-headline font-semibold tracking-wider uppercase">Support</h3>
+            <h3 className="font-headline font-semibold tracking-wider uppercase text-white">Support</h3>
             <ul className="mt-4 space-y-2">
               {footerLinks.support.map(link => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-muted-foreground hover:text-primary">{link.name}</Link>
+                  <Link href={link.href} className="text-green-200 hover:text-white">{link.name}</Link>
                 </li>
               ))}
             </ul>
           </div>
 
           <div>
-            <h3 className="font-headline font-semibold tracking-wider uppercase">Contact Us</h3>
-            <ul className="mt-4 space-y-2 text-muted-foreground">
+            <h3 className="font-headline font-semibold tracking-wider uppercase text-white">Contact Us</h3>
+            <ul className="mt-4 space-y-2 text-green-200">
               <li className="flex items-start space-x-2 mt-2">
-                <Clock className="h-5 w-5 text-primary shrink-0 mt-1" />
+                <Clock className="h-5 w-5 text-accent shrink-0 mt-1" />
                 <div>
-                    <p className="font-bold">Opening Hours:</p>
+                    <p className="font-bold text-white">Opening Hours:</p>
                     <p>Monday - Saturday: 4.30pm–8.00pm</p>
                     <p>Sunday: Closed</p>
                 </div>
               </li>
               <li className="flex items-start space-x-2 mt-2">
-                <MapPin className="h-5 w-5 text-primary shrink-0 mt-1" />
+                <MapPin className="h-5 w-5 text-accent shrink-0 mt-1" />
                 <div>
-                  <p className="font-bold">Address:</p>
+                  <p className="font-bold text-white">Address:</p>
                   <a 
                     href={gmapsUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-primary"
+                    className="hover:text-white"
                   >
                     Sai krupa enclave, Telecom nagar, Hyderabad 500032
                   </a>
@@ -110,7 +110,7 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t text-center text-muted-foreground">
+        <div className="mt-8 pt-8 border-t border-green-700 text-center text-green-200">
           <p>&copy; {new Date().getFullYear()} VSRFCT. All Rights Reserved.</p>
         </div>
       </div>
