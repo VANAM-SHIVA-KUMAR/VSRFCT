@@ -12,8 +12,8 @@ export function Logo() {
         data-ai-hint="logo"
       />
       <div>
-        <p className="text-2xl font-bold text-white font-headline">
-          VS Raju Family Charitable Trust
+        <p className="text-2xl font-bold font-headline">
+          <span className="text-green-900">VS Raju</span> <span className="text-green-700">Family Charitable Trust</span>
         </p>
       </div>
     </a>
