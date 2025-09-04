@@ -24,7 +24,7 @@ export default function OurBranches() {
   const { ref, isInView } = useInView({ triggerOnce: true, threshold: 0.2 });
   
   return (
-    <section id="branches" className="py-12 md:py-24 bg-background">
+    <section id="branches" className="py-12 md:py-24 bg-white">
       <div
         ref={ref}
         className={cn(
