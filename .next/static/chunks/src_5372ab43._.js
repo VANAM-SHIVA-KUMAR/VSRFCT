@@ -2818,7 +2818,7 @@ function OurBranches() {
                     className: "text-center mb-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl md:text-5xl font-bold font-headline",
+                            className: "text-3xl md:text-5xl font-bold font-headline text-green-900",
                             children: "Our Branches"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/our-branches.tsx",
@@ -2826,7 +2826,7 @@ function OurBranches() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto",
+                            className: "text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto",
                             children: "Find a VSRFCT learning centre near you."
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/our-branches.tsx",

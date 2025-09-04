@@ -33,8 +33,8 @@ export default function OurBranches() {
         )}
       >
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold font-headline">Our Branches</h2>
-          <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">Our Branches</h2>
+          <p className="text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto">
             Find a VSRFCT learning centre near you.
           </p>
         </div>
