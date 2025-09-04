@@ -32,7 +32,7 @@ export default function Features() {
   const { ref, isInView } = useInView({ triggerOnce: true, threshold: 0.2 });
   
   return (
-    <section id="features" className="py-12 md:py-24 bg-background">
+    <section id="features" className="py-12 md:py-24 bg-white">
       <div
         ref={ref}
         className={cn(
