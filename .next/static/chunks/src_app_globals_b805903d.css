@@ -1243,6 +1243,11 @@ section, .container {
   border-color: #0000;
 }
 
+.border-green-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(21 128 61 / var(--tw-border-opacity, 1));
+}
+
 .border-l-transparent {
   border-left-color: #0000;
 }
@@ -1359,6 +1364,10 @@ section, .container {
 .bg-green-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(220 252 231 / var(--tw-bg-opacity, 1));
+}
+
+.bg-green-800\/80 {
+  background-color: #166534cc;
 }
 
 .fill-current {

@@ -10,12 +10,12 @@ const subjectsByClass = [
   {
     classes: "Classes 1-5",
     subjects: ["Telugu", "Hindi", "English", "Mathematics", "Environmental Science"],
-    icon: <BookUser className="h-8 w-8 text-primary" />
+    icon: <BookUser className="h-8 w-8 text-accent" />
   },
   {
     classes: "Classes 6-10",
     subjects: ["Telugu", "Hindi", "English", "Mathematics", "Physical Science", "Biological Science", "Social Studies"],
-    icon: <BookUser className="h-8 w-8 text-primary" />
+    icon: <BookUser className="h-8 w-8 text-accent" />
   }
 ];
 
@@ -29,7 +29,7 @@ const weeklyActivities = [
             "Digital classes on history, science, and more",
             "Discovering new things through interactive sessions"
         ],
-        icon: <Sparkles className="h-8 w-8 text-primary" />
+        icon: <Sparkles className="h-8 w-8 text-accent" />
     },
     {
         day: "Sports Saturdays",
@@ -40,7 +40,7 @@ const weeklyActivities = [
             "Focus on a healthy and active lifestyle",
             "Play in our own dedicated ground"
         ],
-        icon: <Trophy className="h-8 w-8 text-primary" />
+        icon: <Trophy className="h-8 w-8 text-accent" />
     }
 ]
 
@@ -49,11 +49,11 @@ export default function Curriculum() {
   const { ref: ref2, isInView: isInView2 } = useInView({ triggerOnce: true, threshold: 0.2 });
 
   return (
-    <section id="curriculum" className="py-12 md:py-24 bg-card">
+    <section id="curriculum" className="py-12 md:py-24 bg-green-900 text-green-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">We Focus on Comprehensive Learning</h2>
-          <p className="text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-bold font-headline text-white">We Focus on Comprehensive Learning</h2>
+          <p className="text-lg md:text-xl text-green-200 mt-4 max-w-3xl mx-auto">
           "Focused on syllabus, driven by success."
           </p>
         </div>
@@ -66,11 +66,11 @@ export default function Curriculum() {
                 isInView1 ? "opacity-100 translate-x-0" : (index % 2 === 0 ? "opacity-0 -translate-x-10" : "opacity-0 translate-x-10")
               )}
             >
-              <Card className="flex flex-col h-full">
+              <Card className="flex flex-col h-full bg-green-800/80 text-white">
                 <CardHeader className="flex flex-row items-center gap-4">
                   {item.icon}
                   <div >
-                      <CardTitle className="font-headline text-2xl text-primary">{item.classes}</CardTitle>
+                      <CardTitle className="font-headline text-2xl text-white">{item.classes}</CardTitle>
                       <CardDescription></CardDescription>
                   </div>
                 </CardHeader>
@@ -78,7 +78,7 @@ export default function Curriculum() {
                   <ul className="space-y-2">
                     {item.subjects.map((subject, pIndex) => (
                       <li key={pIndex} className="flex items-start">
-                        <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 shrink-0" />
+                        <CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 shrink-0" />
                         <span>{subject}</span>
                       </li>
                     ))}
@@ -89,10 +89,10 @@ export default function Curriculum() {
           ))}
         </div>
 
-        <div className="mt-16 pt-12 border-t">
+        <div className="mt-16 pt-12 border-t border-green-700">
           <div className="text-center mb-12">
-            <h3 className="text-3xl md:text-4xl font-bold font-headline text-green-900">Beyond the Classroom</h3>
-             <p className="text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto">
+            <h3 className="text-3xl md:text-4xl font-bold font-headline text-white">Beyond the Classroom</h3>
+             <p className="text-lg md:text-xl text-green-200 mt-4 max-w-3xl mx-auto">
                 We believe in holistic development through engaging weekly activities.
             </p>
           </div>
@@ -106,19 +106,19 @@ export default function Curriculum() {
                 )}
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
-                <Card className="flex flex-col h-full">
+                <Card className="flex flex-col h-full bg-green-800/80 text-white">
                   <CardHeader className="flex flex-row items-center gap-4">
                     {item.icon}
                     <div>
-                        <CardTitle className="font-headline text-2xl text-primary">{item.day}</CardTitle>
-                        <CardDescription className="text-green-700">{item.description}</CardDescription>
+                        <CardTitle className="font-headline text-2xl text-white">{item.day}</CardTitle>
+                        <CardDescription className="text-green-200">{item.description}</CardDescription>
                     </div>
                   </CardHeader>
                   <CardContent className="flex-grow">
                     <ul className="space-y-2">
                       {item.activities.map((activity, pIndex) => (
                         <li key={pIndex} className="flex items-start">
-                          <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-1 shrink-0" />
+                          <CheckCircle className="h-5 w-5 text-accent mr-2 mt-1 shrink-0" />
                           <span>{activity}</span>
                         </li>
                       ))}
