@@ -48,12 +48,12 @@ export default function OurBranches() {
               )}
               style={{ transitionDelay: `${index * 100}ms` }}
             >
-              <Card className="text-center hover:shadow-lg transition-shadow duration-300 h-full bg-card">
+              <Card className="text-center hover:shadow-lg transition-shadow duration-300 h-full bg-green-100">
                 <CardHeader>
                   <div className="mx-auto bg-primary/10 rounded-full p-4 w-20 h-20 flex items-center justify-center mb-4">
                     {branch.icon}
                   </div>
-                  <CardTitle className="font-headline text-2xl">{branch.name}</CardTitle>
+                  <CardTitle className="font-headline text-2xl text-green-900">{branch.name}</CardTitle>
                 </CardHeader>
               </Card>
             </div>

@@ -1356,6 +1356,11 @@ section, .container {
   background-color: rgb(20 83 45 / var(--tw-bg-opacity, 1));
 }
 
+.bg-green-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 252 231 / var(--tw-bg-opacity, 1));
+}
+
 .fill-current {
   fill: currentColor;
 }
