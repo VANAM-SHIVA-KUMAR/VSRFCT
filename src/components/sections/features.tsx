@@ -41,8 +41,8 @@ export default function Features() {
         )}
       >
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold font-headline">We Provide</h2>
-          <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">We Provide</h2>
+          <p className="text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto">
             Opening doors of learning, free for all.
           </p>
         </div>
@@ -56,14 +56,14 @@ export default function Features() {
               )}
               style={{ transitionDelay: `${index * 100}ms` }}
             >
-              <Card className="text-center hover:shadow-lg transition-shadow duration-300 h-full">
+              <Card className="text-center hover:shadow-lg transition-shadow duration-300 h-full bg-green-100">
                 <CardHeader>
                   <div className="mx-auto bg-primary/10 rounded-full p-4 w-20 h-20 flex items-center justify-center mb-4">
                     {feature.icon}
                   </div>
-                  <CardTitle className="font-headline text-2xl">{feature.title}</CardTitle>
+                  <CardTitle className="font-headline text-2xl text-green-900">{feature.title}</CardTitle>
                 </CardHeader>
-                <CardDescription className="px-6 pb-6">
+                <CardDescription className="px-6 pb-6 text-green-900/80">
                   {feature.description}
                 </CardDescription>
               </Card>

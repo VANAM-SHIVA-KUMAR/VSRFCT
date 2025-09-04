@@ -1715,6 +1715,10 @@ section, .container {
   color: rgb(20 83 45 / var(--tw-text-opacity, 1));
 }
 
+.text-green-900\/80 {
+  color: #14532dcc;
+}
+
 .underline-offset-4 {
   text-underline-offset: 4px;
 }
