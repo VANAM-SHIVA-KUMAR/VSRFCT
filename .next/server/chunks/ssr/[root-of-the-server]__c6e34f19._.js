@@ -885,12 +885,12 @@ function Hero() {
                                             columnNumber: 20
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute inset-0 flex flex-col items-start justify-center text-left text-primary p-6 md:p-12 w-full md:w-2/5 lg:w-1/3",
+                                            className: "absolute inset-0 flex flex-col items-start justify-center text-left p-6 md:p-12 w-full md:w-2/5 lg:w-1/3",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "max-w-2xl",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                                        className: "text-4xl md:text-6xl font-bold font-headline mb-4 text-shadow-lg animate-text-reveal",
+                                                        className: "text-4xl md:text-6xl font-bold font-headline mb-4 text-shadow-lg animate-text-reveal text-green-900",
                                                         children: slide.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/hero.tsx",
@@ -898,7 +898,7 @@ function Hero() {
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-lg md:text-xl max-w-xl animate-fade-in-up animation-delay-500",
+                                                        className: "text-lg md:text-xl max-w-xl animate-fade-in-up animation-delay-500 text-green-700",
                                                         children: slide.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/hero.tsx",

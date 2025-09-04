@@ -97,12 +97,12 @@ export default function Hero() {
                     className="absolute inset-0 bg-white/30"
                     style={{ clipPath: 'polygon(50% 0, 55% 0, 45% 100%, 40% 100%)' }}
                   />
-                  <div className="absolute inset-0 flex flex-col items-start justify-center text-left text-primary p-6 md:p-12 w-full md:w-2/5 lg:w-1/3">
+                  <div className="absolute inset-0 flex flex-col items-start justify-center text-left p-6 md:p-12 w-full md:w-2/5 lg:w-1/3">
                     <div className="max-w-2xl" key={animationKey}>
-                      <h1 className="text-4xl md:text-6xl font-bold font-headline mb-4 text-shadow-lg animate-text-reveal">
+                      <h1 className="text-4xl md:text-6xl font-bold font-headline mb-4 text-shadow-lg animate-text-reveal text-green-900">
                         {slide.title}
                       </h1>
-                      <p className="text-lg md:text-xl max-w-xl animate-fade-in-up animation-delay-500">
+                      <p className="text-lg md:text-xl max-w-xl animate-fade-in-up animation-delay-500 text-green-700">
                         {slide.description}
                       </p>
                     </div>
