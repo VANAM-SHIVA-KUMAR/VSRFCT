@@ -24,7 +24,7 @@ export default function OurBranches() {
   const { ref, isInView } = useInView({ triggerOnce: true, threshold: 0.2 });
   
   return (
-    <section id="branches" className="py-12 md:py-24 bg-card">
+    <section id="branches" className="py-12 md:py-24 bg-background">
       <div
         ref={ref}
         className={cn(
@@ -48,7 +48,7 @@ export default function OurBranches() {
               )}
               style={{ transitionDelay: `${index * 100}ms` }}
             >
-              <Card className="text-center hover:shadow-lg transition-shadow duration-300 h-full">
+              <Card className="text-center hover:shadow-lg transition-shadow duration-300 h-full bg-card">
                 <CardHeader>
                   <div className="mx-auto bg-primary/10 rounded-full p-4 w-20 h-20 flex items-center justify-center mb-4">
                     {branch.icon}
