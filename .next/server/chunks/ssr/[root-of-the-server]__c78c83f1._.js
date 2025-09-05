@@ -1,0 +1,40 @@
+module.exports = {
+
+"[turbopack]/browser/dev/hmr-client/hmr-client.ts [app-ssr] (ecmascript, async loader)": ((__turbopack_context__) => {
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.v((parentImport) => {
+    return Promise.all([
+  "server/chunks/ssr/[turbopack]_browser_dev_hmr-client_hmr-client_ts_59fa4ecd._.js"
+].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
+        return parentImport("[turbopack]/browser/dev/hmr-client/hmr-client.ts [app-ssr] (ecmascript)");
+    });
+});
+}}),
+"[project]/node_modules/three/build/three.module.js [app-ssr] (ecmascript, async loader)": ((__turbopack_context__) => {
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.v((parentImport) => {
+    return Promise.all([
+  "server/chunks/ssr/node_modules_three_build_three_module_7892fb7a.js"
+].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
+        return parentImport("[project]/node_modules/three/build/three.module.js [app-ssr] (ecmascript)");
+    });
+});
+}}),
+"[project]/node_modules/vanta/dist/vanta.net.min.js [app-ssr] (ecmascript, async loader)": ((__turbopack_context__) => {
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.v((parentImport) => {
+    return Promise.all([
+  "server/chunks/ssr/node_modules_vanta_dist_vanta_net_min_4966702f.js"
+].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
+        return parentImport("[project]/node_modules/vanta/dist/vanta.net.min.js [app-ssr] (ecmascript)");
+    });
+});
+}}),
+
+};

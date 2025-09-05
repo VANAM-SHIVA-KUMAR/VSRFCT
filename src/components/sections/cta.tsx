@@ -5,16 +5,16 @@ import Link from 'next/link';
 import { useInView } from '@/hooks/use-in-view';
 import { cn } from "@/lib/utils";
 import React, { useState, useEffect, useRef } from 'react';
-import type * as THREE from 'three';
+import * as THREE from 'three';
 
 // Define the type for the Vanta effect
 type VantaEffect = {
   destroy: () => void;
+  // Add other methods if needed
 };
 
-// Define the type for the Vanta Birds function
-type VantaBirds = {
-  (options: {
+// Define the type for the Vanta function
+type VantaFunction = (options: {
     el: HTMLElement | null;
     THREE: typeof THREE;
     mouseControls: boolean;
@@ -24,18 +24,13 @@ type VantaBirds = {
     minWidth: number;
     scale: number;
     scaleMobile: number;
+    color?: number;
     backgroundColor?: number;
-    color1?: number;
-    color2?: number;
-    birdSize?: number;
-    wingSpan?: number;
-    speedLimit?: number;
-    separation?: number;
-    alignment?: number;
-    cohesion?: number;
-    quantity?: number;
-  }): VantaEffect;
-};
+    points?: number;
+    maxDistance?: number;
+    spacing?: number;
+}) => VantaEffect;
+
 
 export default function Cta() {
   const { ref, isInView } = useInView({ triggerOnce: true, threshold: 0.3 });
@@ -44,38 +39,38 @@ export default function Cta() {
 
   useEffect(() => {
     let effect: VantaEffect | null = null;
-    if (vantaRef.current) {
-      // Dynamically import dependencies
-      Promise.all([
-        import('three'),
-        import('vanta/dist/vanta.birds.min.js')
-      ]).then(([three, vanta]) => {
-        const THREE = three.default;
-        const BIRDS = (vanta.default || vanta) as VantaBirds;
-        if (!vantaEffect) {
-          effect = BIRDS({
-            el: vantaRef.current,
-            THREE: THREE,
-            mouseControls: true,
-            touchControls: true,
-            gyroControls: false,
-            minHeight: 200.00,
-            minWidth: 200.00,
-            scale: 1.00,
-            scaleMobile: 1.00,
-            backgroundColor: 0x0,
-            color1: 0x4a71c8,
-            color2: 0xffa700,
-            quantity: 3.00
-          });
-          setVantaEffect(effect);
-        }
-      });
+    if (isInView && vantaRef.current) {
+        Promise.all([
+            import('three'),
+            import('vanta/dist/vanta.net.min.js')
+        ]).then(([three, vanta]) => {
+            const THREE = three.default;
+            const NET = (vanta.default || vanta) as VantaFunction;
+            if (!vantaEffect) {
+                effect = NET({
+                    el: vantaRef.current,
+                    THREE: THREE,
+                    mouseControls: true,
+                    touchControls: true,
+                    gyroControls: false,
+                    minHeight: 200.00,
+                    minWidth: 200.00,
+                    scale: 1.00,
+                    scaleMobile: 1.00,
+                    color: 0xffc107, // accent color
+                    backgroundColor: 0x1e3a8a, // primary color
+                    points: 10.00,
+                    maxDistance: 20.00,
+                    spacing: 15.00
+                });
+                setVantaEffect(effect);
+            }
+        })
     }
     return () => {
       if (vantaEffect) vantaEffect.destroy();
     }
-  }, [vantaEffect]);
+  }, [isInView]);
 
   return (
     <section id="contact" className="py-12 md:py-24 bg-background">
@@ -88,7 +83,7 @@ export default function Cta() {
           )}
         >
           <div className="relative z-10">
-            <h2 className="text-3xl md:text-5xl font-bold font-headline mb-4 text-green-100">Ready to Give Your Child a Brighter Future?</h2>
+            <h2 className="text-3xl md:text-5xl font-bold font-headline mb-4">Ready to Give Your Child a Brighter Future?</h2>
             <p className="text-lg md:text-xl text-green-300 mb-8 max-w-3xl mx-auto">
               Admissions are open for Government School children (Classes 1–10, State Syllabus). Join our non-profit initiative for free, high-quality tuition.
             </p>
