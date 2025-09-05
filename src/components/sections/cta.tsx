@@ -24,11 +24,16 @@ type VantaFunction = (options: {
     minWidth: number;
     scale: number;
     scaleMobile: number;
-    color?: number;
     backgroundColor?: number;
-    points?: number;
-    maxDistance?: number;
-    spacing?: number;
+    color1?: number;
+    color2?: number;
+    birdSize?: number;
+    wingSpan?: number;
+    speedLimit?: number;
+    separation?: number;
+    alignment?: number;
+    cohesion?: number;
+    quantity?: number;
 }) => VantaEffect;
 
 
@@ -42,12 +47,12 @@ export default function Cta() {
     if (isInView && vantaRef.current) {
         Promise.all([
             import('three'),
-            import('vanta/dist/vanta.net.min.js')
+            import('vanta/dist/vanta.birds.min.js')
         ]).then(([three, vanta]) => {
             const THREE = three.default;
-            const NET = (vanta.default || vanta) as VantaFunction;
+            const BIRDS = (vanta.default || vanta) as VantaFunction;
             if (!vantaEffect) {
-                effect = NET({
+                effect = BIRDS({
                     el: vantaRef.current,
                     THREE: THREE,
                     mouseControls: true,
@@ -57,11 +62,10 @@ export default function Cta() {
                     minWidth: 200.00,
                     scale: 1.00,
                     scaleMobile: 1.00,
-                    color: 0xffc107, // accent color
                     backgroundColor: 0x1e3a8a, // primary color
-                    points: 10.00,
-                    maxDistance: 20.00,
-                    spacing: 15.00
+                    color1: 0xffc107, // accent color
+                    color2: 0x155799,
+                    quantity: 3.00,
                 });
                 setVantaEffect(effect);
             }
@@ -70,7 +74,7 @@ export default function Cta() {
     return () => {
       if (vantaEffect) vantaEffect.destroy();
     }
-  }, [isInView]);
+  }, [isInView, vantaEffect]);
 
   return (
     <section id="contact" className="py-12 md:py-24 bg-background">

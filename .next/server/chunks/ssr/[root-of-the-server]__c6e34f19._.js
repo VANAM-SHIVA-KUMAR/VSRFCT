@@ -2368,12 +2368,12 @@ function Cta() {
         if (isInView && vantaRef.current) {
             Promise.all([
                 __turbopack_context__.r("[project]/node_modules/three/build/three.module.js [app-ssr] (ecmascript, async loader)")(__turbopack_context__.i),
-                __turbopack_context__.r("[project]/node_modules/vanta/dist/vanta.net.min.js [app-ssr] (ecmascript, async loader)")(__turbopack_context__.i)
+                __turbopack_context__.r("[project]/node_modules/vanta/dist/vanta.birds.min.js [app-ssr] (ecmascript, async loader)")(__turbopack_context__.i)
             ]).then(([three, vanta])=>{
                 const THREE = three.default;
-                const NET = vanta.default || vanta;
+                const BIRDS = vanta.default || vanta;
                 if (!vantaEffect) {
-                    effect = NET({
+                    effect = BIRDS({
                         el: vantaRef.current,
                         THREE: THREE,
                         mouseControls: true,
@@ -2383,11 +2383,10 @@ function Cta() {
                         minWidth: 200.00,
                         scale: 1.00,
                         scaleMobile: 1.00,
-                        color: 0xffc107,
                         backgroundColor: 0x1e3a8a,
-                        points: 10.00,
-                        maxDistance: 20.00,
-                        spacing: 15.00
+                        color1: 0xffc107,
+                        color2: 0x155799,
+                        quantity: 3.00
                     });
                     setVantaEffect(effect);
                 }
@@ -2397,7 +2396,8 @@ function Cta() {
             if (vantaEffect) vantaEffect.destroy();
         };
     }, [
-        isInView
+        isInView,
+        vantaEffect
     ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "contact",
@@ -2416,7 +2416,7 @@ function Cta() {
                             children: "Ready to Give Your Child a Brighter Future?"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/cta.tsx",
-                            lineNumber: 86,
+                            lineNumber: 90,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2424,7 +2424,7 @@ function Cta() {
                             children: "Admissions are open for Government School children (Classes 1–10, State Syllabus). Join our non-profit initiative for free, high-quality tuition."
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/cta.tsx",
-                            lineNumber: 87,
+                            lineNumber: 91,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2440,12 +2440,12 @@ function Cta() {
                                         children: "Enroll Now"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/cta.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 96,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/cta.tsx",
-                                    lineNumber: 91,
+                                    lineNumber: 95,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -2458,39 +2458,39 @@ function Cta() {
                                         children: "Learn More"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/cta.tsx",
-                                        lineNumber: 95,
+                                        lineNumber: 99,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/cta.tsx",
-                                    lineNumber: 94,
+                                    lineNumber: 98,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/sections/cta.tsx",
-                            lineNumber: 90,
+                            lineNumber: 94,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/sections/cta.tsx",
-                    lineNumber: 85,
+                    lineNumber: 89,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/sections/cta.tsx",
-                lineNumber: 78,
+                lineNumber: 82,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/sections/cta.tsx",
-            lineNumber: 77,
+            lineNumber: 81,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/sections/cta.tsx",
-        lineNumber: 76,
+        lineNumber: 80,
         columnNumber: 5
     }, this);
 }
