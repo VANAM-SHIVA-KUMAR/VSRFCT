@@ -12,10 +12,10 @@ export function Logo() {
         data-ai-hint="logo"
       />
       <div>
-        <p className="text-4xl font-bold font-headline text-green-900">
+        <p className="text-2xl font-bold font-headline text-green-900">
           Prof. V.S. Raju
         </p>
-        <p className="text-4xl font-bold font-headline text-green-700">
+        <p className="text-xl font-bold font-headline text-green-700">
           Family Charitable Trust
         </p>
       </div>
