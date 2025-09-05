@@ -12,8 +12,8 @@ type VantaEffect = {
   destroy: () => void;
 };
 
-// Define the type for the Vanta Clouds function
-type VantaClouds = {
+// Define the type for the Vanta Birds function
+type VantaBirds = {
   (options: {
     el: HTMLElement | null;
     THREE: typeof THREE;
@@ -22,13 +22,18 @@ type VantaClouds = {
     gyroControls: boolean;
     minHeight: number;
     minWidth: number;
-    backgroundColor: number;
-    skyColor: number;
-    cloudColor: number;
-    cloudShadowColor: number;
-    sunColor: number;
-    sunGlareColor: number;
-    sunlightColor: number;
+    scale: number;
+    scaleMobile: number;
+    backgroundColor?: number;
+    color1?: number;
+    color2?: number;
+    birdSize?: number;
+    wingSpan?: number;
+    speedLimit?: number;
+    separation?: number;
+    alignment?: number;
+    cohesion?: number;
+    quantity?: number;
   }): VantaEffect;
 };
 
@@ -43,12 +48,12 @@ export default function Cta() {
       // Dynamically import dependencies
       Promise.all([
         import('three'),
-        import('vanta/dist/vanta.clouds.min.js')
+        import('vanta/dist/vanta.birds.min.js')
       ]).then(([three, vanta]) => {
         const THREE = three.default;
-        const CLOUDS = (vanta.default || vanta) as VantaClouds;
+        const BIRDS = (vanta.default || vanta) as VantaBirds;
         if (!vantaEffect) {
-          effect = CLOUDS({
+          effect = BIRDS({
             el: vantaRef.current,
             THREE: THREE,
             mouseControls: true,
@@ -56,13 +61,12 @@ export default function Cta() {
             gyroControls: false,
             minHeight: 200.00,
             minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
             backgroundColor: 0x0,
-            skyColor: 0x1d2a58,
-            cloudColor: 0x4a71c8,
-            cloudShadowColor: 0x1d2a58,
-            sunColor: 0xffc400,
-            sunGlareColor: 0xffa700,
-            sunlightColor: 0xffa700,
+            color1: 0x4a71c8,
+            color2: 0xffa700,
+            quantity: 3.00
           });
           setVantaEffect(effect);
         }
