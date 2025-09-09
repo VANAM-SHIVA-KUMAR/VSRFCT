@@ -16,19 +16,16 @@ const testimonials = [
     name: "Mrs. Lakshmi",
     title: "Parent of a 5th Grader",
     quote: "VSRFCT has been a blessing for my daughter. The teachers are so caring and dedicated. Her confidence and grades have improved so much. Thank you for this wonderful free service!",
-    avatar: "L",
   },
   {
     name: "Siri",
     title: "Class 8 Student",
     quote: "I used to find Maths very difficult, but the teachers here make it so easy and fun to learn. I enjoy coming to the tuition centre every day after school. My friends and I learn a lot.",
-    avatar: "S",
   },
   {
     name: "Mr. Srinivas",
     title: "Well-wisher",
     quote: "The work being done by the V.S. Raju Family Charitable Trust is truly commendable. Providing free, quality education is the greatest gift one can give to society. Keep up the noble work!",
-    avatar: "S",
   }
 ];
 
@@ -62,15 +59,13 @@ export default function Testimonials() {
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-1 h-full">
                   <Card className="h-full flex flex-col justify-between">
-                    <CardContent className="p-6">
-                      <blockquote className="text-lg italic border-l-4 border-primary pl-4 mb-6">
+                    <CardContent className="p-6 flex flex-col justify-between h-full">
+                      <blockquote className="text-lg italic border-l-4 border-primary pl-4 mb-6 flex-grow">
                         {testimonial.quote}
                       </blockquote>
-                      <div className="flex items-center">
-                        <div>
-                          <p className="font-semibold font-headline">{testimonial.name}</p>
-                          <p className="text-sm text-muted-foreground">{testimonial.title}</p>
-                        </div>
+                      <div>
+                        <p className="font-semibold font-headline">{testimonial.name}</p>
+                        <p className="text-sm text-muted-foreground">{testimonial.title}</p>
                       </div>
                     </CardContent>
                   </Card>
