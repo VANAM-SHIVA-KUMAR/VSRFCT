@@ -1049,8 +1049,7 @@ const founder = {
     hint: "professional portrait"
 };
 const aboutText = [
-    "The V.S. Raju Family Charitable Trust is founded by Prof. V.S. Raju, an eminent academician and engineer with over six decades of contribution to education, research, and nation-building. Born in 1940 in Kopalle, West Godavari, he pursued his Civil Engineering at Andhra University, a postgraduate degree at IISc Bangalore, and a Ph.D. in Geotechnical Engineering from the University of Karlsruhe, Germany.",
-    "Prof. Raju has served as Director of IIT Delhi, Professor & Dean at IIT Madras, and held key roles in prestigious national projects, advisory boards, and corporates. He has guided more than 800 geotechnical and foundation projects across India and abroad, while also contributing to landmark initiatives such as the Shri Ram Mandir, Ayodhya and the Polavaram Irrigation Project.",
+    "The V.S. Raju Family Charitable Trust is founded by Prof. V.S. Raju has served as Director of IIT Delhi, Professor & Dean at IIT Madras, and held key roles in prestigious national projects, advisory boards, and corporates.",
     "The Trust reflects his lifelong values of knowledge, service, and community welfare—dedicated to advancing education, supporting social causes, and inspiring future generations."
 ];
 const stats = [
@@ -1059,7 +1058,7 @@ const stats = [
             className: "h-8 w-8 text-accent"
         }, void 0, false, {
             fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-            lineNumber: 22,
+            lineNumber: 21,
             columnNumber: 11
         }, this),
         value: "10+",
@@ -1070,7 +1069,7 @@ const stats = [
             className: "h-8 w-8 text-accent"
         }, void 0, false, {
             fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-            lineNumber: 27,
+            lineNumber: 26,
             columnNumber: 11
         }, this),
         value: "10",
@@ -1081,7 +1080,7 @@ const stats = [
             className: "h-8 w-8 text-accent"
         }, void 0, false, {
             fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-            lineNumber: 32,
+            lineNumber: 31,
             columnNumber: 11
         }, this),
         value: "750+",
@@ -1110,7 +1109,7 @@ function FounderSpotlight() {
                                 children: "About the Trust"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                                lineNumber: 50,
+                                lineNumber: 49,
                                 columnNumber: 13
                             }, this),
                             aboutText.map((paragraph, pIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1118,7 +1117,7 @@ function FounderSpotlight() {
                                     children: paragraph
                                 }, pIndex, false, {
                                     fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                                    lineNumber: 52,
+                                    lineNumber: 51,
                                     columnNumber: 15
                                 }, this)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1134,7 +1133,7 @@ function FounderSpotlight() {
                                                 children: stat.icon
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                                                lineNumber: 66,
+                                                lineNumber: 65,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1144,7 +1143,7 @@ function FounderSpotlight() {
                                                         children: stat.value
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                                                        lineNumber: 70,
+                                                        lineNumber: 69,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1152,30 +1151,30 @@ function FounderSpotlight() {
                                                         children: stat.label
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                                                        lineNumber: 71,
+                                                        lineNumber: 70,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                                                lineNumber: 69,
+                                                lineNumber: 68,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                                        lineNumber: 58,
+                                        lineNumber: 57,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                                lineNumber: 56,
+                                lineNumber: 55,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                        lineNumber: 46,
+                        lineNumber: 45,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1189,28 +1188,28 @@ function FounderSpotlight() {
                             className: "rounded-xl shadow-lg w-full mx-auto"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                            lineNumber: 81,
+                            lineNumber: 80,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                        lineNumber: 77,
+                        lineNumber: 76,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-                lineNumber: 45,
+                lineNumber: 44,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-            lineNumber: 44,
+            lineNumber: 43,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/sections/founder-spotlight.tsx",
-        lineNumber: 43,
+        lineNumber: 42,
         columnNumber: 5
     }, this);
 }
