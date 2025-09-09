@@ -2288,16 +2288,16 @@ function Cta() {
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         let effect = null;
         if (isInView && vantaRef.current) {
+            // Dynamically import three and vanta.birds
             Promise.all([
                 __turbopack_context__.r("[project]/node_modules/three/build/three.module.js [app-ssr] (ecmascript, async loader)")(__turbopack_context__.i),
                 __turbopack_context__.r("[project]/node_modules/vanta/dist/vanta.birds.min.js [app-ssr] (ecmascript, async loader)")(__turbopack_context__.i)
-            ]).then(([three, vanta])=>{
-                const THREE_IMPORT = three.default || three;
-                const BIRDS = vanta.default || vanta;
+            ]).then(([THREE, VANTA])=>{
+                const VantaBirds = VANTA.default || VANTA;
                 if (!vantaEffect) {
-                    effect = BIRDS({
+                    effect = VantaBirds({
                         el: vantaRef.current,
-                        THREE: THREE_IMPORT,
+                        THREE: THREE,
                         mouseControls: true,
                         touchControls: true,
                         gyroControls: false,
@@ -2305,31 +2305,36 @@ function Cta() {
                         minWidth: 200.00,
                         scale: 1.00,
                         scaleMobile: 1.00,
-                        backgroundColor: 0x1e3a8a,
-                        color1: 0xffc107,
-                        color2: 0x155799,
+                        backgroundColor: 0x1e293b,
+                        color1: 0xfacc15,
+                        color2: 0xbae6fd,
                         quantity: 3.00
                     });
                     setVantaEffect(effect);
                 }
-            });
+            }).catch((err)=>console.error("Vanta loading failed:", err));
         }
         return ()=>{
-            if (effect) effect.destroy();
+            if (effect) {
+                effect.destroy();
+            } else if (vantaEffect) {
+                vantaEffect.destroy();
+            }
         };
     }, [
-        isInView
+        isInView,
+        vantaEffect
     ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "contact",
         className: "py-12 md:py-24 bg-background",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            ref: ref,
             className: "container mx-auto px-4",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 ref: vantaRef,
                 className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("text-primary-foreground rounded-lg p-8 md:p-16 text-center shadow-lg transition-all duration-700 ease-in-out relative overflow-hidden min-h-[500px] md:min-h-[400px] flex flex-col justify-center", isInView ? "opacity-100 scale-100" : "opacity-0 scale-95"),
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    ref: ref,
                     className: "relative z-10",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2337,7 +2342,7 @@ function Cta() {
                             children: "Ready to Give Your Child a Brighter Future?"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/cta.tsx",
-                            lineNumber: 90,
+                            lineNumber: 87,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2345,7 +2350,7 @@ function Cta() {
                             children: "Admissions are open for Government School children (Classes 1–10, State Syllabus). Join our non-profit initiative for free, high-quality tuition."
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/cta.tsx",
-                            lineNumber: 91,
+                            lineNumber: 88,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2361,12 +2366,12 @@ function Cta() {
                                         children: "Enroll Now"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/cta.tsx",
-                                        lineNumber: 96,
+                                        lineNumber: 93,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/cta.tsx",
-                                    lineNumber: 95,
+                                    lineNumber: 92,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -2379,39 +2384,39 @@ function Cta() {
                                         children: "Learn More"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/cta.tsx",
-                                        lineNumber: 99,
+                                        lineNumber: 96,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/cta.tsx",
-                                    lineNumber: 98,
+                                    lineNumber: 95,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/sections/cta.tsx",
-                            lineNumber: 94,
+                            lineNumber: 91,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/sections/cta.tsx",
-                    lineNumber: 89,
+                    lineNumber: 86,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/sections/cta.tsx",
-                lineNumber: 82,
+                lineNumber: 79,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/sections/cta.tsx",
-            lineNumber: 81,
+            lineNumber: 78,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/sections/cta.tsx",
-        lineNumber: 80,
+        lineNumber: 77,
         columnNumber: 5
     }, this);
 }

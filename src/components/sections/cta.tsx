@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { useInView } from '@/hooks/use-in-view';
 import { cn } from "@/lib/utils";
 import React, { useState, useEffect, useRef } from 'react';
-import * as THREE from 'three';
 
 // Define the type for the Vanta effect
 type VantaEffect = {
@@ -16,7 +15,7 @@ type VantaEffect = {
 // Define the type for the Vanta function
 type VantaFunction = (options: {
     el: HTMLElement | null;
-    THREE: typeof THREE;
+    THREE: any; // Using any to avoid THREE.js type conflicts with the vanta library
     mouseControls: boolean;
     touchControls: boolean;
     gyroControls: boolean;
@@ -27,12 +26,6 @@ type VantaFunction = (options: {
     backgroundColor?: number;
     color1?: number;
     color2?: number;
-    birdSize?: number;
-    wingSpan?: number;
-    speedLimit?: number;
-    separation?: number;
-    alignment?: number;
-    cohesion?: number;
     quantity?: number;
 }) => VantaEffect;
 
@@ -45,16 +38,16 @@ export default function Cta() {
   useEffect(() => {
     let effect: VantaEffect | null = null;
     if (isInView && vantaRef.current) {
+        // Dynamically import three and vanta.birds
         Promise.all([
             import('three'),
             import('vanta/dist/vanta.birds.min.js')
-        ]).then(([three, vanta]) => {
-            const THREE_IMPORT = three.default || three;
-            const BIRDS = (vanta.default || vanta) as VantaFunction;
+        ]).then(([THREE, VANTA]) => {
+            const VantaBirds = (VANTA as any).default || VANTA;
             if (!vantaEffect) {
-                effect = BIRDS({
+                effect = VantaBirds({
                     el: vantaRef.current,
-                    THREE: THREE_IMPORT,
+                    THREE: THREE,
                     mouseControls: true,
                     touchControls: true,
                     gyroControls: false,
@@ -62,23 +55,27 @@ export default function Cta() {
                     minWidth: 200.00,
                     scale: 1.00,
                     scaleMobile: 1.00,
-                    backgroundColor: 0x1e3a8a, // primary color
-                    color1: 0xffc107, // accent color
-                    color2: 0x155799,
+                    backgroundColor: 0x1e293b,
+                    color1: 0xfacc15,
+                    color2: 0xbae6fd,
                     quantity: 3.00,
-                });
+                }) as VantaEffect;
                 setVantaEffect(effect);
             }
-        })
+        }).catch(err => console.error("Vanta loading failed:", err));
     }
     return () => {
-      if (effect) effect.destroy();
+      if (effect) {
+        effect.destroy();
+      } else if (vantaEffect) {
+        vantaEffect.destroy();
+      }
     }
-  }, [isInView]);
+  }, [isInView, vantaEffect]);
 
   return (
     <section id="contact" className="py-12 md:py-24 bg-background">
-      <div ref={ref} className="container mx-auto px-4">
+      <div className="container mx-auto px-4">
         <div 
           ref={vantaRef}
           className={cn(
@@ -86,7 +83,7 @@ export default function Cta() {
             isInView ? "opacity-100 scale-100" : "opacity-0 scale-95"
           )}
         >
-          <div className="relative z-10">
+          <div ref={ref} className="relative z-10">
             <h2 className="text-3xl md:text-5xl font-bold font-headline mb-4">Ready to Give Your Child a Brighter Future?</h2>
             <p className="text-lg md:text-xl text-green-300 mb-8 max-w-3xl mx-auto">
               Admissions are open for Government School children (Classes 1–10, State Syllabus). Join our non-profit initiative for free, high-quality tuition.
