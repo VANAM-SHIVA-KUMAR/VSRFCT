@@ -58,15 +58,17 @@ export default function Testimonials() {
             {testimonials.map((testimonial, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-1 h-full">
-                  <Card className="h-full flex flex-col justify-between">
-                    <CardContent className="p-6 flex flex-col justify-between h-full">
-                      <blockquote className="text-lg italic border-l-4 border-primary pl-4 mb-6 flex-grow">
-                        {testimonial.quote}
+                  <Card className="h-full flex flex-col justify-center text-center">
+                    <CardContent className="p-6 flex flex-col items-center">
+                      <div className="w-16 h-1 bg-accent mx-auto mb-4"></div>
+                      <blockquote className="text-lg italic text-muted-foreground mb-4 flex-grow">
+                        “{testimonial.quote}”
                       </blockquote>
                       <div>
-                        <p className="font-semibold font-headline">{testimonial.name}</p>
+                        <p className="font-semibold font-headline text-primary">{testimonial.name}</p>
                         <p className="text-sm text-muted-foreground">{testimonial.title}</p>
                       </div>
+                      <div className="w-16 h-1 bg-accent mx-auto mt-4"></div>
                     </CardContent>
                   </Card>
                 </div>

@@ -701,6 +701,10 @@ section, .container {
   height: 70vh;
 }
 
+.h-1 {
+  height: .25rem;
+}
+
 .max-h-96 {
   max-height: 24rem;
 }
@@ -815,6 +819,10 @@ section, .container {
 
 .w-14 {
   width: 3.5rem;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .min-w-0 {
