@@ -8,7 +8,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { useInView } from '@/hooks/use-in-view';
 import { cn } from "@/lib/utils";
 
@@ -68,10 +67,7 @@ export default function Testimonials() {
                         {testimonial.quote}
                       </blockquote>
                       <div className="flex items-center">
-                        <Avatar>
-                          <AvatarFallback>{testimonial.avatar}</AvatarFallback>
-                        </Avatar>
-                        <div className="ml-4">
+                        <div>
                           <p className="font-semibold font-headline">{testimonial.name}</p>
                           <p className="text-sm text-muted-foreground">{testimonial.title}</p>
                         </div>
