@@ -18,24 +18,18 @@ const testimonials = [
     title: "Parent of a 5th Grader",
     quote: "VSRFCT has been a blessing for my daughter. The teachers are so caring and dedicated. Her confidence and grades have improved so much. Thank you for this wonderful free service!",
     avatar: "L",
-    image: "https://placehold.co/100x100.png",
-    hint: "happy mother"
   },
   {
     name: "Siri",
     title: "Class 8 Student",
     quote: "I used to find Maths very difficult, but the teachers here make it so easy and fun to learn. I enjoy coming to the tuition centre every day after school. My friends and I learn a lot.",
     avatar: "S",
-    image: "https://placehold.co/100x100.png",
-    hint: "smiling female student"
   },
   {
     name: "Mr. Srinivas",
     title: "Well-wisher",
     quote: "The work being done by the V.S. Raju Family Charitable Trust is truly commendable. Providing free, quality education is the greatest gift one can give to society. Keep up the noble work!",
     avatar: "S",
-    image: "https://placehold.co/100x100.png",
-    hint: "professional man"
   }
 ];
 
@@ -75,7 +69,6 @@ export default function Testimonials() {
                       </blockquote>
                       <div className="flex items-center">
                         <Avatar>
-                          <AvatarImage src={testimonial.image} alt={testimonial.name} data-ai-hint={testimonial.hint} />
                           <AvatarFallback>{testimonial.avatar}</AvatarFallback>
                         </Avatar>
                         <div className="ml-4">

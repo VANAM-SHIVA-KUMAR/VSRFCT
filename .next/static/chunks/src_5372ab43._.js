@@ -2129,25 +2129,19 @@ const testimonials = [
         name: "Mrs. Lakshmi",
         title: "Parent of a 5th Grader",
         quote: "VSRFCT has been a blessing for my daughter. The teachers are so caring and dedicated. Her confidence and grades have improved so much. Thank you for this wonderful free service!",
-        avatar: "L",
-        image: "https://placehold.co/100x100.png",
-        hint: "happy mother"
+        avatar: "L"
     },
     {
         name: "Siri",
         title: "Class 8 Student",
         quote: "I used to find Maths very difficult, but the teachers here make it so easy and fun to learn. I enjoy coming to the tuition centre every day after school. My friends and I learn a lot.",
-        avatar: "S",
-        image: "https://placehold.co/100x100.png",
-        hint: "smiling female student"
+        avatar: "S"
     },
     {
         name: "Mr. Srinivas",
         title: "Well-wisher",
         quote: "The work being done by the V.S. Raju Family Charitable Trust is truly commendable. Providing free, quality education is the greatest gift one can give to society. Keep up the noble work!",
-        avatar: "S",
-        image: "https://placehold.co/100x100.png",
-        hint: "professional man"
+        avatar: "S"
     }
 ];
 function Testimonials() {
@@ -2171,7 +2165,7 @@ function Testimonials() {
                             children: "What People Are Saying"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/testimonials.tsx",
-                            lineNumber: 55,
+                            lineNumber: 49,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2179,13 +2173,13 @@ function Testimonials() {
                             children: "Feedback from parents, students, and well-wishers of our community."
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/testimonials.tsx",
-                            lineNumber: 56,
+                            lineNumber: 50,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/sections/testimonials.tsx",
-                    lineNumber: 54,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$carousel$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Carousel"], {
@@ -2210,34 +2204,23 @@ function Testimonials() {
                                                         children: testimonial.quote
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/testimonials.tsx",
-                                                        lineNumber: 73,
+                                                        lineNumber: 67,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "flex items-center",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$avatar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Avatar"], {
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$avatar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AvatarImage"], {
-                                                                        src: testimonial.image,
-                                                                        alt: testimonial.name,
-                                                                        "data-ai-hint": testimonial.hint
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/sections/testimonials.tsx",
-                                                                        lineNumber: 78,
-                                                                        columnNumber: 27
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$avatar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AvatarFallback"], {
-                                                                        children: testimonial.avatar
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/sections/testimonials.tsx",
-                                                                        lineNumber: 79,
-                                                                        columnNumber: 27
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$avatar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AvatarFallback"], {
+                                                                    children: testimonial.avatar
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/sections/testimonials.tsx",
+                                                                    lineNumber: 72,
+                                                                    columnNumber: 27
+                                                                }, this)
+                                                            }, void 0, false, {
                                                                 fileName: "[project]/src/components/sections/testimonials.tsx",
-                                                                lineNumber: 77,
+                                                                lineNumber: 71,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2248,7 +2231,7 @@ function Testimonials() {
                                                                         children: testimonial.name
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/sections/testimonials.tsx",
-                                                                        lineNumber: 82,
+                                                                        lineNumber: 75,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2256,72 +2239,72 @@ function Testimonials() {
                                                                         children: testimonial.title
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/sections/testimonials.tsx",
-                                                                        lineNumber: 83,
+                                                                        lineNumber: 76,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/sections/testimonials.tsx",
-                                                                lineNumber: 81,
+                                                                lineNumber: 74,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/sections/testimonials.tsx",
-                                                        lineNumber: 76,
+                                                        lineNumber: 70,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/sections/testimonials.tsx",
-                                                lineNumber: 72,
+                                                lineNumber: 66,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/testimonials.tsx",
-                                            lineNumber: 71,
+                                            lineNumber: 65,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/testimonials.tsx",
-                                        lineNumber: 70,
+                                        lineNumber: 64,
                                         columnNumber: 17
                                     }, this)
                                 }, index, false, {
                                     fileName: "[project]/src/components/sections/testimonials.tsx",
-                                    lineNumber: 69,
+                                    lineNumber: 63,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/testimonials.tsx",
-                            lineNumber: 67,
+                            lineNumber: 61,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$carousel$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CarouselPrevious"], {}, void 0, false, {
                             fileName: "[project]/src/components/sections/testimonials.tsx",
-                            lineNumber: 92,
+                            lineNumber: 85,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$carousel$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CarouselNext"], {}, void 0, false, {
                             fileName: "[project]/src/components/sections/testimonials.tsx",
-                            lineNumber: 93,
+                            lineNumber: 86,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/sections/testimonials.tsx",
-                    lineNumber: 60,
+                    lineNumber: 54,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/sections/testimonials.tsx",
-            lineNumber: 47,
+            lineNumber: 41,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/sections/testimonials.tsx",
-        lineNumber: 46,
+        lineNumber: 40,
         columnNumber: 5
     }, this);
 }

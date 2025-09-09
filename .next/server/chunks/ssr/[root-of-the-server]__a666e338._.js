@@ -15,14 +15,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 function Logo() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
         href: "/",
-        className: "flex items-center space-x-4",
+        className: "flex items-center space-x-2 md:space-x-4",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 src: "/images/logo.jpeg",
                 alt: "VSRFCT Logo",
                 width: 120,
                 height: 120,
-                className: "h-20 w-20 rounded-full",
+                className: "h-14 w-14 md:h-16 md:w-16 rounded-full",
                 "data-ai-hint": "logo"
             }, void 0, false, {
                 fileName: "[project]/src/components/logo.tsx",
@@ -30,15 +30,25 @@ function Logo() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-2xl font-bold text-white font-headline",
-                    children: "VS Raju Family Charitable Trust"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/logo.tsx",
-                    lineNumber: 15,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-xl md:text-2xl font-bold font-headline text-primary",
+                        children: "Prof. V.S. Raju"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/logo.tsx",
+                        lineNumber: 15,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-sm md:text-lg font-bold font-headline text-green-300",
+                        children: "Family Charitable Trust"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/logo.tsx",
+                        lineNumber: 18,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/components/logo.tsx",
                 lineNumber: 14,
                 columnNumber: 7
@@ -578,7 +588,7 @@ function Footer() {
     const gmapsUrl = "https://www.google.com/maps/search/?api=1&query=Sai+krupa+enclave,+Telecom+nagar,+Hyderabad+500032";
     const youtubeUrl = "https://www.youtube.com/@vsrfct";
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "bg-card text-card-foreground border-t",
+        className: "bg-green-900 text-green-100 border-t",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container mx-auto px-4 py-12",
             children: [
@@ -594,7 +604,7 @@ function Footer() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "mt-4 text-muted-foreground",
+                                    className: "mt-4 text-green-200",
                                     children: "A non-profit learning initiative by V.S. Raju Family Charitable Trust."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
@@ -607,7 +617,7 @@ function Footer() {
                                         href: youtubeUrl,
                                         target: "_blank",
                                         rel: "noopener noreferrer",
-                                        className: "text-muted-foreground hover:text-primary transition-transform duration-300 hover:scale-110",
+                                        className: "text-green-200 hover:text-white transition-transform duration-300 hover:scale-110",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                                                 className: "h-10 w-auto",
@@ -665,7 +675,7 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "font-headline font-semibold tracking-wider uppercase",
+                                    className: "font-headline font-semibold tracking-wider uppercase text-white",
                                     children: "Quick Links"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
@@ -677,7 +687,7 @@ function Footer() {
                                     children: footerLinks.quickLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 href: link.href,
-                                                className: "text-muted-foreground hover:text-primary",
+                                                className: "text-green-200 hover:text-white",
                                                 children: link.name
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/footer.tsx",
@@ -703,7 +713,7 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "font-headline font-semibold tracking-wider uppercase",
+                                    className: "font-headline font-semibold tracking-wider uppercase text-white",
                                     children: "Support"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
@@ -715,7 +725,7 @@ function Footer() {
                                     children: footerLinks.support.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 href: link.href,
-                                                className: "text-muted-foreground hover:text-primary",
+                                                className: "text-green-200 hover:text-white",
                                                 children: link.name
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/footer.tsx",
@@ -741,7 +751,7 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "font-headline font-semibold tracking-wider uppercase",
+                                    className: "font-headline font-semibold tracking-wider uppercase text-white",
                                     children: "Contact Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
@@ -749,13 +759,13 @@ function Footer() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "mt-4 space-y-2 text-muted-foreground",
+                                    className: "mt-4 space-y-2 text-green-200",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             className: "flex items-start space-x-2 mt-2",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"], {
-                                                    className: "h-5 w-5 text-primary shrink-0 mt-1"
+                                                    className: "h-5 w-5 text-accent shrink-0 mt-1"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/footer.tsx",
                                                     lineNumber: 79,
@@ -764,7 +774,7 @@ function Footer() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "font-bold",
+                                                            className: "font-bold text-white",
                                                             children: "Opening Hours:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/footer.tsx",
@@ -801,7 +811,7 @@ function Footer() {
                                             className: "flex items-start space-x-2 mt-2",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
-                                                    className: "h-5 w-5 text-primary shrink-0 mt-1"
+                                                    className: "h-5 w-5 text-accent shrink-0 mt-1"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/footer.tsx",
                                                     lineNumber: 87,
@@ -810,7 +820,7 @@ function Footer() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "font-bold",
+                                                            className: "font-bold text-white",
                                                             children: "Address:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/footer.tsx",
@@ -821,7 +831,7 @@ function Footer() {
                                                             href: gmapsUrl,
                                                             target: "_blank",
                                                             rel: "noopener noreferrer",
-                                                            className: "hover:text-primary",
+                                                            className: "hover:text-white",
                                                             children: "Sai krupa enclave, Telecom nagar, Hyderabad 500032"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/footer.tsx",
@@ -881,7 +891,7 @@ function Footer() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "mt-8 pt-8 border-t text-center text-muted-foreground",
+                    className: "mt-8 pt-8 border-t border-green-700 text-center text-green-200",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         children: [
                             "© ",
@@ -1373,7 +1383,7 @@ const AnimatedGalleryItem = ({ item, year, index })=>{
         ref: ref,
         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-500 ease-in-out", isInView ? "opacity-100 scale-100" : "opacity-0 scale-95"),
         style: {
-            transitionDelay: `${index % 3 * 100}ms`
+            transitionDelay: `${index % 2 * 100}ms`
         },
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "relative",
@@ -1422,7 +1432,7 @@ function GalleryPage() {
                                     className: "flex justify-center items-center gap-4 mb-4",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                            className: "text-4xl md:text-6xl font-bold font-headline text-primary",
+                                            className: "text-4xl md:text-6xl font-bold font-headline text-green-900",
                                             children: "Our Gallery"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/gallery/page.tsx",
@@ -1484,7 +1494,7 @@ function GalleryPage() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto",
+                                    className: "text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto",
                                     children: "A visual journey through the years at VSRFCT Tuition Centre."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/gallery/page.tsx",
@@ -1503,7 +1513,7 @@ function GalleryPage() {
                                     id: `year-${year}`,
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                            className: "text-3xl md:text-4xl font-bold font-headline mb-8 text-center md:text-left",
+                                            className: "text-3xl md:text-4xl font-bold font-headline mb-8 text-center md:text-left text-green-900",
                                             children: [
                                                 "Academic Year ",
                                                 year
@@ -1514,7 +1524,7 @@ function GalleryPage() {
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4",
+                                            className: "grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4",
                                             children: items.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AnimatedGalleryItem, {
                                                     item: item,
                                                     year: year,
