@@ -49,12 +49,12 @@ export default function Cta() {
             import('three'),
             import('vanta/dist/vanta.birds.min.js')
         ]).then(([three, vanta]) => {
-            const THREE = three.default;
+            const THREE_IMPORT = three.default || three;
             const BIRDS = (vanta.default || vanta) as VantaFunction;
             if (!vantaEffect) {
                 effect = BIRDS({
                     el: vantaRef.current,
-                    THREE: THREE,
+                    THREE: THREE_IMPORT,
                     mouseControls: true,
                     touchControls: true,
                     gyroControls: false,
@@ -72,9 +72,9 @@ export default function Cta() {
         })
     }
     return () => {
-      if (vantaEffect) vantaEffect.destroy();
+      if (effect) effect.destroy();
     }
-  }, [isInView, vantaEffect]);
+  }, [isInView]);
 
   return (
     <section id="contact" className="py-12 md:py-24 bg-background">
@@ -82,7 +82,7 @@ export default function Cta() {
         <div 
           ref={vantaRef}
           className={cn(
-            "text-primary-foreground rounded-lg p-8 md:p-16 text-center shadow-lg transition-all duration-700 ease-in-out relative overflow-hidden min-h-[400px] flex flex-col justify-center",
+            "text-primary-foreground rounded-lg p-8 md:p-16 text-center shadow-lg transition-all duration-700 ease-in-out relative overflow-hidden min-h-[500px] md:min-h-[400px] flex flex-col justify-center",
             isInView ? "opacity-100 scale-100" : "opacity-0 scale-95"
           )}
         >

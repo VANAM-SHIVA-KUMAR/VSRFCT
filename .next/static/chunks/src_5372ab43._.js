@@ -15,14 +15,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 function Logo() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
         href: "/",
-        className: "flex items-center space-x-4",
+        className: "flex items-center space-x-2 md:space-x-4",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 src: "/images/logo.jpeg",
                 alt: "VSRFCT Logo",
                 width: 120,
                 height: 120,
-                className: "h-20 w-20 rounded-full",
+                className: "h-14 w-14 md:h-20 md:w-20 rounded-full",
                 "data-ai-hint": "logo"
             }, void 0, false, {
                 fileName: "[project]/src/components/logo.tsx",
@@ -32,7 +32,7 @@ function Logo() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-2xl font-bold font-headline text-green-700",
+                        className: "text-xl md:text-2xl font-bold font-headline text-green-300",
                         children: "Prof. V.S. Raju"
                     }, void 0, false, {
                         fileName: "[project]/src/components/logo.tsx",
@@ -40,7 +40,7 @@ function Logo() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-xl font-bold font-headline text-green-700",
+                        className: "text-sm md:text-lg font-bold font-headline text-green-300",
                         children: "Family Charitable Trust"
                     }, void 0, false, {
                         fileName: "[project]/src/components/logo.tsx",
@@ -962,7 +962,7 @@ function Hero() {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$carousel$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CarouselContent"], {
                         children: slides.map((slide, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$carousel$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CarouselItem"], {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative h-[60vh] md:h-[calc(100vh-128px)] w-full text-primary-foreground",
+                                    className: "relative h-[70vh] md:h-[calc(100vh-128px)] w-full text-primary-foreground",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                             src: slide.image,
@@ -979,7 +979,7 @@ function Hero() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 bg-white/70",
                                             style: {
-                                                clipPath: 'polygon(0 0, 45% 0, 35% 100%, 0 100%)'
+                                                clipPath: 'polygon(0 0, 85% 0, 65% 100%, 0 100%)'
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/hero.tsx",
@@ -989,7 +989,7 @@ function Hero() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 bg-white/50",
                                             style: {
-                                                clipPath: 'polygon(45% 0, 50% 0, 40% 100%, 35% 100%)'
+                                                clipPath: 'polygon(85% 0, 90% 0, 70% 100%, 65% 100%)'
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/hero.tsx",
@@ -999,7 +999,7 @@ function Hero() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 bg-white/30",
                                             style: {
-                                                clipPath: 'polygon(50% 0, 55% 0, 45% 100%, 40% 100%)'
+                                                clipPath: 'polygon(90% 0, 95% 0, 75% 100%, 70% 100%)'
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/hero.tsx",
@@ -1007,7 +1007,7 @@ function Hero() {
                                             columnNumber: 20
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute inset-0 flex flex-col items-start justify-center text-left p-6 md:p-12 w-full md:w-2/5 lg:w-1/3",
+                                            className: "absolute inset-0 flex flex-col items-start justify-center text-left p-6 md:p-12 w-full md:w-3/5 lg:w-1/2",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "max-w-2xl",
                                                 children: [
@@ -1065,7 +1065,7 @@ function Hero() {
                 columnNumber: 8
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute bottom-10 left-10 flex space-x-2 p-4",
+                className: "absolute bottom-4 md:bottom-10 left-4 md:left-10 flex space-x-2 p-4",
                 children: slides.map((_, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         onClick: ()=>handleDotClick(index),
                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])('h-2 w-8 rounded-full transition-colors', current === index ? 'bg-accent' : 'bg-gray-400'),
@@ -2619,12 +2619,12 @@ function Cta() {
                     __turbopack_context__.r("[project]/node_modules/vanta/dist/vanta.birds.min.js [app-client] (ecmascript, async loader)")(__turbopack_context__.i)
                 ]).then({
                     "Cta.useEffect": ([three, vanta])=>{
-                        const THREE = three.default;
+                        const THREE_IMPORT = three.default || three;
                         const BIRDS = vanta.default || vanta;
                         if (!vantaEffect) {
                             effect = BIRDS({
                                 el: vantaRef.current,
-                                THREE: THREE,
+                                THREE: THREE_IMPORT,
                                 mouseControls: true,
                                 touchControls: true,
                                 gyroControls: false,
@@ -2644,13 +2644,12 @@ function Cta() {
             }
             return ({
                 "Cta.useEffect": ()=>{
-                    if (vantaEffect) vantaEffect.destroy();
+                    if (effect) effect.destroy();
                 }
             })["Cta.useEffect"];
         }
     }["Cta.useEffect"], [
-        isInView,
-        vantaEffect
+        isInView
     ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "contact",
@@ -2660,7 +2659,7 @@ function Cta() {
             className: "container mx-auto px-4",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 ref: vantaRef,
-                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("text-primary-foreground rounded-lg p-8 md:p-16 text-center shadow-lg transition-all duration-700 ease-in-out relative overflow-hidden min-h-[400px] flex flex-col justify-center", isInView ? "opacity-100 scale-100" : "opacity-0 scale-95"),
+                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("text-primary-foreground rounded-lg p-8 md:p-16 text-center shadow-lg transition-all duration-700 ease-in-out relative overflow-hidden min-h-[500px] md:min-h-[400px] flex flex-col justify-center", isInView ? "opacity-100 scale-100" : "opacity-0 scale-95"),
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "relative z-10",
                     children: [

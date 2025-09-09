@@ -31,7 +31,7 @@ export default function Team() {
             The dedicated individuals who make our mission possible.
           </p>
         </div>
-        <div ref={ref} className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 md:gap-8">
+        <div ref={ref} className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-8">
           {teamMembers.map((member, index) => (
             <div
               key={index}
@@ -41,14 +41,14 @@ export default function Team() {
               )}
               style={{ transitionDelay: `${index * 50}ms` }}
             >
-              <Card className="text-center p-4 hover:shadow-lg transition-shadow duration-300 h-full">
-                <CardContent className="flex flex-col items-center">
-                  <Avatar className="h-24 w-24 mb-4">
+              <Card className="text-center p-2 md:p-4 hover:shadow-lg transition-shadow duration-300 h-full">
+                <CardContent className="flex flex-col items-center p-2 md:p-6">
+                  <Avatar className="h-20 w-20 md:h-24 md:w-24 mb-4">
                     <AvatarImage src={member.image} alt={member.name} data-ai-hint={member.hint} />
                     <AvatarFallback>{member.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
                   </Avatar>
-                  <p className="font-semibold font-headline text-lg">{member.name}</p>
-                  <p className="text-sm text-muted-foreground">{member.role}</p>
+                  <p className="font-semibold font-headline text-md md:text-lg">{member.name}</p>
+                  <p className="text-xs md:text-sm text-muted-foreground">{member.role}</p>
                 </CardContent>
               </Card>
             </div>
