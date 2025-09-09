@@ -2669,6 +2669,10 @@ section, .container {
     width: 60%;
   }
 
+  .md\:w-16 {
+    width: 4rem;
+  }
+
   .md\:max-w-\[420px\] {
     max-width: 420px;
   }
