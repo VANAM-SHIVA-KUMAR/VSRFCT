@@ -6,39 +6,18 @@ import { useInView } from '@/hooks/use-in-view';
 import { cn } from "@/lib/utils";
 import React, { useState, useEffect, useRef } from 'react';
 
-// Define the type for the Vanta effect
 type VantaEffect = {
   destroy: () => void;
-  // Add other methods if needed
 };
-
-// Define the type for the Vanta function
-type VantaFunction = (options: {
-    el: HTMLElement | null;
-    THREE: any; // Using any to avoid THREE.js type conflicts with the vanta library
-    mouseControls: boolean;
-    touchControls: boolean;
-    gyroControls: boolean;
-    minHeight: number;
-    minWidth: number;
-    scale: number;
-    scaleMobile: number;
-    backgroundColor?: number;
-    color1?: number;
-    color2?: number;
-    quantity?: number;
-}) => VantaEffect;
-
 
 export default function Cta() {
   const { ref, isInView } = useInView({ triggerOnce: true, threshold: 0.3 });
-  const [vantaEffect, setVantaEffect] = useState<VantaEffect | null>(null);
   const vantaRef = useRef(null);
+  const [vantaEffect, setVantaEffect] = useState<VantaEffect | null>(null);
 
   useEffect(() => {
     let effect: VantaEffect | null = null;
     if (isInView && vantaRef.current) {
-        // Dynamically import three and vanta.birds
         Promise.all([
             import('three'),
             import('vanta/dist/vanta.birds.min.js')
@@ -55,23 +34,22 @@ export default function Cta() {
                     minWidth: 200.00,
                     scale: 1.00,
                     scaleMobile: 1.00,
-                    backgroundColor: 0x1e293b,
-                    color1: 0xfacc15,
-                    color2: 0xbae6fd,
+                    backgroundColor: 0x115e59, // Dark green-teal
+                    color1: 0xfacc15, // accent yellow
+                    color2: 0xf0fdf4, // light green-white
                     quantity: 3.00,
-                }) as VantaEffect;
+                });
                 setVantaEffect(effect);
             }
         }).catch(err => console.error("Vanta loading failed:", err));
     }
     return () => {
-      if (effect) {
-        effect.destroy();
-      } else if (vantaEffect) {
-        vantaEffect.destroy();
-      }
+        if (vantaEffect) {
+            vantaEffect.destroy();
+        }
     }
   }, [isInView, vantaEffect]);
+
 
   return (
     <section id="contact" className="py-12 md:py-24 bg-background">
