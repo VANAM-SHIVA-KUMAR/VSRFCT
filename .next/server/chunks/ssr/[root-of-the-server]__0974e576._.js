@@ -2637,7 +2637,7 @@ function OurBranches() {
         triggerOnce: true,
         threshold: 0.2
     });
-    const [hoveredIndex, setHoveredIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [hoveredIndices, setHoveredIndices] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(new Set());
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "branches",
         className: "py-12 md:py-24 bg-white",
@@ -2677,7 +2677,9 @@ function OurBranches() {
                             style: {
                                 transitionDelay: `${index * 100}ms`
                             },
-                            onMouseEnter: ()=>setHoveredIndex(index),
+                            onMouseEnter: ()=>{
+                                setHoveredIndices((prev)=>new Set(prev).add(index));
+                            },
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
                                 className: "text-center hover:shadow-lg transition-all duration-300 h-full bg-green-100 overflow-hidden",
                                 children: [
@@ -2686,12 +2688,12 @@ function OurBranches() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("mx-auto bg-primary/10 rounded-full p-4 w-20 h-20 flex items-center justify-center mb-4 transition-transform duration-300", {
-                                                    "scale-110": hoveredIndex === index
+                                                    "scale-110": hoveredIndices.has(index)
                                                 }),
                                                 children: branch.icon
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/our-branches.tsx",
-                                                lineNumber: 59,
+                                                lineNumber: 61,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardTitle"], {
@@ -2699,18 +2701,18 @@ function OurBranches() {
                                                 children: branch.name
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/our-branches.tsx",
-                                                lineNumber: 62,
+                                                lineNumber: 64,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/sections/our-branches.tsx",
-                                        lineNumber: 58,
+                                        lineNumber: 60,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("h-0 transition-all duration-300 ease-in-out opacity-0", {
-                                            "h-auto opacity-100": hoveredIndex === index
+                                            "h-auto opacity-100": hoveredIndices.has(index)
                                         }),
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
                                             className: "pt-0 pb-6 px-6",
@@ -2719,23 +2721,23 @@ function OurBranches() {
                                                 children: branch.description
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/our-branches.tsx",
-                                                lineNumber: 66,
+                                                lineNumber: 68,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/our-branches.tsx",
-                                            lineNumber: 65,
+                                            lineNumber: 67,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/our-branches.tsx",
-                                        lineNumber: 64,
+                                        lineNumber: 66,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/sections/our-branches.tsx",
-                                lineNumber: 57,
+                                lineNumber: 59,
                                 columnNumber: 15
                             }, this)
                         }, index, false, {
