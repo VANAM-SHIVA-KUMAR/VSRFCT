@@ -1051,7 +1051,7 @@ const founder = {
     hint: "professional portrait"
 };
 const aboutText = [
-    "VSRFCT (VS Raju Family Charitable Trust), a registered non-profit trust started in 2015 by Prof. V.S. Raju & Family with a focus in the twin states of AP & Telangana.",
+    "Prof V.S. Raju Family Charitable Trust (VSRFCT), a registered non-profit trust started in 2015 by Prof. V.S. Raju (Formely : Director of IIT Delhi, Professor & Dean at IIT Madras) & Family with a focus in the twin states of AP & Telangana.",
     "Our vision is a humble contribution to build a better India."
 ];
 const mission = [
@@ -2604,7 +2604,8 @@ const branches = [
             fileName: "[project]/src/components/sections/our-branches.tsx",
             lineNumber: 11,
             columnNumber: 11
-        }, this)
+        }, this),
+        description: "Operating since 2015, our first and largest center, setting the foundation for our mission."
     },
     {
         name: "Vempadu",
@@ -2612,9 +2613,10 @@ const branches = [
             className: "h-10 w-10 text-accent"
         }, void 0, false, {
             fileName: "[project]/src/components/sections/our-branches.tsx",
-            lineNumber: 15,
+            lineNumber: 16,
             columnNumber: 11
-        }, this)
+        }, this),
+        description: "Established in 2018 to extend our support to the Vempadu community."
     },
     {
         name: "Kopalle",
@@ -2622,9 +2624,10 @@ const branches = [
             className: "h-10 w-10 text-accent"
         }, void 0, false, {
             fileName: "[project]/src/components/sections/our-branches.tsx",
-            lineNumber: 19,
+            lineNumber: 21,
             columnNumber: 11
-        }, this)
+        }, this),
+        description: "Our newest branch, opened in 2021, to further expand our educational reach."
     }
 ];
 function OurBranches() {
@@ -2647,7 +2650,7 @@ function OurBranches() {
                             children: "Our Branches"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/our-branches.tsx",
-                            lineNumber: 36,
+                            lineNumber: 39,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2655,72 +2658,97 @@ function OurBranches() {
                             children: "Find a VSRFCT learning centre near you."
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/our-branches.tsx",
-                            lineNumber: 37,
+                            lineNumber: 40,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/sections/our-branches.tsx",
-                    lineNumber: 35,
+                    lineNumber: 38,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8",
                     children: branches.map((branch, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("transition-all duration-700 ease-in-out", isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"),
+                            className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("group transition-all duration-700 ease-in-out", isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"),
                             style: {
                                 transitionDelay: `${index * 100}ms`
                             },
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
-                                className: "text-center hover:shadow-lg transition-shadow duration-300 h-full bg-green-100",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardHeader"], {
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mx-auto bg-primary/10 rounded-full p-4 w-20 h-20 flex items-center justify-center mb-4",
-                                            children: branch.icon
+                                className: "text-center hover:shadow-lg transition-all duration-300 h-full bg-green-100 overflow-hidden",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardHeader"], {
+                                        className: "p-6",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "mx-auto bg-primary/10 rounded-full p-4 w-20 h-20 flex items-center justify-center mb-4 transition-transform duration-300 group-hover:scale-110",
+                                                children: branch.icon
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/sections/our-branches.tsx",
+                                                lineNumber: 56,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardTitle"], {
+                                                className: "font-headline text-2xl text-green-900",
+                                                children: branch.name
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/sections/our-branches.tsx",
+                                                lineNumber: 59,
+                                                columnNumber: 19
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/sections/our-branches.tsx",
+                                        lineNumber: 55,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "h-0 group-hover:h-auto transition-all duration-300 ease-in-out opacity-0 group-hover:opacity-100",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContent"], {
+                                            className: "pt-0 pb-6 px-6",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-green-800",
+                                                children: branch.description
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/sections/our-branches.tsx",
+                                                lineNumber: 63,
+                                                columnNumber: 23
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/our-branches.tsx",
-                                            lineNumber: 53,
-                                            columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardTitle"], {
-                                            className: "font-headline text-2xl text-green-900",
-                                            children: branch.name
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/sections/our-branches.tsx",
-                                            lineNumber: 56,
-                                            columnNumber: 19
+                                            lineNumber: 62,
+                                            columnNumber: 21
                                         }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/sections/our-branches.tsx",
-                                    lineNumber: 52,
-                                    columnNumber: 17
-                                }, this)
-                            }, void 0, false, {
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/sections/our-branches.tsx",
+                                        lineNumber: 61,
+                                        columnNumber: 17
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/src/components/sections/our-branches.tsx",
-                                lineNumber: 51,
+                                lineNumber: 54,
                                 columnNumber: 15
                             }, this)
                         }, index, false, {
                             fileName: "[project]/src/components/sections/our-branches.tsx",
-                            lineNumber: 43,
+                            lineNumber: 46,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/sections/our-branches.tsx",
-                    lineNumber: 41,
+                    lineNumber: 44,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/sections/our-branches.tsx",
-            lineNumber: 28,
+            lineNumber: 31,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/sections/our-branches.tsx",
-        lineNumber: 27,
+        lineNumber: 30,
         columnNumber: 5
     }, this);
 }

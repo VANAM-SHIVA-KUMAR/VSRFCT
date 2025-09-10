@@ -1267,6 +1267,7 @@ const historyData = [
     {
         year: "2015",
         details: [
+            "The VSRFCT was founded as a registered non-profit trust by Prof. V.S. Raju & Family.",
             "Started in January with 14 students (classes 1-5) and one teacher in a small room.",
             "Moved to a 1BHK house in May, began offering daily snacks, and grew to 25 students and four teachers.",
             "Added volunteers for English and computer classes and provided two computers, notebooks, and stationery.",
@@ -1291,12 +1292,12 @@ function HistoryItem({ item }) {
                     className: "h-4 w-4 text-primary-foreground"
                 }, void 0, false, {
                     fileName: "[project]/src/components/sections/history.tsx",
-                    lineNumber: 84,
+                    lineNumber: 85,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/sections/history.tsx",
-                lineNumber: 83,
+                lineNumber: 84,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1309,12 +1310,12 @@ function HistoryItem({ item }) {
                                 children: item.year
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/history.tsx",
-                                lineNumber: 92,
+                                lineNumber: 93,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/history.tsx",
-                            lineNumber: 91,
+                            lineNumber: 92,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1324,34 +1325,34 @@ function HistoryItem({ item }) {
                                         children: detail
                                     }, dIndex, false, {
                                         fileName: "[project]/src/components/sections/history.tsx",
-                                        lineNumber: 97,
+                                        lineNumber: 98,
                                         columnNumber: 33
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/history.tsx",
-                                lineNumber: 95,
+                                lineNumber: 96,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/history.tsx",
-                            lineNumber: 94,
+                            lineNumber: 95,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/sections/history.tsx",
-                    lineNumber: 90,
+                    lineNumber: 91,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/sections/history.tsx",
-                lineNumber: 86,
+                lineNumber: 87,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/sections/history.tsx",
-        lineNumber: 82,
+        lineNumber: 83,
         columnNumber: 9
     }, this);
 }
@@ -1376,7 +1377,7 @@ function History() {
                             children: "Our History"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/history.tsx",
-                            lineNumber: 112,
+                            lineNumber: 113,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1384,13 +1385,13 @@ function History() {
                             children: "VSRFCT, founded in January 2015, provides educational support and various extracurricular activities for students in a disciplined and holistic environment."
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/history.tsx",
-                            lineNumber: 113,
+                            lineNumber: 114,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/sections/history.tsx",
-                    lineNumber: 111,
+                    lineNumber: 112,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1400,7 +1401,7 @@ function History() {
                             className: "absolute left-9 top-0 h-full w-0.5 bg-border -translate-x-1/2"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/history.tsx",
-                            lineNumber: 118,
+                            lineNumber: 119,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1409,29 +1410,29 @@ function History() {
                                     item: item
                                 }, index, false, {
                                     fileName: "[project]/src/components/sections/history.tsx",
-                                    lineNumber: 121,
+                                    lineNumber: 122,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/history.tsx",
-                            lineNumber: 119,
+                            lineNumber: 120,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/sections/history.tsx",
-                    lineNumber: 117,
+                    lineNumber: 118,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/sections/history.tsx",
-            lineNumber: 110,
+            lineNumber: 111,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/sections/history.tsx",
-        lineNumber: 109,
+        lineNumber: 110,
         columnNumber: 5
     }, this);
 }

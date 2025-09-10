@@ -12,7 +12,7 @@ const founder = {
 };
 
 const aboutText = [
-    "VSRFCT (VS Raju Family Charitable Trust), a registered non-profit trust started in 2015 by Prof. V.S. Raju & Family with a focus in the twin states of AP & Telangana.",
+    "Prof V.S. Raju Family Charitable Trust (VSRFCT), a registered non-profit trust started in 2015 by Prof. V.S. Raju (Formely : Director of IIT Delhi, Professor & Dean at IIT Madras) & Family with a focus in the twin states of AP & Telangana.",
     "Our vision is a humble contribution to build a better India."
 ];
 

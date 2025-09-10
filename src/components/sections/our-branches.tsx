@@ -1,7 +1,7 @@
 "use client"
 
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { MapPin, Building2, Users, School } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 import { useInView } from '@/hooks/use-in-view';
 import { cn } from "@/lib/utils";
 
@@ -9,14 +9,17 @@ const branches = [
   {
     name: "Telecomnagar",
     icon: <MapPin className="h-10 w-10 text-accent" />,
+    description: "Operating since 2015, our first and largest center, setting the foundation for our mission."
   },
   {
     name: "Vempadu",
     icon: <MapPin className="h-10 w-10 text-accent" />,
+    description: "Established in 2018 to extend our support to the Vempadu community."
   },
   {
     name: "Kopalle",
     icon: <MapPin className="h-10 w-10 text-accent" />,
+    description: "Our newest branch, opened in 2021, to further expand our educational reach."
   },
 ];
 
@@ -43,18 +46,23 @@ export default function OurBranches() {
             <div
               key={index}
               className={cn(
-                "transition-all duration-700 ease-in-out",
+                "group transition-all duration-700 ease-in-out",
                 isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
               )}
               style={{ transitionDelay: `${index * 100}ms` }}
             >
-              <Card className="text-center hover:shadow-lg transition-shadow duration-300 h-full bg-green-100">
-                <CardHeader>
-                  <div className="mx-auto bg-primary/10 rounded-full p-4 w-20 h-20 flex items-center justify-center mb-4">
+              <Card className="text-center hover:shadow-lg transition-all duration-300 h-full bg-green-100 overflow-hidden">
+                <CardHeader className="p-6">
+                  <div className="mx-auto bg-primary/10 rounded-full p-4 w-20 h-20 flex items-center justify-center mb-4 transition-transform duration-300 group-hover:scale-110">
                     {branch.icon}
                   </div>
                   <CardTitle className="font-headline text-2xl text-green-900">{branch.name}</CardTitle>
                 </CardHeader>
+                <div className="h-0 group-hover:h-auto transition-all duration-300 ease-in-out opacity-0 group-hover:opacity-100">
+                    <CardContent className="pt-0 pb-6 px-6">
+                      <p className="text-green-800">{branch.description}</p>
+                    </CardContent>
+                </div>
               </Card>
             </div>
           ))}
