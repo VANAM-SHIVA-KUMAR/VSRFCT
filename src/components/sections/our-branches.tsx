@@ -1,7 +1,7 @@
 "use client"
 
-import { Card, CardHeader, CardTitle } from "@/components/ui/card";
-import { MapPin } from 'lucide-react';
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import { MapPin, Building2, Users, School } from 'lucide-react';
 import { useInView } from '@/hooks/use-in-view';
 import { cn } from "@/lib/utils";
 

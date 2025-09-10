@@ -6,17 +6,19 @@ import Curriculum from '@/components/sections/curriculum';
 import Testimonials from '@/components/sections/testimonials';
 import Faq from '@/components/sections/faq';
 import Cta from '@/components/sections/cta';
-import Footer from '@/components/sections/footer';
 import OurBranches from '@/components/sections/our-branches';
+import BranchDetails from '@/components/sections/branch-details';
+import Footer from '@/components/sections/footer';
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen overflow-x-hidden">
       <Header />
       <main className="flex-grow">
         <Hero />
         <FounderSpotlight />
         <OurBranches />
+        <BranchDetails />
         <Features />
         <Curriculum />
         <Testimonials />

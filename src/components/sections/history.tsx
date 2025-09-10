@@ -66,6 +66,7 @@ const historyData = [
     {
         year: "2015",
         details: [
+            "The VSRFCT was founded as a registered non-profit trust by Prof. V.S. Raju & Family.",
             "Started in January with 14 students (classes 1-5) and one teacher in a small room.",
             "Moved to a 1BHK house in May, began offering daily snacks, and grew to 25 students and four teachers.",
             "Added volunteers for English and computer classes and provided two computers, notebooks, and stationery.",

@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import { useInView } from '@/hooks/use-in-view';
 import { cn } from "@/lib/utils";
-import { Award, Users, BookOpen } from 'lucide-react';
+import { Award, Users, BookOpen, Heart, Globe, ShieldCheck } from 'lucide-react';
 
 const founder = {
     name: "Prof. V. S. Raju",
@@ -12,9 +12,24 @@ const founder = {
 };
 
 const aboutText = [
-    "The V.S. Raju Family Charitable Trust is founded by Prof. V.S. Raju has served as Director of IIT Delhi, Professor & Dean at IIT Madras, and held key roles in prestigious national projects, advisory boards, and corporates.",
-    "The Trust reflects his lifelong values of knowledge, service, and community welfare—dedicated to advancing education, supporting social causes, and inspiring future generations."
+    "VSRFCT (VS Raju Family Charitable Trust), a registered non-profit trust started in 2015 by Prof. V.S. Raju & Family with a focus in the twin states of AP & Telangana.",
+    "Our vision is a humble contribution to build a better India."
 ];
+
+const mission = [
+    {
+        icon: <Users className="h-6 w-6 text-accent" />,
+        text: "Support underprivileged through education, mentoring and livelihoods."
+    },
+    {
+        icon: <Heart className="h-6 w-6 text-accent" />,
+        text: "Help improve the nutrition and health of people."
+    },
+    {
+        icon: <Globe className="h-6 w-6 text-accent" />,
+        text: "Adopt sustainable ways to protect our environment."
+    }
+]
 
 const stats = [
   {
@@ -48,10 +63,19 @@ export default function FounderSpotlight() {
           )}>
             <h2 className="text-3xl md:text-5xl font-bold font-headline mb-4">About the Trust</h2>
             {aboutText.map((paragraph, pIndex) => (
-              <p key={pIndex} className="text-green-200 mb-4">
+              <p key={pIndex} className="text-green-200 mb-4 text-lg">
                 {paragraph}
               </p>
             ))}
+             <h3 className="text-2xl font-bold font-headline mt-8 mb-4">Our Mission</h3>
+             <ul className="space-y-3">
+                {mission.map((item, index) => (
+                    <li key={index} className="flex items-start gap-3">
+                        <div className="bg-green-800 rounded-full p-2 mt-1">{item.icon}</div>
+                        <span className="text-green-200 flex-1">{item.text}</span>
+                    </li>
+                ))}
+             </ul>
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6">
                {stats.map((stat, index) => (
                 <div
