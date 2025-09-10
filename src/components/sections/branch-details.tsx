@@ -7,19 +7,6 @@ import { cn } from "@/lib/utils";
 
 const branchDetails = [
   {
-    name: "Telecomnagar",
-    stats: [
-      { icon: <Users className="h-6 w-6 text-accent" />, label: "28 Pre-primary, 40 Primary, 39 Secondary Students" },
-      { icon: <Briefcase className="h-6 w-6 text-accent" />, label: "10 Teachers" },
-      { icon: <School className="h-6 w-6 text-accent" />, label: "3 Classrooms & 1 Hall (Approx 800 sq yds)" },
-    ],
-    activities: [
-      { icon: <PlayCircle className="h-5 w-5 text-primary" />, text: "Yoga, Dance, Slokas classes & Games" },
-      { icon: <BrainCircuit className="h-5 w-5 text-primary" />, text: "Digital stories and rhymes on computer" },
-      { icon: <Users className="h-5 w-5 text-primary" />, text: "Recently conducted a Mental Health Program" },
-    ],
-  },
-  {
     name: "Vempadu",
     stats: [
       { icon: <Users className="h-6 w-6 text-accent" />, label: "66 Pre-primary & 50 Tuition Students" },
@@ -31,6 +18,19 @@ const branchDetails = [
       { icon: <BrainCircuit className="h-5 w-5 text-primary" />, text: "Digital stories and rhymes on computer" },
       { icon: <Users className="h-5 w-5 text-primary" />, text: "Summer camp with Vedic Maths, Art & Craft" },
       { icon: <Scissors className="h-5 w-5 text-primary" />, text: "Tailoring classes for women's self-employment" },
+    ],
+  },
+  {
+    name: "Telecomnagar",
+    stats: [
+      { icon: <Users className="h-6 w-6 text-accent" />, label: "28 Pre-primary, 40 Primary, 39 Secondary Students" },
+      { icon: <Briefcase className="h-6 w-6 text-accent" />, label: "10 Teachers" },
+      { icon: <School className="h-6 w-6 text-accent" />, label: "3 Classrooms & 1 Hall (Approx 800 sq yds)" },
+    ],
+    activities: [
+      { icon: <PlayCircle className="h-5 w-5 text-primary" />, text: "Yoga, Dance, Slokas classes & Games" },
+      { icon: <BrainCircuit className="h-5 w-5 text-primary" />, text: "Digital stories and rhymes on computer" },
+      { icon: <Users className="h-5 w-5 text-primary" />, text: "Recently conducted a Mental Health Program" },
     ],
   },
   {
