@@ -252,7 +252,7 @@ img, video {
   --card-foreground: 224 71.4% 4.1%;
   --popover: 0 0% 100%;
   --popover-foreground: 224 71.4% 4.1%;
-  --primary: 158 48% 20%;
+  --primary: 161 48% 20%;
   --primary-foreground: 210 20% 98%;
   --secondary: 220 13% 91%;
   --secondary-foreground: 222.2 47.4% 11.2%;
@@ -275,7 +275,7 @@ img, video {
   --card-foreground: 210 20% 98%;
   --popover: 224 71.4% 4.1%;
   --popover-foreground: 210 20% 98%;
-  --primary: 158 48% 20%;
+  --primary: 161 48% 20%;
   --primary-foreground: 210 20% 98%;
   --secondary: 215 28% 17%;
   --secondary-foreground: 210 20% 98%;
@@ -1336,11 +1336,6 @@ section, .container {
   background-color: rgb(22 101 52 / var(--tw-bg-opacity, 1));
 }
 
-.bg-green-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(20 83 45 / var(--tw-bg-opacity, 1));
-}
-
 .bg-muted {
   background-color: hsl(var(--muted));
 }
@@ -1695,19 +1690,9 @@ section, .container {
   color: hsl(var(--foreground) / .5);
 }
 
-.text-green-100 {
-  --tw-text-opacity: 1;
-  color: rgb(220 252 231 / var(--tw-text-opacity, 1));
-}
-
 .text-green-200 {
   --tw-text-opacity: 1;
   color: rgb(187 247 208 / var(--tw-text-opacity, 1));
-}
-
-.text-green-50 {
-  --tw-text-opacity: 1;
-  color: rgb(240 253 244 / var(--tw-text-opacity, 1));
 }
 
 .text-green-700 {
@@ -1759,9 +1744,9 @@ section, .container {
   color: rgb(254 240 138 / var(--tw-text-opacity, 1));
 }
 
-.text-yellow-300 {
+.text-yellow-400 {
   --tw-text-opacity: 1;
-  color: rgb(253 224 71 / var(--tw-text-opacity, 1));
+  color: rgb(250 204 21 / var(--tw-text-opacity, 1));
 }
 
 .underline-offset-4 {

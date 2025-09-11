@@ -20,7 +20,7 @@ export default function Footer() {
   const gmapsUrl = "https://www.google.com/maps/search/?api=1&query=Sai+krupa+enclave,+Telecom+nagar,+Hyderabad+500032";
   const youtubeUrl = "https://www.youtube.com/@vsrfct";
   return (
-    <footer className="bg-green-900 text-green-100 border-t">
+    <footer className="bg-primary text-primary-foreground border-t">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
