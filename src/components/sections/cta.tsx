@@ -34,9 +34,9 @@ export default function Cta() {
                     minWidth: 200.00,
                     scale: 1.00,
                     scaleMobile: 1.00,
-                    backgroundColor: 0x115e59, // Dark green-teal
-                    color1: 0xfacc15, // accent yellow
-                    color2: 0xf0fdf4, // light green-white
+                    backgroundColor: 0x1b4d3e, 
+                    color1: 0xffbf00, 
+                    color2: 0xf0fdf4, 
                     quantity: 3.00,
                 });
                 setVantaEffect(effect);
@@ -63,7 +63,7 @@ export default function Cta() {
         >
           <div ref={ref} className="relative z-10">
             <h2 className="text-3xl md:text-5xl font-bold font-headline mb-4">Ready to Give Your Child a Brighter Future?</h2>
-            <p className="text-lg md:text-xl text-green-300 mb-8 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-yellow-200 mb-8 max-w-3xl mx-auto">
               Admissions are open for Government School children (Classes 1–10, State Syllabus). Join our non-profit initiative for free, high-quality tuition.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

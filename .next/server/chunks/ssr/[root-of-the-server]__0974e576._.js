@@ -40,7 +40,7 @@ function Logo() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-sm md:text-lg font-bold font-headline text-green-300",
+                        className: "text-sm md:text-lg font-bold font-headline text-yellow-300",
                         children: "Family Charitable Trust"
                     }, void 0, false, {
                         fileName: "[project]/src/components/logo.tsx",
@@ -1051,7 +1051,7 @@ const founder = {
     hint: "professional portrait"
 };
 const aboutText = [
-    "Prof V.S. Raju Family Charitable Trust (VSRFCT), a registered non-profit trust started in 2015 by Prof. V.S. Raju (Formely : Director of IIT Delhi, Professor & Dean at IIT Madras) & Family with a focus in the twin states of AP & Telangana.",
+    "Prof.V.S. Raju Family Charitable Trust (VSRFCT), a registered non-profit trust started in 2015 by Prof. V.S. Raju (Formely : Director of IIT Delhi, Professor & Dean at IIT Madras) & Family with a focus in the twin states of AP & Telangana.",
     "Our vision is a humble contribution to build a better India."
 ];
 const mission = [
@@ -2462,8 +2462,8 @@ function Cta() {
                         minWidth: 200.00,
                         scale: 1.00,
                         scaleMobile: 1.00,
-                        backgroundColor: 0x115e59,
-                        color1: 0xfacc15,
+                        backgroundColor: 0x1b4d3e,
+                        color1: 0xffbf00,
                         color2: 0xf0fdf4,
                         quantity: 3.00
                     });
@@ -2501,7 +2501,7 @@ function Cta() {
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-lg md:text-xl text-green-300 mb-8 max-w-3xl mx-auto",
+                            className: "text-lg md:text-xl text-yellow-200 mb-8 max-w-3xl mx-auto",
                             children: "Admissions are open for Government School children (Classes 1–10, State Syllabus). Join our non-profit initiative for free, high-quality tuition."
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/cta.tsx",

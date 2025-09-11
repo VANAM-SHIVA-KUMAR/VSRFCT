@@ -15,7 +15,7 @@ export function Logo() {
         <p className="text-xl md:text-2xl font-bold font-headline text-primary">
           Prof. V.S. Raju
         </p>
-        <p className="text-sm md:text-lg font-bold font-headline text-green-300">
+        <p className="text-sm md:text-lg font-bold font-headline text-yellow-300">
           Family Charitable Trust
         </p>
       </div>
