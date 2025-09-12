@@ -2,6 +2,9 @@
 import Header from '@/components/sections/header';
 import Footer from '@/components/sections/footer';
 import VempaduTeam from '@/components/sections/vempadu-team';
+import Link from 'next/link';
+import { Button } from '@/components/ui/button';
+import { ArrowRight } from 'lucide-react';
 
 export default function VempaduPage() {
   return (
@@ -9,7 +12,15 @@ export default function VempaduPage() {
       <Header />
       <main className="flex-grow">
         <div className="container mx-auto px-4 pt-12 md:pt-24 text-center">
-            <h1 className="text-4xl md:text-6xl font-bold font-headline text-primary mb-12">Vempadu Branch</h1>
+          <div className="flex items-center justify-center gap-4 md:gap-8">
+            <h1 className="text-4xl md:text-6xl font-bold font-headline text-primary">Vempadu Branch</h1>
+            <Button asChild variant="outline" size="icon">
+              <Link href="/about/telecomnagar">
+                <ArrowRight className="h-6 w-6" />
+                <span className="sr-only">Next Branch</span>
+              </Link>
+            </Button>
+          </div>
         </div>
         <VempaduTeam />
         <div className="container mx-auto px-4 py-12 md:py-24 text-center">
