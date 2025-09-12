@@ -48,7 +48,7 @@ export default function Cta() {
             vantaEffect.destroy();
         }
     }
-  }, [isInView, vantaEffect]);
+  }, [isInView, vantaEffect, vantaRef.current]);
 
 
   return (
