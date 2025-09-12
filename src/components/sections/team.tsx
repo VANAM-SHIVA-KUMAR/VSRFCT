@@ -7,16 +7,16 @@ import { cn } from "@/lib/utils";
 
 
 const teamMembers = [
-  { name: "Valli", role: "Staff Lead", image: "/images/Team/Valli.jpg", hint: "smiling female teacher" },
-  { name: "Sailaja", role: "Primary Classes Teacher", image: "/images/Team/Sailaja.JPG", hint: "professional male teacher" },
-  { name: "Anand", role: "Higher Secondary Educator", image: "/images/Team/Anadh.jpg", hint: "female teacher portrait" },
-  { name: "Vishnu", role: "Higher Secondary Educator", image: "/images/Team/Vishnu.JPG", hint: "male teacher smiling" },
-  { name: "Akhilesh", role: "Physical Education Teacher", image: "/images/Team/Akhilesh.JPG", hint: "friendly female teacher" },
-  { name: "Usha Rani ", role: "Moral and Ethics Educator", image: "/images/Team/Usha.JPG", hint: "helpful female staff" },
-  { name: "Annapurna", role: "Pre-School Teacher", image: "/images/Team/Annapurna.JPG", hint: "traditional male teacher" },
-  { name: "Padma", role: "Pre-School Teacher", image: "/images/Team/Padma.jpeg", hint: "professional male administrator" },
-  { name: "Shiva Kumar", role: "Higher Secondary Educator", image: "/images/Team/Shiva.JPG", hint: "male teacher glasses" },
-  { name: "Jyothi", role: "Higher Secondary Educator", image: "/images/Team/Jyothi.JPG", hint: "energetic female teacher" },
+  { name: "Valli", role: "Staff Lead", image: "/images/Team/Valli.jpg", hint: "smiling female teacher", description: "Leading our team with passion since 2018." },
+  { name: "Sailaja", role: "Primary Classes Teacher", image: "/images/Team/Sailaja.JPG", hint: "professional male teacher", description: "Dedicated to nurturing young minds since 2019." },
+  { name: "Anand", role: "Higher Secondary Educator", image: "/images/Team/Anadh.jpg", hint: "female teacher portrait", description: "He is working with us since August, 2023." },
+  { name: "Vishnu", role: "Higher Secondary Educator", image: "/images/Team/Vishnu.JPG", hint: "male teacher smiling", description: "Guiding students towards success since 2021." },
+  { name: "Akhilesh", role: "Physical Education Teacher", image: "/images/Team/Akhilesh.JPG", hint: "friendly female teacher", description: "Promoting fitness and teamwork since 2022." },
+  { name: "Usha Rani ", role: "Moral and Ethics Educator", image: "/images/Team/Usha.JPG", hint: "helpful female staff", description: "Instilling values in our students since 2020." },
+  { name: "Annapurna", role: "Pre-School Teacher", image: "/images/Team/Annapurna.JPG", hint: "traditional male teacher", description: "Since January, 2024. She had prior working experience of 3 years." },
+  { name: "Padma", role: "Pre-School Teacher", image: "/images/Team/Padma.jpeg", hint: "professional male administrator", description: "Creating a fun learning environment for our youngest students." },
+  { name: "Shiva Kumar", role: "Higher Secondary Educator", image: "/images/Team/Shiva.JPG", hint: "male teacher glasses", description: "Helping students excel in their studies." },
+  { name: "Jyothi", role: "Higher Secondary Educator", image: "/images/Team/Jyothi.JPG", hint: "energetic female teacher", description: "She joined our team in early 2023." },
 ];
 
 export default function Team() {
@@ -26,8 +26,8 @@ export default function Team() {
     <section id="team" className="py-12 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">Meet Our Team</h2>
-          <p className="text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-bold font-headline text-primary">Meet Our Team</h2>
+          <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto">
             The dedicated individuals who make our mission possible.
           </p>
         </div>
@@ -47,8 +47,9 @@ export default function Team() {
                     <AvatarImage src={member.image} alt={member.name} data-ai-hint={member.hint} />
                     <AvatarFallback>{member.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
                   </Avatar>
-                  <p className="font-semibold font-headline text-md md:text-lg">{member.name}</p>
+                  <p className="font-semibold font-headline text-md md:text-lg text-primary">{member.name}</p>
                   <p className="text-xs md:text-sm text-muted-foreground">{member.role}</p>
+                  <p className="text-xs text-muted-foreground mt-2">{member.description}</p>
                 </CardContent>
               </Card>
             </div>
