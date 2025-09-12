@@ -1385,6 +1385,10 @@ section, .container {
   background-color: #ffffffb3;
 }
 
+.bg-accent\/20 {
+  background-color: hsl(var(--accent) / .2);
+}
+
 .fill-current {
   fill: currentColor;
 }

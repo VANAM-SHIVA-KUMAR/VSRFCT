@@ -14,7 +14,7 @@ export default function AboutPage() {
         <section className="py-12 md:py-24">
           <div className="container mx-auto px-4">
             <Tabs defaultValue="telecomnagar" className="w-full">
-              <TabsList className="grid w-full grid-cols-3">
+              <TabsList className="grid w-full grid-cols-3 bg-accent/20">
                 <TabsTrigger value="vempadu">Vempadu</TabsTrigger>
                 <TabsTrigger value="telecomnagar">Telecomnagar</TabsTrigger>
                 <TabsTrigger value="kopalle">Kopalle</TabsTrigger>
