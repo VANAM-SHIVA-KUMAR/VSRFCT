@@ -801,31 +801,36 @@ const teamMembers = [
         name: "M.v Naga lakshmi",
         role: "Tuition Teacher (9th & 10th)",
         image: "/images/placeholder.png",
-        hint: "female teacher portrait"
+        hint: "female teacher portrait",
+        description: "Working with us since November, 2013."
     },
     {
         name: "Ch.v. lakshmi",
         role: "Pre-School Teacher",
         image: "/images/placeholder.png",
-        hint: "female teacher portrait"
+        hint: "female teacher portrait",
+        description: "She has been a dedicated teacher since May, 2005."
     },
     {
         name: "Ch. Parameswari",
         role: "Tuition Teacher (7th)",
         image: "/images/placeholder.png",
-        hint: "female teacher portrait"
+        hint: "female teacher portrait",
+        description: "Joined our team in July, 2024."
     },
     {
         name: "K. Sarada",
         role: "Tuition Teacher (5th & 6th)",
         image: "/images/placeholder.png",
-        hint: "female teacher portrait"
+        hint: "female teacher portrait",
+        description: "She will be joining us in July, 2025."
     },
     {
         name: "S. Chandu",
         role: "Tuition Teacher (8th)",
         image: "/images/placeholder.png",
-        hint: "male teacher portrait"
+        hint: "male teacher portrait",
+        description: "He has been with VSRFCT since June, 2022."
     }
 ];
 function VempaduTeam() {
@@ -844,7 +849,7 @@ function VempaduTeam() {
                     className: "text-center mb-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl md:text-5xl font-bold font-headline text-green-900",
+                            className: "text-3xl md:text-5xl font-bold font-headline text-primary",
                             children: "Meet Our Team"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/vempadu-team.tsx",
@@ -852,7 +857,7 @@ function VempaduTeam() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto",
+                            className: "text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto",
                             children: "The dedicated individuals who make our mission possible."
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/vempadu-team.tsx",
@@ -904,7 +909,7 @@ function VempaduTeam() {
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "font-semibold font-headline text-md md:text-lg",
+                                            className: "font-semibold font-headline text-md md:text-lg text-primary",
                                             children: member.name
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/vempadu-team.tsx",
@@ -917,6 +922,14 @@ function VempaduTeam() {
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/vempadu-team.tsx",
                                             lineNumber: 46,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-xs text-muted-foreground mt-2",
+                                            children: member.description
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/sections/vempadu-team.tsx",
+                                            lineNumber: 47,
                                             columnNumber: 19
                                         }, this)
                                     ]

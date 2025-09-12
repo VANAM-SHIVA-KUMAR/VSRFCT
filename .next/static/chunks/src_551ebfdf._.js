@@ -40,7 +40,7 @@ function Logo() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-sm md:text-lg font-bold font-headline text-yellow-400",
+                        className: "text-sm md:text-lg font-bold font-headline text-primary",
                         children: "Family Charitable Trust"
                     }, void 0, false, {
                         fileName: "[project]/src/components/logo.tsx",
@@ -801,61 +801,71 @@ const teamMembers = [
         name: "Valli",
         role: "Staff Lead",
         image: "/images/Team/Valli.jpg",
-        hint: "smiling female teacher"
+        hint: "smiling female teacher",
+        description: "Leading our team with passion since 2018."
     },
     {
         name: "Sailaja",
         role: "Primary Classes Teacher",
         image: "/images/Team/Sailaja.JPG",
-        hint: "professional male teacher"
+        hint: "professional male teacher",
+        description: "Dedicated to nurturing young minds since 2019."
     },
     {
         name: "Anand",
         role: "Higher Secondary Educator",
         image: "/images/Team/Anadh.jpg",
-        hint: "female teacher portrait"
+        hint: "female teacher portrait",
+        description: "He is working with us since August, 2023."
     },
     {
         name: "Vishnu",
         role: "Higher Secondary Educator",
         image: "/images/Team/Vishnu.JPG",
-        hint: "male teacher smiling"
+        hint: "male teacher smiling",
+        description: "Guiding students towards success since 2021."
     },
     {
         name: "Akhilesh",
         role: "Physical Education Teacher",
         image: "/images/Team/Akhilesh.JPG",
-        hint: "friendly female teacher"
+        hint: "friendly female teacher",
+        description: "Promoting fitness and teamwork since 2022."
     },
     {
         name: "Usha Rani ",
         role: "Moral and Ethics Educator",
         image: "/images/Team/Usha.JPG",
-        hint: "helpful female staff"
+        hint: "helpful female staff",
+        description: "Instilling values in our students since 2020."
     },
     {
         name: "Annapurna",
         role: "Pre-School Teacher",
         image: "/images/Team/Annapurna.JPG",
-        hint: "traditional male teacher"
+        hint: "traditional male teacher",
+        description: "Since January, 2024. She had prior working experience of 3 years."
     },
     {
         name: "Padma",
         role: "Pre-School Teacher",
         image: "/images/Team/Padma.jpeg",
-        hint: "professional male administrator"
+        hint: "professional male administrator",
+        description: "Creating a fun learning environment for our youngest students."
     },
     {
         name: "Shiva Kumar",
         role: "Higher Secondary Educator",
         image: "/images/Team/Shiva.JPG",
-        hint: "male teacher glasses"
+        hint: "male teacher glasses",
+        description: "Helping students excel in their studies."
     },
     {
         name: "Jyothi",
         role: "Higher Secondary Educator",
         image: "/images/Team/Jyothi.JPG",
-        hint: "energetic female teacher"
+        hint: "energetic female teacher",
+        description: "She joined our team in early 2023."
     }
 ];
 function Team() {
@@ -874,7 +884,7 @@ function Team() {
                     className: "text-center mb-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl md:text-5xl font-bold font-headline text-green-900",
+                            className: "text-3xl md:text-5xl font-bold font-headline text-primary",
                             children: "Meet Our Team"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/team.tsx",
@@ -882,7 +892,7 @@ function Team() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto",
+                            className: "text-lg md:text-xl text-muted-foreground mt-4 max-w-3xl mx-auto",
                             children: "The dedicated individuals who make our mission possible."
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/team.tsx",
@@ -934,7 +944,7 @@ function Team() {
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "font-semibold font-headline text-md md:text-lg",
+                                            className: "font-semibold font-headline text-md md:text-lg text-primary",
                                             children: member.name
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/team.tsx",
@@ -947,6 +957,14 @@ function Team() {
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/team.tsx",
                                             lineNumber: 51,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-xs text-muted-foreground mt-2",
+                                            children: member.description
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/sections/team.tsx",
+                                            lineNumber: 52,
                                             columnNumber: 19
                                         }, this)
                                     ]
