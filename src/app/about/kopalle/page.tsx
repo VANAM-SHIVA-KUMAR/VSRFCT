@@ -1,4 +1,6 @@
 
+"use client";
+
 import Header from '@/components/sections/header';
 import Footer from '@/components/sections/footer';
 import KopalleTeam from '@/components/sections/kopalle-team';
