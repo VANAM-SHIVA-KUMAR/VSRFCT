@@ -4,7 +4,7 @@ import Footer from '@/components/sections/footer';
 import KopalleTeam from '@/components/sections/kopalle-team';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 
 export default function KopallePage() {
   return (
@@ -20,6 +20,12 @@ export default function KopallePage() {
               </Link>
             </Button>
             <h1 className="text-4xl md:text-6xl font-bold font-headline text-primary">Kopalle Branch</h1>
+            <Button asChild variant="outline" size="icon">
+              <Link href="/about/vempadu">
+                <ArrowRight className="h-6 w-6" />
+                <span className="sr-only">Next Branch</span>
+              </Link>
+            </Button>
           </div>
         </div>
         <KopalleTeam />
