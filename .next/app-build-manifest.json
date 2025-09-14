@@ -1,12 +1,15 @@
 {
   "pages": {
-    "/_not-found/page": [
+    "/about/kopalle/page": [
       "static/chunks/node_modules_next_dist_1a6ee436._.js",
       "static/chunks/src_app_favicon_ico_mjs_8a7a8fdc._.js",
       "static/chunks/src_app_globals_b805903d.css",
       "static/chunks/node_modules_3d823d1a._.js",
       "static/chunks/src_1246dabe._.js",
       "static/chunks/src_app_layout_tsx_c0237562._.js",
+      "static/chunks/src_c6cb2fff._.js",
+      "static/chunks/node_modules_45549725._.js",
+      "static/chunks/src_app_about_kopalle_page_tsx_d846e3da._.js",
       "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_fd44f5a4._.js",
       "static/chunks/node_modules_next_dist_compiled_2ce9398a._.js",
       "static/chunks/node_modules_next_dist_client_8f19e6fb._.js",
@@ -40,8 +43,8 @@
       "static/chunks/node_modules_3d823d1a._.js",
       "static/chunks/src_1246dabe._.js",
       "static/chunks/src_app_layout_tsx_c0237562._.js",
-      "static/chunks/node_modules_c7eff817._.js",
-      "static/chunks/src_551ebfdf._.js",
+      "static/chunks/src_92951272._.js",
+      "static/chunks/node_modules_e2bb4d10._.js",
       "static/chunks/src_app_about_telecomnagar_page_tsx_d846e3da._.js",
       "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_fd44f5a4._.js",
       "static/chunks/node_modules_next_dist_compiled_2ce9398a._.js",
@@ -58,8 +61,8 @@
       "static/chunks/node_modules_3d823d1a._.js",
       "static/chunks/src_1246dabe._.js",
       "static/chunks/src_app_layout_tsx_c0237562._.js",
-      "static/chunks/node_modules_0d1eb917._.js",
-      "static/chunks/src_357ca2d4._.js",
+      "static/chunks/src_0f7658f2._.js",
+      "static/chunks/node_modules_45549725._.js",
       "static/chunks/src_app_about_vempadu_page_tsx_d846e3da._.js",
       "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_fd44f5a4._.js",
       "static/chunks/node_modules_next_dist_compiled_2ce9398a._.js",

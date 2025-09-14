@@ -7,11 +7,11 @@ import { useInView } from '@/hooks/use-in-view';
 import { cn } from "@/lib/utils";
 
 const teamMembers = [
-  { name: "M.v Naga lakshmi", role: "Tuition Teacher (9th & 10th)", image: "/images/placeholder.png", hint: "female teacher portrait", description: "Working with us since November, 2013." },
-  { name: "Ch.v. lakshmi", role: "Pre-School Teacher", image: "/images/placeholder.png", hint: "female teacher portrait", description: "She has been a dedicated teacher since May, 2005." },
-  { name: "Ch. Parameswari", role: "Tuition Teacher (7th)", image: "/images/placeholder.png", hint: "female teacher portrait", description: "Joined our team in July, 2024." },
-  { name: "K. Sarada", role: "Tuition Teacher (5th & 6th)", image: "/images/placeholder.png", hint: "female teacher portrait", description: "She will be joining us in July, 2025." },
-  { name: "S. Chandu", role: "Tuition Teacher (8th)", image: "/images/placeholder.png", hint: "male teacher portrait", description: "He has been with VSRFCT since June, 2022." },
+  { name: "Mrs. Ch.V. lakshmi", role: "Pre-School Teacher", image: "/images/Vempadu/Lakshmi.jpeg", hint: "female teacher portrait", description: "She is working with us since May, 2005." },
+  { name: "Mrs. M.V. Naga Lakshmi", role: "Teacher & Coordinator", image: "/images/Vempadu/Naga Lakshmi.jpeg", hint: "female teacher portrait", description: "She is working with us since November, 2013." },
+  { name: "Mr. Ch. Parameswari", role: "Tuition Teacher (7th)", image: "/images/Vempadu/Parameswari.jpeg", hint: "female teacher portrait", description: "She is working with us since July, 2024." },
+  { name: "Mrs. K. Sarada", role: "Tuition Teacher (5th & 6th)", image: "/images/Vempadu/Sarada.jpeg", hint: "female teacher portrait", description: "She is working with us since July, 2025." },
+  { name: "Mr. S. Chandu", role: "Tuition Teacher (8th)", image: "/images/Vempadu/Chandu.jpeg", hint: "male teacher portrait", description: "He is working with us since June, 2022." },
 ];
 
 export default function VempaduTeam() {

@@ -7,9 +7,9 @@ import { useInView } from '@/hooks/use-in-view';
 import { cn } from "@/lib/utils";
 
 const teamMembers = [
-  { name: "M.v Naga lakshmi", role: "Teacher & Coordinator", image: "/images/placeholder.png", hint: "female teacher portrait", description: "Working with us since June, 2022." },
-  { name: "G.Bharathi Devi", role: "Pre-School Teacher", image: "/images/placeholder.png", hint: "female teacher portrait", description: "She has been a dedicated teacher since June, 2022." },
-  { name: "G.Neelima", role: "Pre-School Teacher", image: "/images/placeholder.png", hint: "female teacher portrait", description: "Joined our team in July, 2022." },
+  { name: "Mrs. M.V. Naga Lakshmi", role: "Teacher & Coordinator", image: "/images/Kopalle/Naga Lakshmi.jpeg", hint: "female teacher portrait", description: "She is working with us since June, 2022." },
+  { name: "Mrs. G. Bharathi Devi", role: "Pre-School Teacher", image: "/images/Kopalle/Devi.jpeg", hint: "female teacher portrait", description: "She is working with us since June, 2022." },
+  { name: "Mrs. G. Neelima", role: "Pre-School Teacher", image: "/images/Kopalle/Neelima.jpeg", hint: "female teacher portrait", description: "She is working with us since July, 2022." },
 ];
 
 export default function KopalleTeam() {

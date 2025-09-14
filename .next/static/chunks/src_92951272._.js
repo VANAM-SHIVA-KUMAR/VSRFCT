@@ -1190,74 +1190,67 @@ var _s = __turbopack_context__.k.signature();
 ;
 const teamMembers = [
     {
-        name: "Valli",
-        role: "Staff Lead",
-        image: "/images/Team/Valli.jpg",
-        hint: "smiling female teacher",
-        description: "Leading our team with passion since 2018."
-    },
-    {
-        name: "Sailaja",
-        role: "Primary Classes Teacher",
-        image: "/images/Team/Sailaja.JPG",
-        hint: "professional male teacher",
-        description: "Dedicated to nurturing young minds since 2019."
-    },
-    {
-        name: "Anand",
+        name: "Mr. P. Anand",
         role: "Higher Secondary Educator",
         image: "/images/Team/Anadh.jpg",
         hint: "female teacher portrait",
-        description: "He is working with us since August, 2023."
+        description: "Mr. P. Anand has a Msc, B.Ed Degree. He is working with us since November, 2019."
     },
     {
-        name: "Vishnu",
+        name: "Mr. Ch. Vishnu",
         role: "Higher Secondary Educator",
         image: "/images/Team/Vishnu.JPG",
         hint: "male teacher smiling",
-        description: "Guiding students towards success since 2021."
+        description: "Mr. CH. Vishnu has a B.Tech Degree. He is working with us since January, 2019."
     },
     {
-        name: "Akhilesh",
+        name: "Mr. G. Akhilesh",
         role: "Physical Education Teacher",
         image: "/images/Team/Akhilesh.JPG",
         hint: "friendly female teacher",
-        description: "Promoting fitness and teamwork since 2022."
+        description: "Mr. G. Akhilesh has a B.Tech Degree. He is working with us since December, 2021."
     },
     {
-        name: "Usha Rani ",
+        name: "Mrs. D. Sailaja",
+        role: "Primary Classes Teacher",
+        image: "/images/Team/Sailaja.JPG",
+        hint: "professional male teacher",
+        description: "Mrs. D. Sailaja has a Degree. She is working with us since June, 2018."
+    },
+    {
+        name: "Mrs. T. Usha Rani ",
         role: "Moral and Ethics Educator",
         image: "/images/Team/Usha.JPG",
         hint: "helpful female staff",
-        description: "Instilling values in our students since 2020."
+        description: "Mrs. T. Usha Rani  has a Degree. She is working with us since Febuary, 2024."
     },
     {
-        name: "Annapurna",
+        name: "Mrs. K. Annapurna",
         role: "Pre-School Teacher",
         image: "/images/Team/Annapurna.JPG",
         hint: "traditional male teacher",
-        description: "Since January, 2024. She had prior working experience of 3 years."
+        description: "Mrs. K. Annapurna has a Intermediate Degree. She is working with us since November, 2023."
     },
     {
-        name: "Padma",
+        name: "Mrs. V. Padma",
         role: "Pre-School Teacher",
         image: "/images/Team/Padma.jpeg",
         hint: "professional male administrator",
-        description: "Creating a fun learning environment for our youngest students."
+        description: "Mrs. V. Padma has a Degree. She is working with us since January, 2022."
     },
     {
-        name: "Shiva Kumar",
+        name: "Mr. V. Shiva Kumar",
         role: "Higher Secondary Educator",
         image: "/images/Team/Shiva.JPG",
         hint: "male teacher glasses",
-        description: "Helping students excel in their studies."
+        description: "Mr. V. Shiva Kumar has a B.Tech Degree. He is working with us since June, 2025."
     },
     {
-        name: "Jyothi",
+        name: "Mrs. K. Jyothi",
         role: "Higher Secondary Educator",
         image: "/images/Team/Jyothi.JPG",
         hint: "energetic female teacher",
-        description: "She joined our team in early 2023."
+        description: "Mrs. K. Jyothi has a B.Tech Degree. She is working with us since July, 2025."
     }
 ];
 function Team() {
@@ -1280,7 +1273,7 @@ function Team() {
                             children: "Meet Our Team"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/team.tsx",
-                            lineNumber: 29,
+                            lineNumber: 28,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1288,13 +1281,13 @@ function Team() {
                             children: "The dedicated individuals who make our mission possible."
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/team.tsx",
-                            lineNumber: 30,
+                            lineNumber: 29,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/sections/team.tsx",
-                    lineNumber: 28,
+                    lineNumber: 27,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1319,20 +1312,20 @@ function Team() {
                                                     "data-ai-hint": member.hint
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/team.tsx",
-                                                    lineNumber: 47,
+                                                    lineNumber: 46,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$avatar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AvatarFallback"], {
                                                     children: member.name.split(' ').map((n)=>n[0]).join('')
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/team.tsx",
-                                                    lineNumber: 48,
+                                                    lineNumber: 47,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/sections/team.tsx",
-                                            lineNumber: 46,
+                                            lineNumber: 45,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1340,7 +1333,7 @@ function Team() {
                                             children: member.name
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/team.tsx",
-                                            lineNumber: 50,
+                                            lineNumber: 49,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1348,7 +1341,7 @@ function Team() {
                                             children: member.role
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/team.tsx",
-                                            lineNumber: 51,
+                                            lineNumber: 50,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1356,39 +1349,39 @@ function Team() {
                                             children: member.description
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/team.tsx",
-                                            lineNumber: 52,
+                                            lineNumber: 51,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/sections/team.tsx",
-                                    lineNumber: 45,
+                                    lineNumber: 44,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/team.tsx",
-                                lineNumber: 44,
+                                lineNumber: 43,
                                 columnNumber: 15
                             }, this)
                         }, index, false, {
                             fileName: "[project]/src/components/sections/team.tsx",
-                            lineNumber: 36,
+                            lineNumber: 35,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/sections/team.tsx",
-                    lineNumber: 34,
+                    lineNumber: 33,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/sections/team.tsx",
-            lineNumber: 27,
+            lineNumber: 26,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/sections/team.tsx",
-        lineNumber: 26,
+        lineNumber: 25,
         columnNumber: 5
     }, this);
 }

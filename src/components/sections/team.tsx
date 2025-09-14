@@ -7,16 +7,15 @@ import { cn } from "@/lib/utils";
 
 
 const teamMembers = [
-  { name: "Valli", role: "Staff Lead", image: "/images/Team/Valli.jpg", hint: "smiling female teacher", description: "Leading our team with passion since 2018." },
-  { name: "Sailaja", role: "Primary Classes Teacher", image: "/images/Team/Sailaja.JPG", hint: "professional male teacher", description: "Dedicated to nurturing young minds since 2019." },
-  { name: "Anand", role: "Higher Secondary Educator", image: "/images/Team/Anadh.jpg", hint: "female teacher portrait", description: "He is working with us since August, 2023." },
-  { name: "Vishnu", role: "Higher Secondary Educator", image: "/images/Team/Vishnu.JPG", hint: "male teacher smiling", description: "Guiding students towards success since 2021." },
-  { name: "Akhilesh", role: "Physical Education Teacher", image: "/images/Team/Akhilesh.JPG", hint: "friendly female teacher", description: "Promoting fitness and teamwork since 2022." },
-  { name: "Usha Rani ", role: "Moral and Ethics Educator", image: "/images/Team/Usha.JPG", hint: "helpful female staff", description: "Instilling values in our students since 2020." },
-  { name: "Annapurna", role: "Pre-School Teacher", image: "/images/Team/Annapurna.JPG", hint: "traditional male teacher", description: "Since January, 2024. She had prior working experience of 3 years." },
-  { name: "Padma", role: "Pre-School Teacher", image: "/images/Team/Padma.jpeg", hint: "professional male administrator", description: "Creating a fun learning environment for our youngest students." },
-  { name: "Shiva Kumar", role: "Higher Secondary Educator", image: "/images/Team/Shiva.JPG", hint: "male teacher glasses", description: "Helping students excel in their studies." },
-  { name: "Jyothi", role: "Higher Secondary Educator", image: "/images/Team/Jyothi.JPG", hint: "energetic female teacher", description: "She joined our team in early 2023." },
+  { name: "Mr. P. Anand", role: "Higher Secondary Educator", image: "/images/Team/Anadh.jpg", hint: "female teacher portrait", description: "Mr. P. Anand has a Msc, B.Ed Degree. He is working with us since November, 2019." },
+  { name: "Mr. Ch. Vishnu", role: "Higher Secondary Educator", image: "/images/Team/Vishnu.JPG", hint: "male teacher smiling", description: "Mr. CH. Vishnu has a B.Tech Degree. He is working with us since January, 2019." },
+  { name: "Mr. G. Akhilesh", role: "Physical Education Teacher", image: "/images/Team/Akhilesh.JPG", hint: "friendly female teacher", description: "Mr. G. Akhilesh has a B.Tech Degree. He is working with us since December, 2021." },
+  { name: "Mrs. D. Sailaja", role: "Primary Classes Teacher", image: "/images/Team/Sailaja.JPG", hint: "professional male teacher", description: "Mrs. D. Sailaja has a Degree. She is working with us since June, 2018." },
+  { name: "Mrs. T. Usha Rani ", role: "Moral and Ethics Educator", image: "/images/Team/Usha.JPG", hint: "helpful female staff", description: "Mrs. T. Usha Rani  has a Degree. She is working with us since Febuary, 2024." },
+  { name: "Mrs. K. Annapurna", role: "Pre-School Teacher", image: "/images/Team/Annapurna.JPG", hint: "traditional male teacher", description: "Mrs. K. Annapurna has a Intermediate Degree. She is working with us since November, 2023." },
+  { name: "Mrs. V. Padma", role: "Pre-School Teacher", image: "/images/Team/Padma.jpeg", hint: "professional male administrator", description: "Mrs. V. Padma has a Degree. She is working with us since January, 2022." },
+  { name: "Mr. V. Shiva Kumar", role: "Higher Secondary Educator", image: "/images/Team/Shiva.JPG", hint: "male teacher glasses", description: "Mr. V. Shiva Kumar has a B.Tech Degree. He is working with us since June, 2025." },
+  { name: "Mrs. K. Jyothi", role: "Higher Secondary Educator", image: "/images/Team/Jyothi.JPG", hint: "energetic female teacher", description: "Mrs. K. Jyothi has a B.Tech Degree. She is working with us since July, 2025." },
 ];
 
 export default function Team() {
