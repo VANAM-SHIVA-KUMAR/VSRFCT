@@ -43,7 +43,7 @@ export default function Testimonials() {
       >
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">What People Are Saying</h2>
-          <p className="text-lg md:text-xl text-White-700 mt-4 max-w-3xl mx-auto">
+          <p className="text-lg italic md:text-xl text-White-700 mt-4 max-w-3xl mx-auto">
             Feedback from parents, students, and well-wishers of our community.
           </p>
         </div>
@@ -61,12 +61,12 @@ export default function Testimonials() {
                   <Card className="h-full flex flex-col justify-center text-center">
                     <CardContent className="p-6 flex flex-col items-center">
                       <div className="w-16 h-1 bg-accent mx-auto mb-4"></div>
-                      <blockquote className="text-lg italic text-muted-foreground mb-4 flex-grow">
+                      <blockquote className="text-lg italic text-White mb-4 flex-grow">
                         “{testimonial.quote}”
                       </blockquote>
                       <div>
                         <p className="font-semibold font-headline text-primary">{testimonial.name}</p>
-                        <p className="text-sm text-muted-foreground">{testimonial.title}</p>
+                        <p className="text-sm text-White">{testimonial.title}</p>
                       </div>
                       <div className="w-16 h-1 bg-accent mx-auto mt-4"></div>
                     </CardContent>

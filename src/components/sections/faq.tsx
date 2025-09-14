@@ -52,7 +52,7 @@ export default function Faq() {
             )}
           >
             <h2 className="text-3xl md:text-5xl font-bold font-headline mb-4 text-green-900">Frequently Asked Questions</h2>
-            <p className="text-lg text-White-700">
+            <p className="text-lg italic text-White-700">
               Find answers to common questions about our free tuition programme.
             </p>
           </div>

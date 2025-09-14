@@ -78,8 +78,7 @@ export default function Footer() {
                 <Clock className="h-5 w-5 text-accent shrink-0 mt-1" />
                 <div>
                     <p className="font-bold text-white">Opening Hours:</p>
-                    <p>Monday - Saturday: 4.30pm–8.00pm</p>
-                    <p>Sunday: Closed</p>
+                    <p>Monday - Saturday: 9.30am–8.00pm</p>
                 </div>
               </li>
               <li className="flex items-start space-x-2 mt-2">
@@ -92,7 +91,9 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     className="hover:text-white"
                   >
-                    Sai krupa enclave, Telecom nagar, Hyderabad 500032
+                    <p>Vempadu Branch: Swayam Krushi Kids Care Center,Vempadu, West Godavari, Andra Pradesh (AP), India (IN), Pin Code:- 534206</p>
+                    <p>Telecomnagar Branch: Sai Krupa Enclave, Telecom Nagar, Gachibowli, Hyderabad, Telangana (TS), India (IN), Pin Code:- 500032</p>
+                    <p>Kopalle Branch:  Dr. Vijaya Rama Raju Memorial Free kids Pre School, Kopalle Village, Kalla Mandal, West Godavari, Andhra Pradesh (AP), India (IN), Pin code:- 534206</p>
                   </a>
                 </div>
               </li>

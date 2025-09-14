@@ -76,7 +76,7 @@ export default function About() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">About Our Founders</h2>
-            <p className="text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto">
+            <p className="text-lg italic md:text-xl text-green-700 mt-4 max-w-3xl mx-auto">
               The driving forces behind our initiative.
             </p>
         </div>

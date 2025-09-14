@@ -76,7 +76,7 @@ export default function Hero() {
           <CarouselContent>
             {slides.map((slide, index) => (
               <CarouselItem key={index}>
-                <div className="relative h-[70vh] md:h-[calc(100vh-128px)] w-full text-primary-foreground">
+                <div className="relative h-[70vh] md:h-[calc(100vh-128px)] w-full text-White">
                    <Image
                     src={slide.image}
                     alt={slide.title}
@@ -102,7 +102,7 @@ export default function Hero() {
                       <h1 className="text-4xl md:text-6xl font-bold font-headline mb-4 text-shadow-lg animate-text-reveal text-green-900">
                         {slide.title}
                       </h1>
-                      <p className="text-lg md:text-xl max-w-xl animate-fade-in-up animation-delay-500 text-green-700">
+                      <p className="text-lg md:text-xl max-w-xl animate-fade-in-up animation-delay-500 text-White-700">
                         {slide.description}
                       </p>
                     </div>

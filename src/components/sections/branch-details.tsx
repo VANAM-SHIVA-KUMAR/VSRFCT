@@ -9,8 +9,8 @@ const branchDetails = [
   {
     name: "Vempadu",
     stats: [
-      { icon: <Users className="h-6 w-6 text-accent" />, label: "66 Pre-primary & 50 Tuition Students" },
-      { icon: <Briefcase className="h-6 w6 text-accent" />, label: "4 Teachers & 1 Helper" },
+      { icon: <Users className="h-6 w-6 text-accent" />, label: "35 Pre-primary & 50 Tuition Students" },
+      { icon: <Briefcase className="h-6 w6 text-accent" />, label: "5 Teachers" },
       { icon: <School className="h-6 w-6 text-accent" />, label: "2 Classrooms with a Playground" },
     ],
     activities: [
@@ -36,8 +36,8 @@ const branchDetails = [
   {
     name: "Kopalle",
     stats: [
-      { icon: <Users className="h-6 w-6 text-accent" />, label: "56 Pre-primary Students" },
-      { icon: <Briefcase className="h-6 w-6 text-accent" />, label: "3 Teachers & 1 Helper" },
+      { icon: <Users className="h-6 w-6 text-accent" />, label: "60 Pre-primary Students" },
+      { icon: <Briefcase className="h-6 w-6 text-accent" />, label: "3 Teachers" },
       { icon: <School className="h-6 w-6 text-accent" />, label: "4 Classrooms with a Playground" },
     ],
     activities: [
