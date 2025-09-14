@@ -15,7 +15,8 @@ const programmes = [
     image: "/images/programmes/educate.jpg",
     imageHint: "student graduation",
     believeTitle: "WE BELIEVE",
-    believeText: "IF WE HELP ONE PERSON GET EDUCATED, THEIR FAMILY AND THE FUTURE GENERATIONS OF THEIR FAMILIES WILL HAVE THE ABILITY AND DESIRE TO BECOME EDUCATED. Every year hundreds of students drop out of schools and colleges due to lack of proper support system - financial and guidance. We know that most students can succeed in any area that they have passion for. Over the years we've given hope of a better future to most students among the most needy. With great opportunities to excel and a dedicated team to hold their hand, they have built their lives with their own efforts and are leading a prosperous life.",
+    believeText_highlight: "IF WE HELP ONE PERSON GET EDUCATED, THEIR FAMILY AND THE FUTURE GENERATIONS OF THEIR FAMILIES WILL HAVE THE ABILITY AND DESIRE TO BECOME EDUCATED.",
+    believeText_rest: "Every year hundreds of students drop out of schools and colleges due to lack of proper support system - financial and guidance. We know that most students can succeed in any area that they have passion for. Over the years we've given hope of a better future to most students among the most needy. With great opportunities to excel and a dedicated team to hold their hand, they have built their lives with their own efforts and are leading a prosperous life.",
     knowMoreText: "Changed over 700 lives through education scholarships",
     imageClass: "object-contain",
   },
@@ -26,7 +27,8 @@ const programmes = [
     image: "/images/programmes/employ.png",
     imageHint: "youth employment skills",
     believeTitle: "WE BELIEVE",
-    believeText: "NO YOUNG TALENT SHOULD GO WASTE DUE TO LACK OF RESOURCES. Every year many youngsters struggle to pull themselves out of poverty due to lack of technical expertise and advancement opportunities. We know that creating the right space and scope for them to enhance their technical knowledge can transform their lives. Over the years we've collaborated with the best technical institutions that provide complete placement support. With an opportunity to advance their skills and manufacturing industry's readiness to employ, these candidates took the first step in self development and built sustainable lives.",
+    believeText_highlight: "NO YOUNG TALENT SHOULD GO WASTE DUE TO LACK OF RESOURCES.",
+    believeText_rest: "Every year many youngsters struggle to pull themselves out of poverty due to lack of technical expertise and advancement opportunities. We know that creating the right space and scope for them to enhance their technical knowledge can transform their lives. Over the years we've collaborated with the best technical institutions that provide complete placement support. With an opportunity to advance their skills and manufacturing industry's readiness to employ, these candidates took the first step in self development and built sustainable lives.",
     knowMoreText: "Changed over 400 lives through skill training scholarships and job opportunities",
     imageClass: "object-contain",
   },
@@ -37,7 +39,8 @@ const programmes = [
     image: "/images/programmes/succeed.png",
     imageHint: "student progress",
     believeTitle: "WE BELIEVE",
-    believeText: "WE HAVE TO WORK AT THE GRASS ROOT LEVEL TO INCREASE THE LITERACY LEVEL IN INDIA. Every year thousands of students studying in government colleges fail to perform well academically due to lack of availability of educational resources at their arm's length. We know that providing the required resources to these students could lead them to gain quality education and grow confidence to achieve their goals. We've collaborated with government college lecturers to create study material. Over the years we provided text books and study material to students which helped improve their performance drastically and were able to complete their education successfully.",
+    believeText_highlight: "WE HAVE TO WORK AT THE GRASS ROOT LEVEL TO INCREASE THE LITERACY LEVEL IN INDIA.",
+    believeText_rest: "Every year thousands of students studying in government colleges fail to perform well academically due to lack of availability of educational resources at their arm's length. We know that providing the required resources to these students could lead them to gain quality education and grow confidence to achieve their goals. We've collaborated with government college lecturers to create study material. Over the years we provided text books and study material to students which helped improve their performance drastically and were able to complete their education successfully.",
     knowMoreText: "Changed over 22 lakh lives by donating books",
     imageClass: "object-contain",
   },
@@ -82,7 +85,11 @@ const ProgrammeSection = ({ programme, index }) => {
                 </div>
                 <div className="bg-gray-100 p-6 rounded-lg shadow-inner space-y-4">
                     <h4 className="text-2xl font-bold font-headline text-primary">{programme.believeTitle}</h4>
-                    <p className="text-muted-foreground">{programme.believeText}</p>
+                    <p className="text-muted-foreground">
+                        <strong className="font-semibold text-primary">{programme.believeText_highlight}</strong>
+                        <br />
+                        {programme.believeText_rest}
+                    </p>
                 </div>
             </div>
         </div>

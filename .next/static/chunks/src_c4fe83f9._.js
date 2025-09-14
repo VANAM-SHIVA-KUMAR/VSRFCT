@@ -1800,7 +1800,8 @@ const programmes = [
         image: "/images/programmes/educate.jpg",
         imageHint: "student graduation",
         believeTitle: "WE BELIEVE",
-        believeText: "IF WE HELP ONE PERSON GET EDUCATED, THEIR FAMILY AND THE FUTURE GENERATIONS OF THEIR FAMILIES WILL HAVE THE ABILITY AND DESIRE TO BECOME EDUCATED. Every year hundreds of students drop out of schools and colleges due to lack of proper support system - financial and guidance. We know that most students can succeed in any area that they have passion for. Over the years we've given hope of a better future to most students among the most needy. With great opportunities to excel and a dedicated team to hold their hand, they have built their lives with their own efforts and are leading a prosperous life.",
+        believeText_highlight: "IF WE HELP ONE PERSON GET EDUCATED, THEIR FAMILY AND THE FUTURE GENERATIONS OF THEIR FAMILIES WILL HAVE THE ABILITY AND DESIRE TO BECOME EDUCATED.",
+        believeText_rest: "Every year hundreds of students drop out of schools and colleges due to lack of proper support system - financial and guidance. We know that most students can succeed in any area that they have passion for. Over the years we've given hope of a better future to most students among the most needy. With great opportunities to excel and a dedicated team to hold their hand, they have built their lives with their own efforts and are leading a prosperous life.",
         knowMoreText: "Changed over 700 lives through education scholarships",
         imageClass: "object-contain"
     },
@@ -1811,7 +1812,8 @@ const programmes = [
         image: "/images/programmes/employ.png",
         imageHint: "youth employment skills",
         believeTitle: "WE BELIEVE",
-        believeText: "NO YOUNG TALENT SHOULD GO WASTE DUE TO LACK OF RESOURCES. Every year many youngsters struggle to pull themselves out of poverty due to lack of technical expertise and advancement opportunities. We know that creating the right space and scope for them to enhance their technical knowledge can transform their lives. Over the years we've collaborated with the best technical institutions that provide complete placement support. With an opportunity to advance their skills and manufacturing industry's readiness to employ, these candidates took the first step in self development and built sustainable lives.",
+        believeText_highlight: "NO YOUNG TALENT SHOULD GO WASTE DUE TO LACK OF RESOURCES.",
+        believeText_rest: "Every year many youngsters struggle to pull themselves out of poverty due to lack of technical expertise and advancement opportunities. We know that creating the right space and scope for them to enhance their technical knowledge can transform their lives. Over the years we've collaborated with the best technical institutions that provide complete placement support. With an opportunity to advance their skills and manufacturing industry's readiness to employ, these candidates took the first step in self development and built sustainable lives.",
         knowMoreText: "Changed over 400 lives through skill training scholarships and job opportunities",
         imageClass: "object-contain"
     },
@@ -1822,7 +1824,8 @@ const programmes = [
         image: "/images/programmes/succeed.png",
         imageHint: "student progress",
         believeTitle: "WE BELIEVE",
-        believeText: "WE HAVE TO WORK AT THE GRASS ROOT LEVEL TO INCREASE THE LITERACY LEVEL IN INDIA. Every year thousands of students studying in government colleges fail to perform well academically due to lack of availability of educational resources at their arm's length. We know that providing the required resources to these students could lead them to gain quality education and grow confidence to achieve their goals. We've collaborated with government college lecturers to create study material. Over the years we provided text books and study material to students which helped improve their performance drastically and were able to complete their education successfully.",
+        believeText_highlight: "WE HAVE TO WORK AT THE GRASS ROOT LEVEL TO INCREASE THE LITERACY LEVEL IN INDIA.",
+        believeText_rest: "Every year thousands of students studying in government colleges fail to perform well academically due to lack of availability of educational resources at their arm's length. We know that providing the required resources to these students could lead them to gain quality education and grow confidence to achieve their goals. We've collaborated with government college lecturers to create study material. Over the years we provided text books and study material to students which helped improve their performance drastically and were able to complete their education successfully.",
         knowMoreText: "Changed over 22 lakh lives by donating books",
         imageClass: "object-contain"
     }
@@ -1869,12 +1872,12 @@ const ProgrammeSection = ({ programme, index })=>{
                             className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("rounded-2xl shadow-2xl", programme.imageClass || "object-cover")
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/programmes.tsx",
-                            lineNumber: 60,
+                            lineNumber: 63,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/programmes.tsx",
-                        lineNumber: 59,
+                        lineNumber: 62,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1885,7 +1888,7 @@ const ProgrammeSection = ({ programme, index })=>{
                                 children: "KNOW MORE..."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/programmes.tsx",
-                                lineNumber: 73,
+                                lineNumber: 76,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1893,19 +1896,19 @@ const ProgrammeSection = ({ programme, index })=>{
                                 children: programme.knowMoreText
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/programmes.tsx",
-                                lineNumber: 74,
+                                lineNumber: 77,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/sections/programmes.tsx",
-                        lineNumber: 68,
+                        lineNumber: 71,
                         columnNumber: 18
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/sections/programmes.tsx",
-                lineNumber: 58,
+                lineNumber: 61,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1916,7 +1919,7 @@ const ProgrammeSection = ({ programme, index })=>{
                         children: programme.title
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/programmes.tsx",
-                        lineNumber: 78,
+                        lineNumber: 81,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1927,7 +1930,7 @@ const ProgrammeSection = ({ programme, index })=>{
                                 children: programme.subtitle
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/programmes.tsx",
-                                lineNumber: 80,
+                                lineNumber: 83,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1935,13 +1938,13 @@ const ProgrammeSection = ({ programme, index })=>{
                                 children: programme.mainLine
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/programmes.tsx",
-                                lineNumber: 81,
+                                lineNumber: 84,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/sections/programmes.tsx",
-                        lineNumber: 79,
+                        lineNumber: 82,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1952,33 +1955,48 @@ const ProgrammeSection = ({ programme, index })=>{
                                 children: programme.believeTitle
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/programmes.tsx",
-                                lineNumber: 84,
+                                lineNumber: 87,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-muted-foreground",
-                                children: programme.believeText
-                            }, void 0, false, {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                        className: "font-semibold text-primary",
+                                        children: programme.believeText_highlight
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/sections/programmes.tsx",
+                                        lineNumber: 89,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/src/components/sections/programmes.tsx",
+                                        lineNumber: 90,
+                                        columnNumber: 25
+                                    }, this),
+                                    programme.believeText_rest
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/src/components/sections/programmes.tsx",
-                                lineNumber: 85,
+                                lineNumber: 88,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/sections/programmes.tsx",
-                        lineNumber: 83,
+                        lineNumber: 86,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/sections/programmes.tsx",
-                lineNumber: 77,
+                lineNumber: 80,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/sections/programmes.tsx",
-        lineNumber: 57,
+        lineNumber: 60,
         columnNumber: 9
     }, this);
 };
@@ -2004,12 +2022,12 @@ const FooterCard = ()=>{
             children: "Prof. V. S. Raju Family Charitable Trust (VSRFCT) was founded in 2015 with an aim to improve quality of education in India. We believe that an educated person can lead a self-sustainable and respectful life and that it is our responsibility to support and uplift the people of our nation. We are making an essential and long-term investment for the future of our country. All our initiatives are sponsored by Prof. V. S. Raju Family."
         }, void 0, false, {
             fileName: "[project]/src/components/sections/programmes.tsx",
-            lineNumber: 96,
+            lineNumber: 103,
             columnNumber: 14
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/sections/programmes.tsx",
-        lineNumber: 95,
+        lineNumber: 102,
         columnNumber: 9
     }, this);
 };
@@ -2039,12 +2057,12 @@ function Programmes() {
                         children: "OUR PROGRAMMES BUILD SELF-SUSTAINABLE LIVES"
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/programmes.tsx",
-                        lineNumber: 110,
+                        lineNumber: 117,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/sections/programmes.tsx",
-                    lineNumber: 109,
+                    lineNumber: 116,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2054,28 +2072,28 @@ function Programmes() {
                             index: index
                         }, index, false, {
                             fileName: "[project]/src/components/sections/programmes.tsx",
-                            lineNumber: 116,
+                            lineNumber: 123,
                             columnNumber: 17
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/sections/programmes.tsx",
-                    lineNumber: 114,
+                    lineNumber: 121,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FooterCard, {}, void 0, false, {
                     fileName: "[project]/src/components/sections/programmes.tsx",
-                    lineNumber: 119,
+                    lineNumber: 126,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/sections/programmes.tsx",
-            lineNumber: 108,
+            lineNumber: 115,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/sections/programmes.tsx",
-        lineNumber: 107,
+        lineNumber: 114,
         columnNumber: 5
     }, this);
 }
