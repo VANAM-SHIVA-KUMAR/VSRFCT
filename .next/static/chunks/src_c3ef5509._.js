@@ -10,9 +10,12 @@ __turbopack_context__.s({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/utils.ts [app-client] (ecmascript)");
 ;
 ;
-function Logo() {
+;
+function Logo({ variant = 'default' }) {
+    const textColor = variant === 'dark' ? 'text-primary-foreground' : 'text-primary';
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
         href: "/",
         className: "flex items-center space-x-2 md:space-x-4",
@@ -26,37 +29,37 @@ function Logo() {
                 "data-ai-hint": "logo"
             }, void 0, false, {
                 fileName: "[project]/src/components/logo.tsx",
-                lineNumber: 6,
+                lineNumber: 12,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-xl md:text-2xl font-bold font-headline text-primary",
+                        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("text-xl md:text-2xl font-bold font-headline", textColor),
                         children: "Prof. V.S. Raju"
                     }, void 0, false, {
                         fileName: "[project]/src/components/logo.tsx",
-                        lineNumber: 15,
+                        lineNumber: 21,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-sm md:text-lg font-bold font-headline text-primary",
+                        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("text-sm md:text-lg font-bold font-headline", textColor),
                         children: "Family Charitable Trust"
                     }, void 0, false, {
                         fileName: "[project]/src/components/logo.tsx",
-                        lineNumber: 18,
+                        lineNumber: 24,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/logo.tsx",
-                lineNumber: 14,
+                lineNumber: 20,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/logo.tsx",
-        lineNumber: 5,
+        lineNumber: 11,
         columnNumber: 5
     }, this);
 }
@@ -609,14 +612,16 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "md:col-span-1",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$logo$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Logo"], {}, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$logo$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Logo"], {
+                                    variant: "dark"
+                                }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
                                     lineNumber: 26,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "mt-4 text-White/80",
-                                    children: "A non-profit learning initiative by V.S. Raju Family Charitable Trust."
+                                    children: "A non-profit organisation by VSRFCT, working to empower India through education."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
                                     lineNumber: 27,
@@ -628,7 +633,7 @@ function Footer() {
                                         href: youtubeUrl,
                                         target: "_blank",
                                         rel: "noopener noreferrer",
-                                        className: "text-White/80 hover:text-white transition-transform duration-300 hover:scale-110",
+                                        className: "text-primary-foreground/80 hover:text-primary-foreground transition-transform duration-300 hover:scale-110",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                                                 className: "h-10 w-auto",
@@ -686,7 +691,7 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "font-headline font-semibold tracking-wider uppercase text-white",
+                                    className: "font-headline font-semibold tracking-wider uppercase text-White",
                                     children: "Quick Links"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
@@ -698,7 +703,7 @@ function Footer() {
                                     children: footerLinks.quickLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 href: link.href,
-                                                className: "text-White/80 hover:text-white",
+                                                className: "text-primary-White/80 hover:text-White",
                                                 children: link.name
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/footer.tsx",
@@ -724,7 +729,7 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "font-headline font-semibold tracking-wider uppercase text-white",
+                                    className: "font-headline font-semibold tracking-wider uppercase text-White",
                                     children: "Support"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
@@ -736,7 +741,7 @@ function Footer() {
                                     children: footerLinks.support.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 href: link.href,
-                                                className: "text-White/80 hover:text-white",
+                                                className: "text-White/80 hover:text-White",
                                                 children: link.name
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/footer.tsx",
@@ -762,7 +767,7 @@ function Footer() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "font-headline font-semibold tracking-wider uppercase text-white",
+                                    className: "font-headline font-semibold tracking-wider uppercase text-White",
                                     children: "Contact Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/footer.tsx",
@@ -785,7 +790,7 @@ function Footer() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "font-bold text-white",
+                                                            className: "font-bold text-White",
                                                             children: "Opening Hours:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/footer.tsx",
@@ -793,7 +798,7 @@ function Footer() {
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            children: "Monday - Saturday: 9.30am–8.00pm"
+                                                            children: "Monday - Saturday: 9.30am–8.00pm."
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/footer.tsx",
                                                             lineNumber: 81,
@@ -824,7 +829,7 @@ function Footer() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "font-bold text-white",
+                                                            className: "font-bold text-White",
                                                             children: "Address:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/sections/footer.tsx",
@@ -835,25 +840,55 @@ function Footer() {
                                                             href: gmapsUrl,
                                                             target: "_blank",
                                                             rel: "noopener noreferrer",
-                                                            className: "hover:text-white",
+                                                            className: "hover:text-White flex flex-col space-y-2",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                    children: "Vempadu Branch: Swayam Krushi Kids Care Center,Vempadu, West Godavari, Andra Pradesh (AP), India (IN), Pin Code:- 534206"
-                                                                }, void 0, false, {
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                            className: "font-semibold",
+                                                                            children: "Vempadu Branch:"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/sections/footer.tsx",
+                                                                            lineNumber: 94,
+                                                                            columnNumber: 24
+                                                                        }, this),
+                                                                        " Swayam Krushi Kids Care Center,Vempadu, West Godavari, Andra Pradesh (AP), India (IN), Pin Code:- 534206."
+                                                                    ]
+                                                                }, void 0, true, {
                                                                     fileName: "[project]/src/components/sections/footer.tsx",
                                                                     lineNumber: 94,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                    children: "Telecomnagar Branch: Sai Krupa Enclave, Telecom Nagar, Gachibowli, Hyderabad, Telangana (TS), India (IN), Pin Code:- 500032"
-                                                                }, void 0, false, {
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                            className: "font-semibold",
+                                                                            children: "Telecomnagar Branch:"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/sections/footer.tsx",
+                                                                            lineNumber: 95,
+                                                                            columnNumber: 24
+                                                                        }, this),
+                                                                        " Sai Krupa Enclave, Telecom Nagar, Gachibowli, Hyderabad, Telangana (TS), India (IN), Pin Code:- 500032."
+                                                                    ]
+                                                                }, void 0, true, {
                                                                     fileName: "[project]/src/components/sections/footer.tsx",
                                                                     lineNumber: 95,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                    children: "Kopalle Branch:  Dr. Vijaya Rama Raju Memorial Free kids Pre School, Kopalle Village, Kalla Mandal, West Godavari, Andhra Pradesh (AP), India (IN), Pin code:- 534206"
-                                                                }, void 0, false, {
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                            className: "font-semibold",
+                                                                            children: "Kopalle Branch:"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/sections/footer.tsx",
+                                                                            lineNumber: 96,
+                                                                            columnNumber: 24
+                                                                        }, this),
+                                                                        " Dr. Vijaya Rama Raju Memorial Free kids Pre School, Kopalle Village, Kalla Mandal, West Godavari, Andhra Pradesh (AP), India (IN), Pin code:- 534206."
+                                                                    ]
+                                                                }, void 0, true, {
                                                                     fileName: "[project]/src/components/sections/footer.tsx",
                                                                     lineNumber: 96,
                                                                     columnNumber: 21
@@ -895,7 +930,7 @@ function Footer() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "mt-8 pt-8 border-t border-green-700 text-center text-White/80",
+                    className: "mt-8 pt-8 border-t border-White-700 text-center text-White/80",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         children: [
                             "© ",
@@ -1072,7 +1107,7 @@ function FounderSection({ founder, index }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-lg text-muted-foreground mb-4",
+                        className: "text-lg text-White mb-4",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "font-semibold",
                             children: founder.title
@@ -1087,7 +1122,7 @@ function FounderSection({ founder, index }) {
                         columnNumber: 9
                     }, this),
                     founder.bio.map((paragraph, pIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-muted-foreground mb-4",
+                            className: "text-White mb-4",
                             children: paragraph
                         }, pIndex, false, {
                             fileName: "[project]/src/components/sections/about.tsx",
@@ -1132,7 +1167,7 @@ function About() {
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-lg italic md:text-xl text-green-700 mt-4 max-w-3xl mx-auto",
+                            className: "text-lg italic md:text-xl text-White-700 mt-4 max-w-3xl mx-auto",
                             children: "The driving forces behind our initiative."
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/about.tsx",

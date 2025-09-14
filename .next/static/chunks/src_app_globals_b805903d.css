@@ -1809,6 +1809,10 @@ section, .container {
   color: rgb(254 240 138 / var(--tw-text-opacity, 1));
 }
 
+.text-primary\/80 {
+  color: hsl(var(--primary) / .8);
+}
+
 .underline-offset-4 {
   text-underline-offset: 4px;
 }

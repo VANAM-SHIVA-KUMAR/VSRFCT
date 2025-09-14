@@ -56,11 +56,11 @@ function FounderSection({ founder, index }: { founder: typeof founders[0], index
         <h3 className="text-3xl font-bold font-headline mb-4 text-primary">
           {founder.name}
         </h3>
-        <p className="text-lg text-muted-foreground mb-4">
+        <p className="text-lg text-White mb-4">
           <span className="font-semibold">{founder.title}</span>
         </p>
         {founder.bio.map((paragraph, pIndex) => (
-          <p key={pIndex} className="text-muted-foreground mb-4">
+          <p key={pIndex} className="text-White mb-4">
             {paragraph}
           </p>
         ))}
@@ -76,7 +76,7 @@ export default function About() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">About Our Founders</h2>
-            <p className="text-lg italic md:text-xl text-green-700 mt-4 max-w-3xl mx-auto">
+            <p className="text-lg italic md:text-xl text-White-700 mt-4 max-w-3xl mx-auto">
               The driving forces behind our initiative.
             </p>
         </div>

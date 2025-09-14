@@ -24,7 +24,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <Logo variant="dark" />
-            <p className="mt-4 text-primary-foreground/80">
+            <p className="mt-4 text-White/80">
               A non-profit organisation by VSRFCT, working to empower India through education.
             </p>
             <div className="flex space-x-4 mt-4">
@@ -50,46 +50,46 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-headline font-semibold tracking-wider uppercase text-primary-foreground">Quick Links</h3>
+            <h3 className="font-headline font-semibold tracking-wider uppercase text-White">Quick Links</h3>
             <ul className="mt-4 space-y-2">
               {footerLinks.quickLinks.map(link => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-primary-foreground/80 hover:text-primary-foreground">{link.name}</Link>
+                  <Link href={link.href} className="text-primary-White/80 hover:text-White">{link.name}</Link>
                 </li>
               ))}
             </ul>
           </div>
           
           <div>
-            <h3 className="font-headline font-semibold tracking-wider uppercase text-primary-foreground">Support</h3>
+            <h3 className="font-headline font-semibold tracking-wider uppercase text-White">Support</h3>
             <ul className="mt-4 space-y-2">
               {footerLinks.support.map(link => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-primary-foreground/80 hover:text-primary-foreground">{link.name}</Link>
+                  <Link href={link.href} className="text-White/80 hover:text-White">{link.name}</Link>
                 </li>
               ))}
             </ul>
           </div>
 
           <div>
-            <h3 className="font-headline font-semibold tracking-wider uppercase text-primary-foreground">Contact Us</h3>
-            <ul className="mt-4 space-y-2 text-primary-foreground/80">
+            <h3 className="font-headline font-semibold tracking-wider uppercase text-White">Contact Us</h3>
+            <ul className="mt-4 space-y-2 text-White/80">
               <li className="flex items-start space-x-2 mt-2">
                 <Clock className="h-5 w-5 text-accent shrink-0 mt-1" />
                 <div>
-                    <p className="font-bold text-primary-foreground">Opening Hours:</p>
+                    <p className="font-bold text-White">Opening Hours:</p>
                     <p>Monday - Saturday: 9.30am–8.00pm.</p>
                 </div>
               </li>
               <li className="flex items-start space-x-2 mt-2">
                 <MapPin className="h-5 w-5 text-accent shrink-0 mt-1" />
                 <div>
-                  <p className="font-bold text-primary-foreground">Address:</p>
+                  <p className="font-bold text-White">Address:</p>
                   <a 
                     href={gmapsUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-primary-foreground flex flex-col space-y-2"
+                    className="hover:text-White flex flex-col space-y-2"
                   >
                     <p><span className="font-semibold">Vempadu Branch:</span> Swayam Krushi Kids Care Center,Vempadu, West Godavari, Andra Pradesh (AP), India (IN), Pin Code:- 534206.</p>
                     <p><span className="font-semibold">Telecomnagar Branch:</span> Sai Krupa Enclave, Telecom Nagar, Gachibowli, Hyderabad, Telangana (TS), India (IN), Pin Code:- 500032.</p>
@@ -100,7 +100,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t border-green-700 text-center text-primary-foreground/80">
+        <div className="mt-8 pt-8 border-t border-White-700 text-center text-White/80">
           <p>&copy; {new Date().getFullYear()} VSRFCT. All Rights Reserved.</p>
         </div>
       </div>
