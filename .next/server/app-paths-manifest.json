@@ -4,6 +4,7 @@
   "/about/page": "app/about/page.js",
   "/about/telecomnagar/page": "app/about/telecomnagar/page.js",
   "/about/vempadu/page": "app/about/vempadu/page.js",
+  "/branches/page": "app/branches/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js"
 }
