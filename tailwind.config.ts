@@ -131,6 +131,7 @@ export default {
   },
   plugins: [
     require('tailwindcss-animate'),
+    require('framer-motion'),
     function ({ matchUtilities, theme }) {
       matchUtilities(
         {
