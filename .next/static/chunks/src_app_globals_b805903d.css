@@ -1756,11 +1756,6 @@ section, .container {
   color: hsl(var(--foreground) / .5);
 }
 
-.text-green-200 {
-  --tw-text-opacity: 1;
-  color: rgb(187 247 208 / var(--tw-text-opacity, 1));
-}
-
 .text-green-700 {
   --tw-text-opacity: 1;
   color: rgb(21 128 61 / var(--tw-text-opacity, 1));
@@ -1796,6 +1791,10 @@ section, .container {
   color: hsl(var(--primary-foreground));
 }
 
+.text-primary-foreground\/80 {
+  color: hsl(var(--primary-foreground) / .8);
+}
+
 .text-secondary-foreground {
   color: hsl(var(--secondary-foreground));
 }
@@ -1808,10 +1807,6 @@ section, .container {
 .text-yellow-200 {
   --tw-text-opacity: 1;
   color: rgb(254 240 138 / var(--tw-text-opacity, 1));
-}
-
-.text-primary-foreground\/80 {
-  color: hsl(var(--primary-foreground) / .8);
 }
 
 .underline-offset-4 {
