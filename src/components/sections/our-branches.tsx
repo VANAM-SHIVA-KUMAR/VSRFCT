@@ -39,7 +39,7 @@ export default function OurBranches() {
       >
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">Our Branches</h2>
-          <p className="text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-White-700 mt-4 max-w-3xl mx-auto">
             Schools Maintained by "VSRFCT".
           </p>
         </div>
@@ -56,7 +56,7 @@ export default function OurBranches() {
                 setHoveredIndices(prev => new Set(prev).add(index));
               }}
             >
-              <Card className="text-center hover:shadow-lg transition-all duration-300 h-full bg-green-100 overflow-hidden">
+              <Card className="text-center hover:shadow-lg transition-all duration-300 h-full bg-White-100 overflow-hidden">
                 <CardHeader className="p-6">
                   <div className={cn("mx-auto bg-primary/10 rounded-full p-4 w-20 h-20 flex items-center justify-center mb-4 transition-transform duration-300", {"scale-110": hoveredIndices.has(index)})}>
                     {branch.icon}
@@ -65,7 +65,7 @@ export default function OurBranches() {
                 </CardHeader>
                 <div className={cn("h-0 transition-all duration-300 ease-in-out opacity-0", {"h-auto opacity-100": hoveredIndices.has(index)})}>
                     <CardContent className="pt-0 pb-6 px-6">
-                      <p className="text-green-800">{branch.description}</p>
+                      <p className="text-White-800">{branch.description}</p>
                     </CardContent>
                 </div>
               </Card>

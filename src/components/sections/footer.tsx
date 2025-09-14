@@ -9,7 +9,6 @@ const footerLinks = {
     { name: 'About Us', href: '/about' },
     { name: 'Gallery', href: '/gallery' },
     { name: 'Testimonials', href: '#testimonials' },
-    { name: 'Contact', href: '#contact' },
   ],
   support: [
     { name: 'FAQ', href: '#faq' },
@@ -25,11 +24,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <Logo />
-            <p className="mt-4 text-primary-foreground/80">
+            <p className="mt-4 text-White/80">
               A non-profit learning initiative by V.S. Raju Family Charitable Trust.
             </p>
             <div className="flex space-x-4 mt-4">
-              <a href={youtubeUrl} target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-white transition-transform duration-300 hover:scale-110">
+              <a href={youtubeUrl} target="_blank" rel="noopener noreferrer" className="text-White/80 hover:text-white transition-transform duration-300 hover:scale-110">
                 <svg
                   className="h-10 w-auto"
                   viewBox="0 0 28 20"
@@ -55,7 +54,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2">
               {footerLinks.quickLinks.map(link => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-primary-foreground/80 hover:text-white">{link.name}</Link>
+                  <Link href={link.href} className="text-White/80 hover:text-white">{link.name}</Link>
                 </li>
               ))}
             </ul>
@@ -66,7 +65,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2">
               {footerLinks.support.map(link => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-primary-foreground/80 hover:text-white">{link.name}</Link>
+                  <Link href={link.href} className="text-White/80 hover:text-white">{link.name}</Link>
                 </li>
               ))}
             </ul>
@@ -74,7 +73,7 @@ export default function Footer() {
 
           <div>
             <h3 className="font-headline font-semibold tracking-wider uppercase text-white">Contact Us</h3>
-            <ul className="mt-4 space-y-2 text-primary-foreground/80">
+            <ul className="mt-4 space-y-2 text-White/80">
               <li className="flex items-start space-x-2 mt-2">
                 <Clock className="h-5 w-5 text-accent shrink-0 mt-1" />
                 <div>
@@ -98,19 +97,9 @@ export default function Footer() {
                 </div>
               </li>
             </ul>
-            <a href={gmapsUrl} target="_blank" rel="noopener noreferrer" className="mt-4 block">
-              <Image 
-                src="/images/map.png"
-                alt="Location on Google Maps"
-                data-ai-hint="map location"
-                width={400}
-                height={200}
-                className="rounded-md shadow-md hover:shadow-lg transition-shadow"
-              />
-            </a>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t border-green-700 text-center text-primary-foreground/80">
+        <div className="mt-8 pt-8 border-t border-green-700 text-center text-White/80">
           <p>&copy; {new Date().getFullYear()} VSRFCT. All Rights Reserved.</p>
         </div>
       </div>

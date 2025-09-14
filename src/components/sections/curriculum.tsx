@@ -41,7 +41,7 @@ export default function Curriculum() {
         <div className="pt-12">
           <div className="text-center mb-12">
             <h3 className="text-3xl md:text-4xl font-bold font-headline text-green-900">Beyond the Classroom</h3>
-             <p className="text-lg md:text-xl text-green-700 mt-4 max-w-3xl mx-auto">
+             <p className="text-lg md:text-xl text-White-700 mt-4 max-w-3xl mx-auto">
                 We believe in Comprehensive development through engaging weekly activities.
             </p>
           </div>
@@ -55,16 +55,16 @@ export default function Curriculum() {
                 )}
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
-                <Card className="flex flex-col h-full bg-green-100">
+                <Card className="flex flex-col h-full bg-White-100">
                   <CardHeader className="flex flex-row items-center gap-4">
                     {item.icon}
                     <div>
                         <CardTitle className="font-headline text-2xl text-green-900">{item.title}</CardTitle>
-                        <CardDescription className="text-green-700">{item.description}</CardDescription>
+                        <CardDescription className="text-White-700">{item.description}</CardDescription>
                     </div>
                   </CardHeader>
                   <CardContent className="flex-grow">
-                    <ul className="space-y-2 text-green-900/80">
+                    <ul className="space-y-2 text-White-900/80">
                       {item.activities.map((activity, pIndex) => (
                         <li key={pIndex} className="flex items-start">
                           {activity.icon}
