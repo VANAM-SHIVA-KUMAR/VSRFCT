@@ -25,10 +25,10 @@ export default function Footer() {
           <div className="md:col-span-1">
             <Logo variant="dark" />
             <p className="mt-4 text-primary-foreground/80">
-              A non-profit learning initiative by V.S. Raju Family Charitable Trust.
+              A non-profit organisation by VSRFCT, working to empower India through education.
             </p>
             <div className="flex space-x-4 mt-4">
-              <a href={youtubeUrl} target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-white transition-transform duration-300 hover:scale-110">
+              <a href={youtubeUrl} target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-transform duration-300 hover:scale-110">
                 <svg
                   className="h-10 w-auto"
                   viewBox="0 0 28 20"
@@ -50,50 +50,50 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-headline font-semibold tracking-wider uppercase text-white">Quick Links</h3>
+            <h3 className="font-headline font-semibold tracking-wider uppercase text-primary-foreground">Quick Links</h3>
             <ul className="mt-4 space-y-2">
               {footerLinks.quickLinks.map(link => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-primary-foreground/80 hover:text-white">{link.name}</Link>
+                  <Link href={link.href} className="text-primary-foreground/80 hover:text-primary-foreground">{link.name}</Link>
                 </li>
               ))}
             </ul>
           </div>
           
           <div>
-            <h3 className="font-headline font-semibold tracking-wider uppercase text-white">Support</h3>
+            <h3 className="font-headline font-semibold tracking-wider uppercase text-primary-foreground">Support</h3>
             <ul className="mt-4 space-y-2">
               {footerLinks.support.map(link => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-primary-foreground/80 hover:text-white">{link.name}</Link>
+                  <Link href={link.href} className="text-primary-foreground/80 hover:text-primary-foreground">{link.name}</Link>
                 </li>
               ))}
             </ul>
           </div>
 
           <div>
-            <h3 className="font-headline font-semibold tracking-wider uppercase text-white">Contact Us</h3>
+            <h3 className="font-headline font-semibold tracking-wider uppercase text-primary-foreground">Contact Us</h3>
             <ul className="mt-4 space-y-2 text-primary-foreground/80">
               <li className="flex items-start space-x-2 mt-2">
                 <Clock className="h-5 w-5 text-accent shrink-0 mt-1" />
                 <div>
-                    <p className="font-bold text-white">Opening Hours:</p>
-                    <p>Monday - Saturday: 9.30am–8.00pm</p>
+                    <p className="font-bold text-primary-foreground">Opening Hours:</p>
+                    <p>Monday - Saturday: 9.30am–8.00pm.</p>
                 </div>
               </li>
               <li className="flex items-start space-x-2 mt-2">
                 <MapPin className="h-5 w-5 text-accent shrink-0 mt-1" />
                 <div>
-                  <p className="font-bold text-white">Address:</p>
+                  <p className="font-bold text-primary-foreground">Address:</p>
                   <a 
                     href={gmapsUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-white flex flex-col space-y-2"
+                    className="hover:text-primary-foreground flex flex-col space-y-2"
                   >
-                    <p><span className="font-semibold">Vempadu Branch:</span> Swayam Krushi Kids Care Center,Vempadu, West Godavari, Andra Pradesh (AP), India (IN), Pin Code:- 534206</p>
-                    <p><span className="font-semibold">Telecomnagar Branch:</span> Sai Krupa Enclave, Telecom Nagar, Gachibowli, Hyderabad, Telangana (TS), India (IN), Pin Code:- 500032</p>
-                    <p><span className="font-semibold">Kopalle Branch:</span> Dr. Vijaya Rama Raju Memorial Free kids Pre School, Kopalle Village, Kalla Mandal, West Godavari, Andhra Pradesh (AP), India (IN), Pin code:- 534206</p>
+                    <p><span className="font-semibold">Vempadu Branch:</span> Swayam Krushi Kids Care Center,Vempadu, West Godavari, Andra Pradesh (AP), India (IN), Pin Code:- 534206.</p>
+                    <p><span className="font-semibold">Telecomnagar Branch:</span> Sai Krupa Enclave, Telecom Nagar, Gachibowli, Hyderabad, Telangana (TS), India (IN), Pin Code:- 500032.</p>
+                    <p><span className="font-semibold">Kopalle Branch:</span> Dr. Vijaya Rama Raju Memorial Free kids Pre School, Kopalle Village, Kalla Mandal, West Godavari, Andhra Pradesh (AP), India (IN), Pin code:- 534206.</p>
                   </a>
                 </div>
               </li>
