@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import { useInView } from '@/hooks/use-in-view';
 import { cn } from "@/lib/utils";
-import { Award, Users, BookOpen, Heart, Globe, ShieldCheck } from 'lucide-react';
+import { Award, Users, BookOpen, Heart, Globe, ShieldCheck, Target } from 'lucide-react';
 
 const founder = {
     name: "Prof. V. S. Raju",
@@ -12,8 +12,9 @@ const founder = {
 };
 
 const aboutText = [
-    "Prof.V.S. Raju Family Charitable Trust (VSRFCT), a registered non-profit trust started in 2015 by Prof. V.S. Raju (Formely : Director of IIT Delhi, Professor & Dean at IIT Madras) & Family with a focus in the twin states of AP & Telangana.",
-    "Our vision is a humble contribution to build a better India."
+    "The Prof. V. S. Raju Family Charitable Trust (VSRFCT) is a registered non-profit organization established in 2015 by Prof. V.S. Raju, formerly the Director of IIT Delhi and Professor, Head & Dean at IIT Madras, along with his family.",
+    "The trust focuses on helping people in the states of Andhra Pradesh and Telangana, with a focus on education, healthcare, rural development, and social welfare initiatives.",
+    "We make a difference in students’ lives by giving them hope of a better future, with support that goes beyond the material requirements of education and guidance that exceeds the expectation of every student under our umbrella."
 ];
 
 const mission = [
@@ -76,6 +77,11 @@ export default function FounderSpotlight() {
                     </li>
                 ))}
              </ul>
+             <h3 className="text-2xl font-bold font-headline mt-8 mb-4">Our Vision</h3>
+             <div className="flex items-start gap-3">
+                <div className="bg-green-800 rounded-full p-2 mt-1"><Target className="h-6 w-6 text-accent" /></div>
+                <span className="text-green-200 flex-1">Our vision is a humble contribution to build a better India.</span>
+            </div>
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6">
                {stats.map((stat, index) => (
                 <div

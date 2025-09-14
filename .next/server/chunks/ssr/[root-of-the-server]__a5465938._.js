@@ -329,7 +329,7 @@ const navLinks = [
     },
     {
         name: 'Our Branches',
-        href: '/#branches'
+        href: '/branches'
     },
     {
         name: 'Gallery',
