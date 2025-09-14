@@ -86,7 +86,7 @@ const ProgrammeSection = ({ programme, index }) => {
                 <div className="bg-gray-100 p-6 rounded-lg shadow-inner space-y-4">
                     <h4 className="text-2xl font-bold font-headline text-primary">{programme.believeTitle}</h4>
                     <p className="text-muted-foreground">
-                        <strong className="font-semibold text-primary">{programme.believeText_highlight}</strong>
+                        <strong className="text-primary font-light">{programme.believeText_highlight}</strong>
                         <br />
                         {programme.believeText_rest}
                     </p>

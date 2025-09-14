@@ -1673,7 +1673,7 @@ function Features() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-lg md:text-xl text-White-700 mt-4 max-w-3xl mx-auto",
+                            className: "text-lg italic md:text-xl text-White-700 mt-4 max-w-3xl mx-auto",
                             children: "Opening doors of learning, free for all."
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/features.tsx",
@@ -1962,7 +1962,7 @@ const ProgrammeSection = ({ programme, index })=>{
                                 className: "text-muted-foreground",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                        className: "font-semibold text-primary",
+                                        className: "text-primary font-light",
                                         children: programme.believeText_highlight
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/programmes.tsx",
