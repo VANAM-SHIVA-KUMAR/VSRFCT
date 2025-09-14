@@ -1,6 +1,12 @@
 import Image from 'next/image';
+import { cn } from '@/lib/utils';
 
-export function Logo() {
+type LogoProps = {
+  variant?: 'default' | 'dark';
+};
+
+export function Logo({ variant = 'default' }: LogoProps) {
+  const textColor = variant === 'dark' ? 'text-primary-foreground' : 'text-primary';
   return (
     <a href="/" className="flex items-center space-x-2 md:space-x-4">
       <Image
@@ -12,10 +18,10 @@ export function Logo() {
         data-ai-hint="logo"
       />
       <div>
-        <p className="text-xl md:text-2xl font-bold font-headline text-primary">
+        <p className={cn("text-xl md:text-2xl font-bold font-headline", textColor)}>
           Prof. V.S. Raju
         </p>
-        <p className="text-sm md:text-lg font-bold font-headline text-primary">
+        <p className={cn("text-sm md:text-lg font-bold font-headline", textColor)}>
           Family Charitable Trust
         </p>
       </div>
