@@ -9,7 +9,7 @@ import { useRef } from 'react';
 
 const programmes = [
   {
-    title: "Medha Sampurna Siksha",
+    title: "Prof. V. S. Raju Family Charitable Trust (VSRFCT)",
     subtitle: "Encourage and support talented children to",
     mainLine: "Educate Evolve & Prosper",
     image: "/images/programmes/educate.jpg",
@@ -20,7 +20,7 @@ const programmes = [
     imageClass: "object-contain",
   },
   {
-    title: "Medha Naipunya Nirmana",
+    title: "Prof. V. S. Raju Family Charitable Trust (VSRFCT)",
     subtitle: "Create opportunity for youth to",
     mainLine: "Upskill Employ & Sustain",
     image: "/images/programmes/employ.png",
@@ -31,7 +31,7 @@ const programmes = [
     imageClass: "object-contain",
   },
   {
-    title: "Medha Helping Hands",
+    title: "Prof. V. S. Raju Family Charitable Trust (VSRFCT)",
     subtitle: "Provide resources to students from government colleges to",
     mainLine: "Outperform Progress & Succeed",
     image: "/images/programmes/succeed.png",
@@ -94,7 +94,7 @@ const FooterCard = () => {
     return (
         <div ref={ref} className={cn("bg-primary text-primary-foreground rounded-2xl p-8 md:p-12 text-center mt-12 md:mt-24 transition-all duration-1000 ease-in-out", isInView ? "animate-fade-in-up" : "opacity-0")}>
              <p className="text-lg md:text-xl max-w-4xl mx-auto">
-                Medha Charitable Trust was founded in 2006 with an aim to improve quality of education in India. We believe that an educated person can lead a self-sustainable and respectful life and that it is our responsibility to support and uplift the people of our nation. We are making an essential and long-term investment for the future of our country. All our initiatives are sponsored by Medha Servo Drives Pvt. Ltd.
+             Prof. V. S. Raju Family Charitable Trust (VSRFCT) was founded in 2015 with an aim to improve quality of education in India. We believe that an educated person can lead a self-sustainable and respectful life and that it is our responsibility to support and uplift the people of our nation. We are making an essential and long-term investment for the future of our country. All our initiatives are sponsored by Prof. V. S. Raju Family.
             </p>
         </div>
     )
