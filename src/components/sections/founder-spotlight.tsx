@@ -45,7 +45,7 @@ const stats = [
   },
   {
     icon: <Users className="h-8 w-8 text-accent" />,
-    value: "750+",
+    value: "1,400+",
     label: "Students Enrolled"
   }
 ];

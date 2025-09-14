@@ -1119,7 +1119,7 @@ const stats = [
             lineNumber: 47,
             columnNumber: 11
         }, this),
-        value: "750+",
+        value: "1,400+",
         label: "Students Enrolled"
     }
 ];
