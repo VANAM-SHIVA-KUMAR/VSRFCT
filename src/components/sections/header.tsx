@@ -10,7 +10,7 @@ import Link from 'next/link';
 const navLinks = [
   { name: 'Home', href: '/' },
   { name: 'About Us', href: '/about' },
-  { name: 'Our Branches', href: '/#branches' },
+  { name: 'Our Branches', href: '/branches' },
   { name: 'Gallery', href: '/gallery' },
   { name: 'Testimonials', href: '/#testimonials' },
   { name: 'FAQ', href: '/#faq' },
