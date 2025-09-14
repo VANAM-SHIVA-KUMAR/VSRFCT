@@ -58,8 +58,8 @@ export default function FounderSpotlight() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-12 gap-8 md:gap-12 items-center">
           <div className={cn(
-            "md:col-span-8 transition-all duration-700 ease-in-out delay-150",
-            isInView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
+            "md:col-span-8",
+            isInView ? "animate-slide-in-from-left" : "opacity-0"
           )}>
             <h2 className="text-3xl md:text-5xl font-bold font-headline mb-4">About the Trust</h2>
             {aboutText.map((paragraph, pIndex) => (
@@ -82,9 +82,9 @@ export default function FounderSpotlight() {
                   key={index}
                   className={cn(
                     "flex items-center gap-4 transition-all duration-500 ease-in-out",
-                    isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+                    isInView ? "animate-fade-in-up" : "opacity-0"
                   )}
-                  style={{ transitionDelay: `${index * 150}ms` }}
+                  style={{ transitionDelay: `${index * 200}ms` }}
                 >
                   <div className="bg-green-800 rounded-full p-3">
                     {stat.icon}
@@ -98,8 +98,8 @@ export default function FounderSpotlight() {
             </div>
           </div>
           <div className={cn(
-            "md:col-span-4 transition-all duration-700 ease-in-out",
-            isInView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"
+            "md:col-span-4",
+            isInView ? "animate-slide-in-from-right" : "opacity-0"
           )}>
             <Image
               src={founder.image}

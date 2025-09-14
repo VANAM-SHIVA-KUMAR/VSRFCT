@@ -65,7 +65,7 @@ export default function Curriculum() {
               key={index}
               className={cn(
                 "transition-all duration-700 ease-in-out",
-                isInView1 ? "opacity-100 translate-x-0" : (index % 2 === 0 ? "opacity-0 -translate-x-10" : "opacity-0 translate-x-10")
+                isInView1 ? (index % 2 === 0 ? "animate-slide-in-from-left" : "animate-slide-in-from-right") : "opacity-0"
               )}
             >
               <Card className="flex flex-col h-full bg-green-100">
@@ -103,7 +103,7 @@ export default function Curriculum() {
                 key={index}
                 className={cn(
                   "transition-all duration-700 ease-in-out",
-                  isInView2 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                  isInView2 ? "animate-fade-in-up" : "opacity-0"
                 )}
                 style={{ transitionDelay: `${index * 100}ms` }}
               >

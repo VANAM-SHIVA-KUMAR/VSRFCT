@@ -57,8 +57,8 @@ export default function BranchDetails() {
       <div
         ref={ref}
         className={cn(
-          "container mx-auto px-4 transition-opacity duration-700 ease-in",
-          isInView ? "opacity-100" : "opacity-0"
+          "container mx-auto px-4",
+          isInView ? "animate-fade-in" : "opacity-0"
         )}
       >
         <div className="text-center mb-12">
@@ -73,9 +73,9 @@ export default function BranchDetails() {
               key={index}
               className={cn(
                 "transition-all duration-700 ease-in-out",
-                isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                isInView ? "animate-fade-in-up" : "opacity-0"
               )}
-              style={{ transitionDelay: `${index * 100}ms` }}
+              style={{ transitionDelay: `${index * 150}ms` }}
             >
               <Card className="flex flex-col h-full hover:shadow-lg transition-shadow duration-300">
                 <CardHeader>

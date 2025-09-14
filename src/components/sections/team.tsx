@@ -36,9 +36,9 @@ export default function Team() {
               key={index}
               className={cn(
                 "transition-all duration-500 ease-in-out",
-                isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                isInView ? "animate-fade-in-up" : "opacity-0"
               )}
-              style={{ transitionDelay: `${index * 50}ms` }}
+              style={{ transitionDelay: `${index * 100}ms` }}
             >
               <Card className="text-center p-2 md:p-4 hover:shadow-lg transition-shadow duration-300 h-full">
                 <CardContent className="flex flex-col items-center p-2 md:p-6">

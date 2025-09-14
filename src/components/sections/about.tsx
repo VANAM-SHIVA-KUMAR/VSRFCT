@@ -37,7 +37,7 @@ function FounderSection({ founder, index }: { founder: typeof founders[0], index
       <div className={cn(
         "md:col-span-4 transition-all duration-700 ease-in-out",
         isEven ? 'md:order-1' : 'md:order-2',
-        isInView ? "opacity-100 translate-x-0" : (isEven ? "opacity-0 -translate-x-10" : "opacity-0 translate-x-10")
+        isInView ? "animate-slide-in-from-left" : "opacity-0"
       )}>
         <Image
           src={founder.image}
@@ -51,7 +51,7 @@ function FounderSection({ founder, index }: { founder: typeof founders[0], index
       <div className={cn(
         "md:col-span-8 transition-all duration-700 ease-in-out delay-150",
         isEven ? 'md:order-2' : 'md:order-1',
-        isInView ? "opacity-100 translate-x-0" : (isEven ? "opacity-0 translate-x-10" : "opacity-0 -translate-x-10")
+        isInView ? "animate-slide-in-from-right" : "opacity-0"
       )}>
         <h3 className="text-3xl font-bold font-headline mb-4 text-primary">
           {founder.name}
