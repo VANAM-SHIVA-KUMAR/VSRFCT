@@ -1215,7 +1215,7 @@ function BranchDetails() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardHeader"], {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CardTitle"], {
-                                                className: "font-headline text-3xl text-primary",
+                                                className: "font-headline text-3xl text-green-900",
                                                 children: branch.name
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/branch-details.tsx",
@@ -1510,7 +1510,7 @@ function VempaduTeam() {
                     className: "text-center mb-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl md:text-5xl font-bold font-headline text-primary",
+                            className: "text-3xl md:text-5xl font-bold font-headline text-green-900",
                             children: "Meet Our Team"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/vempadu-team.tsx",
@@ -1570,7 +1570,7 @@ function VempaduTeam() {
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "font-semibold font-headline text-md md:text-lg text-primary",
+                                            className: "font-semibold font-headline text-md md:text-lg text-green-900",
                                             children: member.name
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/vempadu-team.tsx",
@@ -1739,7 +1739,7 @@ function Team() {
                     className: "text-center mb-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl md:text-5xl font-bold font-headline text-primary",
+                            className: "text-3xl md:text-5xl font-bold font-headline text-green-900",
                             children: "Meet Our Team"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/team.tsx",
@@ -1799,7 +1799,7 @@ function Team() {
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "font-semibold font-headline text-md md:text-lg text-primary",
+                                            className: "font-semibold font-headline text-md md:text-lg text-green-900",
                                             children: member.name
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/team.tsx",
@@ -1926,7 +1926,7 @@ function KopalleTeam() {
                     className: "text-center mb-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl md:text-5xl font-bold font-headline text-primary",
+                            className: "text-3xl md:text-5xl font-bold font-headline text-green-900",
                             children: "Meet Our Team"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/kopalle-team.tsx",
@@ -1986,7 +1986,7 @@ function KopalleTeam() {
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "font-semibold font-headline text-md md:text-lg text-primary",
+                                            className: "font-semibold font-headline text-md md:text-lg text-green-900",
                                             children: member.name
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/sections/kopalle-team.tsx",
