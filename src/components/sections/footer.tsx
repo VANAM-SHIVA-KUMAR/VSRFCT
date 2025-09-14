@@ -89,11 +89,11 @@ export default function Footer() {
                     href={gmapsUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-white"
+                    className="hover:text-white flex flex-col space-y-2"
                   >
-                    <p>Vempadu Branch: Swayam Krushi Kids Care Center,Vempadu, West Godavari, Andra Pradesh (AP), India (IN), Pin Code:- 534206</p>
-                    <p>Telecomnagar Branch: Sai Krupa Enclave, Telecom Nagar, Gachibowli, Hyderabad, Telangana (TS), India (IN), Pin Code:- 500032</p>
-                    <p>Kopalle Branch:  Dr. Vijaya Rama Raju Memorial Free kids Pre School, Kopalle Village, Kalla Mandal, West Godavari, Andhra Pradesh (AP), India (IN), Pin code:- 534206</p>
+                    <p><span className="font-semibold">Vempadu Branch:</span> Swayam Krushi Kids Care Center,Vempadu, West Godavari, Andra Pradesh (AP), India (IN), Pin Code:- 534206</p>
+                    <p><span className="font-semibold">Telecomnagar Branch:</span> Sai Krupa Enclave, Telecom Nagar, Gachibowli, Hyderabad, Telangana (TS), India (IN), Pin Code:- 500032</p>
+                    <p><span className="font-semibold">Kopalle Branch:</span> Dr. Vijaya Rama Raju Memorial Free kids Pre School, Kopalle Village, Kalla Mandal, West Godavari, Andhra Pradesh (AP), India (IN), Pin code:- 534206</p>
                   </a>
                 </div>
               </li>
