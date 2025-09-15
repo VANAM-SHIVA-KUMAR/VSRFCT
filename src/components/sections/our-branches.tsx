@@ -10,17 +10,17 @@ const branches = [
   {
     name: "Vempadu",
     icon: <MapPin className="h-10 w-10 text-accent" />,
-    description: "Since 2015, our first and largest center, setting the foundation for our mission."
+    description: "Established in 2005"
   },
   {
     name: "Telecomnagar",
     icon: <MapPin className="h-10 w-10 text-accent" />,
-    description: "Established in 2015 to extend our support to the Telecomnagar community. "
+    description: "Established in 2015 "
   },
   {
     name: "Kopalle",
     icon: <MapPin className="h-10 w-10 text-accent" />,
-    description: "Our newest branch, opened in 2021, to further expand our educational reach."
+    description: "Established in 2022"
   },
 ];
 
