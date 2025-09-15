@@ -12,23 +12,41 @@ import { cn } from "@/lib/utils"
 
 const slides = [
   {
-    image: "/images/Header/Education.jpg",
+    image: "/images/Hero/1.jpeg",
     hint: "indian government school",
-    title: "Quality Education",
-    description: "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all."
+    title: "Empowering Future Generations Through Education",
+    description: ""
   },
   {
-    image: "/images/Header/glass-water.jpg",
+    image: "/images/Hero/2.jpeg",
     hint: "clean water",
-    title: "Clean Water and Sanitation",
-    description: "Ensure availability and sustainable management of water and sanitation for all"
+    title: "Quenching Thirst, Nourishing Lives",
+    description: ""
   },
   {
-    image: "/images/Header/climate.jpg",
+    image: "/images/Hero/3.jpeg",
     hint: "climate action",
-    title: "Climate Action",
-    description: "Take urgent action to combat climate change and its impacts"
-  }
+    title: "Unlocking Potential, One Child at a Time",
+    description: ""
+  },
+  {
+    image: "/images/Hero/4.jpeg",
+    hint: "indian government school",
+    title: "Building a Brighter Tomorrow, Together",
+    description: ""
+  },
+  {
+    image: "/images/Hero/5.jpeg",
+    hint: "indian government school",
+    title: "Knowledge is Power: Illuminating Minds",
+    description: ""
+  },
+  {
+    image: "/images/Hero/6.jpeg",
+    hint: "indian government school",
+    title: "From Roots to Wings: Fostering Growth",
+    description: ""
+  },
 ];
 
 export default function Hero() {
@@ -49,7 +67,7 @@ export default function Hero() {
       } else {
         api.scrollTo(0)
       }
-    }, 5000);
+    }, 3000);
 
     api.on("pointerDown", () => {
       clearInterval(interval);
@@ -70,50 +88,36 @@ export default function Hero() {
   }
 
   return (
-    <section className="w-full relative bg-white">
-       <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-6 md:pt-12">
-        <Carousel className="w-full overflow-hidden rounded-xl" setApi={setApi} opts={{ loop: true }}>
-          <CarouselContent>
-            {slides.map((slide, index) => (
-              <CarouselItem key={index}>
-                <div className="relative h-[70vh] md:h-[calc(100vh-128px)] w-full text-White">
-                   <Image
-                    src={slide.image}
-                    alt={slide.title}
-                    data-ai-hint={slide.hint}
-                    fill
-                    className="object-cover"
-                    priority={index === 0}
-                  />
-                  <div 
-                    className="absolute inset-0 bg-white/70"
-                    style={{ clipPath: 'polygon(0 0, 85% 0, 65% 100%, 0 100%)' }}
-                  />
-                   <div 
-                    className="absolute inset-0 bg-white/50"
-                    style={{ clipPath: 'polygon(85% 0, 90% 0, 70% 100%, 65% 100%)' }}
-                  />
-                   <div 
-                    className="absolute inset-0 bg-white/30"
-                    style={{ clipPath: 'polygon(90% 0, 95% 0, 75% 100%, 70% 100%)' }}
-                  />
-                  <div className="absolute inset-0 flex flex-col items-start justify-center text-left p-6 md:p-12 w-full md:w-3/5 lg:w-1/2">
-                    <div className="max-w-2xl" key={animationKey}>
-                      <h1 className="text-4xl md:text-6xl font-bold font-headline mb-4 text-shadow-lg animate-text-reveal text-green-900">
-                        {slide.title}
-                      </h1>
-                      <p className="text-lg md:text-xl max-w-xl animate-fade-in-up animation-delay-500 text-White-700">
-                        {slide.description}
-                      </p>
-                    </div>
+    <section className="w-full relative">
+      <Carousel className="w-full h-screen overflow-hidden" setApi={setApi} opts={{ loop: true }}>
+        <CarouselContent>
+          {slides.map((slide, index) => (
+            <CarouselItem key={index}>
+              <div className="relative h-screen w-full text-White">
+                 <Image
+                  src={slide.image}
+                  alt={slide.title}
+                  data-ai-hint={slide.hint}
+                  fill
+                  className="object-cover"
+                  priority={index === 0}
+                />
+                <div className="absolute inset-0 flex flex-col items-start justify-center text-left p-6 md:p-12 w-full md:w-3/5 lg:w-1/2">
+                  <div className="max-w-2xl" key={animationKey}>
+                    <h1 className="text-4xl md:text-6xl font-bold font-headline mb-4 text-shadow-lg animate-text-reveal text-white">
+                      {slide.title}
+                    </h1>
+                    <p className="text-lg md:text-xl max-w-xl animate-fade-in-up animation-delay-500 text-gray-200">
+                      {slide.description}
+                    </p>
                   </div>
                 </div>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-        </Carousel>
-      </div>
-       <div className="absolute bottom-4 md:bottom-10 left-4 md:left-10 flex space-x-2 p-4">
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+      </Carousel>
+      <div className="absolute bottom-4 md:bottom-10 left-4 md:left-10 flex space-x-2 p-4">
         {slides.map((_, index) => (
           <button
             key={index}
