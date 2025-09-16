@@ -56,7 +56,8 @@ const VempaduBranchPage = () => {
                 <CardTitle>Our Branch Activities</CardTitle>
               </CardHeader>
               <CardContent>
-                <p>Details about the activities at the Vempadu branch.</p>
+                <p><strong>Preschool Timings:</strong> 8:30 AM - 3:30 PM</p>
+                <p><strong>Junior & Senior Batch:</strong> 5:00 PM - 8:00 PM</p>
               </CardContent>
             </Card>
           </TabsContent>
@@ -114,7 +115,8 @@ const VempaduBranchPage = () => {
                 <CardTitle>Timings & Address</CardTitle>
               </CardHeader>
               <CardContent>
-                <p><strong>Timings:</strong> 9:00 AM - 5:00 PM</p>
+                <p><strong>Preschool Timings:</strong> 8:30 AM - 3:30 PM</p>
+                <p><strong>Junior & Senior Batch:</strong> 5:00 PM - 8:00 PM</p>
                 <p><strong>Address:</strong> Vempadu Village, Andhra Pradesh</p>
               </CardContent>
             </Card>

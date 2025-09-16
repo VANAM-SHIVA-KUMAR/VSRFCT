@@ -12,7 +12,60 @@ const TelecomNagarBranchPage = () => {
   ]
 
   const galleryImages = [
-    // Add gallery images for Telecomnagar
+    "/images/2025/1.jpeg",
+    "/images/2025/2.jpeg",
+    "/images/2025/3.jpeg",
+    "/images/2025/4.jpeg",
+    "/images/2024/18f2cf62-6c49-4cf6-aa51-01448a0105be.jpg",
+    "/images/2024/78ba84c9-d793-4baa-97ed-481ce8bfeb16.jpg",
+    "/images/2024/8220f4ad-5bf6-4ca8-a89d-f4a02b3f5973.jpg",
+    "/images/2024/d78261f4-c25d-470f-bbb8-8c6037217460.jpg",
+    "/images/2024/IMG_20241202_171516.jpg",
+    "/images/2024/IMG_20241202_190510.jpg",
+    "/images/2023/IMG_20231001_072145__01.jpg",
+    "/images/2023/IMG_20231001_074620.jpg",
+    "/images/2023/20240330_175427.jpg",
+    "/images/2023/20240330_180106.jpg",
+    "/images/2022/20180314_201541.jpg",
+    "/images/2022/20190420_153840.jpg",
+    "/images/2022/20190812_165552.jpg",
+    "/images/2022/20190812_171815.jpg",
+    "/images/2022/20190812_172601.jpg",
+    "/images/2022/20190812_173347.jpg",
+    "/images/2021/20210711_180804.jpg",
+    "/images/2021/20220105_170215.jpg",
+    "/images/2021/20220105_183759.jpg",
+    "/images/2021/20220105_190134.jpg",
+    "/images/2021/20220105_192108.jpg",
+    "/images/2020/IMG-20190420-WA0020.jpg",
+    "/images/2020/IMG-20200212-WA0021.jpg",
+    "/images/2020/IMG-20200212-WA0028.jpg",
+    "/images/2019/563.jpg",
+    "/images/2019/20170415_175753.jpg",
+    "/images/2019/20190110_192044.jpg",
+    "/images/2019/IMG-20200129-WA0020.jpg",
+    "/images/2019/IMG-20200129-WA0023.jpg",
+    "/images/2019/IMG-20200212-WA0006.jpg",
+    "/images/2018/20181229_182109.jpg",
+    "/images/2018/IMG-20160608-WA0046.jpg",
+    "/images/2017/IMG-20170416-WA0028.jpg",
+    "/images/2017/IMG-20170415-WA0016.jpg",
+    "/images/2017/IMG-20170415-WA0020.jpg",
+    "/images/2017/IMG-20170415-WA0024.jpg",
+    "/images/2017/IMG-20170415-WA0031.jpg",
+    "/images/2017/IMG-20170416-WA0010.jpg",
+    "/images/2016/IMG-20161013-WA0006.jpg",
+    "/images/2016/IMG-20161028-WA0012.jpg",
+    "/images/2016/IMG-20161013-WA0009.jpg",
+    "/images/2016/IMG-20161028-WA0010.jpg",
+    "/images/2016/IMG-20161028-WA0011.jpg",
+    "/images/2016/IMG-20161028-WA0024.jpg",
+    "/images/2015/IMG-20150421-WA0000.jpg",
+    "/images/2015/IMG-20150421-WA0002.jpg",
+    "/images/2015/IMG-20150421-WA0003.jpg",
+    "/images/2015/IMG-20150421-WA0004.jpg",
+    "/images/2015/IMG-20150421-WA0005.jpg",
+    "/images/2015/IMG-20150421-WA0006.jpg",
   ]
 
   return (
@@ -49,7 +102,9 @@ const TelecomNagarBranchPage = () => {
                 <CardTitle>Our Branch Activities</CardTitle>
               </CardHeader>
               <CardContent>
-                <p>Details about the activities at the Telecomnagar branch.</p>
+                <p><strong>Preschool Timings:</strong> 10:00 AM - 12:00 PM</p>
+                <p><strong>Junior Batch (Class 1 to 5):</strong> 4:30 PM - 6:30 PM</p>
+                <p><strong>Senior Batch (Class 6 to 10):</strong> 6:00 PM - 8:00 PM</p>
               </CardContent>
             </Card>
           </TabsContent>
@@ -107,7 +162,9 @@ const TelecomNagarBranchPage = () => {
                 <CardTitle>Timings & Address</CardTitle>
               </CardHeader>
               <CardContent>
-                <p><strong>Timings:</strong> 9:00 AM - 5:00 PM</p>
+                <p><strong>Contact in person:</strong></p>
+                <p>Morning: 10:00 AM to 11:30 AM</p>
+                <p>Evening: 5:00 PM to 6:30 PM</p>
                 <p><strong>Address:</strong> Telecomnagar, Andhra Pradesh</p>
               </CardContent>
             </Card>

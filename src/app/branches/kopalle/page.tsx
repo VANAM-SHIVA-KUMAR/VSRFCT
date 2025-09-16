@@ -49,7 +49,7 @@ const KopalleBranchPage = () => {
                 <CardTitle>Our Branch Activities</CardTitle>
               </CardHeader>
               <CardContent>
-                <p>Details about the activities at the Kopalle branch.</p>
+                <p><strong>Preschool Timings:</strong> 8:30 AM - 3:30 PM</p>
               </CardContent>
             </Card>
           </TabsContent>
@@ -107,7 +107,7 @@ const KopalleBranchPage = () => {
                 <CardTitle>Timings & Address</CardTitle>
               </CardHeader>
               <CardContent>
-                <p><strong>Timings:</strong> 9:00 AM - 5:00 PM</p>
+                <p><strong>Preschool Timings:</strong> 8:30 AM - 3:30 PM</p>
                 <p><strong>Address:</strong> Kopalle Village, Andhra Pradesh</p>
               </CardContent>
             </Card>
