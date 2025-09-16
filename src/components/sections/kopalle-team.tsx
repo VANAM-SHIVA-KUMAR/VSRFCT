@@ -10,6 +10,7 @@ const teamMembers = [
   { name: "Mrs. M.V. Naga Lakshmi", role: "Teacher & Coordinator", image: "/images/Kopalle/Naga Lakshmi.jpeg", hint: "female teacher portrait", description: "She is working with us since June, 2022." },
   { name: "Mrs. G. Bharathi Devi", role: "Pre-School Teacher", image: "/images/Kopalle/Devi.jpeg", hint: "female teacher portrait", description: "She is working with us since June, 2022." },
   { name: "Mrs. G. Neelima", role: "Pre-School Teacher", image: "/images/Kopalle/Neelima.jpeg", hint: "female teacher portrait", description: "She is working with us since July, 2022." },
+  { name: "Mrs. N. Sirisha ", role: "Pre-School Helper", image: "/images/Kopalle/Sirisha.jpeg", hint: "female teacher portrait", description: "She is working with us since October, 2022." },
 ];
 
 export default function KopalleTeam() {

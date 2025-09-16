@@ -9,9 +9,10 @@ import { cn } from "@/lib/utils";
 const teamMembers = [
   { name: "Mrs. Ch.V. lakshmi", role: "Pre-School Teacher", image: "/images/Vempadu/Lakshmi.jpeg", hint: "female teacher portrait", description: "She is working with us since May, 2005." },
   { name: "Mrs. M.V. Naga Lakshmi", role: "Teacher & Coordinator", image: "/images/Vempadu/Naga Lakshmi.jpeg", hint: "female teacher portrait", description: "She is working with us since November, 2013." },
+  { name: "Mr. S. Chandu", role: "Tuition Teacher (8th)", image: "/images/Vempadu/Chandu.jpeg", hint: "male teacher portrait", description: "He is working with us since June, 2022." },
   { name: "Mr. Ch. Parameswari", role: "Tuition Teacher (7th)", image: "/images/Vempadu/Parameswari.jpeg", hint: "female teacher portrait", description: "She is working with us since July, 2024." },
   { name: "Mrs. K. Sarada", role: "Tuition Teacher (5th & 6th)", image: "/images/Vempadu/Sarada.jpeg", hint: "female teacher portrait", description: "She is working with us since July, 2025." },
-  { name: "Mr. S. Chandu", role: "Tuition Teacher (8th)", image: "/images/Vempadu/Chandu.jpeg", hint: "male teacher portrait", description: "He is working with us since June, 2022." },
+  { name: "Mrs. B. Dhana Lakshmi", role: "Pre-School Helper", image: "/images/Vempadu/dhana.jpeg", hint: "female teacher portrait", description: "She is working with us since September, 2024." },
 ];
 
 export default function VempaduTeam() {

@@ -36,7 +36,7 @@ const galleries: AcademicYearGallery[] = [
       { type: "image", src: "/images/2024/8220f4ad-5bf6-4ca8-a89d-f4a02b3f5973.jpg", alt: "Science experiments in action", hint: "science experiments" },
       { type: "image", src: "/images/2024/d78261f4-c25d-470f-bbb8-8c6037217460.jpg", alt: "Library and reading time", hint: "children reading" },
       { type: "image", src: "/images/2024/IMG_20241202_171516.jpg", alt: "Guest speaker event", hint: "guest speaker" },
-      { type: "image", src: "/images/2024/IMG_20241202_190510.jpg", alt: "Guest speaker event", hint: "guest speaker" },
+      { type: "image", src: "/images/Students/b.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
     ],
   },
     {
@@ -46,6 +46,8 @@ const galleries: AcademicYearGallery[] = [
       { type: "image", src: "/images/2023/IMG_20231001_074620.jpg", alt: "Highlights from Sports Day 2024", hint: "students sports 2024" },
       { type: "image", src: "/images/2023/20240330_175427.jpg", alt: "Students receiving prizes", hint: "student awards" },
       { type: "image", src: "/images/2023/20240330_180106.jpg", alt: "Republic Day parade", hint: "republic day school" },
+      { type: "image", src: "/images/2024/IMG_20241202_190510.jpg", alt: "Guest speaker event", hint: "guest speaker" },
+      { type: "image", src: "/images/Students/c.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
     ],
   },
   {
@@ -65,6 +67,7 @@ const galleries: AcademicYearGallery[] = [
       { type: "image", src: "/images/2021/20210711_180804.jpg", alt: "Students with their home projects", hint: "student projects home" },
       { type: "image", src: "/images/2021/20220105_170215.jpg", alt: "Online quiz competition", hint: "online quiz" },
       { type: "image", src: "/images/2021/20220105_183759.jpg", alt: "Teachers conducting online sessions", hint: "teacher online class" },
+      { type: "image", src: "/images/Students/m.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
       { type: "image", src: "/images/2021/20220105_190134.jpg", alt: "Celebrating festivals virtually", hint: "virtual celebration" },
       { type: "image", src: "/images/2021/20220105_192108.jpg", alt: "A return to the classroom", hint: "students back school" },
     ],
@@ -91,13 +94,23 @@ const galleries: AcademicYearGallery[] = [
   {
     year: "2018-19",
     items: [
-      { type: "image", src: "/images/2018/20181229_182109.jpg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
+      { type: "image", src: "/images/Students/k.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
+      { type: "image", src: "/images/Students/n.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
+      { type: "image", src: "/images/Students/o.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
+      { type: "image", src: "/images/Students/p.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
+      { type: "image", src: "/images/Students/a.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
+      { type: "image", src: "/images/Students/j.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
+
     ],
   },
   {
     year: "2017-18",
     items: [
        { type: "image", src: "/images/2018/IMG-20160608-WA0046.jpg", alt: "Foundation day event", hint: "foundation day" },
+       { type: "image", src: "/images/Students/d.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
+       { type: "image", src: "/images/Students/e.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
+       { type: "image", src: "/images/Students/h.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
+       { type: "image", src: "/images/Students/i.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
     ],
   },
    {
@@ -109,6 +122,8 @@ const galleries: AcademicYearGallery[] = [
       { type: "image", src: "/images/2017/IMG-20170415-WA0024.jpg", alt: "Memories from 2018-19", hint: "student memories" },
       { type: "image", src: "/images/2017/IMG-20170415-WA0031.jpg", alt: "A special assembly", hint: "school assembly" },
       { type: "image", src: "/images/2017/IMG-20170416-WA0010.jpg", alt: "Students with their art projects", hint: "student art projects" },
+      { type: "image", src: "/images/Students/f.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
+       { type: "image", src: "/images/Students/g.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
     ],
   },
    {
