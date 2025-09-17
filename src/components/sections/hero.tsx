@@ -14,13 +14,13 @@ const slides = [
   {
     image: "/images/Hero/1.jpeg",
     hint: "indian government school",
-    title: "Empowering Future Generations Through Education",
+    title: "Empowering India Through Education",
     description: ""
   },
   {
     image: "/images/Hero/2.jpeg",
     hint: "clean water",
-    title: "Quenching Thirst, Nourishing Lives",
+    title: "Building a Brighter Tomorrow, Together",
     description: ""
   },
   {
@@ -32,7 +32,7 @@ const slides = [
   {
     image: "/images/Hero/4.jpeg",
     hint: "indian government school",
-    title: "Building a Brighter Tomorrow, Together",
+    title: " Everyone Deserves Quality Education",
     description: ""
   },
   {

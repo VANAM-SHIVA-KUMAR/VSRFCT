@@ -17,7 +17,7 @@ const programmes = [
     believeTitle: "WE BELIEVE",
     believeText_highlight: "IF WE HELP ONE PERSON GET EDUCATED, THEIR FAMILY AND THE FUTURE GENERATIONS OF THEIR FAMILIES WILL HAVE THE ABILITY AND DESIRE TO BECOME EDUCATED.",
     believeText_rest: "Every year hundreds of students drop out of schools and colleges due to lack of proper support system - financial and guidance. We know that most students can succeed in any area that they have passion for. Over the years we've given hope of a better future to most students among the most needy. With great opportunities to excel and a dedicated team to hold their hand, they have built their lives with their own efforts and are leading a prosperous life.",
-    knowMoreText: "Changed over 150 lives through education scholarships",
+    knowMoreText: "Changed over 150+ lives through education scholarships",
     imageClass: "object-contain",
   },
   {
@@ -29,7 +29,7 @@ const programmes = [
     believeTitle: "WE BELIEVE",
     believeText_highlight: "NO YOUNG TALENT SHOULD GO WASTE DUE TO LACK OF RESOURCES.",
     believeText_rest: "Every year many youngsters struggle to pull themselves out of poverty due to lack of technical expertise and advancement opportunities. We know that creating the right space and scope for them to enhance their technical knowledge can transform their lives. With an opportunity to advance their skills, these candidates took the first step in self development and built sustainable lives.",
-    knowMoreText: "Changed over 140 lives through skill training scholarships and opportunities",
+    knowMoreText: "Changed over 150+ lives through skill training scholarships and opportunities",
     imageClass: "object-contain",
   },
   {

@@ -13,7 +13,7 @@ import YouTubeIcon from '@/components/icons/youtube-icon';
 const branchDetails = {
     name: "Telecomnagar",
     stats: [
-      { icon: <Users className="h-6 w-6 text-accent" />, label: "28 Pre-primary, 40 Primary, 39 Secondary Students" },
+      { icon: <Users className="h-6 w-6 text-accent" />, label: "28 Pre-primary, 43 Primary, 37 Secondary Students" },
       { icon: <Briefcase className="h-6 w-6 text-accent" />, label: "10 Teachers & 1 Helper" },
       { icon: <School className="h-6 w-6 text-accent" />, label: "3 Classrooms & 1 Hall (Approx 800 sq yds)" },
     ],

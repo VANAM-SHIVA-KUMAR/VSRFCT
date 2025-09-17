@@ -10,20 +10,20 @@ const branches = [
   {
     name: "Vempadu",
     icon: <MapPin className="h-10 w-10 text-accent" />,
-    description: "Established in 2005",
-    href: "/branches/vempadu"
+    description: "Established in 2000.",
+    href: "/branches/vempadu",
   },
   {
     name: "Telecomnagar",
     icon: <MapPin className="h-10 w-10 text-accent" />,
-    description: "Established in 2015 ",
-    href: "/branches/telecomnagar"
+    description: "Established in 2015. ",
+    href: "/branches/telecomnagar",
   },
   {
     name: "Kopalle",
     icon: <MapPin className="h-10 w-10 text-accent" />,
-    description: "Established in 2022",
-    href: "/branches/kopalle"
+    description: "Established in 2022.",
+    href: "/branches/kopalle",
   },
 ];
 
@@ -64,6 +64,10 @@ export default function OurBranches() {
                   </CardHeader>
                   <CardContent className="pt-0 pb-6 px-6">
                     <p className="text-White-800">{branch.description}</p>
+                    <div>
+                        <h4 className="font-bold text-primary mb-2">KNOW MORE...</h4>
+                        <p className="text-sm text-muted-foreground">{branch.knowMoreText}</p>
+                    </div>
                   </CardContent>
                 </Card>
               </div>

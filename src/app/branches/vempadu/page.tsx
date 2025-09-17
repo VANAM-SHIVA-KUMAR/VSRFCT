@@ -94,9 +94,18 @@ export default function VempaduBranchPage() {
                     <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">Gallery</h2>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                    <Image src="/images/Students/12.jpeg" alt="Gallery Image" width={800} height={800} className="rounded-lg shadow-lg" />
+                    <Image src="/images/Students/11.jpeg" alt="Gallery Image" width={800} height={800} className="rounded-lg shadow-lg" />
+                    <Image src="/images/Students/14.jpeg" alt="Gallery Image" width={800} height={800} className="rounded-lg shadow-lg" />
+                    <Image src="/images/Students/15.jpeg" alt="Gallery Image" width={800} height={800} className="rounded-lg shadow-lg" />
+                    <Image src="/images/Students/17.jpeg" alt="Gallery Image" width={800} height={800} className="rounded-lg shadow-lg" />
+                    <Image src="/images/Students/18.jpeg" alt="Gallery Image" width={800} height={800} className="rounded-lg shadow-lg" />
+                    <Image src="/images/Students/19.jpeg" alt="Gallery Image" width={400} height={300} className="rounded-lg shadow-lg" />
                     <Image src="/images/Students/n.jpeg" alt="Gallery Image" width={800} height={800} className="rounded-lg shadow-lg" />
                     <Image src="/images/Students/o.jpeg" alt="Gallery Image" width={800} height={800} className="rounded-lg shadow-lg" />
                     <Image src="/images/Students/m.jpeg" alt="Gallery Image" width={400} height={300} className="rounded-lg shadow-lg" />
+                    <Image src="/images/Students/13.jpeg" alt="Gallery Image" width={400} height={300} className="rounded-lg shadow-lg" />
+                    <Image src="/images/Students/16.jpeg" alt="Gallery Image" width={400} height={300} className="rounded-lg shadow-lg" />
                 </div>
             </div>
         </section>

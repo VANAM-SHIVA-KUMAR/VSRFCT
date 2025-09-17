@@ -7,9 +7,9 @@ import { cn } from "@/lib/utils";
 
 
 const teamMembers = [
-  { name: "Mrs. D. Sailaja", role: "Primary Classes Teacher", image: "/images/Team/Sailaja.JPG", hint: "professional male teacher", description: "Mrs. D. Sailaja has a Degree. She is working with us since June, 2018." },
-  { name: "Mr. P. Anand", role: "Higher Secondary Educator", image: "/images/Team/Anadh.jpg", hint: "female teacher portrait", description: "Mr. P. Anand has a Msc, B.Ed Degree. He is working with us since November, 2018." },
-  { name: "Mr. Ch. Vishnu", role: "Higher Secondary Educator", image: "/images/Team/Vishnu.JPG", hint: "male teacher smiling", description: "Mr. CH. Vishnu has a B.Tech Degree. He is working with us since January, 2019." },
+  { name: "Mrs. D. Sailaja", role: "Primary Classes Teacher", image: "/images/Team/Sailaja.JPG", hint: "professional male teacher", description: "Mrs. D. Sailaja has a B.A Degree. She is working with us since June, 2018." },
+  { name: "Mr. P. Anand", role: "Higher Secondary Educator", image: "/images/Team/Anand.jpg", hint: "female teacher portrait", description: "Mr. P. Anand has a Msc, B.Ed Degree. He is working with us since November, 2018." },
+  { name: "Mr. Ch. Vishnu", role: "Higher Secondary Educator", image: "/images/Team/Vishnu.JPG", hint: "male teacher smiling", description: "Mr. Ch. Vishnu has a B.Tech Degree. He is working with us since January, 2019." },
   { name: "Mr. G. Akhilesh", role: "Physical Education Teacher", image: "/images/Team/Akhilesh.JPG", hint: "friendly female teacher", description: "Mr. G. Akhilesh has a B.Tech Degree. He is working with us since December, 2021." },
   { name: "Mrs. V. Padma", role: "Pre-School Teacher", image: "/images/Team/Padma.jpeg", hint: "professional male administrator", description: "Mrs. V. Padma has a Degree. She is working with us since January, 2022." },
   { name: "Mrs. K. Annapurna", role: "Pre-School Teacher", image: "/images/Team/Annapurna.JPG", hint: "traditional male teacher", description: "Mrs. K. Annapurna has a Intermediate Degree. She is working with us since November, 2023." },

@@ -100,11 +100,18 @@ export default function KopalleBranchPage() {
                     <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">Gallery</h2>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                    <Image src="/images/Students/21.jpeg" alt="Gallery Image" width={1000} height={1000} className="rounded-lg shadow-lg" />
+                    <Image src="/images/Students/22.jpeg" alt="Gallery Image" width={1000} height={1000} className="rounded-lg shadow-lg" />
+                    <Image src="/images/Students/23.jpeg" alt="Gallery Image" width={1000} height={1000} className="rounded-lg shadow-lg" />
+                    <Image src="/images/Students/24.jpeg" alt="Gallery Image" width={1200} height={1200} className="rounded-lg shadow-lg" />
+                    <Image src="/images/Students/25.jpeg" alt="Gallery Image" width={1000} height={1000} className="rounded-lg shadow-lg" />
+                    <Image src="/images/Students/26.jpeg" alt="Gallery Image" width={1000} height={1000} className="rounded-lg shadow-lg" />
                     <Image src="/images/Students/k.jpeg" alt="Gallery Image" width={1000} height={1000} className="rounded-lg shadow-lg" />
                     <Image src="/images/Students/g.jpeg" alt="Gallery Image" width={1000} height={1000} className="rounded-lg shadow-lg" />
                     <Image src="/images/Students/d.jpeg" alt="Gallery Image" width={1000} height={1000} className="rounded-lg shadow-lg" />
                     <Image src="/images/Students/f.jpeg" alt="Gallery Image" width={1000} height={1000} className="rounded-lg shadow-lg" />
                     <Image src="/images/Students/c.jpeg" alt="Gallery Image" width={1200} height={1200} className="rounded-lg shadow-lg" />
+                    <Image src="/images/Students/27.jpeg" alt="Gallery Image" width={1000} height={1000} className="rounded-lg shadow-lg" />
                 </div>
             </div>
         </section>
