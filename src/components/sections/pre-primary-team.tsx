@@ -7,18 +7,12 @@ import { cn } from "@/lib/utils";
 
 
 const teamMembers = [
-  { name: "Mrs. D. Sailaja", role: "Primary Classes Teacher", image: "/images/Team/Sailaja.JPG", hint: "professional male teacher", description: "Mrs. D. Sailaja has a B.A Degree. She is working with us since June, 2018." },
-  { name: "Mr. P. Anand", role: "Higher Secondary Educator", image: "/images/Team/Anand.jpg", hint: "female teacher portrait", description: "Mr. P. Anand has a Msc, B.Ed Degree. He is working with us since November, 2018." },
-  { name: "Mr. Ch. Vishnu", role: "Higher Secondary Educator", image: "/images/Team/Vishnu.JPG", hint: "male teacher smiling", description: "Mr. Ch. Vishnu has a B.Tech Degree. He is working with us since January, 2019." },
-  { name: "Mr. G. Akhilesh", role: "Higher Secondary Educator", image: "/images/Team/Akhilesh.JPG", hint: "friendly female teacher", description: "Mr. G. Akhilesh has a B.Tech Degree. He is working with us since December, 2021." },
   { name: "Mrs. V. Padma", role: "Pre-School Teacher", image: "/images/Team/Padma.jpeg", hint: "professional male administrator", description: "Mrs. V. Padma has a Degree. She is working with us since January, 2022." },
   { name: "Mrs. K. Annapurna", role: "Pre-School Teacher", image: "/images/Team/Annapurna.JPG", hint: "traditional male teacher", description: "Mrs. K. Annapurna has a Intermediate Degree. She is working with us since November, 2023." },
-  { name: "Mrs. T. Usha Rani ", role: "Pre- School Teacher", image: "/images/Team/Usha.JPG", hint: "helpful female staff", description: "Mrs. T. Usha Rani  has a Degree. She is working with us since Febuary, 2024." },
-  { name: "Mr. V. Shiva Kumar", role: "Higher Secondary Educator", image: "/images/Team/Shiva.JPG", hint: "male teacher glasses", description: "Mr. V. Shiva Kumar has a B.Tech Degree. He is working with us since June, 2025." },
-  { name: "Mrs. K. Jyothi", role: "Higher Secondary Educator", image: "/images/Team/Jyothi.JPG", hint: "energetic female teacher", description: "Mrs. K. Jyothi has a B.Tech Degree. She is working with us since July, 2025." },
+  { name: "Mrs. T. Usha Rani ", role: "Moral and Ethics Educator", image: "/images/Team/Usha.JPG", hint: "helpful female staff", description: "Mrs. T. Usha Rani  has a Degree. She is working with us since Febuary, 2024." },
 ];
 
-export default function Team() {
+export default function PrePrimaryTeam() {
   const { ref, isInView } = useInView({ triggerOnce: true, threshold: 0.1 });
   
   return (
@@ -30,7 +24,7 @@ export default function Team() {
             The dedicated individuals who make our mission possible.
           </p>
         </div>
-        <div ref={ref} className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 md:gap-8">
+        <div ref={ref} className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-8">
           {teamMembers.map((member, index) => (
             <div
               key={index}

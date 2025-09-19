@@ -3,6 +3,7 @@ import Header from '@/components/sections/header';
 import Footer from '@/components/sections/footer';
 import { useInView } from '@/hooks/use-in-view';
 import { cn } from "@/lib/utils";
+import PrePrimaryTeam from '@/components/sections/pre-primary-team';
 
 const Section = ({ children, className }: { children: React.ReactNode, className?: string }) => {
   const { ref, isInView } = useInView({ triggerOnce: true, threshold: 0.1 });
@@ -57,7 +58,7 @@ export default function PrePrimaryPage() {
               <p className="text-lg text-gray-700 leading-relaxed">VSRFCT Pre-school started on June 5th, 2016 with 10 students and one teacher. By 2020, the program had grown to 22 children. We continue to provide foundational education to a growing number of children each year, with a dedicated nanny helper to assist in their care.</p>
             </div>
           </Section>
-
+          <PrePrimaryTeam />
         </div>
       </main>
       <Footer />

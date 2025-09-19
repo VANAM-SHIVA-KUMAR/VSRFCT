@@ -1,7 +1,6 @@
 'use client';
 import Header from '@/components/sections/header';
 import Footer from '@/components/sections/footer';
-import TelecomnagarTeam from '@/components/sections/team';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { BookOpen, Users, Wifi, Heart, Home, Droplets, Utensils, Tv, Award, School } from 'lucide-react';
 import Image from 'next/image';
@@ -265,7 +264,6 @@ We also support deserving children with financial assistance to continue their s
                 </div>
             </div>
         </section>
-        <TelecomnagarTeam />
         <section className="py-12 md:py-24">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-12">

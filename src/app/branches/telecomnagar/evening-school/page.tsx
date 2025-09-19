@@ -3,6 +3,7 @@ import Header from '@/components/sections/header';
 import Footer from '@/components/sections/footer';
 import { useInView } from '@/hooks/use-in-view';
 import { cn } from "@/lib/utils";
+import EveningSchoolTeam from '@/components/sections/evening-school-team';
 
 const Section = ({ children, className }: { children: React.ReactNode, className?: string }) => {
   const { ref, isInView } = useInView({ triggerOnce: true, threshold: 0.1 });
@@ -71,7 +72,7 @@ export default function EveningSchoolPage() {
               </ul>
             </div>
           </Section>
-
+          <EveningSchoolTeam />
         </div>
       </main>
       <Footer />
