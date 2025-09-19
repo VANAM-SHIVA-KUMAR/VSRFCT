@@ -199,7 +199,7 @@ export default function TelecomnagarBranchPage() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                     <div>
-                        <Image src="/images/2025/4.jpeg" alt="Telecomnagar Branch" width={600} height={400} className="rounded-lg shadow-lg" />
+                        <Image src="/images/Buildings/Telecomnagar.jpg" alt="Telecomnagar Branch" width={600} height={400} className="rounded-lg shadow-lg" />
                     </div>
                     <div>
                         <Card>
