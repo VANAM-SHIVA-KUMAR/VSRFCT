@@ -33,7 +33,7 @@ export default function VempaduBranchPage() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                     <div>
-                        <Image src="/images/Students/b.jpeg" alt="Vempadu Branch" width={600} height={400} className="rounded-lg shadow-lg" />
+                        <Image src="/images/Buildings/Vempadu.jpg" alt="Vempadu Branch" width={600} height={400} className="rounded-lg shadow-lg" />
                     </div>
                     <div>
                         <Card>

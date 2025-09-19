@@ -40,7 +40,7 @@ export default function KopalleBranchPage() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                     <div>
-                        <Image src="/images/Students/p.jpeg" alt="Kopalle Branch" width={600} height={400} className="rounded-lg shadow-lg" />
+                        <Image src="/images/Buildings/Kopalle.jpg" alt="Kopalle Branch" width={600} height={400} className="rounded-lg shadow-lg" />
                     </div>
                     <div>
                         <Card>
