@@ -4,8 +4,6 @@ import FounderSpotlight from '@/components/sections/founder-spotlight';
 import Features from '@/components/sections/features';
 import Programmes from '@/components/sections/programmes';
 import Curriculum from '@/components/sections/curriculum';
-import Testimonials from '@/components/sections/testimonials';
-import Faq from '@/components/sections/faq';
 import OurBranches from '@/components/sections/our-branches';
 import Footer from '@/components/sections/footer';
 
@@ -20,8 +18,6 @@ export default function Home() {
         <Programmes />
         <Features />
         <Curriculum />
-        <Testimonials />
-        <Faq />
       </main>
       <Footer />
     </div>

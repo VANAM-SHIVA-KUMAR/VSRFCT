@@ -8,6 +8,8 @@ import { useInView } from '@/hooks/use-in-view';
 import { cn } from "@/lib/utils";
 import Link from 'next/link';
 import YouTubeIcon from '@/components/icons/youtube-icon';
+import Testimonials from '@/components/sections/testimonials';
+import Faq from '@/components/sections/faq';
 
 type GalleryItem = {
   type: 'image';
