@@ -12,8 +12,8 @@ const navLinks = [
   { name: 'About Us', href: '/about' },
   { name: 'Our Branches', href: '/branches' },
   { name: 'Gallery', href: '/gallery' },
-  { name: 'Testimonials', href: '/#testimonials' },
-  { name: 'FAQ', href: '/#faq' },
+  { name: 'Testimonials', href: '/testimonials' },
+  { name: 'FAQ', href: '/faq' },
 ];
 
 export default function Header() {

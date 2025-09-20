@@ -1,63 +1,73 @@
 'use client';
 import Header from '@/components/sections/header';
 import Footer from '@/components/sections/footer';
-import { useInView } from '@/hooks/use-in-view';
-import { cn } from "@/lib/utils";
 import PrePrimaryTeam from '@/components/sections/pre-primary-team';
 
-const Section = ({ children, className }: { children: React.ReactNode, className?: string }) => {
-  const { ref, isInView } = useInView({ triggerOnce: true, threshold: 0.1 });
-  return (
-    <section
-      ref={ref}
-      className={cn(
-        "py-12 md:py-16 transition-all duration-700 ease-in-out",
-        isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10",
-        className
-      )}
-    >
-      {children}
-    </section>
-  );
-};
+const TimelineItem = ({ title, children }: { title: string, children: React.ReactNode }) => (
+    <div className="flex items-start mb-8">
+        <div className="flex-shrink-0">
+            <div
+                className="bg-green-500 text-white font-bold py-2 px-4 relative text-center"
+                style={{
+                    width: '150px',
+                    clipPath: 'polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%)'
+                }}
+            >
+                {title}
+            </div>
+        </div>
+        <div className="ml-8 text-lg">
+            {children}
+        </div>
+    </div>
+);
 
 export default function PrePrimaryPage() {
   return (
-    <div className="flex flex-col min-h-screen bg-background">
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow">
+      <main className="flex-grow py-12">
         <div className="container mx-auto px-4">
-          <div className="text-center pt-12 md:pt-24 mb-12">
-              <h1 className="text-4xl md:text-6xl font-bold font-headline text-green-900">Pre-Primary School</h1>
+          <div className="text-center mb-16">
+              <h1 className="text-4xl md:text-6xl font-bold font-headline">Pre-Primary School</h1>
           </div>
 
-          <Section>
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <h2 className="text-3xl font-bold font-headline text-green-800 mb-4">Our Mission</h2>
-              <p className="text-lg text-gray-700 leading-relaxed">To empower underprivileged children from ages 3 to 5 by providing a nurturing and stimulating pre-school environment. We focus on instilling a love for learning and preparing them for a successful transition to primary school in a friendly and homely atmosphere.</p>
-            </div>
-          </Section>
+          <div className="relative pl-8">
+            <div className="absolute left-0 h-full w-0.5 bg-gray-300" style={{left: '2rem'}}></div>
 
-          <Section>
-            <div className="bg-green-50 p-8 rounded-lg shadow-lg">
-              <h2 className="text-3xl font-bold font-headline text-green-800 mb-4">The Transformation</h2>
-              <p className="text-lg text-gray-700 leading-relaxed">Before we started the pre-school program, many of these children would play in the mud, with little attention to hygiene or timely meals. Now, parents give them a bath, dress them neatly, and send them to our center with a tiffin box. It's a transformation that goes beyond the classroom, instilling discipline and care from a young age.</p>
-            </div>
-          </Section>
+            <div className="space-y-12">
+                <TimelineItem title="Our Vision">
+                    <p className="leading-relaxed">To teach underprivileged children who are not able to attend the preprimary school.</p>
+                </TimelineItem>
 
-          <Section>
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <h2 className="text-3xl font-bold font-headline text-green-800 mb-4">Our Curriculum</h2>
-              <p className="text-lg text-gray-700 leading-relaxed">The focus is on teaching Alphabets, Numbers, English and Telugu Rhymes, Fruit names, names of days and months, educational games, and more. We use computers to show animated rhymes, making learning a fun and interactive experience.</p>
-            </div>
-          </Section>
+                <TimelineItem title="Our Goal">
+                     <p className="leading-relaxed">Our main goal is to uplift the student’s knowledge by providing free preschool, by taking individual care of neat dressing and teaching them alphabets, Rhymes and basic knowledge of fruit names, vegetables, colour recognition etc for their age, in a homely atmosphere, So that they will get ready to go to the real school. We have provided first free medical check up to all the students in 2016. We have provided 2 computers in 2016. </p>
+                </TimelineItem>
 
-          <Section>
-            <div className="bg-green-50 p-8 rounded-lg shadow-lg">
-              <h2 className="text-3xl font-bold font-headline text-green-800 mb-4">History and Growth</h2>
-              <p className="text-lg text-gray-700 leading-relaxed">VSRFCT Pre-school started on June 5th, 2016 with 10 students and one teacher. By 2020, the program had grown to 22 children. We continue to provide foundational education to a growing number of children each year, with a dedicated nanny helper to assist in their care.</p>
-            </div>
-          </Section>
+                <TimelineItem title="Our Mission">
+                    <p className="leading-relaxed">To empower underprivileged children to reach their potential by 
+                    <ul className="list-disc list-inside text-lg leading-relaxed space-y-2">
+                     <li> Providing after school assistance by teaching Rhymes, Slokas, Teaching Recognition of Alphabets, Numbers, Colours, Fruits, Vegetables, Days and Months, etc.</li>
+                     <li> Access to educational Toys, Digital Classes.</li>
+                     <li>	Instilling the values of Honesty, Cleanliness and Healthy habits.</li>
+                     <li> Providing healthy snacks every day after class.</li>
+                    </ul>
+                    </p>
+                </TimelineItem>
+
+                <TimelineItem title="Intro">
+                    <p className="leading-relaxed"></p>
+                </TimelineItem>
+
+                <TimelineItem title="Eligibility of Admission">
+                   <p className="leading-relaxed">Admission is open to children above 3 years of age. Applicants must provide valid proof (Aadhar card and 2 passport-size photos). Only children who are not currently enrolled in any school are eligible.</p>
+                </TimelineItem>
+
+                <TimelineItem title="Teaching Method">
+                   <p className="leading-relaxed"></p>
+                </TimelineItem>
+              </div>
+          </div>
           <PrePrimaryTeam />
         </div>
       </main>

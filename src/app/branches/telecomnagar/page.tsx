@@ -208,11 +208,11 @@ export default function TelecomnagarBranchPage() {
         <section className="py-12 md:py-24 bg-white">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">Prof. V.S. Raju Family Charitable Trust (VSRFCT)</h2>
+                    <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">Overview</h2>
                 </div>
-                <p className="text-lg text-center text-gray-700">VSRFCT is funded and run by Prof. V. S. Raju and Mrs. Sarojni and family. One of the main goal is to help the under privileged children mostly studying in government schools. For this purpose we have started free tuitions on January 1st 2015 with 14 students in Telecom Nagar. Currently there are 100 children. This program is after school assistance. It is done in two batches Junior batch (class 1 to 4) 4.30pm to 6.30pm and senior batch (class 5 to 10) 6.00pm to 8.00 pm. We help the children with all school subjects, General knowledge, Honesty, Hygiene and other activities. We provide them snacks (banana) all 6 days. Currently there are 10 paid teachers assisting the students.
-A Free pre school was started in June 2016. Initially we had 10 children and one teacher. Currently there are 26 children and two teachers. Individual care is given to the children. They are taught Alphabets, Rhymes, and general things. The idea is to help them to get ready for the regular school.
-We also support deserving children with financial assistance to continue their studies.</p>
+                <p className="text-lg text-center text-gray-700">VSRFCT is funded and run by Prof. V. S. Raju and Mrs. Sarojni and family. One of the main goal is to help the under privileged students mostly studying in government schools. For this purpose we have started free tuitions on January 1st 2015 with 14 students in Telecom Nagar. Currently there are 100 students. This program is after school assistance. It is done in two batches Junior batch (class 1 to 4) 4.30pm to 6.30pm and senior batch (class 5 to 10) 6.00pm to 8.00 pm. We help the student with all school subjects, General knowledge, Honesty, Hygiene and other activities. We provide them snacks (banana) all 6 days. Currently there are 10 paid teachers assisting the students.
+A Free pre school was started in June 2016. Initially we had 10 students and one teacher. Currently there are 26 students and two teachers. Individual care is given to the children. They are taught Alphabets, Rhymes, and general things. The idea is to help them to get ready for the regular school.
+We also support deserving student with financial assistance to continue their studies. We provided 2 Teachers for Z.P.H.S School Gachibowli.</p>
             </div>
         </section>
         <section className="py-12 md:py-24">
@@ -287,6 +287,8 @@ We also support deserving children with financial assistance to continue their s
                 </div>
             </div>
         </section>
+        <Testimonials />
+        <Faq />
       </main>
       <Footer />
     </div>
