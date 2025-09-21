@@ -15,6 +15,13 @@ export default function EveningSchoolPage() {
 
           <section className="py-12 md:py-16">
             <div className="p-8 rounded-lg shadow-lg">
+              <h2 className="text-3xl font-bold font-headline mb-4">Our Goal</h2>
+              <p className="text-lg leading-relaxed"></p>
+            </div>
+          </section>
+
+          <section className="py-12 md:py-16">
+            <div className="p-8 rounded-lg shadow-lg">
               <h2 className="text-3xl font-bold font-headline mb-4">Our Mission</h2>
               <p className="text-lg leading-relaxed">Our free tuition program for children from Class I to Class X is designed to enhance the quality of education for underprivileged students. We provide after-school assistance in all school subjects and strive to instill the values of honesty, cleanliness, and healthy habits. We maintain a teacher-student ratio of 1:10 to ensure every child gets the attention they deserve.</p>
             </div>
@@ -22,8 +29,23 @@ export default function EveningSchoolPage() {
 
           <section className="py-12 md:py-16">
             <div className="p-8 rounded-lg shadow-lg">
-              <h2 className="text-3xl font-bold font-headline mb-4">The Transformation</h2>
-              <p className="text-lg leading-relaxed">Before this program, many children would play on the streets after school, without discipline or guidance. Now, they come to our center clean, disciplined, and ready to learn. They have a safe and quiet place to study, with teachers to clear their doubts—a stark contrast to the conditions at home for many, where parents (mostly maids and casual laborers) lack the time and resources to help.</p>
+              <h2 className="text-3xl font-bold font-headline mb-4">Our Vision</h2>
+              <p className="text-lg leading-relaxed"></p>
+            </div>
+          </section>
+
+
+          <section className="py-12 md:py-16">
+            <div className="p-8 rounded-lg shadow-lg">
+              <h2 className="text-3xl font-bold font-headline mb-4">Eligibility of Admission</h2>
+              <p className="text-lg leading-relaxed"></p>
+            </div>
+          </section>
+
+          <section className="py-12 md:py-16">
+            <div className="p-8 rounded-lg shadow-lg">
+              <h2 className="text-3xl font-bold font-headline mb-4">Teaching Method</h2>
+              <p className="text-lg leading-relaxed"></p>
             </div>
           </section>
 
@@ -32,11 +54,11 @@ export default function EveningSchoolPage() {
                 <h2 className="text-3xl font-bold font-headline mb-4">Batches and Timings</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-lg">
                     <div>
-                        <h3 className="font-bold text-xl">Junior Batch (Class 1 to 4)</h3>
+                        <h3 className="font-bold text-xl">Junior Batch (Class 1 to 5)</h3>
                         <p><strong>Timings:</strong> 4:30 PM to 6:30 PM</p>
                     </div>
                     <div>
-                        <h3 className="font-bold text-xl">Senior Batch (Class 5 to 10)</h3>
+                        <h3 className="font-bold text-xl">Senior Batch (Class 6 to 10)</h3>
                         <p><strong>Timings:</strong> 6:00 PM to 8:00 PM</p>
                     </div>
                 </div>

@@ -35,13 +35,36 @@ export default function EveningSchoolPage() {
           <div className="relative pl-8">
             <div className="absolute left-0 h-full w-0.5 bg-gray-300" style={{left: '2rem'}}></div>
 
-            <div className="space-y-12">
-                <TimelineItem title="Our Mission">
-                    <p className="leading-relaxed">Our free tuition program for children from Class I to Class X is designed to enhance the quality of education for underprivileged students. We provide after-school assistance in all school subjects and strive to instill the values of honesty, cleanliness, and healthy habits. We maintain a teacher-student ratio of 1:10 to ensure every child gets the attention they deserve.</p>
+            <div className="space-y-12"> 
+            <TimelineItem title="Intro">
+                    <p className="leading-relaxed">VSRFCT Evening School has started free tuitions on January 1st 2015 with 14 students in Telecom Nagar. Currently there are 100 children.</p>
+                </TimelineItem>
+                
+                <TimelineItem title="Our Goal">
+                    <p className="leading-relaxed">Our main goal is to uplift the student’s knowledge by providing free evening tuitions, by taking individual care, teach them all their school subjects, General knowledge, Honesty, sharing and other activities liker music, art and craft, Yoga, moral stories etc . Provide for student needs like books and stationary.</p>
                 </TimelineItem>
 
-                <TimelineItem title="The Transformation">
-                     <p className="leading-relaxed">Before this program, many children would play on the streets after school, without discipline or guidance. Now, they come to our center clean, disciplined, and ready to learn. They have a safe and quiet place to study, with teachers to clear their doubts—a stark contrast to the conditions at home for many, where parents (mostly maids and casual laborers) lack the time and resources to help.</p>
+                <TimelineItem title="Our Mission ">
+                     <p className="leading-relaxed">To empower underprivileged children to reach their potential by 
+                     <ul className="list-disc list-inside text-lg leading-relaxed space-y-2">
+                     <li> Providing after school assistance by teaching English, Telugu, Science, Maths and General knowledge.</li>
+                     <li> Access to books, Computers and other educational material.</li>
+                     <li>Instilling the values of Honesty, Cleanliness and Healthy habits.</li>
+                     <li>Providing healthy snacks every day after class.</li>
+                     </ul>
+                     </p>
+                </TimelineItem>
+
+                <TimelineItem title="Our Vision ">
+                     <p className="leading-relaxed">To teach underprivileged children who are studying in government school, years of up to 10th standard. </p>
+                </TimelineItem>
+
+                <TimelineItem title="Eligibility of Admission ">
+                     <p className="leading-relaxed">Admission is open to students from 1st class to 10th class. Applicants must provide valid proof (Aadhar card and 2 passport-size photos).</p>
+                </TimelineItem>
+
+                <TimelineItem title="Teaching Method">
+                     <p className="leading-relaxed"></p>
                 </TimelineItem>
 
                 <TimelineItem title="Batches and Timings">

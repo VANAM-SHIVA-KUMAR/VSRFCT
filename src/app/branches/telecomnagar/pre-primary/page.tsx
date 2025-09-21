@@ -36,8 +36,9 @@ export default function PrePrimaryPage() {
             <div className="absolute left-0 h-full w-0.5 bg-gray-300" style={{left: '2rem'}}></div>
 
             <div className="space-y-12">
-                <TimelineItem title="Our Vision">
-                    <p className="leading-relaxed">To teach underprivileged children who are not able to attend the preprimary school.</p>
+
+                <TimelineItem title="Intro">
+                   <p className="leading-relaxed">VSRFCT Pre-school started on June 5th, 2016 with 10 students and 1 teacher with a goal . By 2025 students number reached to 30 and 3 teachers.</p>
                 </TimelineItem>
 
                 <TimelineItem title="Our Goal">
@@ -55,8 +56,8 @@ export default function PrePrimaryPage() {
                     </p>
                 </TimelineItem>
 
-                <TimelineItem title="Intro">
-                    <p className="leading-relaxed"></p>
+                <TimelineItem title="Our Vision">
+                    <p className="leading-relaxed">To teach underprivileged children who are not able to attend the preprimary school.</p>
                 </TimelineItem>
 
                 <TimelineItem title="Eligibility of Admission">
@@ -64,8 +65,20 @@ export default function PrePrimaryPage() {
                 </TimelineItem>
 
                 <TimelineItem title="Teaching Method">
-                   <p className="leading-relaxed"></p>
+                   <ul className="list-disc list-inside text-lg leading-relaxed space-y-2">
+                   <li>Prayer</li>
+                   <li>Divided into 3 level group of age. Make them play Educational Toys, Rhymes, Colours. </li>
+                   </ul>
                 </TimelineItem>
+
+                <TimelineItem title="Occupation of Students Parents">
+                   <ul className="list-disc list-inside text-lg leading-relaxed space-y-2">
+                   <li><strong>Mothers:</strong> 99% Maids.</li>
+                   <li><strong>Fathers:</strong> 75% Casual Labours, 25% Watchmens.</li>
+                   </ul>
+                </TimelineItem>
+
+                
               </div>
           </div>
           <PrePrimaryTeam />
