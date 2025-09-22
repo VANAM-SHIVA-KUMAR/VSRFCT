@@ -67,7 +67,7 @@ export default function Hero() {
       } else {
         api.scrollTo(0)
       }
-    }, 2000);
+    }, 1500);
 
     api.on("pointerDown", () => {
       clearInterval(interval);

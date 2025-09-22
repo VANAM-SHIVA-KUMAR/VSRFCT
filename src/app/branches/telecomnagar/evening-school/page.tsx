@@ -70,11 +70,11 @@ export default function EveningSchoolPage() {
                 <TimelineItem title="Batches and Timings">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-lg">
                         <div>
-                            <h3 className="font-bold text-xl">Junior Batch (Class 1 to 4)</h3>
+                            <h3 className="font-bold text-xl">Junior Batch (Class 1 to 5)</h3>
                             <p><strong>Timings:</strong> 4:30 PM to 6:30 PM</p>
                         </div>
                         <div>
-                            <h3 className="font-bold text-xl">Senior Batch (Class 5 to 10)</h3>
+                            <h3 className="font-bold text-xl">Senior Batch (Class 6 to 10)</h3>
                             <p><strong>Timings:</strong> 6:00 PM to 8:00 PM</p>
                         </div>
                     </div>
@@ -88,6 +88,14 @@ export default function EveningSchoolPage() {
                         <li><strong>Out of School Students Program:</strong> We provide basic life skills to school dropouts and guide those who are interested in rejoining the formal education system.</li>
                     </ul>
                 </TimelineItem>
+
+                <TimelineItem title="Occupation of Students Parents">
+                   <ul className="list-disc list-inside text-lg leading-relaxed space-y-2">
+                   <li><strong>Mothers:</strong> 99% Maids.</li>
+                   <li><strong>Fathers:</strong> 75% Casual Labours, 25% Watchmens.</li>
+                   </ul>
+                </TimelineItem>
+
               </div>
           </div>
           <EveningSchoolTeam />
