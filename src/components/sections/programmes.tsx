@@ -1,6 +1,7 @@
 "use client"
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useInView } from '@/hooks/use-in-view';
 import { cn } from "@/lib/utils";
 import { Button } from '@/components/ui/button';
@@ -19,6 +20,7 @@ const programmes = [
     believeText_rest: "Every year hundreds of students drop out of schools and colleges due to lack of proper support system - financial and guidance. We know that most students can succeed in any area that they have passion for. Over the years we've given hope of a better future to most students among the most needy. With great opportunities to excel and a dedicated team to hold their hand, they have built their lives with their own efforts and are leading a prosperous life.",
     knowMoreText: "Changed over 150+ lives through education scholarships",
     imageClass: "object-contain",
+    href: "/branches",
   },
   {
     title: "Prof. V. S. Raju Family Charitable Trust (VSRFCT)",
@@ -31,6 +33,7 @@ const programmes = [
     believeText_rest: "Every year many youngsters struggle to pull themselves out of poverty due to lack of technical expertise and advancement opportunities. We know that creating the right space and scope for them to enhance their technical knowledge can transform their lives. With an opportunity to advance their skills, these candidates took the first step in self development and built sustainable lives.",
     knowMoreText: "Changed over 150+ lives through skill training scholarships and opportunities",
     imageClass: "object-contain",
+    href: "/branches",
   },
   {
     title: "Prof. V. S. Raju Family Charitable Trust (VSRFCT)",
@@ -43,6 +46,7 @@ const programmes = [
     believeText_rest: "Every year thousands of students studying in government School fail to perform well academically due to lack of availability of educational resources at their arm's length. We know that providing the required resources to these students could lead them to gain quality education and grow confidence to achieve their goals. We've collaborated with government school lecturers to create study material. Over the years we provided text books and study material to students which helped improve their performance drastically and were able to complete their education successfully.",
     knowMoreText: "Changed over 1,500 lives by donating books",
     imageClass: "object-contain",
+    href: "/branches",
   },
 ];
 
@@ -68,14 +72,16 @@ const ProgrammeSection = ({ programme, index }) => {
                         className={cn("rounded-2xl shadow-2xl", programme.imageClass || "object-cover")}
                     />
                 </motion.div>
-                 <div className={cn(
-                    "absolute -bottom-8 w-64 p-4 rounded-lg shadow-xl bg-white/80 backdrop-blur-sm transition-all duration-700 ease-in-out",
-                    index % 2 === 0 ? "-right-8" : "-left-8",
-                    isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-                )}>
-                    <h4 className="font-bold text-primary mb-2">KNOW MORE...</h4>
-                    <p className="text-sm text-muted-foreground">{programme.knowMoreText}</p>
-                </div>
+                 <Link href={programme.href}>
+                    <div className={cn(
+                        "absolute -bottom-8 w-64 p-4 rounded-lg shadow-xl bg-white/80 backdrop-blur-sm transition-all duration-700 ease-in-out cursor-pointer hover:scale-105 transform",
+                        index % 2 === 0 ? "-right-8" : "-left-8",
+                        isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                    )}>
+                        <h4 className="font-bold text-primary mb-2">KNOW MORE...</h4>
+                        <p className="text-sm text-muted-foreground">{programme.knowMoreText}</p>
+                    </div>
+                </Link>
             </div>
             <div className={cn("space-y-6", isInView ? "animate-fade-in-up" : "opacity-0")}>
                 <h3 className="text-xl font-semibold text-muted-foreground text-center md:text-left">{programme.title}</h3>

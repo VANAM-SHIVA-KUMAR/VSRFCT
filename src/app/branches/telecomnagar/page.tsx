@@ -10,6 +10,9 @@ import Link from 'next/link';
 import YouTubeIcon from '@/components/icons/youtube-icon';
 import Testimonials from '@/components/sections/testimonials';
 import Faq from '@/components/sections/faq';
+import { Button } from '@/components/ui/button';
+import Features from '@/components/sections/features';
+import Curriculum from '@/components/sections/curriculum';
 
 type GalleryItem = {
   type: 'image';
@@ -218,39 +221,44 @@ We also support deserving student with financial assistance to continue their st
         <section className="py-12 md:py-24">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <Link href="/branches/telecomnagar/pre-primary">
                     <Card className="h-full flex flex-col transform hover:scale-105 transition-transform duration-300 bg-green-50">
-                            <CardHeader>
-                                <CardTitle>Pre-Primary School</CardTitle>
-                            </CardHeader>
-                            <CardContent className="flex-grow">
-                                <p>For children aged 3 to 5, focusing on foundational learning in a friendly, homely atmosphere.</p>
-                            </CardContent>
-                        </Card>
-                    </Link>
-                    <Link href="/branches/telecomnagar/evening-school">
-                        <Card className="h-full flex flex-col transform hover:scale-105 transition-transform duration-300 bg-green-50 ">
-                            <CardHeader>
-                                <CardTitle>Evening School</CardTitle>
-                            </CardHeader>
-                            <CardContent className="flex-grow">
-                                <p>Free tuitions for students from class 1 to 10, providing academic support and holistic development.</p>
-                            </CardContent>
-                        </Card>
-                    </Link>
-                    <Link href="/branches/telecomnagar/our-history">
-                        <Card className="h-full flex flex-col transform hover:scale-105 transition-transform duration-300 bg-green-50">
-                            <CardHeader>
-                                <CardTitle>Our History</CardTitle>
-                            </CardHeader>
-                            <CardContent className="flex-grow">
-                                <p>Discover the journey of VSRFCT, from a small room with 14 students to a thriving educational trust.</p>
-                            </CardContent>
-                        </Card>
-                    </Link>
+                        <CardHeader>
+                            <CardTitle>Pre-Primary School</CardTitle>
+                        </CardHeader>
+                        <CardContent className="flex-grow">
+                            <p>For children aged 3 to 5, focusing on foundational learning in a friendly, homely atmosphere.</p>
+                            <Link href="/branches/telecomnagar/pre-primary">
+                                <Button className="mt-4">Know More</Button>
+                            </Link>
+                        </CardContent>
+                    </Card>
+                    <Card className="h-full flex flex-col transform hover:scale-105 transition-transform duration-300 bg-green-50">
+                        <CardHeader>
+                            <CardTitle>Evening School</CardTitle>
+                        </CardHeader>
+                        <CardContent className="flex-grow">
+                            <p>Free tuitions for students from class 1 to 10, providing academic support and holistic development.</p>
+                            <Link href="/branches/telecomnagar/evening-school">
+                                <Button className="mt-4">Know More</Button>
+                            </Link>
+                        </CardContent>
+                    </Card>
+                    <Card className="h-full flex flex-col transform hover:scale-105 transition-transform duration-300 bg-green-50">
+                        <CardHeader>
+                            <CardTitle>Our History</CardTitle>
+                        </CardHeader>
+                        <CardContent className="flex-grow">
+                            <p>Discover the journey of VSRFCT, from a small room with 14 students to a thriving educational trust.</p>
+                            <Link href="/branches/telecomnagar/our-history">
+                                <Button className="mt-4">Know More</Button>
+                            </Link>
+                        </CardContent>
+                    </Card>
                 </div>
             </div>
         </section>
+        <Features />
+        <Curriculum />
         <section className="py-12 md:py-24">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-12">
@@ -261,7 +269,7 @@ We also support deserving student with financial assistance to continue their st
                     <Card><CardHeader><Droplets className="h-8 w-8 text-green-700" /><CardTitle>Clean Washrooms</CardTitle></CardHeader><CardContent>with wash basins, hand wash liquid soaps and hand towels.</CardContent></Card>
                     <Card><CardHeader><Utensils className="h-8 w-8 text-green-700" /><CardTitle>Clean Drinking Water</CardTitle></CardHeader><CardContent>Safe and clean drinking water is available for all students.</CardContent></Card>
                     <Card><CardHeader><BookOpen className="h-8 w-8 text-green-700" /><CardTitle>Library</CardTitle></CardHeader><CardContent>A vast variety of books from beginner level to science, mathematics, and novels.</CardContent></Card>
-                    <Card><CardHeader><Tv className="h-8 w-8 text-green-700" /><CardTitle>Computers</CardTitle></CardHeader><CardContent>Two computers and one laptop with internet for learning and animated rhymes.</CardContent></Card>
+                    <Card><CardHeader><Tv className="h-8 w-8 text-green-700" /><CardTitle>Computers</CardTitle></CardHeader><CardContent>Three computers and one Television with High Speed internet access for learning educational purpose.</CardContent></Card>
                     <Card><CardHeader><Heart className="h-8 w-8 text-green-700" /><CardTitle>Health & Nutrition</CardTitle></CardHeader><CardContent>Health checkups once a year and daily snacks are provided to the students.</CardContent></Card>
                 </div>
             </div>
@@ -269,7 +277,7 @@ We also support deserving student with financial assistance to continue their st
         <section className="py-12 md:py-24">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">Gallery</h2>
+                    <h2 className="text-3xl md:text-5xl font-bold font-headline text-green-900">Annual Programs</h2>
                 </div>
                 <div className="space-y-16">
                   {galleries.map(({ year, items }) => (

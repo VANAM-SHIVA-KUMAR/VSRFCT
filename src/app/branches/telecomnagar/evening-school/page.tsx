@@ -22,6 +22,31 @@ const TimelineItem = ({ title, children }: { title: string, children: React.Reac
     </div>
 );
 
+const OurBranchActivities = () => (
+    <div className="py-12">
+        <div className="container mx-auto px-4">
+            <h2 className="text-3xl md:text-5xl font-bold font-headline text-center mb-12">Our Branch Activities</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="flex flex-col items-center">
+                    <h3 className="text-2xl font-bold mb-4">Yoga</h3>
+                    <img src="" alt="Yoga instructor" className="w-64 h-64 object-cover rounded-lg mb-4" />
+                    <p className="text-lg text-center">Our students practice yoga to improve their physical and mental well-being, guided by our experienced yoga sir.</p>
+                </div>
+                <div className="flex flex-col items-center">
+                    <h3 className="text-2xl font-bold mb-4">Physical Education</h3>
+                    <img src="" alt="PT instructor" className="w-64 h-64 object-cover rounded-lg mb-4" />
+                    <p className="text-lg text-center">Physical education is a key part of our curriculum, with our dedicated PT sir leading various exercises and sports.</p>
+                </div>
+                <div className="flex flex-col items-center">
+                    <h3 className="text-2xl font-bold mb-4">Indoor Games</h3>
+                    <img src="" alt="Indoor games" className="w-64 h-64 object-cover rounded-lg mb-4" />
+                    <p className="text-lg text-center">We encourage indoor games like chess and puzzle-making to develop critical thinking and problem-solving skills.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+);
+
 export default function EveningSchoolPage() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -37,7 +62,7 @@ export default function EveningSchoolPage() {
 
             <div className="space-y-12"> 
             <TimelineItem title="Intro">
-                    <p className="leading-relaxed">VSRFCT Evening School has started free tuitions on January 1st 2015 with 14 students in Telecom Nagar. Currently there are 100 children.</p>
+                    <p className="leading-relaxed">VSRFCT Evening School has started free tuitions on January 1st 2015 with 14 students in Telecom Nagar. Currently there are 100 Students and 10 Teachers.</p>
                 </TimelineItem>
                 
                 <TimelineItem title="Our Goal">
@@ -64,7 +89,7 @@ export default function EveningSchoolPage() {
                 </TimelineItem>
 
                 <TimelineItem title="Teaching Method">
-                     <p className="leading-relaxed"></p>
+                     <p className="leading-relaxed"> Junior students are taught with activity-based methods to build strong fundamentals, while Senior students receive subject-wise, exam-focused coaching as per the State Syllabus Focused.</p>
                 </TimelineItem>
 
                 <TimelineItem title="Batches and Timings">
@@ -98,6 +123,7 @@ export default function EveningSchoolPage() {
 
               </div>
           </div>
+          <OurBranchActivities />
           <EveningSchoolTeam />
         </div>
       </main>

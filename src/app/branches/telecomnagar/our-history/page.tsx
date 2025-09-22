@@ -128,6 +128,40 @@ export default function OurHistoryPage() {
               </div>
             </Section>
 
+            <Section side="left">
+              <div className="timeline-content bg-white p-8 rounded-lg shadow-lg">
+                <h2 className="text-3xl font-bold font-headline text-green-800 mb-4">2023: Community and Academic Excellence</h2>
+                <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed">
+                  <li><strong>Swachh Bharat Program:</strong> Senior students participated in a weekly Swachh Bharat program every Sunday, cleaning plastic waste around VSRFCT and Telecom Nagar roads. They also maintained the tuition surroundings by trimming overgrown tree branches.</li>
+                  <li><strong>ROSHINI Initiative:</strong> Focused on the mental health and well-being of our students.</li>
+                  <li><strong>Annual Celebrations:</strong> Continued our traditions with the annual Sports Day, Annual Day, Science Fair, and Independence Day celebrations.</li>
+                  <li><strong>Educational Trips:</strong> Organized annual trips to provide students with broader exposure.</li>
+                </ul>
+              </div>
+            </Section>
+
+            <Section side="right">
+              <div className="timeline-content bg-green-50 p-8 rounded-lg shadow-lg">
+                <h2 className="text-3xl font-bold font-headline text-green-800 mb-4">2024: Building on Our Success</h2>
+                <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed">
+                  <li><strong>Academic Support:</strong> Special extra classes for 10th-grade students were conducted from January each year. Timings: 8:00 PM - 9:30 PM (online), 5:00 AM - 6:00 AM, and 6:00 AM - 7:00 AM (Hindi & Telugu).</li>
+                  <li><strong>Career Guidance:</strong> Post-exams, our staff provided dedicated support for competitive entrance exams (Navodaya, NMMS, Polytechnic, RJC). Professionals from various fields offered guidance to help students choose their career paths.</li>
+                  <li><strong>Specialized Coaching:</strong> Appointed separate, dedicated teachers for Yoga and Sports to enhance extracurricular activities.</li>
+                </ul>
+              </div>
+            </Section>
+
+            <Section side="left">
+              <div className="timeline-content bg-white p-8 rounded-lg shadow-lg">
+                <h2 className="text-3xl font-bold font-headline text-green-800 mb-4">2025: Looking to the Future</h2>
+                <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed">
+                    <li>As we look ahead, VSRFCT plans to expand its reach and introduce new programs to meet the evolving needs of our students.</li>
+                    <li>Our focus remains on empowering the next generation through quality education and strong values.</li>
+                    <li>Stay tuned for more updates on our journey.</li>
+                </ul>
+              </div>
+            </Section>
+
           </div>
 
         </div>

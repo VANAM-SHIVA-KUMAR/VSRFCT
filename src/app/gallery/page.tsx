@@ -51,11 +51,13 @@ const galleries: AcademicYearGallery[] = [
       { type: "image", src: "/images/2023/IMG_20231001_072145__01.jpg", alt: "Annual day celebration 2024", hint: "school event 2024" },
       { type: "image", src: "/images/2023/IMG_20231001_074620.jpg", alt: "Highlights from Sports Day 2024", hint: "students sports 2024" },
       { type: "image", src: "/images/2023/20240330_175427.jpg", alt: "Students receiving prizes", hint: "student awards" },
+      { type: "image", src: "/images/2023/11.jpeg", alt: "Highlights from Sports Day 2024", hint: "students sports 2024" },
       { type: "image", src: "/images/Students/c.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
       { type: "image", src: "/images/Students/11.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
-      { type: "image", src: "/images/Students/15.jpeg", alt: "Annual day celebration 2024", hint: "school event 2024" },
       { type: "image", src: "/images/2023/20240330_180106.jpg", alt: "Republic Day parade", hint: "republic day school" },
+      { type: "image", src: "/images/Students/15.jpeg", alt: "Annual day celebration 2024", hint: "school event 2024" },
       { type: "image", src: "/images/2024/IMG_20241202_190510.jpg", alt: "Guest speaker event", hint: "guest speaker" },
+      { type: "image", src: "/images/2023/12.jpeg", alt: "Students receiving prizes", hint: "student awards" },
     ],
   },
   {
@@ -84,11 +86,12 @@ const galleries: AcademicYearGallery[] = [
   },
   {
     year: "2020-21",
-    items: [
+    items: [ 
       { type: "image", src: "/images/2020/IMG-20190420-WA0020.jpg", alt: "Early days of online learning", hint: "remote learning setup" },
       { type: "image", src: "/images/2020/IMG-20200212-WA0021.jpg", alt: "Distributing study materials", hint: "education support" },
       { type: "image", src: "/images/2020/IMG-20200212-WA0028.jpg", alt: "Parents meeting online", hint: "parent teacher online" },
       { type: "image", src: "/images/Students/16.jpeg", alt: "Early days of online learning", hint: "remote learning setup" },
+      { type: "image", src: "/images/Students/c1.jpeg", alt: "Annual function group dance", hint: "students group dance" },
       { type: "image", src: "/images/Students/13.jpeg", alt: "Early days of online learning", hint: "remote learning setup" },
     ],
   },
@@ -98,6 +101,8 @@ const galleries: AcademicYearGallery[] = [
       { type: "image", src: "/images/Students/17.jpeg", alt: "Sports Day champions 2020", hint: "students sports trophy" },
       { type: "image", src: "/images/Students/18.jpeg", alt: "Annual function group dance", hint: "students group dance" },
       { type: "image", src: "/images/Students/19.jpeg", alt: "Independence Day celebrations", hint: "independence day india school" },
+      { type: "image", src: "/images/Students/c2.jpeg", alt: "Sports Day champions 2020", hint: "students sports trophy" },
+      { type: "image", src: "/images/Students/c3.jpeg", alt: "Independence Day celebrations", hint: "independence day india school" },
       { type: "image", src: "/images/2019/563.jpg", alt: "Sports Day champions 2020", hint: "students sports trophy" },
       { type: "image", src: "/images/2019/20170415_175753.jpg", alt: "Annual function group dance", hint: "students group dance" },
       { type: "image", src: "/images/2019/20190110_192044.jpg", alt: "Independence Day celebrations", hint: "independence day india school" },
