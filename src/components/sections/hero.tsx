@@ -5,10 +5,11 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
   type CarouselApi,
 } from "@/components/ui/carousel"
 import Image from "next/image"
-import { cn } from "@/lib/utils"
 
 const slides = [
   {
@@ -51,41 +52,17 @@ const slides = [
 
 export default function Hero() {
   const [api, setApi] = React.useState<CarouselApi>()
-  const [current, setCurrent] = React.useState(0)
   const [animationKey, setAnimationKey] = React.useState(0);
  
   React.useEffect(() => {
     if (!api) {
       return
     }
-
-    setCurrent(api.selectedScrollSnap())
  
-    const interval = setInterval(() => {
-      if (api.canScrollNext()) {
-        api.scrollNext()
-      } else {
-        api.scrollTo(0)
-      }
-    }, 5000);
-
-    api.on("pointerDown", () => {
-      clearInterval(interval);
-    });
-
     api.on("select", () => {
-       setCurrent(api.selectedScrollSnap());
        setAnimationKey(prevKey => prevKey + 1);
     })
-
-    return () => clearInterval(interval)
   }, [api])
-
-  const handleDotClick = (index: number) => {
-    if (api) {
-      api.scrollTo(index)
-    }
-  }
 
   return (
     <section className="w-full relative">
@@ -116,20 +93,9 @@ export default function Hero() {
             </CarouselItem>
           ))}
         </CarouselContent>
+        <CarouselPrevious className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-transparent border-none text-white hover:bg-white/20 hover:text-white" />
+        <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-transparent border-none text-white hover:bg-white/20 hover:text-white" />
       </Carousel>
-      <div className="absolute bottom-4 md:bottom-10 left-4 md:left-10 flex space-x-2 p-4">
-        {slides.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => handleDotClick(index)}
-            className={cn(
-              'h-2 w-8 rounded-full transition-colors',
-              current === index ? 'bg-accent' : 'bg-gray-400'
-            )}
-            aria-label={`Go to slide ${index + 1}`}
-          />
-        ))}
-      </div>
     </section>
   )
 }

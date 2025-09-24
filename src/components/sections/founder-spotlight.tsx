@@ -64,7 +64,7 @@ export default function FounderSpotlight() {
           )}>
             <h2 className="text-3xl md:text-5xl font-bold font-headline mb-4">About the Trust</h2>
             {aboutText.map((paragraph, pIndex) => (
-              <p key={pIndex} className="text-primary-foreground/80 mb-4 text-lg">
+              <p key={pIndex} className="text-White/80 mb-4 text-lg">
                 {paragraph}
               </p>
             ))}
@@ -73,14 +73,14 @@ export default function FounderSpotlight() {
                 {mission.map((item, index) => (
                     <li key={index} className="flex items-start gap-3">
                         <div className="bg-green-800 rounded-full p-2 mt-1">{item.icon}</div>
-                        <span className="text-primary-foreground/80 flex-1">{item.text}</span>
+                        <span className="text-White/80 flex-1">{item.text}</span>
                     </li>
                 ))}
              </ul>
              <h3 className="text-2xl font-bold font-headline mt-8 mb-4">Our Vision</h3>
              <div className="flex items-start gap-3">
                 <div className="bg-green-800 rounded-full p-2 mt-1"><Target className="h-6 w-6 text-accent" /></div>
-                <span className="text-primary-foreground/80 flex-1">Our vision is a humble contribution to build a better India.</span>
+                <span className="text-White/80 flex-1">Our vision is a humble contribution to build a better India.</span>
             </div>
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6">
                {stats.map((stat, index) => (
@@ -97,7 +97,7 @@ export default function FounderSpotlight() {
                   </div>
                   <div>
                     <p className="text-3xl font-bold font-headline text-white">{stat.value}</p>
-                    <p className="text-md text-primary-foreground/80">{stat.label}</p>
+                    <p className="text-md text-White/80">{stat.label}</p>
                   </div>
                 </div>
               ))}

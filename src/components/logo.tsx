@@ -12,9 +12,9 @@ export function Logo({ variant = 'default' }: LogoProps) {
       <Image
         src="/images/logo.jpeg"
         alt="VSRFCT Logo"
-        width={120}
-        height={120}
-        className="h-14 w-14 md:h-16 md:w-16 rounded-full"
+        width={240}
+        height={240}
+        className="h-20 w-20 md:h-24 md:w-24 rounded-full"
         data-ai-hint="logo"
       />
       <div>
