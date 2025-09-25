@@ -171,6 +171,30 @@ const AnimatedGalleryItem = ({ item, year, index }: { item: GalleryItem, year: s
   );
 };
 
+const OurBranchActivities = () => (
+    <div className="py-12">
+        <div className="container mx-auto px-4">
+            <h2 className="text-3xl md:text-5xl font-bold font-headline text-center mb-12">Our Branch Activities</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="flex flex-col items-center">
+                    <h3 className="text-2xl font-bold mb-4">Yoga</h3>
+                    <img src="/images/2025/Y.jpg" alt="Yoga instructor" className="w-120 h-120 object-cover rounded-lg mb-4" />
+                    <p className="text-lg text-center">Our students practice yoga to improve their physical and mental well-being, guided by our experienced yoga sir.</p>
+                </div>
+                <div className="flex flex-col items-center">
+                    <h3 className="text-2xl font-bold mb-4">Physical Education</h3>
+                    <img src="/images/2025/P.jpeg" alt="PT instructor" className="w-120 h-120 object-cover rounded-lg mb-4" />
+                    <p className="text-lg text-center">Physical education is a key part of our curriculum, with our dedicated PT sir leading various exercises and sports.</p>
+                </div>
+                <div className="flex flex-col items-center">
+                    <h3 className="text-2xl font-bold mb-4">Indoor Games</h3>
+                    <img src="/images/2025/I.JPG" alt="Indoor games" className="w-120 h-120 object-cover rounded-lg mb-4" />
+                    <p className="text-lg text-center">We encourage indoor games like chess and puzzle-making to develop critical thinking and problem-solving skills.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+);
 
 export default function TelecomnagarBranchPage() {
   return (
@@ -221,7 +245,7 @@ We also support deserving student with financial assistance to continue their st
         <section className="py-12 md:py-24">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <Card className="h-full flex flex-col transform hover:scale-105 transition-transform duration-300 bg-green-50">
+                    <Card className="h-full flex flex-col transform hover:scale-105 transition-transform duration-300 bg-white">
                         <CardHeader>
                             <CardTitle>Pre-Primary School</CardTitle>
                         </CardHeader>
@@ -232,7 +256,7 @@ We also support deserving student with financial assistance to continue their st
                             </Link>
                         </CardContent>
                     </Card>
-                    <Card className="h-full flex flex-col transform hover:scale-105 transition-transform duration-300 bg-green-50">
+                    <Card className="h-full flex flex-col transform hover:scale-105 transition-transform duration-300 bg-white">
                         <CardHeader>
                             <CardTitle>Evening School</CardTitle>
                         </CardHeader>
@@ -243,7 +267,7 @@ We also support deserving student with financial assistance to continue their st
                             </Link>
                         </CardContent>
                     </Card>
-                    <Card className="h-full flex flex-col transform hover:scale-105 transition-transform duration-300 bg-green-50">
+                    <Card className="h-full flex flex-col transform hover:scale-105 transition-transform duration-300 bg-white">
                         <CardHeader>
                             <CardTitle>Our History</CardTitle>
                         </CardHeader>
@@ -257,6 +281,7 @@ We also support deserving student with financial assistance to continue their st
                 </div>
             </div>
         </section>
+		<OurBranchActivities />
         <Features />
         <Curriculum />
         <section className="py-12 md:py-24">

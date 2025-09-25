@@ -22,31 +22,6 @@ const TimelineItem = ({ title, children }: { title: string, children: React.Reac
     </div>
 );
 
-const OurBranchActivities = () => (
-    <div className="py-12">
-        <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-5xl font-bold font-headline text-center mb-12">Our Branch Activities</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div className="flex flex-col items-center">
-                    <h3 className="text-2xl font-bold mb-4">Yoga</h3>
-                    <img src="" alt="Yoga instructor" className="w-64 h-64 object-cover rounded-lg mb-4" />
-                    <p className="text-lg text-center">Our students practice yoga to improve their physical and mental well-being, guided by our experienced yoga sir.</p>
-                </div>
-                <div className="flex flex-col items-center">
-                    <h3 className="text-2xl font-bold mb-4">Physical Education</h3>
-                    <img src="" alt="PT instructor" className="w-64 h-64 object-cover rounded-lg mb-4" />
-                    <p className="text-lg text-center">Physical education is a key part of our curriculum, with our dedicated PT sir leading various exercises and sports.</p>
-                </div>
-                <div className="flex flex-col items-center">
-                    <h3 className="text-2xl font-bold mb-4">Indoor Games</h3>
-                    <img src="" alt="Indoor games" className="w-64 h-64 object-cover rounded-lg mb-4" />
-                    <p className="text-lg text-center">We encourage indoor games like chess and puzzle-making to develop critical thinking and problem-solving skills.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-);
-
 export default function EveningSchoolPage() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -61,7 +36,7 @@ export default function EveningSchoolPage() {
             <div className="absolute left-0 h-full w-0.5 bg-gray-300" style={{left: '2rem'}}></div>
 
             <div className="space-y-12"> 
-            <TimelineItem title="Intro">
+            <TimelineItem title="Introduction">
                     <p className="leading-relaxed">VSRFCT Evening School has started free tuitions on January 1st 2015 with 14 students in Telecom Nagar. Currently there are 100 Students and 10 Teachers.</p>
                 </TimelineItem>
                 
@@ -104,26 +79,45 @@ export default function EveningSchoolPage() {
                         </div>
                     </div>
                 </TimelineItem>
-                
-                <TimelineItem title="Beyond Academics">
-                   <ul className="list-disc list-inside text-lg leading-relaxed space-y-2">
-                        <li><strong>Cultural Activities & Trips:</strong> We celebrate Independence Day and hold an Annual Day in December. Senior students are taken on educational trips to places like Nehru Zoological Park, Salar Jung Museum, and Rashtrapati Bhavan.</li>
-                        <li><strong>Extracurriculars:</strong> We offer classes in Yoga, Music, and Art for interested students.</li>
-                        <li><strong>Empower Center:</strong> We run a program to impart basic Telugu reading and writing skills to underprivileged women. We also offer Spoken English classes via Skype with a volunteer from the U.S.</li>
-                        <li><strong>Out of School Students Program:</strong> We provide basic life skills to school dropouts and guide those who are interested in rejoining the formal education system.</li>
-                    </ul>
+
+                <TimelineItem title="Daily Routine">
+                     <ul className="list-disc list-inside text-lg leading-relaxed space-y-2">
+                        <li>Biscuits are provided to the Junior batch at 4:30 PM.</li>
+                        <li>A snack is provided for both batches between 6:15 PM and 6:30 PM.</li>
+                        <li>We conduct tests, dictation of new words, and reading practice twice a week to ensure continuous improvement.</li>
+                     </ul>
                 </TimelineItem>
 
+                <TimelineItem title="Weekly Activities">
+                     <ul className="list-disc list-inside text-lg leading-relaxed space-y-2">
+                        <li>Yoga classes are held once a week for both junior and senior batches.</li>
+                        <li>Music classes are held once a week, with 17 children participating.</li>
+                     </ul>
+                </TimelineItem>
                 <TimelineItem title="Occupation of Students Parents">
                    <ul className="list-disc list-inside text-lg leading-relaxed space-y-2">
                    <li><strong>Mothers:</strong> 99% Maids.</li>
                    <li><strong>Fathers:</strong> 75% Casual Labours, 25% Watchmens.</li>
                    </ul>
                 </TimelineItem>
+                
+                <TimelineItem title="Monthly & Annual Events">
+                   <ul className="list-disc list-inside text-lg leading-relaxed space-y-2">
+                        <li>Art classes are held once a month for interested students (currently 20).</li>
+                        <li>A medical checkup for all students is conducted in August.</li>
+                        <li>We celebrate Independence Day on August 15th and present gifts to merit students who have scored above 75% in their final school exams.</li>
+                    </ul>
+                </TimelineItem>
+                
+                <TimelineItem title="Beyond Academics">
+                   <ul className="list-disc list-inside text-lg leading-relaxed space-y-2">
+                        <li><strong>Cultural Activities & Trips:</strong> We celebrate Independence Day and hold an Annual Day in December. Senior students are taken on educational trips to places like Nehru Zoological Park, Salar Jung Museum, and Rashtrapati Bhavan.</li>
+                    </ul>
+                </TimelineItem>
+
 
               </div>
           </div>
-          <OurBranchActivities />
           <EveningSchoolTeam />
         </div>
       </main>
