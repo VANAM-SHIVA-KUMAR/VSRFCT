@@ -96,8 +96,7 @@ export default function OurPrograms() {
       title: "Empower Center",
       description:
         "We have started Empower center in June 2019 to help underprivileged women, to impart basic Reading and Writing skills of Telugu. In June 4 members of watchman wife’s registered to learn. The program has been stopped in 2020 during pandemic.",
-      images: [],
-      "/our programs/Empower.jpeg"
+      images: ["/our programs/Empower.jpeg"],
     },
     {
       id: "beyond-academics",
@@ -139,7 +138,7 @@ export default function OurPrograms() {
        id: "educational-field-trip",
        title: "Educational Field Trip",
        description:
-         "We organize educational field trips to places of historical and scientific importance. These trips provide students with practical knowledge and a break from their regular classroom routine.",
+         "All the teachers and students visited Birla Mandir and went to the Birla Science Museum, art gallery, and Palnitorium. At the science museum, the children demonstrated a thorough understanding of each subject. They learned how science has been developing since ancient times. The subjects for rocket science were very amazing. The way the artists were displayed in the art gallery was amazing. Here, each piece of art is very special. The children who saw the planetarium were very surprised and enjoyed every subject as if they were wandering in the universe.",
        images: [
          "/our programs/Trip.jpeg",
        ],
