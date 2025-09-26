@@ -13,7 +13,7 @@ const navLinks = [
   { name: 'Our Branches', href: '/branches' },
   { name: 'Our Gallery', href: '/gallery' },
   { name: 'Our Programs', href: '/our-programs' },
-  { name: 'Contact Us', href: 'mailto:vsrfct2003@gmail.com' },
+  { name: 'Contact Us', href: 'mailto:vsrfct@gmail.com' },
 ];
 
 export default function Header() {

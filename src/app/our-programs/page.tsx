@@ -147,7 +147,7 @@ export default function OurPrograms() {
        id: "sports-day",
        title: "Sports Day",
        description:
-         "Our annual Sports Day is a vibrant event that encourages physical fitness and sportsmanship. Students participate in various athletic events and team games.",
+         "The Trust has arranged games for the children one day a week to keep them physically fit along with their studies. These games help the children to keep their mind and body strong. P.E.T Sir is here to help the children who are spending their time playing games on the phone to play games on the ground.",
        images: [
         "/images/2017/IMG-20170416-WA0028.jpg",
        ],
