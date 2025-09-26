@@ -12,7 +12,7 @@ const navLinks = [
   { name: 'About Us', href: '/about' },
   { name: 'Our Branches', href: '/branches' },
   { name: 'Our Gallery', href: '/gallery' },
-  { name: 'Our Programs', href: '' },
+  { name: 'Our Programs', href: '/our-programs' },
   { name: 'Contact Us', href: 'mailto:vsrfct2003@gmail.com' },
 ];
 

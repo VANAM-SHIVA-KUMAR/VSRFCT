@@ -126,11 +126,10 @@ const galleries: AcademicYearGallery[] = [
   {
     year: "2017-18",
     items: [
-       { type: "image", src: "/images/2018/IMG-20160608-WA0046.jpg", alt: "Foundation day event", hint: "foundation day" },
-       { type: "image", src: "/images/Students/d.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
-       { type: "image", src: "/images/Students/e.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
        { type: "image", src: "/images/Students/h.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
        { type: "image", src: "/images/Students/i.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
+       { type: "image", src: "/images/Students/d.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
+       { type: "image", src: "/images/Students/e.jpeg", alt: "Throwback to a fun classroom activity", hint: "vintage classroom" },
     ],
   },
    {
