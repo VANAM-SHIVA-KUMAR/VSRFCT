@@ -129,9 +129,9 @@ export default function OurPrograms() {
      },
      {
        id: "science-fair",
-       title: "Science fair & Annual Day Celebrations (December)",
+       title: "Science fair & Annual Day Celebrations",
        description:
-         "A platform for our young scientists to showcase their innovative ideas and projects. The Science Fair is held along with our Annual Day celebrations, which include cultural performances and prize distribution. The December Science Fair and Annual Day Celebrations showcased students' creativity and innovation through exciting experiments and vibrant performances. The event fostered scientific curiosity and artistic expression, uniting the school community. Enthusiastic participation, colorful displays, and joyful celebrations made it a memorable highlight of the academic year.",
+         " A platform for our young scientists to showcase their innovative ideas and projects. The Science Fair is held along with our Annual Day celebrations (December), which include cultural performances and prize distribution. The December Science Fair and Annual Day Celebrations showcased students' creativity and innovation through exciting experiments and vibrant performances. The event fostered scientific curiosity and artistic expression, uniting the school community. Enthusiastic participation, colorful displays, and joyful celebrations made it a memorable highlight of the academic year.",
        images: [
          "/images/2024/IMG_20241202_190510.jpg",
        ],
