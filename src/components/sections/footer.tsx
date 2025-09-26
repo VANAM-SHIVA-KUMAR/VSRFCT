@@ -7,6 +7,7 @@ const footerLinks = {
   quickLinks: [
     { name: 'Home', href: '/' },
     { name: 'About Us', href: '/about' },
+    { name: 'Our Branches', href: '/branches' },
     { name: 'Our Gallery', href: '/gallery' },
     { name: 'Our Programs', href: '/our-programs' },
   ],
@@ -74,13 +75,6 @@ export default function Footer() {
           <div>
             <h3 id="contact" className="font-headline font-semibold tracking-wider uppercase text-White">Contact Us</h3>
             <ul className="mt-4 space-y-2 text-White/80">
-              <li className="flex items-start space-x-2 mt-2">
-                <Clock className="h-5 w-5 text-accent shrink-0 mt-1" />
-                <div>
-                    <p className="font-bold text-White">Opening Hours:</p>
-                    <p>Monday - Saturday: 9.30am–8.00pm.</p>
-                </div>
-              </li>
               <li className="flex items-start space-x-2 mt-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-accent shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
                 <a href="mailto:vsrfct2003@gmail.com" className="hover:text-White">vsrfct2003@gmail.com</a>

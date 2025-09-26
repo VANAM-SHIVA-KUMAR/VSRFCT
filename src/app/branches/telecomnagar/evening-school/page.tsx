@@ -45,14 +45,15 @@ export default function EveningSchoolPage() {
                 </TimelineItem>
 
                 <TimelineItem title="Our Mission ">
-                     <p className="leading-relaxed">To empower underprivileged children to reach their potential by 
-                     <ul className="list-disc list-inside text-lg leading-relaxed space-y-2">
-                     <li> Providing after school assistance by teaching English, Telugu, Science, Maths and General knowledge.</li>
-                     <li> Access to books, Computers and other educational material.</li>
-                     <li>Instilling the values of Honesty, Cleanliness and Healthy habits.</li>
-                     <li>Providing healthy snacks every day after class.</li>
-                     </ul>
-                     </p>
+                     <div>
+                        <p className="leading-relaxed">To empower underprivileged children to reach their potential by</p>
+                         <ul className="list-disc list-inside text-lg leading-relaxed space-y-2 mt-2">
+                         <li> Providing after school assistance by teaching English, Telugu, Science, Maths and General knowledge.</li>
+                         <li> Access to books, Computers and other educational material.</li>
+                         <li>Instilling the values of Honesty, Cleanliness and Healthy habits.</li>
+                         <li>Providing healthy snacks every day after class.</li>
+                         </ul>
+                     </div>
                 </TimelineItem>
 
                 <TimelineItem title="Our Vision ">
@@ -76,18 +77,12 @@ export default function EveningSchoolPage() {
                     </div>
                 </TimelineItem>
 
-                <TimelineItem title="Daily Routine">
-                     <ul className="list-disc list-inside text-lg leading-relaxed space-y-2">
-                        <li>Biscuits are provided to the Junior batch at 4:30 PM.</li>
-                        <li>A snack is provided for both batches between 6:15 PM and 6:30 PM.</li>
-                        <li>We conduct tests, dictation of new words, and reading practice twice a week to ensure continuous improvement.</li>
-                     </ul>
-                </TimelineItem>
-
                 <TimelineItem title="Weekly Activities">
                      <ul className="list-disc list-inside text-lg leading-relaxed space-y-2">
-                        <li>Yoga classes are held once a week for both junior and senior batches.</li>
-                        <li>Music classes are held once a week, with 17 children participating.</li>
+                        <li>Yoga classes</li>
+                        <li>Physcial Training</li>
+                        <li>Music classes</li>
+                        <li>Moral classes</li>
                      </ul>
                 </TimelineItem>
                 <TimelineItem title="Occupation of Students Parents">
@@ -97,17 +92,12 @@ export default function EveningSchoolPage() {
                    </ul>
                 </TimelineItem>
                 
-                <TimelineItem title="Monthly & Annual Events">
-                   <ul className="list-disc list-inside text-lg leading-relaxed space-y-2">
-                        <li>Art classes are held once a month for interested students (currently 20).</li>
-                        <li>A medical checkup for all students is conducted in August.</li>
-                        <li>We celebrate Independence Day on August 15th and present gifts to merit students who have scored above 75% in their final school exams.</li>
-                    </ul>
-                </TimelineItem>
+            
                 
-                <TimelineItem title="Beyond Academics">
+                <TimelineItem title="Annual Events">
                    <ul className="list-disc list-inside text-lg leading-relaxed space-y-2">
-                        <li><strong>Cultural Activities & Trips:</strong> We celebrate Independence Day and hold an Annual Day in December. Senior students are taken on educational trips to places like Nehru Zoological Park, Salar Jung Museum, and Rashtrapati Bhavan.</li>
+                        <li><strong>Cultural Activities:</strong> We celebrate Independence Day and hold an Annual Day in December.</li>
+                        <li><strong>Educational Trips:</strong> Students are taken on educational trips to places like Nehru Zoological Park, Salar Jung Museum, and Rashtrapati Bhavan.</li>
                     </ul>
                 </TimelineItem>
 
