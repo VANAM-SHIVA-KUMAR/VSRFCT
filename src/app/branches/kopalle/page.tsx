@@ -7,8 +7,7 @@ import { Users, School, Briefcase, PlayCircle, Hammer } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import YouTubeIcon from '@/components/icons/youtube-icon';
-import Testimonials from '@/components/sections/testimonials';
-import Faq from '@/components/sections/faq';
+
 
 const branchDetails = {
     name: "Kopalle",
@@ -117,8 +116,6 @@ export default function KopalleBranchPage() {
                 </div>
             </div>
         </section>
-        <Testimonials />
-        <Faq />
       </main>
       <Footer />
     </div>

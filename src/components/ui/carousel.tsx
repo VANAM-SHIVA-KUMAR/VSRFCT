@@ -200,12 +200,12 @@ const CarouselPrevious = React.forwardRef<
 >(({ className, variant = "outline", size = "icon", ...props }, ref) => {
   const { orientation, scrollPrev, canScrollPrev } = useCarousel()
 
+
   return (
     <Button
       ref={ref}
-      variant={variant}
-      size={size}
       className={cn(
+        "z-10 bg-blue-500 hover:bg-blue-600 hover:shadow-lg hover:shadow-blue-500/50 text-white",
         "absolute  h-8 w-8 rounded-full",
         orientation === "horizontal"
           ? "-left-12 top-1/2 -translate-y-1/2"
@@ -229,12 +229,11 @@ const CarouselNext = React.forwardRef<
 >(({ className, variant = "outline", size = "icon", ...props }, ref) => {
   const { orientation, scrollNext, canScrollNext } = useCarousel()
 
+
   return (
     <Button
       ref={ref}
-      variant={variant}
-      size={size}
-      className={cn(
+      className={cn("z-10 bg-blue-500 hover:bg-blue-600 hover:shadow-lg hover:shadow-blue-500/50 text-white",
         "absolute h-8 w-8 rounded-full",
         orientation === "horizontal"
           ? "-right-12 top-1/2 -translate-y-1/2"
@@ -244,7 +243,7 @@ const CarouselNext = React.forwardRef<
       disabled={!canScrollNext}
       onClick={scrollNext}
       {...props}
-    >
+    >      
       <ArrowRight className="h-4 w-4" />
       <span className="sr-only">Next slide</span>
     </Button>

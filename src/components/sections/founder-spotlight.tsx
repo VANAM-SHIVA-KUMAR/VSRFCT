@@ -13,8 +13,7 @@ const founder = {
 
 const aboutText = [
     "The Prof. V. S. Raju Family Charitable Trust (VSRFCT) is a registered non-profit organization established in 2015 by Prof. V.S. Raju, formerly the Director of IIT Delhi and Professor, Head & Dean at IIT Madras, along with his family.",
-    "The trust focuses on helping people in the states of Andhra Pradesh and Telangana, with a focus on education, healthcare, rural development, and social welfare initiatives.",
-    "We make a difference in students’ lives by giving them hope of a better future, with support that goes beyond the material requirements of education and guidance that exceeds the expectation of every student under our umbrella."
+    "The trust focuses on helping people in the states of Andhra Pradesh and Telangana, with a focus on education, healthcare, rural development, and social welfare initiatives."
 ];
 
 const mission = [

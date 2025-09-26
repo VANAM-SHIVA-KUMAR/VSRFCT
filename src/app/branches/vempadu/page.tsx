@@ -5,8 +5,6 @@ import VempaduTeam from '@/components/sections/vempadu-team';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Users, School, Briefcase, PlayCircle, Hammer, Scissors, BrainCircuit } from 'lucide-react';
 import Image from 'next/image';
-import Testimonials from '@/components/sections/testimonials';
-import Faq from '@/components/sections/faq';
 import Features from '@/components/sections/features';
 import Curriculum from '@/components/sections/curriculum';
 
@@ -118,8 +116,6 @@ export default function VempaduBranchPage() {
                 </div>
             </div>
         </section>
-        <Testimonials />
-        <Faq />
       </main>
       <Footer />
     </div>

@@ -8,8 +8,6 @@ import { useInView } from '@/hooks/use-in-view';
 import { cn } from "@/lib/utils";
 import Link from 'next/link';
 import YouTubeIcon from '@/components/icons/youtube-icon';
-import Testimonials from '@/components/sections/testimonials';
-import Faq from '@/components/sections/faq';
 import { Button } from '@/components/ui/button';
 import Features from '@/components/sections/features';
 import Curriculum from '@/components/sections/curriculum';
@@ -320,8 +318,6 @@ We also support deserving student with financial assistance to continue their st
                 </div>
             </div>
         </section>
-        <Testimonials />
-        <Faq />
       </main>
       <Footer />
     </div>

@@ -11,9 +11,9 @@ const navLinks = [
   { name: 'Home', href: '/' },
   { name: 'About Us', href: '/about' },
   { name: 'Our Branches', href: '/branches' },
-  { name: 'Gallery', href: '/gallery' },
-  { name: 'Testimonials', href: '/testimonials' },
-  { name: 'FAQ', href: '/faq' },
+  { name: 'Our Gallery', href: '/gallery' },
+  { name: 'Our Programs', href: '' },
+  { name: 'Contact Us', href: 'mailto:vsrfct2003@gmail.com' },
 ];
 
 export default function Header() {
@@ -25,7 +25,7 @@ export default function Header() {
         <Logo />
         <nav className="hidden md:flex items-center space-x-6">
           {navLinks.map((link) => (
-            <Link key={link.name} href={link.href} className="transition-colors hover:text-primary text-lg font-semibold">
+            <Link key={link.name} href={link.href} className="transition-colors hover:text-primary text-lg font-semibold" target={link.href.startsWith('mailto:') ? '_blank' : '_self'}>
               {link.name}
             </Link>
           ))}
@@ -56,9 +56,6 @@ export default function Header() {
                       {link.name}
                     </Link>
                   ))}
-                  <Button asChild size="lg" className="w-4/5">
-                     <Link href="/#contact" onClick={() => setIsMenuOpen(false)}>Contact Us</Link>
-                  </Button>
                 </nav>
               </div>
             </SheetContent>

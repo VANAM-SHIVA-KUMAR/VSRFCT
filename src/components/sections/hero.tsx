@@ -13,7 +13,7 @@ import Image from "next/image"
 
 const slides = [
   {
-    image: "/images/Hero/1.jpeg",
+    image: "/images/Hero/01.jpg",
     hint: "indian government school",
     title: "Empowering India Through Education",
     description: ""
@@ -21,7 +21,7 @@ const slides = [
   {
     image: "/images/Hero/2.jpeg",
     hint: "clean water",
-    title: "Building a Brighter Tomorrow, Together",
+    title: "Building a Brighter Tomorrow",
     description: ""
   },
   {
