@@ -7,11 +7,12 @@ import { cn } from "@/lib/utils";
 
 
 const teamMembers = [
-  { name: "Mrs. D. Sailaja", role: "Primary Classes Teacher", image: "/images/Team/Sailaja.JPG", hint: "professional male teacher", description: "Mrs. D. Sailaja has a B.A Degree. She is working with us since June, 2018." },
-  { name: "Mr. P. Anand", role: "Higher Secondary Educator", image: "/images/Team/Anand.jpg", hint: "female teacher portrait", description: "Mr. P. Anand has a Msc, B.Ed Degree. He is working with us since November, 2018." },
+  { name: "Mrs. D. Sailaja", role: "Primary Classes Teacher", image: "/images/Team/Sailaja.JPG", hint: "professional female teacher", description: "Mrs. D. Sailaja has a B.A Degree. She is working with us since June, 2018." },
+  { name: "Mr. P. Anand", role: "Higher Secondary Educator", image: "/images/Team/Anand.jpg", hint: "male teacher portrait", description: "Mr. P. Anand has a Msc, B.Ed Degree. He is working with us since November, 2018." },
   { name: "Mr. Ch. Vishnu", role: "Higher Secondary Educator", image: "/images/Team/Vishnu.JPG", hint: "male teacher smiling", description: "Mr. Ch. Vishnu has a B.Tech Degree. He is working with us since January, 2019." },
-  { name: "Mr. G. Akhilesh", role: "Higher Secondary Educator", image: "/images/Team/Akhilesh.JPG", hint: "friendly female teacher", description: "Mr. G. Akhilesh has a B.Tech Degree. He is working with us since December, 2021." },
-  { name: "Mrs. K. Annapurna", role: "Pre-School Teacher", image: "/images/Team/Annapurna.JPG", hint: "traditional male teacher", description: "Mrs. K. Annapurna has a Intermediate Degree. She is working with us since November, 2023." },
+  { name: "Mr. G. Akhilesh", role: "Higher Secondary Educator", image: "/images/Team/Akhilesh.JPG", hint: "friendly male teacher", description: "Mr. G. Akhilesh has a B.Tech Degree. He is working with us since December, 2021." },
+  { name: "Mrs. Y. S. Madhuri", role: "Primary Classes Teacher", image: "/images/Team/Madhuri.jpeg", hint: "professional female administrator", description: "Mrs. Y. S. Madhuri has a Degree. She is working with us since December, 2022." },
+  { name: "Mrs. K. Annapurna", role: "Pre-School Teacher", image: "/images/Team/Annapurna.JPG", hint: "traditional female teacher", description: "Mrs. K. Annapurna has a Intermediate Degree. She is working with us since November, 2023." },
   { name: "Mrs. T. Usha Rani ", role: "Pre- School Teacher", image: "/images/Team/Usha.JPG", hint: "helpful female staff", description: "Mrs. T. Usha Rani  has a Degree. She is working with us since Febuary, 2024." },
   { name: "Mr. V. Shiva Kumar", role: "Higher Secondary Educator", image: "/images/Team/Shiva.JPG", hint: "male teacher glasses", description: "Mr. V. Shiva Kumar has a B.Tech Degree. He is working with us since June, 2025." },
   { name: "Mrs. K. Jyothi", role: "Higher Secondary Educator", image: "/images/Team/Jyothi.JPG", hint: "energetic female teacher", description: "Mrs. K. Jyothi has a B.Tech Degree. She is working with us since July, 2025." },

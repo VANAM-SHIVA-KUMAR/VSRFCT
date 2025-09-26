@@ -42,7 +42,7 @@ const ProgramSection = ({
           <h2 className="text-4xl font-bold font-headline text-green-800 mb-4">
             {title}
           </h2>
-          <p className="text-lg text-gray-700 leading-relaxed">{description}</p>
+          <p className="text-lg text-gray-700 leading-relaxed break-words">{description}</p>
         </div>
         <div className="md:w-5/12">
           {images.map((src, index) => (
@@ -65,7 +65,25 @@ const ProgramSection = ({
 export default function OurPrograms() {
   const programs = [
     {
-      id: "Swachh Bharat",
+      id: "roshini-foundation",
+      title: "Roshini Foundation (Mental Health)",
+      description:
+        "They run a helpline where trained volunteers listen to people in distress, especially those feeling suicidal or severely depressed . There is also a counselling centre with professionals (psychiatrists, psychologists, etc.) to help people recover and lead normal lives. ROSHINI conducted free workshop at our centre for students. It really helped for few students, by showing the solution for thieir problems facing at home. ",
+      images: [
+        "/our programs/roshini.jpeg",
+      ],
+    },
+    {
+      id: "educational-exchange-program",
+      title: "Educational Exchange Program",
+      description:
+        "On 12th January 2024, an Educational exchange program between Indian and United states Aviation and space Students has been taken place in our trust. The Students from both Nations greatly appreciated each of their skills and culture. We from VSRFCT provided participation certificate and a souvenir to the US space and Aviation students. They greatly appreciated our efforts.",
+      images: [
+        "/our programs/edu.jpeg",
+      ],
+    },
+    {
+      id: "swachh-bharat",
       title: "Swachh Bharat",
       description:
         "On 2nd October 2023, Gandhi Jayanti, Prime Minister Modi launched a big cleanliness drive under the Swachh Bharat Abhiyan. He requested every citizen to give one hour of shramdaan (voluntary cleaning work) for the country. The idea was that if everyone comes together for even a short time, India can become much cleaner. People from all walks of life — students, workers, leaders, celebrities, and common citizens — joined the campaign. This special drive showed that cleanliness is not only the government’s duty, but also the responsibility of each and every Indian.  So on the call of Prime Minister we the VSRFCT team the students and staff joined the hands and cleaned up the Telecomnagar colony.  Weekly once senior students did swach bharat program on Sunday morning for one hour in Gachibowli like cleaning up the plastic waste. After rainy season our students, cleaned up the unwanted weed and grass and big plants grown in the empty sites around the tuition campus.",
@@ -74,25 +92,15 @@ export default function OurPrograms() {
       ],
     },
     {
-      id: "Roshini Foundation",
-      title: "Roshini Foundation (Mental Health)",
-      description:
-        "They run a helpline where trained volunteers listen to people in distress, especially those feeling suicidal or severely depressed . There is also a counselling centre with professionals (psychiatrists, psychologists, etc.) to help people recover and lead normal lives. ROSHINI conducted free workshop at our centre for students. It really helped for few students, by showing the solution for thieir problems facing at home. ",
-      images: [
-        "",
-      ],
-    },
-    {
-      id: " Empower Center",
+      id: "empower-center",
       title: "Empower Center",
       description:
         "We have started Empower center in June 2019 to help underprivileged women, to impart basic Reading and Writing skills of Telugu. In June 4 members of watchman wife’s registered to learn. The program has been stopped in 2020 during pandemic.",
-      images: [
-        "",
-      ],
+      images: [],
+      "/our programs/Empower.jpeg"
     },
     {
-      id: " Beyond Academics",
+      id: "beyond-academics",
       title: "Beyond Academics",
       description:
         "The program is to help the children who dropped out in the middle of schooling and some students who didn’t go to school at all. Our goal is to provide the basic life skills for their daily living. If students are interested to go back to school, our teachers will help them to rejoin in school by guiding them. Students can be in different age groups. Every student situation varies. For some students we may suggest to write 10th exams privately. Currently no out of school children registered, but registrations are open. Twice a week, Monday and Friday 7pm to 8pm Spoken English classes are taken by Smt. Lakshmi from Seattle U.S. through skype. Currently 5 students enrolled.",
@@ -101,7 +109,7 @@ export default function OurPrograms() {
       ],
     },
     {
-      id: " During COVID 19",
+      id: "during-covid-19",
       title: "During COVID 19",
       description:
         "From 16th March our tuition centre has been closed due to COVID 19.  Initially online classes were started for 10th class students of Academic year (2019-2020) from 16th May to 6th June 2020 as it was expected that Board exams will be conducted. All students have passed.  From 19th June, online classes have started for academic year (2020-2021) students.  Teachers and students are using smart phones to take classes.  Google meet is used for online classes. They are teaching all subjects chapter wise as taught in schools.  End of each chapter notes is given. Dictation, home work and chapter wise tests are conducted. Weekly once reading practice and Yoga is being done.  Whatsapp groups created for each class.  Teachers send, study material, worksheets and related links through whatsapp groups.  Teachers are motivating students to do other activities during their free time.  Students are sending their Home works and notes pictures through whatsapp.  Students are doing Gardening, Drawing, Cooking, Yoga, Essay writing etc and sending pictures.  Teachers fill attendance in excel sheets and send excel sheets through whats app.  Trust has given money for phone recharge to all students and staff after submitting their bill. Good improvement in children in terms of understanding online classes and working using technology. Students are enthusiastic in learning. Teachers are very dedicated. Attendance is 99% . ",
@@ -110,16 +118,7 @@ export default function OurPrograms() {
       ],
     },
     {
-      id: " Educational Exchange Program",
-      title: "Educational Exchange Program",
-      description:
-        "On 12th January 2024, an Educational exchange program between Indian and United states Aviation and space Students has been taken place in our trust. The Students from both Nations greatly appreciated each of their skills and culture. We from VSRFCT provided participation certificate and a souvenir to the US space and Aviation students. They greatly appreciated our efforts.",
-      images: [
-        "",
-      ],
-    },
-    {
-      id: "After Covid Physical Classes",
+      id: "after-covid-physical-classes",
       title: "After Covid Physical Classes",
       description:
         "Our tuition centre has reopened for physical classes on 1st September 2021for classes 7th to 10th.  We have started physical classes for preschool and Junior classes (class 1 to 6) from November 2021.  Before reopening the tuition centre we have done all the necessary repair works at centre like painting the walls, plumbing, carpeting, updating computers and clean up the centre.  According to the Covid protocol, we are followed all the safety precautions like daily sanitizing, wearing masks and distance maintenance in students seating.  Sanitizer is provided at tuition centre while entering the class. Masks are provided for physically attending students. Students attending tuition centre has got the parents willingness letter agreeing for Covid 19 rules, signed by their parents.  Note books are provided for all students. ",
@@ -128,21 +127,21 @@ export default function OurPrograms() {
       ],
      },
      {
-       id: "science-fair",
-       title: "Science fair & Annual Day Celebrations",
+       id: "Annual Day Celebrations",
+       title: "Annual Day Celebrations & Science fair ",
        description:
-         " A platform for our young scientists to showcase their innovative ideas and projects. The Science Fair is held along with our Annual Day celebrations (December), which include cultural performances and prize distribution. The December Science Fair and Annual Day Celebrations showcased students' creativity and innovation through exciting experiments and vibrant performances. The event fostered scientific curiosity and artistic expression, uniting the school community. Enthusiastic participation, colorful displays, and joyful celebrations made it a memorable highlight of the academic year.",
+         " The Science Fair is held along with our Annual Day celebrations (December), which include cultural performances and prize distribution. The December Science Fair and Annual Day Celebrations showcased students' creativity and innovation through exciting experiments and vibrant performances. The event fostered scientific curiosity and artistic expression, uniting the school community. Enthusiastic participation, colorful displays, and joyful celebrations made it a memorable highlight of the academic year.",
        images: [
          "/images/2024/IMG_20241202_190510.jpg",
        ],
      },
      {
-       id: "Educational Field Trip",
+       id: "educational-field-trip",
        title: "Educational Field Trip",
        description:
          "We organize educational field trips to places of historical and scientific importance. These trips provide students with practical knowledge and a break from their regular classroom routine.",
        images: [
-         "/images/2024/18f2cf62-6c49-4cf6-aa51-01448a0105be.jpg",
+         "/our programs/Trip.jpeg",
        ],
      },
      {
@@ -155,7 +154,7 @@ export default function OurPrograms() {
        ],
      },
      {
-       id: "Extracurricular Programs",
+       id: "extracurricular-programs",
        title: "Extracurricular Programs",
        description:
          "Extra classes were conducted for 10Th standard students  from 8:00 to 9:30 pm – all subjects online classes from 5:00 to 6:00 am- Mathematics . 6:00 to 7:00 am – Hindi and Telugu . After completing their 10th final exams, our staff will help the students to prepare for the competitive exams and enterance tests like Navodaya, NMMS, Polytechnic and RJC set. Also, different proffesionals with great experience guide students on choosing a path for their further studies.  Specialized Teachers were appointed to take regular yoga, sports and music classes  ",
