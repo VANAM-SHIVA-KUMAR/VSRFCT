@@ -60,11 +60,7 @@ export default function EveningSchoolPage() {
                 </TimelineItem>
 
                 <TimelineItem title="Eligibility of Admission ">
-                     <p className="leading-relaxed">Admission is open to students from 1st class to 10th class. Applicants must provide valid proof (Aadhar card and 2 passport-size photos).</p>
-                </TimelineItem>
-
-                <TimelineItem title="Teaching Method">
-                     <p className="leading-relaxed"> Junior students are taught with activity-based methods to build strong fundamentals, while Senior students receive subject-wise, exam-focused coaching as per the State Syllabus Focused.</p>
+                     <p className="leading-relaxed">Admissions are open to Government School going students from 1st class to 10th class . Applicants must provide valid proof (Aadhar card and 2 passport-size photos).</p>
                 </TimelineItem>
 
                 <TimelineItem title="Batches and Timings">
