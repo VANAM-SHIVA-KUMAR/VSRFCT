@@ -38,21 +38,21 @@ const ProgramSection = ({
           reverse ? "md:flex-row-reverse" : ""
         }`}
       >
-        <div className="md:w-1/2 mb-8 md:mb-0">
+        <div className="md:w-7/12 mb-8 md:mb-0 md:pr-8">
           <h2 className="text-4xl font-bold font-headline text-green-800 mb-4">
             {title}
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed">{description}</p>
         </div>
-        <div className="md:w-1/2">
+        <div className="md:w-5/12">
           {images.map((src, index) => (
             <div key={index}>
               <Image
                 src={src}
                 alt={`${title} image ${index + 1}`}
                 width={600}
-                height={400}
-                className="rounded-lg shadow-lg w-full h-auto object-cover"
+                height={450}
+                className="rounded-lg shadow-lg w-full h-96 object-cover"
               />
             </div>
           ))}
@@ -79,7 +79,7 @@ export default function OurPrograms() {
       description:
         "They run a helpline where trained volunteers listen to people in distress, especially those feeling suicidal or severely depressed . There is also a counselling centre with professionals (psychiatrists, psychologists, etc.) to help people recover and lead normal lives. ROSHINI conducted free workshop at our centre for students. It really helped for few students, by showing the solution for thieir problems facing at home. ",
       images: [
-        "/images/Students/a.jpeg",
+        "/images/2023/12.jpeg",
       ],
     },
     {
@@ -88,7 +88,7 @@ export default function OurPrograms() {
       description:
         "We have started Empower center in June 2019 to help underprivileged women, to impart basic Reading and Writing skills of Telugu. In June 4 members of watchman wife’s registered to learn. The program has been stopped in 2020 during pandemic.",
       images: [
-        "/images/2018/20181229_182109.jpg",
+        "/images/2019/563.jpg",
       ],
     },
     {
@@ -97,7 +97,7 @@ export default function OurPrograms() {
       description:
         "The program is to help the children who dropped out in the middle of schooling and some students who didn’t go to school at all. Our goal is to provide the basic life skills for their daily living. If students are interested to go back to school, our teachers will help them to rejoin in school by guiding them. Students can be in different age groups. Every student situation varies. For some students we may suggest to write 10th exams privately. Currently no out of school children registered, but registrations are open. Twice a week, Monday and Friday 7pm to 8pm Spoken English classes are taken by Smt. Lakshmi from Seattle U.S. through skype. Currently 5 students enrolled.",
       images: [
-        "/images/2019/IMG-20200212-WA0006.jpg",
+        "/images/2016/IMG-20161028-WA0010.jpg",
       ],
     },
     {
@@ -106,7 +106,7 @@ export default function OurPrograms() {
       description:
         "From 16th March our tuition centre has been closed due to COVID 19.  Initially online classes were started for 10th class students of Academic year (2019-2020) from 16th May to 6th June 2020 as it was expected that Board exams will be conducted. All students have passed.  From 19th June, online classes have started for academic year (2020-2021) students.  Teachers and students are using smart phones to take classes.  Google meet is used for online classes. They are teaching all subjects chapter wise as taught in schools.  End of each chapter notes is given. Dictation, home work and chapter wise tests are conducted. Weekly once reading practice and Yoga is being done.  Whatsapp groups created for each class.  Teachers send, study material, worksheets and related links through whatsapp groups.  Teachers are motivating students to do other activities during their free time.  Students are sending their Home works and notes pictures through whatsapp.  Students are doing Gardening, Drawing, Cooking, Yoga, Essay writing etc and sending pictures.  Teachers fill attendance in excel sheets and send excel sheets through whats app.  Trust has given money for phone recharge to all students and staff after submitting their bill. Good improvement in children in terms of understanding online classes and working using technology. Students are enthusiastic in learning. Teachers are very dedicated. Attendance is 99% . ",
       images: [
-        "/images/2020/IMG-20200212-WA0021.jpg",
+        "/images/2021/20220105_170215.jpg",
       ],
     },
     {
@@ -124,16 +124,16 @@ export default function OurPrograms() {
       description:
         "Our tuition centre has reopened for physical classes on 1st September 2021for classes 7th to 10th.  We have started physical classes for preschool and Junior classes (class 1 to 6) from November 2021.  Before reopening the tuition centre we have done all the necessary repair works at centre like painting the walls, plumbing, carpeting, updating computers and clean up the centre.  According to the Covid protocol, we are followed all the safety precautions like daily sanitizing, wearing masks and distance maintenance in students seating.  Sanitizer is provided at tuition centre while entering the class. Masks are provided for physically attending students. Students attending tuition centre has got the parents willingness letter agreeing for Covid 19 rules, signed by their parents.  Note books are provided for all students. ",
       images: [
-        "/images/2021/20220105_170215.jpg",
+        "/images/Students/h.jpeg",
       ],
      },
      {
        id: "science-fair",
        title: "Science fair & Annual Day Celebrations (December)",
        description:
-         "A platform for our young scientists to showcase their innovative ideas and projects. The Science Fair is held along with our Annual Day celebrations, which include cultural performances and prize distribution.",
+         "A platform for our young scientists to showcase their innovative ideas and projects. The Science Fair is held along with our Annual Day celebrations, which include cultural performances and prize distribution. The December Science Fair and Annual Day Celebrations showcased students' creativity and innovation through exciting experiments and vibrant performances. The event fostered scientific curiosity and artistic expression, uniting the school community. Enthusiastic participation, colorful displays, and joyful celebrations made it a memorable highlight of the academic year.",
        images: [
-         "/images/2021/20210711_180804.jpg",
+         "/images/2024/IMG_20241202_190510.jpg",
        ],
      },
      {
