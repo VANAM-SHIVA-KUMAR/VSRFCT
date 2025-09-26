@@ -4,15 +4,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const footerLinks = {
-  quickLinks: [ // Removed Testimonials and FAQ from here based on previous request.
+  quickLinks: [
     { name: 'Home', href: '/' },
     { name: 'About Us', href: '/about' },
-    { name: 'Gallery', href: '/gallery' },
-    { name: 'Testimonials', href: '#testimonials' },
+    { name: 'Our Gallery', href: '/gallery' },
+    { name: 'Our Programs', href: '/our-programs' },
   ],
   support: [
-    { name: 'FAQ', href: '#faq' },
-    // Testimonials and FAQ removed here as well if they were present.
+    { name: 'Contact Us', href: '#contact' }
   ],
 };
 
@@ -73,7 +72,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-headline font-semibold tracking-wider uppercase text-White">Contact Us</h3>
+            <h3 id="contact" className="font-headline font-semibold tracking-wider uppercase text-White">Contact Us</h3>
             <ul className="mt-4 space-y-2 text-White/80">
               <li className="flex items-start space-x-2 mt-2">
                 <Clock className="h-5 w-5 text-accent shrink-0 mt-1" />

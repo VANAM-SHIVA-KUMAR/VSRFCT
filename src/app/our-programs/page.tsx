@@ -79,7 +79,7 @@ export default function OurPrograms() {
       description:
         "They run a helpline where trained volunteers listen to people in distress, especially those feeling suicidal or severely depressed . There is also a counselling centre with professionals (psychiatrists, psychologists, etc.) to help people recover and lead normal lives. ROSHINI conducted free workshop at our centre for students. It really helped for few students, by showing the solution for thieir problems facing at home. ",
       images: [
-        "/images/2023/12.jpeg",
+        "",
       ],
     },
     {
@@ -88,7 +88,7 @@ export default function OurPrograms() {
       description:
         "We have started Empower center in June 2019 to help underprivileged women, to impart basic Reading and Writing skills of Telugu. In June 4 members of watchman wife’s registered to learn. The program has been stopped in 2020 during pandemic.",
       images: [
-        "/images/2019/563.jpg",
+        "",
       ],
     },
     {
@@ -115,7 +115,7 @@ export default function OurPrograms() {
       description:
         "On 12th January 2024, an Educational exchange program between Indian and United states Aviation and space Students has been taken place in our trust. The Students from both Nations greatly appreciated each of their skills and culture. We from VSRFCT provided participation certificate and a souvenir to the US space and Aviation students. They greatly appreciated our efforts.",
       images: [
-        "/our programs/edu.jpg",
+        "",
       ],
     },
     {
