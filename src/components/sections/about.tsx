@@ -14,17 +14,6 @@ const founders = [
       "He has held prominent academic positions including Director, IIT Delhi and Professor, Head and Dean, IIT Madras.",
       "Throughout his distinguished career, Prof. Raju has been involved in more than 750 foundation consultancy projects across India and internationally covering all types of projects. His expertise spans a wide range of sectors, with several notable projects."
     ]
-  },
-  {
-    name: "Dr. V.R. Raju",
-    title: "Senior Advisor, Keller",
-    image: "/images/Raju.png",
-    hint: "professional male portrait",
-    bio: [
-      "Dr. Raju studied Civil Engineering at the IIT Madras. He completed his Masters and Ph.D. in structural engineering in the US (Rice and Duke universities) and a doctorate in geotechnical engineering from Karlsruhe University in Germany.",
-      "He has over 30 years of experience in the design and construction of foundations for major civil engineering projects worldwide. He was responsible for engineering, operations, equipment and sustainability at Keller and was a member of the Board.",
-      "He is currently in the role of senior advisor, Sustainability, at Keller and is a Professor of Practice at IIT Madras in the department of civil engineering."
-    ]
   }
 ];
 
